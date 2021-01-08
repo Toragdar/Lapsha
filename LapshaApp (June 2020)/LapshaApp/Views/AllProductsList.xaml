@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:LapshaApp"
+             mc:Ignorable="d"
+             x:Class="LapshaApp.AllProductsList" x:Name="TestingPage" Title="Список продуктов" BackgroundImageSource="back.jpg">
+    <StackLayout>
+        <Label Text="Выберите продукт" FontSize="Large" HorizontalOptions="FillAndExpand" 
+                       HorizontalTextAlignment="Center"  BackgroundColor="#FB8F23" TextColor="Wheat"/>
+        <ScrollView>
+            <ListView x:Name="ProductList" ItemSelected="OnItemSelected" HasUnevenRows="True">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="35" />
+                                        <RowDefinition Height="20" />
+                                    </Grid.RowDefinitions>
+                                    <Label x:Name="ProdName" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" 
+                                           Text="{Binding productName}" FontSize="Medium" VerticalTextAlignment="Center"/>
+                                    <Label x:Name="Prot" Grid.Row="1" Grid.Column="0" 
+                                           Text="{Binding prot, StringFormat='Б: {0}'}"/>
+                                    <Label x:Name="Fat" Grid.Row="1" Grid.Column="1" 
+                                           Text="{Binding fat, StringFormat='Ж: {0}'}"/>
+                                    <Label x:Name="Carb" Grid.Row="1" Grid.Column="2" 
+                                           Text="{Binding carb, StringFormat='У: {0}'}"/>
+                                    <Label x:Name="Calorie" Grid.Row="1" Grid.Column="3" 
+                                           Text="{Binding calorie, StringFormat='К: {0}'}"/>
+                                </Grid>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </ScrollView>
+        <Button Text="Добвать новый продукт" Clicked="CreateProduct" BackgroundColor="#FB8F23" TextColor="Wheat"/>
+    </StackLayout>
+</ContentPage>

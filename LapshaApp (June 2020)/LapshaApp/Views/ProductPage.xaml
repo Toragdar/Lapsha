@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="LapshaApp.ProductPage" BackgroundImageSource="back.jpg" Title="Новый продукт">
+    <StackLayout>
+        <Label Text="Заполните форму" FontSize="Large" HorizontalOptions="FillAndExpand" 
+                       HorizontalTextAlignment="Center"  BackgroundColor="#FB8F23" TextColor="Wheat"/>
+        <Label Text="Имя" />
+        <Entry Text="{Binding productName}" />
+        <Label Text="Белки" />
+        <Entry Text="{Binding prot}" />
+        <Label Text="Жиры" />
+        <Entry Text="{Binding fat}" />
+        <Label Text="Углеводы" />
+        <Entry Text="{Binding carb}" />
+        <Label Text="Калории" />
+        <Entry Text="{Binding calorie}" />
+        <Button Text="Сохранить" Clicked="SaveProduct" BackgroundColor="#FB8F23" TextColor="Wheat"/>
+    </StackLayout>
+</ContentPage>

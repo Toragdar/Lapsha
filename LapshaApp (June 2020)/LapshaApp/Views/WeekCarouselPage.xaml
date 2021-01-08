@@ -1,0 +1,479 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:LapshaApp"
+             mc:Ignorable="d"
+             x:Class="LapshaApp.WeekCarouselPage" x:Name="DayLists" Title="Дни недели">
+    
+    <ContentPage x:Name="Mon" Title="ПОНЕДЕЛЬНИК" BackgroundImageSource="back.jpg">
+        <StackLayout>
+            <Label Text="ПОНЕДЕЛЬНИК" FontSize="Large" HorizontalOptions="FillAndExpand" 
+                       HorizontalTextAlignment="Center"  BackgroundColor="#FB8F23" TextColor="Wheat"/>
+            <Grid x:Name="MonTotalResult">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="35" />
+                    <RowDefinition Height="20" />
+                </Grid.RowDefinitions>
+                <Label Text="Итог на день" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" 
+                       HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="Medium"/>
+                <Label  Grid.Row="1" Grid.Column="0" HorizontalTextAlignment="Center"
+                                           Text="{Binding totalProt, StringFormat='Б: {0}'}"/>
+                <Label  Grid.Row="1" Grid.Column="1" HorizontalTextAlignment="Center"
+                                           Text="{Binding totalFat, StringFormat='Ж: {0}'}"/>
+                <Label  Grid.Row="1" Grid.Column="2" HorizontalTextAlignment="Center"
+                                           Text="{Binding totalCarb, StringFormat='У: {0}'}"/>
+                <Label  Grid.Row="1" Grid.Column="3" HorizontalTextAlignment="Center"
+                                           Text="{Binding totalCalorie, StringFormat='К: {0}'}"/>
+            </Grid>            
+            <Label BackgroundColor="#FB8F23"/>
+            <ListView x:Name="MondayList" HasUnevenRows="True" ItemSelected="MondayOnItemSelected">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <ViewCell.View>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="35" />
+                                        <RowDefinition Height="20" />
+                                    </Grid.RowDefinitions>
+                                    <Label x:Name="ProdName" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" 
+                                           Text="{Binding productName}" FontSize="Medium" VerticalTextAlignment="Center"/>
+                                    <Label x:Name="Prot" Grid.Row="1" Grid.Column="0" 
+                                           Text="{Binding prot, StringFormat='Б: {0}'}"/>
+                                    <Label x:Name="Fat" Grid.Row="1" Grid.Column="1" 
+                                           Text="{Binding fat, StringFormat='Ж: {0}'}"/>
+                                    <Label x:Name="Carb" Grid.Row="1" Grid.Column="2" 
+                                           Text="{Binding carb, StringFormat='У: {0}'}"/>
+                                    <Label x:Name="Calorie" Grid.Row="1" Grid.Column="3" 
+                                           Text="{Binding calorie, StringFormat='К: {0}'}"/>
+                                    <Label x:Name="Weight" Grid.Row="0" Grid.Column="4" Grid.RowSpan="2" 
+                                           Text="{Binding weight, StringFormat='{0}г'}" FontSize="Medium" 
+                                           VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+                                </Grid>
+                                </ViewCell.View>
+                            </ViewCell>                            
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+                <Button Text="Добавить" Clicked="AddProductToMonday" BackgroundColor="#FB8F23" TextColor="Wheat"/>
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage x:Name="Tue" Title="ВТОРНИК" BackgroundImageSource="back.jpg">
+        <StackLayout>
+            <Label  Text="ВТОРНИК" FontSize="Large" HorizontalOptions="FillAndExpand" 
+                       HorizontalTextAlignment="Center"  BackgroundColor="#FB8F23" TextColor="Wheat"/>
+            <Grid x:Name="TueTotalResult">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="35" />
+                    <RowDefinition Height="20" />
+                </Grid.RowDefinitions>
+                <Label Text="Итог на день" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" 
+                       HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="Medium"/>
+                <Label  Grid.Row="1" Grid.Column="0" HorizontalTextAlignment="Center"
+                                           Text="{Binding totalProt, StringFormat='Б: {0}'}"/>
+                <Label  Grid.Row="1" Grid.Column="1" HorizontalTextAlignment="Center"
+                                           Text="{Binding totalFat, StringFormat='Ж: {0}'}"/>
+                <Label  Grid.Row="1" Grid.Column="2" HorizontalTextAlignment="Center"
+                                           Text="{Binding totalCarb, StringFormat='У: {0}'}"/>
+                <Label  Grid.Row="1" Grid.Column="3" HorizontalTextAlignment="Center"
+                                           Text="{Binding totalCalorie, StringFormat='К: {0}'}"/>
+            </Grid>
+            <Label BackgroundColor="#FB8F23"/>
+            <ListView x:Name="TuesdayList" HasUnevenRows="True" ItemSelected="TuesdayOnItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="35" />
+                                        <RowDefinition Height="20" />
+                                    </Grid.RowDefinitions>
+                                    <Label x:Name="ProdName" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" 
+                                           Text="{Binding productName}" FontSize="Medium" VerticalTextAlignment="Center"/>
+                                    <Label x:Name="Prot" Grid.Row="1" Grid.Column="0" 
+                                           Text="{Binding prot, StringFormat='Б: {0}'}"/>
+                                    <Label x:Name="Fat" Grid.Row="1" Grid.Column="1" 
+                                           Text="{Binding fat, StringFormat='Ж: {0}'}"/>
+                                    <Label x:Name="Carb" Grid.Row="1" Grid.Column="2" 
+                                           Text="{Binding carb, StringFormat='У: {0}'}"/>
+                                    <Label x:Name="Calorie" Grid.Row="1" Grid.Column="3" 
+                                           Text="{Binding calorie, StringFormat='К: {0}'}"/>
+                                    <Label x:Name="Weight" Grid.Row="0" Grid.Column="4" Grid.RowSpan="2" 
+                                           Text="{Binding weight, StringFormat='{0}г'}" FontSize="Medium" 
+                                           VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+                                </Grid>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Button Text="Добавить" Clicked="AddProductToTuesday" BackgroundColor="#FB8F23" TextColor="Wheat"/>
+        </StackLayout>
+    </ContentPage>
+    
+    <ContentPage x:Name="Wed" Title="СРЕДА" BackgroundImageSource="back.jpg">
+        <StackLayout>
+            <Label  Text="СРЕДА" FontSize="Large" HorizontalOptions="FillAndExpand" 
+                       HorizontalTextAlignment="Center"  BackgroundColor="#FB8F23" TextColor="Wheat"/>
+            <Grid x:Name="WedTotalResult">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="35" />
+                    <RowDefinition Height="20" />
+                </Grid.RowDefinitions>
+                <Label Text="Итог на день" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" 
+                       HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="Medium"/>
+                <Label  Grid.Row="1" Grid.Column="0" HorizontalTextAlignment="Center"
+                                           Text="{Binding totalProt, StringFormat='Б: {0}'}"/>
+                <Label  Grid.Row="1" Grid.Column="1" HorizontalTextAlignment="Center"
+                                           Text="{Binding totalFat, StringFormat='Ж: {0}'}"/>
+                <Label  Grid.Row="1" Grid.Column="2" HorizontalTextAlignment="Center"
+                                           Text="{Binding totalCarb, StringFormat='У: {0}'}"/>
+                <Label  Grid.Row="1" Grid.Column="3" HorizontalTextAlignment="Center"
+                                           Text="{Binding totalCalorie, StringFormat='К: {0}'}"/>
+            </Grid>
+            <Label BackgroundColor="#FB8F23"/>
+            <ListView x:Name="WednesdayList" HasUnevenRows="True" ItemSelected="WednesdayOnItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="35" />
+                                        <RowDefinition Height="20" />
+                                    </Grid.RowDefinitions>
+                                    <Label x:Name="ProdName" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" 
+                                           Text="{Binding productName}" FontSize="Medium" VerticalTextAlignment="Center"/>
+                                    <Label x:Name="Prot" Grid.Row="1" Grid.Column="0" 
+                                           Text="{Binding prot, StringFormat='Б: {0}'}"/>
+                                    <Label x:Name="Fat" Grid.Row="1" Grid.Column="1" 
+                                           Text="{Binding fat, StringFormat='Ж: {0}'}"/>
+                                    <Label x:Name="Carb" Grid.Row="1" Grid.Column="2" 
+                                           Text="{Binding carb, StringFormat='У: {0}'}"/>
+                                    <Label x:Name="Calorie" Grid.Row="1" Grid.Column="3" 
+                                           Text="{Binding calorie, StringFormat='К: {0}'}"/>
+                                    <Label x:Name="Weight" Grid.Row="0" Grid.Column="4" Grid.RowSpan="2" 
+                                           Text="{Binding weight, StringFormat='{0}г'}" FontSize="Medium" 
+                                           VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+                                </Grid>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Button Text="Добавить" Clicked="AddProductToWednesday" BackgroundColor="#FB8F23" TextColor="Wheat"/>
+        </StackLayout>
+    </ContentPage>
+    
+    <ContentPage x:Name="Thu" Title="ЧЕТВЕРГ" BackgroundImageSource="back.jpg">
+        <StackLayout>
+            <Label  Text="ЧЕТВЕРГ" FontSize="Large" HorizontalOptions="FillAndExpand" 
+                       HorizontalTextAlignment="Center"  BackgroundColor="#FB8F23" TextColor="Wheat"/>
+            <Grid x:Name="ThuTotalResult">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="35" />
+                    <RowDefinition Height="20" />
+                </Grid.RowDefinitions>
+                <Label Text="Итог на день" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" 
+                       HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="Medium"/>
+                <Label  Grid.Row="1" Grid.Column="0" HorizontalTextAlignment="Center"
+                                           Text="{Binding totalProt, StringFormat='Б: {0}'}"/>
+                <Label  Grid.Row="1" Grid.Column="1" HorizontalTextAlignment="Center"
+                                           Text="{Binding totalFat, StringFormat='Ж: {0}'}"/>
+                <Label  Grid.Row="1" Grid.Column="2" HorizontalTextAlignment="Center"
+                                           Text="{Binding totalCarb, StringFormat='У: {0}'}"/>
+                <Label  Grid.Row="1" Grid.Column="3" HorizontalTextAlignment="Center"
+                                           Text="{Binding totalCalorie, StringFormat='К: {0}'}"/>
+            </Grid>
+            <Label BackgroundColor="#FB8F23"/>
+            <ListView x:Name="ThursdayList" HasUnevenRows="True" ItemSelected="ThursdayOnItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="35" />
+                                        <RowDefinition Height="20" />
+                                    </Grid.RowDefinitions>
+                                    <Label x:Name="ProdName" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" 
+                                           Text="{Binding productName}" FontSize="Medium" VerticalTextAlignment="Center"/>
+                                    <Label x:Name="Prot" Grid.Row="1" Grid.Column="0" 
+                                           Text="{Binding prot, StringFormat='Б: {0}'}"/>
+                                    <Label x:Name="Fat" Grid.Row="1" Grid.Column="1" 
+                                           Text="{Binding fat, StringFormat='Ж: {0}'}"/>
+                                    <Label x:Name="Carb" Grid.Row="1" Grid.Column="2" 
+                                           Text="{Binding carb, StringFormat='У: {0}'}"/>
+                                    <Label x:Name="Calorie" Grid.Row="1" Grid.Column="3" 
+                                           Text="{Binding calorie, StringFormat='К: {0}'}"/>
+                                    <Label x:Name="Weight" Grid.Row="0" Grid.Column="4" Grid.RowSpan="2" 
+                                           Text="{Binding weight, StringFormat='{0}г'}" FontSize="Medium" 
+                                           VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+                                </Grid>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Button Text="Добавить" Clicked="AddProductToThursday" BackgroundColor="#FB8F23" TextColor="Wheat"/>
+        </StackLayout>
+    </ContentPage>
+    
+    <ContentPage x:Name="Fri" Title="ПЯТНИЦА" BackgroundImageSource="back.jpg">
+        <StackLayout>
+            <Label  Text="ПЯТНИЦА" FontSize="Large" HorizontalOptions="FillAndExpand" 
+                       HorizontalTextAlignment="Center"  BackgroundColor="#FB8F23" TextColor="Wheat"/>
+            <Grid x:Name="FriTotalResult">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="35" />
+                    <RowDefinition Height="20" />
+                </Grid.RowDefinitions>
+                <Label Text="Итог на день" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" 
+                       HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="Medium"/>
+                <Label  Grid.Row="1" Grid.Column="0" HorizontalTextAlignment="Center"
+                         Text="{Binding totalProt, StringFormat='Б: {0}'}"/>
+                <Label Grid.Row="1" Grid.Column="1" HorizontalTextAlignment="Center"
+                         Text="{Binding totalFat, StringFormat='Ж: {0}'}"/>
+                <Label  Grid.Row="1" Grid.Column="2" HorizontalTextAlignment="Center"
+                         Text="{Binding totalCarb, StringFormat='У: {0}'}"/>
+                <Label  Grid.Row="1" Grid.Column="3" HorizontalTextAlignment="Center"
+                                           Text="{Binding totalCalorie, StringFormat='К: {0}'}"/>
+            </Grid>
+            <Label BackgroundColor="#FB8F23"/>
+            <ListView x:Name="FridayList" HasUnevenRows="True" ItemSelected="FridayOnItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="35" />
+                                        <RowDefinition Height="20" />
+                                    </Grid.RowDefinitions>
+                                    <Label x:Name="ProdName" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" 
+                                           Text="{Binding productName}" FontSize="Medium" VerticalTextAlignment="Center"/>
+                                    <Label x:Name="Prot" Grid.Row="1" Grid.Column="0" 
+                                           Text="{Binding prot, StringFormat='Б: {0}'}"/>
+                                    <Label x:Name="Fat" Grid.Row="1" Grid.Column="1" 
+                                           Text="{Binding fat, StringFormat='Ж: {0}'}"/>
+                                    <Label x:Name="Carb" Grid.Row="1" Grid.Column="2" 
+                                           Text="{Binding carb, StringFormat='У: {0}'}"/>
+                                    <Label x:Name="Calorie" Grid.Row="1" Grid.Column="3" 
+                                           Text="{Binding calorie, StringFormat='К: {0}'}"/>
+                                    <Label x:Name="Weight" Grid.Row="0" Grid.Column="4" Grid.RowSpan="2" 
+                                           Text="{Binding weight, StringFormat='{0}г'}" FontSize="Medium" 
+                                           VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+                                </Grid>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Button Text="Добавить" Clicked="AddProductToFriday" BackgroundColor="#FB8F23" TextColor="Wheat"/>
+        </StackLayout>
+    </ContentPage>
+    
+    <ContentPage x:Name="Sat" Title="СУББОТА" BackgroundImageSource="back.jpg">
+        <StackLayout>
+            <Label  Text="СУББОТА" FontSize="Large" HorizontalOptions="FillAndExpand" 
+                       HorizontalTextAlignment="Center"  BackgroundColor="#FB8F23" TextColor="Wheat"/>
+            <Grid x:Name="SatTotalResult">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="35" />
+                    <RowDefinition Height="20" />
+                </Grid.RowDefinitions>
+                <Label Text="Итог на день" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" 
+                       HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="Medium"/>
+                <Label  Grid.Row="1" Grid.Column="0" HorizontalTextAlignment="Center"
+                         Text="{Binding totalProt, StringFormat='Б: {0}'}"/>
+                <Label Grid.Row="1" Grid.Column="1" HorizontalTextAlignment="Center"
+                         Text="{Binding totalFat, StringFormat='Ж: {0}'}"/>
+                <Label  Grid.Row="1" Grid.Column="2" HorizontalTextAlignment="Center"
+                         Text="{Binding totalCarb, StringFormat='У: {0}'}"/>
+                <Label  Grid.Row="1" Grid.Column="3" HorizontalTextAlignment="Center"
+                                           Text="{Binding totalCalorie, StringFormat='К: {0}'}"/>
+            </Grid>
+            <Label BackgroundColor="#FB8F23"/>
+            <ListView x:Name="SaturdayList" HasUnevenRows="True" ItemSelected="SaturdayOnItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="35" />
+                                        <RowDefinition Height="20" />
+                                    </Grid.RowDefinitions>
+                                    <Label x:Name="ProdName" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" 
+                                           Text="{Binding productName}" FontSize="Medium" VerticalTextAlignment="Center"/>
+                                    <Label x:Name="Prot" Grid.Row="1" Grid.Column="0" 
+                                           Text="{Binding prot, StringFormat='Б: {0}'}"/>
+                                    <Label x:Name="Fat" Grid.Row="1" Grid.Column="1" 
+                                           Text="{Binding fat, StringFormat='Ж: {0}'}"/>
+                                    <Label x:Name="Carb" Grid.Row="1" Grid.Column="2" 
+                                           Text="{Binding carb, StringFormat='У: {0}'}"/>
+                                    <Label x:Name="Calorie" Grid.Row="1" Grid.Column="3" 
+                                           Text="{Binding calorie, StringFormat='К: {0}'}"/>
+                                    <Label x:Name="Weight" Grid.Row="0" Grid.Column="4" Grid.RowSpan="2" 
+                                           Text="{Binding weight, StringFormat='{0}г'}" FontSize="Medium" 
+                                           VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+                                </Grid>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Button Text="Добавить" Clicked="AddProductToSaturday" BackgroundColor="#FB8F23" TextColor="Wheat"/>
+        </StackLayout>
+    </ContentPage>
+    
+    <ContentPage x:Name="Sun" Title="ВОСКРЕСЕНЬЕ" BackgroundImageSource="back.jpg">
+        <StackLayout>
+            <Label  Text="ВОСКРЕСЕНЬЕ" FontSize="Large" HorizontalOptions="FillAndExpand" 
+                       HorizontalTextAlignment="Center"  BackgroundColor="#FB8F23" TextColor="Wheat"/>
+            <Grid x:Name="SunTotalResult">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="35" />
+                    <RowDefinition Height="20" />
+                </Grid.RowDefinitions>
+                <Label Text="Итог на день" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" 
+                       HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="Medium"/>
+                <Label  Grid.Row="1" Grid.Column="0" HorizontalTextAlignment="Center"
+                         Text="{Binding totalProt, StringFormat='Б: {0}'}"/>
+                <Label Grid.Row="1" Grid.Column="1" HorizontalTextAlignment="Center"
+                         Text="{Binding totalFat, StringFormat='Ж: {0}'}"/>
+                <Label  Grid.Row="1" Grid.Column="2" HorizontalTextAlignment="Center"
+                         Text="{Binding totalCarb, StringFormat='У: {0}'}"/>
+                <Label  Grid.Row="1" Grid.Column="3" HorizontalTextAlignment="Center"
+                                           Text="{Binding totalCalorie, StringFormat='К: {0}'}"/>
+            </Grid>
+            <Label BackgroundColor="#FB8F23"/>
+            <ListView x:Name="SundayList" HasUnevenRows="True" ItemSelected="SundayOnItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="35" />
+                                        <RowDefinition Height="20" />
+                                    </Grid.RowDefinitions>
+                                    <Label x:Name="ProdName" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" 
+                                           Text="{Binding productName}" FontSize="Medium" VerticalTextAlignment="Center"/>
+                                    <Label x:Name="Prot" Grid.Row="1" Grid.Column="0" 
+                                           Text="{Binding prot, StringFormat='Б: {0}'}"/>
+                                    <Label x:Name="Fat" Grid.Row="1" Grid.Column="1" 
+                                           Text="{Binding fat, StringFormat='Ж: {0}'}"/>
+                                    <Label x:Name="Carb" Grid.Row="1" Grid.Column="2" 
+                                           Text="{Binding carb, StringFormat='У: {0}'}"/>
+                                    <Label x:Name="Calorie" Grid.Row="1" Grid.Column="3" 
+                                           Text="{Binding calorie, StringFormat='К: {0}'}"/>
+                                    <Label x:Name="Weight" Grid.Row="0" Grid.Column="4" Grid.RowSpan="2" 
+                                           Text="{Binding weight, StringFormat='{0}г'}" FontSize="Medium" 
+                                           VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+                                </Grid>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Button Text="Добавить" Clicked="AddProductToSunday" BackgroundColor="#FB8F23" TextColor="Wheat"/>
+        </StackLayout>
+    </ContentPage>
+
+</CarouselPage>
