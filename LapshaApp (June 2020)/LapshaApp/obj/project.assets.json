@@ -2054,23 +2054,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Valer\\.nuget\\packages\\": {},
+    "C:\\Users\\Z\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Valer\\Desktop\\Progr\\Lapsha\\LapshaApp\\LapshaApp\\LapshaApp.csproj",
+      "projectUniqueName": "C:\\Users\\Z\\Desktop\\Progr\\Lapsha\\LapshaApp (June 2020)\\LapshaApp\\LapshaApp.csproj",
       "projectName": "LapshaApp",
-      "projectPath": "C:\\Users\\Valer\\Desktop\\Progr\\Lapsha\\LapshaApp\\LapshaApp\\LapshaApp.csproj",
-      "packagesPath": "C:\\Users\\Valer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Valer\\Desktop\\Progr\\Lapsha\\LapshaApp\\LapshaApp\\obj\\",
+      "projectPath": "C:\\Users\\Z\\Desktop\\Progr\\Lapsha\\LapshaApp (June 2020)\\LapshaApp\\LapshaApp.csproj",
+      "packagesPath": "C:\\Users\\Z\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Z\\Desktop\\Progr\\Lapsha\\LapshaApp (June 2020)\\LapshaApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Valer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Z\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -2142,7 +2142,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

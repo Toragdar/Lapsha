@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Valer\\Desktop\\Progr\\Lapsha\\LapshaApp\\LapshaApp.Tests\\LapshaApp.Tests.csproj": {}
+    "C:\\Users\\Z\\Desktop\\Progr\\Lapsha\\LapshaApp (June 2020)\\LapshaApp.Tests\\LapshaApp.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Valer\\Desktop\\Progr\\Lapsha\\LapshaApp\\LapshaApp.Tests\\LapshaApp.Tests.csproj": {
+    "C:\\Users\\Z\\Desktop\\Progr\\Lapsha\\LapshaApp (June 2020)\\LapshaApp.Tests\\LapshaApp.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Valer\\Desktop\\Progr\\Lapsha\\LapshaApp\\LapshaApp.Tests\\LapshaApp.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\Z\\Desktop\\Progr\\Lapsha\\LapshaApp (June 2020)\\LapshaApp.Tests\\LapshaApp.Tests.csproj",
         "projectName": "LapshaApp.Tests",
-        "projectPath": "C:\\Users\\Valer\\Desktop\\Progr\\Lapsha\\LapshaApp\\LapshaApp.Tests\\LapshaApp.Tests.csproj",
-        "packagesPath": "C:\\Users\\Valer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Valer\\Desktop\\Progr\\Lapsha\\LapshaApp\\LapshaApp.Tests\\obj\\",
+        "projectPath": "C:\\Users\\Z\\Desktop\\Progr\\Lapsha\\LapshaApp (June 2020)\\LapshaApp.Tests\\LapshaApp.Tests.csproj",
+        "packagesPath": "C:\\Users\\Z\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Z\\Desktop\\Progr\\Lapsha\\LapshaApp (June 2020)\\LapshaApp.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Valer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Z\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -76,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

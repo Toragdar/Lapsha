@@ -1025,3 +1025,23 @@ C:\Users\Valer\Desktop\Progr\LapshaApp\LapshaApp.Android\obj\Debug\90\android\sr
 C:\Users\Valer\Desktop\Progr\LapshaApp\LapshaApp.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\ShapeView.java
 C:\Users\Valer\Desktop\Progr\LapshaApp\LapshaApp.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\ViewCellRenderer_ViewCellContainer_TapGestureListener.java
 C:\Users\Valer\Desktop\Progr\LapshaApp\LapshaApp.Android\obj\Debug\90\res\drawable\back.jpg
+C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp (June 2020)\LapshaApp.Android\obj\Debug\90\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp (June 2020)\LapshaApp.Android\obj\Debug\90\build.props
+C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp (June 2020)\LapshaApp.Android\obj\Debug\90\adb.props
+C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp (June 2020)\LapshaApp.Android\obj\Debug\90\LapshaApp.Android.csprojAssemblyReference.cache
+C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp (June 2020)\LapshaApp.Android\obj\Debug\90\_VerifyXamarinAndroidSupportVersions.stamp
+C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp (June 2020)\LapshaApp.Android\obj\Debug\90\stamp\_BuildLibraryImportsCache.stamp
+C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp (June 2020)\LapshaApp.Android\obj\Debug\90\res.flag
+C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp (June 2020)\LapshaApp.Android\obj\Debug\90\lp\13\jl\files.cache
+C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp (June 2020)\LapshaApp.Android\obj\Debug\90\lp\14\jl\files.cache
+C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp (June 2020)\LapshaApp.Android\obj\Debug\90\lp\18\jl\files.cache
+C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp (June 2020)\LapshaApp.Android\obj\Debug\90\lp\20\jl\files.cache
+C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp (June 2020)\LapshaApp.Android\obj\Debug\90\lp\27\jl\files.cache
+C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp (June 2020)\LapshaApp.Android\obj\Debug\90\lp\31\jl\files.cache
+C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp (June 2020)\LapshaApp.Android\obj\Debug\90\lp\33\jl\files.cache
+C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp (June 2020)\LapshaApp.Android\obj\Debug\90\lp\34\jl\files.cache
+C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp (June 2020)\LapshaApp.Android\obj\Debug\90\lp\35\jl\files.cache
+C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp (June 2020)\LapshaApp.Android\obj\Debug\90\lp\39\jl\files.cache
+C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp (June 2020)\LapshaApp.Android\obj\Debug\90\lp\40\jl\files.cache
+C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp (June 2020)\LapshaApp.Android\obj\Debug\90\LapshaApp.Android.dll
+C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp (June 2020)\LapshaApp.Android\obj\Debug\90\LapshaApp.Android.pdb
