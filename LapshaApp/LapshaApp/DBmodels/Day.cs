@@ -6,10 +6,16 @@ namespace LapshaApp
 {
     public class Day
     {
-        string idDayName { get; set; }
-        double Prot { get; set; }
-        double Fat { get; set; }
-        double Carb { get; set; }
-        int Calorie { get; set; }
+        public int Id { get; set; }
+        public string dayName { get; set; }
+        public double prot { get; set; }
+        public double fat { get; set; }
+        public double carb { get; set; }
+        public int calorie { get; set; }
+        public List<ProductDays> ProductDays { get; set; }
+        public Day()
+        {
+            ProductDays = new List<ProductDays>();
+        }
     }
 }

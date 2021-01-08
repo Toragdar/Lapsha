@@ -7,10 +7,10 @@ namespace LapshaApp
     public class ProductDays
     {
         public int Id { get; set; }
-        public string idProductName { get; set; }
+        public int productId { get; set; }
         public Product Product { get; set; }
-        public string idDayName { get; set; }
+        public int dayId { get; set; }
         public Day Day { get; set; }
-        public int Weight { get; set; }
+        public int weight { get; set; }
     }
 }

@@ -6,10 +6,16 @@ namespace LapshaApp
 {
     public class Recipe
     {
-        string idRecipeName { get; set; }
-        double Prot { get; set; }
-        double Fat { get; set; }
-        double Carb { get; set; }
-        int Calorie { get; set; }
+        public int Id { get; set; }
+        public string recipeName { get; set; }
+        public double prot { get; set; }
+        public double fat { get; set; }
+        public double carb { get; set; }
+        public int calorie { get; set; }
+        public List<ProductRecipes> ProductRecipes { get; set; }
+        public Recipe()
+        {
+            ProductRecipes = new List<ProductRecipes>();
+        }
     }
 }

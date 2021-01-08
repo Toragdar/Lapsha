@@ -1,0 +1,14 @@
+C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\bin\Debug\netstandard2.0\LapshaApp.deps.json
+C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\bin\Debug\netstandard2.0\LapshaApp.dll
+C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\bin\Debug\netstandard2.0\ref\LapshaApp.dll
+C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\bin\Debug\netstandard2.0\LapshaApp.pdb
+C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\obj\Debug\netstandard2.0\LapshaApp.csprojAssemblyReference.cache
+C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\obj\Debug\netstandard2.0\LapshaApp.AssemblyInfoInputs.cache
+C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\obj\Debug\netstandard2.0\LapshaApp.AssemblyInfo.cs
+C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\obj\Debug\netstandard2.0\LapshaApp.csproj.CoreCompileInputs.cache
+C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\obj\Debug\netstandard2.0\LapshaApp.dll
+C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\obj\Debug\netstandard2.0\ref\LapshaApp.dll
+C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\obj\Debug\netstandard2.0\LapshaApp.pdb

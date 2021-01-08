@@ -6,11 +6,19 @@ namespace LapshaApp
 {
     public class Product
     {
-        string idProductName { get; set; }
-        double Prot { get; set; }
-        double Fat { get; set; }
-        double Carb { get; set; }
-        int Calorie { get; set; }
-
+        public int Id { get; set; }
+        public string productName { get; set; }
+        public double prot { get; set; }
+        public double fat { get; set; }
+        public double carb { get; set; }
+        public int calorie { get; set; }
+        public int category { get; set; }
+        public List<ProductDays> ProductDays { get; set; }
+        public List<ProductRecipes> ProductRecipes { get; set; }
+        public Product()
+        {
+            ProductDays = new List<ProductDays>();
+            ProductRecipes = new List<ProductRecipes>();
+        }
     }
 }
