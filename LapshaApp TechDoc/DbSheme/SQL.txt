@@ -1,0 +1,50 @@
+CREATE TABLE "Days" (
+	"DayName_id"	varchar(20) NOT NULL UNIQUE,
+	PRIMARY KEY("DayName_id")
+);
+
+CREATE TABLE "Products" (
+	"ProductName_id"	varchar(100) NOT NULL UNIQUE,
+	"Prot"	decimal(10000),
+	"Fat"	decimal(10000),
+	"Carb"	decimal(10000),
+	"Calorie"	integer(10000),
+	PRIMARY KEY("ProductName_id")
+);
+
+CREATE TABLE "Recipes" (
+	"RecipeName_id"	varchar(100) NOT NULL UNIQUE,
+	PRIMARY KEY("RecipeName_id")
+);
+
+CREATE TABLE "ShopList" (
+	"ProductName_id"	varchar(100) NOT NULL UNIQUE,
+	"Weight"	integer(50000),
+	"BuyCheck"	boolean,
+	PRIMARY KEY("ProductName_id")
+);
+
+CREATE TABLE "ProductsDays" (
+	"id"	integer NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
+	"ProductName_id"	varchar(100),
+	"DayName_id"	varchar(20),
+	"Weight"	integer(5000),
+	FOREIGN KEY("ProductName_id") REFERENCES "Products"("ProductName_id"),
+	FOREIGN KEY("DayName_id") REFERENCES "Days"("DayName_id")
+);
+
+CREATE TABLE "ProductsRecipes" (
+	"id"	integer NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
+	"ProductName_id"	varchar(100),
+	"RecipeName_id"	varchar(100),
+	FOREIGN KEY("ProductName_id") REFERENCES "Products"("ProductName_id"),
+	FOREIGN KEY("RecipeName_id") REFERENCES "Days"("DayName_id")
+);
+
+CREATE TABLE "RecipesDays" (
+	"id"	integer NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
+	"DayName_id"	varchar(20),
+	"RecipeName_id"	varchar(100),
+	FOREIGN KEY("RecipeName_id") REFERENCES "Recipes"("RecipeName_id"),
+	FOREIGN KEY("DayName_id") REFERENCES "Days"("DayName_id")
+);
