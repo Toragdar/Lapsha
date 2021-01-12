@@ -1,0 +1,9 @@
+Успешно удалось создать контекст бд:
+Scaffold-DbContext "DataSource=C:\Users\Valer\Desktop\Progr\Lapsha\LapshaDbTesting\LapshaDB_var2.db" Microsoft.EntityFrameworkCore.Sqlite
+
+предварительно в пакет добавил следующие пакеты через NuGet:
+
+Microsoft.EntityFrameworkCore.Sqlite
+Microsoft.EntityFrameworkCore.Tools
+
+Так же предварительно копировал БД в папку bin проекта
