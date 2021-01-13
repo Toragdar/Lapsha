@@ -1,0 +1,14 @@
+C:\Users\Valer\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\bin\Debug\netstandard2.1\LapshaApp.deps.json
+C:\Users\Valer\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\bin\Debug\netstandard2.1\LapshaApp.dll
+C:\Users\Valer\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\bin\Debug\netstandard2.1\ref\LapshaApp.dll
+C:\Users\Valer\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\bin\Debug\netstandard2.1\LapshaApp.pdb
+C:\Users\Valer\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\obj\Debug\netstandard2.1\LapshaApp.csprojAssemblyReference.cache
+C:\Users\Valer\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\obj\Debug\netstandard2.1\App.xaml.g.cs
+C:\Users\Valer\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\obj\Debug\netstandard2.1\MainPage.xaml.g.cs
+C:\Users\Valer\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\obj\Debug\netstandard2.1\LapshaApp.AssemblyInfoInputs.cache
+C:\Users\Valer\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\obj\Debug\netstandard2.1\LapshaApp.AssemblyInfo.cs
+C:\Users\Valer\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\obj\Debug\netstandard2.1\LapshaApp.csproj.CoreCompileInputs.cache
+C:\Users\Valer\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\obj\Debug\netstandard2.1\XamlC.stamp
+C:\Users\Valer\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\obj\Debug\netstandard2.1\LapshaApp.dll
+C:\Users\Valer\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\obj\Debug\netstandard2.1\ref\LapshaApp.dll
+C:\Users\Valer\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\obj\Debug\netstandard2.1\LapshaApp.pdb
