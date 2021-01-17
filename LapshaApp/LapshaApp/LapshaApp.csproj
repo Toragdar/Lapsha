@@ -11,6 +11,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="LapshaDB_var2.db" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="LapshaDB_var2.db" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.10" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.2">
       <PrivateAssets>all</PrivateAssets>
@@ -22,8 +30,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Classes\" />
-    <Folder Include="Models\" />
     <Folder Include="Services\" />
     <Folder Include="ViewModels\" />
     <Folder Include="Views\" />
