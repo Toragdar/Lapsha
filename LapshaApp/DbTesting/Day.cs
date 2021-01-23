@@ -9,16 +9,16 @@ namespace DbTesting
     {
         public Day()
         {
-            ProductDays = new HashSet<ProductDay>();
+            Meals = new HashSet<Meal>();
         }
 
         public long DayId { get; set; }
         public string DayName { get; set; }
-        public double? Prot { get; set; }
-        public double? Fat { get; set; }
-        public double? Carb { get; set; }
-        public long? Calorie { get; set; }
+        public double Prot { get; set; }
+        public double Fat { get; set; }
+        public double Carb { get; set; }
+        public long Calorie { get; set; }
 
-        public virtual ICollection<ProductDay> ProductDays { get; set; }
+        public virtual ICollection<Meal> Meals { get; set; }
     }
 }

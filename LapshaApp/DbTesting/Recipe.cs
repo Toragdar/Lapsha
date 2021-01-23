@@ -13,7 +13,7 @@ namespace DbTesting
         }
 
         public long RecipeId { get; set; }
-        public long? ProductId { get; set; }
+        public long ProductId { get; set; }
 
         public virtual Product Product { get; set; }
         public virtual ICollection<ProductRecipe> ProductRecipes { get; set; }
