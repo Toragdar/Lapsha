@@ -4,7 +4,6 @@ C:\Users\Valer\Desktop\Progr\Lapsha\LapshaApp\DbTesting\bin\Debug\netcoreapp3.1\
 C:\Users\Valer\Desktop\Progr\Lapsha\LapshaApp\DbTesting\bin\Debug\netcoreapp3.1\DbTesting.runtimeconfig.dev.json
 C:\Users\Valer\Desktop\Progr\Lapsha\LapshaApp\DbTesting\bin\Debug\netcoreapp3.1\DbTesting.dll
 C:\Users\Valer\Desktop\Progr\Lapsha\LapshaApp\DbTesting\bin\Debug\netcoreapp3.1\DbTesting.pdb
-C:\Users\Valer\Desktop\Progr\Lapsha\LapshaApp\DbTesting\obj\Debug\netcoreapp3.1\DbTesting.csprojAssemblyReference.cache
 C:\Users\Valer\Desktop\Progr\Lapsha\LapshaApp\DbTesting\obj\Debug\netcoreapp3.1\DbTesting.AssemblyInfoInputs.cache
 C:\Users\Valer\Desktop\Progr\Lapsha\LapshaApp\DbTesting\obj\Debug\netcoreapp3.1\DbTesting.AssemblyInfo.cs
 C:\Users\Valer\Desktop\Progr\Lapsha\LapshaApp\DbTesting\obj\Debug\netcoreapp3.1\DbTesting.csproj.CoreCompileInputs.cache

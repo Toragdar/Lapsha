@@ -8,7 +8,7 @@ namespace LapshaApp
 {
     public partial class App : Application
     {
-        public const string DATABASE_NAME = "LapshaDB_var2.db";
+        public const string DATABASE_NAME = "LapshaDB.db";
         public App()
         {
             InitializeComponent();

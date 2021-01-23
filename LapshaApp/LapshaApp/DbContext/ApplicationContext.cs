@@ -9,8 +9,9 @@ namespace LapshaApp
     {
         private string _databasePath;
         public virtual DbSet<Day> Days { get; set; }
+        public virtual DbSet<Meal> Meals { get; set; }
         public virtual DbSet<Product> Products { get; set; }
-        public virtual DbSet<ProductDay> ProductDays { get; set; }
+        public virtual DbSet<ProductMeal> ProductMeals { get; set; }
         public virtual DbSet<ProductRecipe> ProductRecipes { get; set; }
         public virtual DbSet<Recipe> Recipes { get; set; }
         public virtual DbSet<ShopList> ShopLists { get; set; }
@@ -38,9 +39,22 @@ namespace LapshaApp
 
                 entity.Property(e => e.Carb).HasColumnName("carb");
 
+                entity.Property(e => e.DayName).IsRequired();
+
                 entity.Property(e => e.Fat).HasColumnName("fat");
 
                 entity.Property(e => e.Prot).HasColumnName("prot");
+            });
+
+            modelBuilder.Entity<Meal>(entity =>
+            {
+                entity.HasIndex(e => e.MealId, "IX_Meals_MealId")
+                    .IsUnique();
+
+                entity.HasOne(d => d.Day)
+                    .WithMany(p => p.Meals)
+                    .HasForeignKey(d => d.DayId)
+                    .OnDelete(DeleteBehavior.ClientSetNull);
             });
 
             modelBuilder.Entity<Product>(entity =>
@@ -53,31 +67,25 @@ namespace LapshaApp
 
                 entity.HasIndex(e => e.ProductName, "ProductIndices");
 
-                entity.Property(e => e.Calorie).HasColumnName("calorie");
+                entity.Property(e => e.ProductCategory).IsRequired();
 
-                entity.Property(e => e.Carb).HasColumnName("carb");
-
-                entity.Property(e => e.Category).HasColumnName("category");
-
-                entity.Property(e => e.Fat).HasColumnName("fat");
-
-                entity.Property(e => e.Prot).HasColumnName("prot");
+                entity.Property(e => e.ProductName).IsRequired();
             });
 
-            modelBuilder.Entity<ProductDay>(entity =>
+            modelBuilder.Entity<ProductMeal>(entity =>
             {
-                entity.HasIndex(e => e.Id, "IX_ProductDays_Id")
+                entity.HasIndex(e => e.Id, "IX_ProductMeals_Id")
                     .IsUnique();
 
-                entity.Property(e => e.Weight).HasColumnName("weight");
-
-                entity.HasOne(d => d.Day)
-                    .WithMany(p => p.ProductDays)
-                    .HasForeignKey(d => d.DayId);
+                entity.HasOne(d => d.Meal)
+                    .WithMany(p => p.ProductMeals)
+                    .HasForeignKey(d => d.MealId)
+                    .OnDelete(DeleteBehavior.ClientSetNull);
 
                 entity.HasOne(d => d.Product)
-                    .WithMany(p => p.ProductDays)
-                    .HasForeignKey(d => d.ProductId);
+                    .WithMany(p => p.ProductMeals)
+                    .HasForeignKey(d => d.ProductId)
+                    .OnDelete(DeleteBehavior.ClientSetNull);
             });
 
             modelBuilder.Entity<ProductRecipe>(entity =>
@@ -85,15 +93,15 @@ namespace LapshaApp
                 entity.HasIndex(e => e.Id, "IX_ProductRecipes_Id")
                     .IsUnique();
 
-                entity.Property(e => e.Weight).HasColumnName("weight");
-
                 entity.HasOne(d => d.Product)
                     .WithMany(p => p.ProductRecipes)
-                    .HasForeignKey(d => d.ProductId);
+                    .HasForeignKey(d => d.ProductId)
+                    .OnDelete(DeleteBehavior.ClientSetNull);
 
                 entity.HasOne(d => d.Recipe)
                     .WithMany(p => p.ProductRecipes)
-                    .HasForeignKey(d => d.RecipeId);
+                    .HasForeignKey(d => d.RecipeId)
+                    .OnDelete(DeleteBehavior.ClientSetNull);
             });
 
             modelBuilder.Entity<Recipe>(entity =>
@@ -106,7 +114,8 @@ namespace LapshaApp
 
                 entity.HasOne(d => d.Product)
                     .WithOne(p => p.Recipe)
-                    .HasForeignKey<Recipe>(d => d.ProductId);
+                    .HasForeignKey<Recipe>(d => d.ProductId)
+                    .OnDelete(DeleteBehavior.ClientSetNull);
             });
 
             modelBuilder.Entity<ShopList>(entity =>
@@ -118,11 +127,10 @@ namespace LapshaApp
 
                 entity.Property(e => e.BuyCheck).HasColumnName("buyCheck");
 
-                entity.Property(e => e.Weight).HasColumnName("weight");
-
                 entity.HasOne(d => d.Product)
                     .WithMany(p => p.ShopLists)
-                    .HasForeignKey(d => d.ProductId);
+                    .HasForeignKey(d => d.ProductId)
+                    .OnDelete(DeleteBehavior.ClientSetNull);
             });
 
             OnModelCreatingPartial(modelBuilder);

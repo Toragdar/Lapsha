@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
+#nullable disable
 
 namespace LapshaApp
 {
@@ -8,21 +9,21 @@ namespace LapshaApp
     {
         public Product()
         {
-            ProductDays = new HashSet<ProductDay>();
+            ProductMeals = new HashSet<ProductMeal>();
             ProductRecipes = new HashSet<ProductRecipe>();
             ShopLists = new HashSet<ShopList>();
         }
 
         public long ProductId { get; set; }
         public string ProductName { get; set; }
-        public double Prot { get; set; }
-        public double Fat { get; set; }
-        public double Carb { get; set; }
-        public long Calorie { get; set; }
-        public string Category { get; set; }
+        public double ProductProt { get; set; }
+        public double ProductFat { get; set; }
+        public double ProductCarb { get; set; }
+        public long ProductCalories { get; set; }
+        public string ProductCategory { get; set; }
 
         public virtual Recipe Recipe { get; set; }
-        public virtual ICollection<ProductDay> ProductDays { get; set; }
+        public virtual ICollection<ProductMeal> ProductMeals { get; set; }
         public virtual ICollection<ProductRecipe> ProductRecipes { get; set; }
         public virtual ICollection<ShopList> ShopLists { get; set; }
     }
