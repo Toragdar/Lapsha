@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
+using Xamarin.Forms;
 
 namespace LapshaApp
 {
@@ -13,8 +14,8 @@ namespace LapshaApp
         {
             get
             {
-                var basePath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
-                return Path.Combine(basePath, DATABASE_NAME);
+                var dbPath = DependencyService.Get<IPath>().GetDatabasePath(DATABASE_NAME);
+                return dbPath;
             }
         }
     }

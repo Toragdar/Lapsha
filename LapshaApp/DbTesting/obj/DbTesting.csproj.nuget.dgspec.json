@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Valer\\Desktop\\Progr\\Lapsha\\LapshaApp\\DbTesting\\DbTesting.csproj": {}
+    "C:\\Users\\Z\\Desktop\\Progr\\Lapsha\\LapshaApp\\DbTesting\\DbTesting.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Valer\\Desktop\\Progr\\Lapsha\\LapshaApp\\DbTesting\\DbTesting.csproj": {
+    "C:\\Users\\Z\\Desktop\\Progr\\Lapsha\\LapshaApp\\DbTesting\\DbTesting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Valer\\Desktop\\Progr\\Lapsha\\LapshaApp\\DbTesting\\DbTesting.csproj",
+        "projectUniqueName": "C:\\Users\\Z\\Desktop\\Progr\\Lapsha\\LapshaApp\\DbTesting\\DbTesting.csproj",
         "projectName": "DbTesting",
-        "projectPath": "C:\\Users\\Valer\\Desktop\\Progr\\Lapsha\\LapshaApp\\DbTesting\\DbTesting.csproj",
-        "packagesPath": "C:\\Users\\Valer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Valer\\Desktop\\Progr\\Lapsha\\LapshaApp\\DbTesting\\obj\\",
+        "projectPath": "C:\\Users\\Z\\Desktop\\Progr\\Lapsha\\LapshaApp\\DbTesting\\DbTesting.csproj",
+        "packagesPath": "C:\\Users\\Z\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Z\\Desktop\\Progr\\Lapsha\\LapshaApp\\DbTesting\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Valer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Z\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -70,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
