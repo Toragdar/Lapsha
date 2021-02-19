@@ -19,11 +19,8 @@ namespace LapshaApp
         public ApplicationContext(string databasePath)
         {
             _databasePath = databasePath;
-        }
-        public ApplicationContext(DbContextOptions<ApplicationContext> options)
-            : base(options)
-        {
-        }
+            Database.EnsureCreated();
+        }        
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlite($"Filename={_databasePath}");

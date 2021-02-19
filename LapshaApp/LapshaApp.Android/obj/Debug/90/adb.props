@@ -1,2 +1,2 @@
-AdbTarget=
+AdbTarget=-s PT99621AA1A70602031
 AdbOptions=

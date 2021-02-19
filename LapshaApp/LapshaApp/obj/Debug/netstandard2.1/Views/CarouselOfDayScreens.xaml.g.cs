@@ -8,17 +8,21 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("LapshaApp.Views.CarouselOfDayScreens.xaml", "Views/CarouselOfDayScreens.xaml", typeof(global::LapshaApp.Views.CarouselOfDayScreens))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("LapshaApp.Views.CarouselOfDayScreens.xaml", "Views/CarouselOfDayScreens.xaml", typeof(global::LapshaApp.CarouselOfDayScreens))]
 
-namespace LapshaApp.Views {
+namespace LapshaApp {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\CarouselOfDayScreens.xaml")]
-    public partial class CarouselOfDayScreens : global::Xamarin.Forms.ContentPage {
+    public partial class CarouselOfDayScreens : global::Xamarin.Forms.CarouselPage {
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.ListView ProductList;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(CarouselOfDayScreens));
+            ProductList = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ListView>(this, "ProductList");
         }
     }
 }

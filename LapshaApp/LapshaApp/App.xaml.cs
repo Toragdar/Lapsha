@@ -3,6 +3,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using System.IO;
 using System.Reflection;
+using System.Linq;
 
 namespace LapshaApp
 {
@@ -12,25 +13,24 @@ namespace LapshaApp
         {
             InitializeComponent();
 
-            using (var db = new ApplicationContext(Constants.DbPath))
+            try
             {
-                //проверка наличия БД, при ее отсутствии БД копируется
-                if (!File.Exists(Constants.DbPath))
+                using (var db = new ApplicationContext(Constants.DbPath))
                 {
-                    var assembly = IntrospectionExtensions.GetTypeInfo(typeof(App)).Assembly;
+                    db.Database.EnsureCreated();
 
-                    using(Stream stream = assembly.GetManifestResourceStream($"LapshaApp.{Constants.DATABASE_NAME}"))
+                    if (db.Products.Count() == 0)
                     {
-                        using (FileStream fileStream = new FileStream(Constants.DbPath, FileMode.OpenOrCreate))
-                        {
-                            stream.CopyTo(fileStream);
-                            fileStream.FlushAsync();
-                        }
+                        //Заполненение БД
                     }
                 }
             }
+            catch (Exception)
+            {
 
-                MainPage = new MainPage();
+            }
+
+            MainPage = new NavigationPage(new CarouselOfDayScreens());
         }
 
         protected override void OnStart()
