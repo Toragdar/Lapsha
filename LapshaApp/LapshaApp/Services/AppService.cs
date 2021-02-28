@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 
 namespace LapshaApp
 {
-    public class AppService
+    public static class AppService
     {
-        public async void TestDbFilling()
+        public static async void TestDbFilling()
         {
 
             try
@@ -150,7 +150,7 @@ namespace LapshaApp
             }            
         }
 
-        public async void FirstStartDbFilling()
+        public static async void FirstStartDbFilling()
         {
             
         }

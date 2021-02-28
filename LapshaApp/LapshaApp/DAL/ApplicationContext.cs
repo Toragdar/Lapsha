@@ -8,13 +8,13 @@ namespace LapshaApp
     public partial class ApplicationContext : DbContext
     {
         private string _databasePath;
-        public virtual DbSet<Day> Days { get; set; }
-        public virtual DbSet<Meal> Meals { get; set; }
-        public virtual DbSet<Product> Products { get; set; }
-        public virtual DbSet<ProductMeal> ProductMeals { get; set; }
-        public virtual DbSet<ProductRecipe> ProductRecipes { get; set; }
-        public virtual DbSet<Recipe> Recipes { get; set; }
-        public virtual DbSet<ShopList> ShopLists { get; set; }
+        public DbSet<Day> Days { get; set; }
+        public DbSet<Meal> Meals { get; set; }
+        public DbSet<Product> Products { get; set; }
+        public DbSet<ProductMeal> ProductMeals { get; set; }
+        public DbSet<ProductRecipe> ProductRecipes { get; set; }
+        public DbSet<Recipe> Recipes { get; set; }
+        public DbSet<ShopList> ShopLists { get; set; }
 
         public ApplicationContext(string databasePath)
         {
@@ -27,111 +27,75 @@ namespace LapshaApp
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Day>(entity =>
-            {
-                entity.HasIndex(e => e.DayId, "IX_Days_DayId")
-                    .IsUnique();
+            #region Recipes ModelBuilder
 
-                entity.Property(e => e.Calorie).HasColumnName("calorie");
+            modelBuilder.Entity<Recipe>()
+                .HasKey(r => new { r.RecipeId });
 
-                entity.Property(e => e.Carb).HasColumnName("carb");
+            modelBuilder.Entity<Recipe>()
+                .HasOne(r => r.Product)
+                .WithOne(r => r.Recipe);
 
-                entity.Property(e => e.DayName).IsRequired();
+            #endregion
 
-                entity.Property(e => e.Fat).HasColumnName("fat");
+            #region ShopList ModelBuilder
 
-                entity.Property(e => e.Prot).HasColumnName("prot");
-            });
+            modelBuilder.Entity<ShopList>()
+                .HasKey(r => new { r.Id });
 
-            modelBuilder.Entity<Meal>(entity =>
-            {
-                entity.HasIndex(e => e.MealId, "IX_Meals_MealId")
-                    .IsUnique();
+            modelBuilder.Entity<ShopList>()
+                .HasOne(r => r.Product)
+                .WithOne(r => r.ShopList);
 
-                entity.HasOne(d => d.Day)
-                    .WithMany(p => p.Meals)
-                    .HasForeignKey(d => d.DayId)
-                    .OnDelete(DeleteBehavior.ClientSetNull);
-            });
+            #endregion
 
-            modelBuilder.Entity<Product>(entity =>
-            {
-                entity.HasIndex(e => e.ProductId, "IX_Products_ProductId")
-                    .IsUnique();
+            #region Meals ModelBuilder
 
-                entity.HasIndex(e => e.ProductName, "IX_Products_ProductName")
-                    .IsUnique();
+            modelBuilder.Entity<Meal>()
+                .HasOne(m => m.Day)
+                .WithMany(m => m.Meals);
 
-                entity.HasIndex(e => e.ProductName, "ProductIndices");
+            #endregion
 
-                entity.Property(e => e.ProductCategory).IsRequired();
+            #region ProductMeals ModelBuilder
 
-                entity.Property(e => e.ProductName).IsRequired();
-            });
+            modelBuilder.Entity<ProductMeal>()
+                .HasKey(pm => new { pm.ProductId, pm.MealId });
 
-            modelBuilder.Entity<ProductMeal>(entity =>
-            {
-                entity.HasIndex(e => e.Id, "IX_ProductMeals_Id")
-                    .IsUnique();
+            modelBuilder.Entity<ProductMeal>()
+                .HasOne(pm => pm.Product)
+                .WithMany(pm => pm.ProductMeals)
+                .HasForeignKey(pm => pm.ProductId);
 
-                entity.HasOne(d => d.Meal)
-                    .WithMany(p => p.ProductMeals)
-                    .HasForeignKey(d => d.MealId)
-                    .OnDelete(DeleteBehavior.ClientSetNull);
+            modelBuilder.Entity<ProductMeal>()
+                .HasOne(pm => pm.Meal)
+                .WithMany(pm => pm.ProductMeals)
+                .HasForeignKey(pm => pm.MealId);
 
-                entity.HasOne(d => d.Product)
-                    .WithMany(p => p.ProductMeals)
-                    .HasForeignKey(d => d.ProductId)
-                    .OnDelete(DeleteBehavior.ClientSetNull);
-            });
+            modelBuilder.Entity<ProductMeal>()
+                .Property(pm => pm.ProductWeight);
 
-            modelBuilder.Entity<ProductRecipe>(entity =>
-            {
-                entity.HasIndex(e => e.Id, "IX_ProductRecipes_Id")
-                    .IsUnique();
+            #endregion
 
-                entity.HasOne(d => d.Product)
-                    .WithMany(p => p.ProductRecipes)
-                    .HasForeignKey(d => d.ProductId)
-                    .OnDelete(DeleteBehavior.ClientSetNull);
+            #region ProductRecipes ModelBuilder
 
-                entity.HasOne(d => d.Recipe)
-                    .WithMany(p => p.ProductRecipes)
-                    .HasForeignKey(d => d.RecipeId)
-                    .OnDelete(DeleteBehavior.ClientSetNull);
-            });
+            modelBuilder.Entity<ProductRecipe>()
+                .HasKey(pr => new { pr.ProductId, pr.RecipeId });
 
-            modelBuilder.Entity<Recipe>(entity =>
-            {
-                entity.HasIndex(e => e.ProductId, "IX_Recipes_ProductId")
-                    .IsUnique();
+            modelBuilder.Entity<ProductRecipe>()
+                .HasOne(pr => pr.Product)
+                .WithMany(pr => pr.ProductRecipes)
+                .HasForeignKey(pr => pr.ProductId);
 
-                entity.HasIndex(e => e.RecipeId, "IX_Recipes_RecipeId")
-                    .IsUnique();
+            modelBuilder.Entity<ProductRecipe>()
+                .HasOne(pr => pr.Recipe)
+                .WithMany(pr => pr.ProductRecipes)
+                .HasForeignKey(pr => pr.RecipeId);
 
-                entity.HasOne(d => d.Product)
-                    .WithOne(p => p.Recipe)
-                    .HasForeignKey<Recipe>(d => d.ProductId)
-                    .OnDelete(DeleteBehavior.ClientSetNull);
-            });
+            modelBuilder.Entity<ProductRecipe>()
+                .Property(pr => pr.ProductWeight);
 
-            modelBuilder.Entity<ShopList>(entity =>
-            {
-                entity.ToTable("ShopList");
-
-                entity.HasIndex(e => e.Id, "IX_ShopList_Id")
-                    .IsUnique();
-
-                entity.Property(e => e.BuyCheck).HasColumnName("buyCheck");
-
-                entity.HasOne(d => d.Product)
-                    .WithMany(p => p.ShopLists)
-                    .HasForeignKey(d => d.ProductId)
-                    .OnDelete(DeleteBehavior.ClientSetNull);
-            });
-
-            OnModelCreatingPartial(modelBuilder);
+            #endregion
         }
-        partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
     }
 }

@@ -5,14 +5,15 @@ using System.Collections.Generic;
 
 namespace LapshaApp
 {
-    public partial class ProductRecipe
+    public class ProductRecipe
     {
         public long Id { get; set; }
-        public long ProductId { get; set; }
-        public long RecipeId { get; set; }
         public long ProductWeight { get; set; }
 
+        public long ProductId { get; set; }
         public virtual Product Product { get; set; }
-        public virtual Recipe Recipe { get; set; }
+
+        public long RecipeId { get; set; }
+        public Recipe Recipe { get; set; }
     }
 }

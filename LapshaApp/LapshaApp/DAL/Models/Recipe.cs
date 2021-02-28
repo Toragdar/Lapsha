@@ -5,17 +5,18 @@ using System.Collections.Generic;
 
 namespace LapshaApp
 {
-    public partial class Recipe
+    public class Recipe
     {
         public Recipe()
         {
-            ProductRecipes = new HashSet<ProductRecipe>();
+            ProductRecipes = new List<ProductRecipe>();
         }
 
         public long RecipeId { get; set; }
-        public long ProductId { get; set; }
 
-        public virtual Product Product { get; set; }
-        public virtual ICollection<ProductRecipe> ProductRecipes { get; set; }
+        public long ProductId { get; set; }
+        public Product Product { get; set; }
+
+        public List<ProductRecipe> ProductRecipes { get; set; }
     }
 }

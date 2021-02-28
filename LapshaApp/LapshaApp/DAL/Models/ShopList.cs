@@ -5,13 +5,13 @@ using System.Collections.Generic;
 
 namespace LapshaApp
 {
-    public partial class ShopList
+    public class ShopList
     {
         public long Id { get; set; }
-        public long ProductId { get; set; }
         public long ProductWeight { get; set; }
         public long BuyCheck { get; set; }
 
-        public virtual Product Product { get; set; }
+        public long ProductId { get; set; }
+        public Product Product { get; set; }
     }
 }

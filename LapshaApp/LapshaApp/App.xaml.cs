@@ -21,7 +21,7 @@ namespace LapshaApp
 
                     if (db.Products.Count() == 0)
                     {
-                        //Заполненение БД
+                        AppService.TestDbFilling();
                     }
                 }
             }
@@ -30,7 +30,7 @@ namespace LapshaApp
 
             }
 
-            MainPage = new NavigationPage(new CarouselOfDayScreens());
+            MainPage = new NavigationPage(new ProductsTest());
         }
 
         protected override void OnStart()

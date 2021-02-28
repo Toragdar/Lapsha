@@ -5,13 +5,12 @@ using System.Collections.Generic;
 
 namespace LapshaApp
 {
-    public partial class Product
+    public class Product
     {
         public Product()
         {
-            ProductMeals = new HashSet<ProductMeal>();
-            ProductRecipes = new HashSet<ProductRecipe>();
-            ShopLists = new HashSet<ShopList>();
+            ProductMeals = new List<ProductMeal>();
+            ProductRecipes = new List<ProductRecipe>();
         }
 
         public long ProductId { get; set; }
@@ -22,10 +21,10 @@ namespace LapshaApp
         public long ProductCalories { get; set; }
         public string ProductCategory { get; set; }
 
-        public virtual Recipe Recipe { get; set; }
-        public virtual ICollection<ProductMeal> ProductMeals { get; set; }
-        public virtual ICollection<ProductRecipe> ProductRecipes { get; set; }
-        public virtual ICollection<ShopList> ShopLists { get; set; }
+        public List<ProductMeal> ProductMeals { get; set; }
+        public List<ProductRecipe> ProductRecipes { get; set; }
+        public ShopList ShopList { get; set; }
+        public Recipe Recipe { get; set; }
 
         public void Calculate(int weight)
         {

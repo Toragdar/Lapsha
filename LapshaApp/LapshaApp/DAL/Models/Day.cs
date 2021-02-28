@@ -5,11 +5,11 @@ using System.Collections.Generic;
 
 namespace LapshaApp
 {
-    public partial class Day
+    public class Day
     {
         public Day()
         {
-            Meals = new HashSet<Meal>();
+            Meals = new List<Meal>();
         }
 
         public long DayId { get; set; }
@@ -19,6 +19,6 @@ namespace LapshaApp
         public double Carb { get; set; }
         public long Calorie { get; set; }
 
-        public virtual ICollection<Meal> Meals { get; set; }
+        public List<Meal> Meals { get; set; }
     }
 }
