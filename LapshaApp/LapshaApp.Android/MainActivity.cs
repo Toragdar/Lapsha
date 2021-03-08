@@ -29,5 +29,6 @@ namespace LapshaApp.Droid
 
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
+
     }
 }
