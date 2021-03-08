@@ -13,6 +13,12 @@ namespace LapshaApp
         public MainScreen()
         {
             InitializeComponent();
+            this.BindingContext = this;
+        }
+        public ObservableCollection<TestDay> TestDays { get => GetTestDays(); }
+        public class TestDay
+        {
+            public string Name { get; set; }
         }
     }
 }

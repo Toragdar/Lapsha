@@ -15,9 +15,7 @@ C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\bin\Debug\netstandard2.1\Lap
 C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\bin\Debug\netstandard2.1\LapshaApp.dll
 C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\bin\Debug\netstandard2.1\ref\LapshaApp.dll
 C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\bin\Debug\netstandard2.1\LapshaApp.pdb
-C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\obj\Debug\netstandard2.1\LapshaApp.csprojAssemblyReference.cache
 C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\obj\Debug\netstandard2.1\App.xaml.g.cs
-C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\obj\Debug\netstandard2.1\MainPage.xaml.g.cs
 C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\obj\Debug\netstandard2.1\LapshaApp.AssemblyInfoInputs.cache
 C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\obj\Debug\netstandard2.1\LapshaApp.AssemblyInfo.cs
 C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\obj\Debug\netstandard2.1\LapshaApp.csproj.CoreCompileInputs.cache
@@ -28,3 +26,6 @@ C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\obj\Debug\netstandard2.1\Lap
 C:\Users\Valer\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\obj\Debug\netstandard2.1\Views\CarouselOfDayScreens.xaml.g.cs
 C:\Users\Valer\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\obj\Debug\netstandard2.1\Views\MainPage.xaml.g.cs
 C:\Users\Valer\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\obj\Debug\netstandard2.1\Views\ProductsTest.xaml.g.cs
+C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\obj\Debug\netstandard2.1\Views\DayScreens.xaml.g.cs
+C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\obj\Debug\netstandard2.1\Views\MainScreen.xaml.g.cs
+C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\obj\Debug\netstandard2.1\LapshaApp.csprojAssemblyReference.cache
