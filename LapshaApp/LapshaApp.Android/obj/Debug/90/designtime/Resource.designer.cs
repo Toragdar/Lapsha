@@ -207,6 +207,2593 @@ namespace LapshaApp.Droid
 			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_tileMode = global::LapshaApp.Droid.Resource.Styleable.GradientColor_android_tileMode;
 			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_type = global::LapshaApp.Droid.Resource.Styleable.GradientColor_android_type;
 			global::Xamarin.Essentials.Resource.Xml.xamarin_essentials_fileprovider_file_paths = global::LapshaApp.Droid.Resource.Xml.xamarin_essentials_fileprovider_file_paths;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.abc_fade_in = global::LapshaApp.Droid.Resource.Animation.abc_fade_in;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.abc_fade_out = global::LapshaApp.Droid.Resource.Animation.abc_fade_out;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.abc_grow_fade_in_from_bottom = global::LapshaApp.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.abc_popup_enter = global::LapshaApp.Droid.Resource.Animation.abc_popup_enter;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.abc_popup_exit = global::LapshaApp.Droid.Resource.Animation.abc_popup_exit;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.abc_shrink_fade_out_from_bottom = global::LapshaApp.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.abc_slide_in_bottom = global::LapshaApp.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.abc_slide_in_top = global::LapshaApp.Droid.Resource.Animation.abc_slide_in_top;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.abc_slide_out_bottom = global::LapshaApp.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.abc_slide_out_top = global::LapshaApp.Droid.Resource.Animation.abc_slide_out_top;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.abc_tooltip_enter = global::LapshaApp.Droid.Resource.Animation.abc_tooltip_enter;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.abc_tooltip_exit = global::LapshaApp.Droid.Resource.Animation.abc_tooltip_exit;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.design_bottom_sheet_slide_in = global::LapshaApp.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.design_bottom_sheet_slide_out = global::LapshaApp.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.design_snackbar_in = global::LapshaApp.Droid.Resource.Animation.design_snackbar_in;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.design_snackbar_out = global::LapshaApp.Droid.Resource.Animation.design_snackbar_out;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.EnterFromLeft = global::LapshaApp.Droid.Resource.Animation.EnterFromLeft;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.EnterFromRight = global::LapshaApp.Droid.Resource.Animation.EnterFromRight;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.ExitToLeft = global::LapshaApp.Droid.Resource.Animation.ExitToLeft;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.ExitToRight = global::LapshaApp.Droid.Resource.Animation.ExitToRight;
+			global::Xamarin.Forms.PancakeView.Resource.Animator.design_appbar_state_list_animator = global::LapshaApp.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::Xamarin.Forms.PancakeView.Resource.Animator.design_fab_hide_motion_spec = global::LapshaApp.Droid.Resource.Animator.design_fab_hide_motion_spec;
+			global::Xamarin.Forms.PancakeView.Resource.Animator.design_fab_show_motion_spec = global::LapshaApp.Droid.Resource.Animator.design_fab_show_motion_spec;
+			global::Xamarin.Forms.PancakeView.Resource.Animator.mtrl_btn_state_list_anim = global::LapshaApp.Droid.Resource.Animator.mtrl_btn_state_list_anim;
+			global::Xamarin.Forms.PancakeView.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::LapshaApp.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::Xamarin.Forms.PancakeView.Resource.Animator.mtrl_chip_state_list_anim = global::LapshaApp.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::Xamarin.Forms.PancakeView.Resource.Animator.mtrl_fab_hide_motion_spec = global::LapshaApp.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
+			global::Xamarin.Forms.PancakeView.Resource.Animator.mtrl_fab_show_motion_spec = global::LapshaApp.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
+			global::Xamarin.Forms.PancakeView.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::LapshaApp.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
+			global::Xamarin.Forms.PancakeView.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::LapshaApp.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionBarDivider = global::LapshaApp.Droid.Resource.Attribute.actionBarDivider;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionBarItemBackground = global::LapshaApp.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionBarPopupTheme = global::LapshaApp.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionBarSize = global::LapshaApp.Droid.Resource.Attribute.actionBarSize;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionBarSplitStyle = global::LapshaApp.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionBarStyle = global::LapshaApp.Droid.Resource.Attribute.actionBarStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionBarTabBarStyle = global::LapshaApp.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionBarTabStyle = global::LapshaApp.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionBarTabTextStyle = global::LapshaApp.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionBarTheme = global::LapshaApp.Droid.Resource.Attribute.actionBarTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionBarWidgetTheme = global::LapshaApp.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionButtonStyle = global::LapshaApp.Droid.Resource.Attribute.actionButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionDropDownStyle = global::LapshaApp.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionLayout = global::LapshaApp.Droid.Resource.Attribute.actionLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionMenuTextAppearance = global::LapshaApp.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionMenuTextColor = global::LapshaApp.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionModeBackground = global::LapshaApp.Droid.Resource.Attribute.actionModeBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionModeCloseButtonStyle = global::LapshaApp.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionModeCloseDrawable = global::LapshaApp.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionModeCopyDrawable = global::LapshaApp.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionModeCutDrawable = global::LapshaApp.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionModeFindDrawable = global::LapshaApp.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionModePasteDrawable = global::LapshaApp.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionModePopupWindowStyle = global::LapshaApp.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionModeSelectAllDrawable = global::LapshaApp.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionModeShareDrawable = global::LapshaApp.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionModeSplitBackground = global::LapshaApp.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionModeStyle = global::LapshaApp.Droid.Resource.Attribute.actionModeStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionModeWebSearchDrawable = global::LapshaApp.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionOverflowButtonStyle = global::LapshaApp.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionOverflowMenuStyle = global::LapshaApp.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionProviderClass = global::LapshaApp.Droid.Resource.Attribute.actionProviderClass;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionViewClass = global::LapshaApp.Droid.Resource.Attribute.actionViewClass;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.activityChooserViewStyle = global::LapshaApp.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.alertDialogButtonGroupStyle = global::LapshaApp.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.alertDialogCenterButtons = global::LapshaApp.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.alertDialogStyle = global::LapshaApp.Droid.Resource.Attribute.alertDialogStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.alertDialogTheme = global::LapshaApp.Droid.Resource.Attribute.alertDialogTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.allowStacking = global::LapshaApp.Droid.Resource.Attribute.allowStacking;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.alpha = global::LapshaApp.Droid.Resource.Attribute.alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.alphabeticModifiers = global::LapshaApp.Droid.Resource.Attribute.alphabeticModifiers;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.arrowHeadLength = global::LapshaApp.Droid.Resource.Attribute.arrowHeadLength;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.arrowShaftLength = global::LapshaApp.Droid.Resource.Attribute.arrowShaftLength;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.autoCompleteTextViewStyle = global::LapshaApp.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.autoSizeMaxTextSize = global::LapshaApp.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.autoSizeMinTextSize = global::LapshaApp.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.autoSizePresetSizes = global::LapshaApp.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.autoSizeStepGranularity = global::LapshaApp.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.autoSizeTextType = global::LapshaApp.Droid.Resource.Attribute.autoSizeTextType;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.background = global::LapshaApp.Droid.Resource.Attribute.background;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.backgroundSplit = global::LapshaApp.Droid.Resource.Attribute.backgroundSplit;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.backgroundStacked = global::LapshaApp.Droid.Resource.Attribute.backgroundStacked;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.backgroundTint = global::LapshaApp.Droid.Resource.Attribute.backgroundTint;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.backgroundTintMode = global::LapshaApp.Droid.Resource.Attribute.backgroundTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.barLength = global::LapshaApp.Droid.Resource.Attribute.barLength;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.behavior_autoHide = global::LapshaApp.Droid.Resource.Attribute.behavior_autoHide;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.behavior_fitToContents = global::LapshaApp.Droid.Resource.Attribute.behavior_fitToContents;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.behavior_hideable = global::LapshaApp.Droid.Resource.Attribute.behavior_hideable;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.behavior_overlapTop = global::LapshaApp.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.behavior_peekHeight = global::LapshaApp.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.behavior_skipCollapsed = global::LapshaApp.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.borderlessButtonStyle = global::LapshaApp.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.borderWidth = global::LapshaApp.Droid.Resource.Attribute.borderWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.bottomAppBarStyle = global::LapshaApp.Droid.Resource.Attribute.bottomAppBarStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.bottomNavigationStyle = global::LapshaApp.Droid.Resource.Attribute.bottomNavigationStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.bottomSheetDialogTheme = global::LapshaApp.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.bottomSheetStyle = global::LapshaApp.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.boxBackgroundColor = global::LapshaApp.Droid.Resource.Attribute.boxBackgroundColor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.boxBackgroundMode = global::LapshaApp.Droid.Resource.Attribute.boxBackgroundMode;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.boxCollapsedPaddingTop = global::LapshaApp.Droid.Resource.Attribute.boxCollapsedPaddingTop;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.boxCornerRadiusBottomEnd = global::LapshaApp.Droid.Resource.Attribute.boxCornerRadiusBottomEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.boxCornerRadiusBottomStart = global::LapshaApp.Droid.Resource.Attribute.boxCornerRadiusBottomStart;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.boxCornerRadiusTopEnd = global::LapshaApp.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.boxCornerRadiusTopStart = global::LapshaApp.Droid.Resource.Attribute.boxCornerRadiusTopStart;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.boxStrokeColor = global::LapshaApp.Droid.Resource.Attribute.boxStrokeColor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.boxStrokeWidth = global::LapshaApp.Droid.Resource.Attribute.boxStrokeWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.buttonBarButtonStyle = global::LapshaApp.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.buttonBarNegativeButtonStyle = global::LapshaApp.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.buttonBarNeutralButtonStyle = global::LapshaApp.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.buttonBarPositiveButtonStyle = global::LapshaApp.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.buttonBarStyle = global::LapshaApp.Droid.Resource.Attribute.buttonBarStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.buttonGravity = global::LapshaApp.Droid.Resource.Attribute.buttonGravity;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.buttonIconDimen = global::LapshaApp.Droid.Resource.Attribute.buttonIconDimen;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.buttonPanelSideLayout = global::LapshaApp.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.buttonStyle = global::LapshaApp.Droid.Resource.Attribute.buttonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.buttonStyleSmall = global::LapshaApp.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.buttonTint = global::LapshaApp.Droid.Resource.Attribute.buttonTint;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.buttonTintMode = global::LapshaApp.Droid.Resource.Attribute.buttonTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.cardBackgroundColor = global::LapshaApp.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.cardCornerRadius = global::LapshaApp.Droid.Resource.Attribute.cardCornerRadius;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.cardElevation = global::LapshaApp.Droid.Resource.Attribute.cardElevation;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.cardMaxElevation = global::LapshaApp.Droid.Resource.Attribute.cardMaxElevation;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.cardPreventCornerOverlap = global::LapshaApp.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.cardUseCompatPadding = global::LapshaApp.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.cardViewStyle = global::LapshaApp.Droid.Resource.Attribute.cardViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.checkboxStyle = global::LapshaApp.Droid.Resource.Attribute.checkboxStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.checkedChip = global::LapshaApp.Droid.Resource.Attribute.checkedChip;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.checkedIcon = global::LapshaApp.Droid.Resource.Attribute.checkedIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.checkedIconEnabled = global::LapshaApp.Droid.Resource.Attribute.checkedIconEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.checkedIconVisible = global::LapshaApp.Droid.Resource.Attribute.checkedIconVisible;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.checkedTextViewStyle = global::LapshaApp.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipBackgroundColor = global::LapshaApp.Droid.Resource.Attribute.chipBackgroundColor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipCornerRadius = global::LapshaApp.Droid.Resource.Attribute.chipCornerRadius;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipEndPadding = global::LapshaApp.Droid.Resource.Attribute.chipEndPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipGroupStyle = global::LapshaApp.Droid.Resource.Attribute.chipGroupStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipIcon = global::LapshaApp.Droid.Resource.Attribute.chipIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipIconEnabled = global::LapshaApp.Droid.Resource.Attribute.chipIconEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipIconSize = global::LapshaApp.Droid.Resource.Attribute.chipIconSize;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipIconTint = global::LapshaApp.Droid.Resource.Attribute.chipIconTint;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipIconVisible = global::LapshaApp.Droid.Resource.Attribute.chipIconVisible;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipMinHeight = global::LapshaApp.Droid.Resource.Attribute.chipMinHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipSpacing = global::LapshaApp.Droid.Resource.Attribute.chipSpacing;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipSpacingHorizontal = global::LapshaApp.Droid.Resource.Attribute.chipSpacingHorizontal;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipSpacingVertical = global::LapshaApp.Droid.Resource.Attribute.chipSpacingVertical;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipStandaloneStyle = global::LapshaApp.Droid.Resource.Attribute.chipStandaloneStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipStartPadding = global::LapshaApp.Droid.Resource.Attribute.chipStartPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipStrokeColor = global::LapshaApp.Droid.Resource.Attribute.chipStrokeColor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipStrokeWidth = global::LapshaApp.Droid.Resource.Attribute.chipStrokeWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipStyle = global::LapshaApp.Droid.Resource.Attribute.chipStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.closeIcon = global::LapshaApp.Droid.Resource.Attribute.closeIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.closeIconEnabled = global::LapshaApp.Droid.Resource.Attribute.closeIconEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.closeIconEndPadding = global::LapshaApp.Droid.Resource.Attribute.closeIconEndPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.closeIconSize = global::LapshaApp.Droid.Resource.Attribute.closeIconSize;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.closeIconStartPadding = global::LapshaApp.Droid.Resource.Attribute.closeIconStartPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.closeIconTint = global::LapshaApp.Droid.Resource.Attribute.closeIconTint;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.closeIconVisible = global::LapshaApp.Droid.Resource.Attribute.closeIconVisible;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.closeItemLayout = global::LapshaApp.Droid.Resource.Attribute.closeItemLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.collapseContentDescription = global::LapshaApp.Droid.Resource.Attribute.collapseContentDescription;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.collapsedTitleGravity = global::LapshaApp.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.collapsedTitleTextAppearance = global::LapshaApp.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.collapseIcon = global::LapshaApp.Droid.Resource.Attribute.collapseIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.collectionViewStyle = global::LapshaApp.Droid.Resource.Attribute.collectionViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.color = global::LapshaApp.Droid.Resource.Attribute.color;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.colorAccent = global::LapshaApp.Droid.Resource.Attribute.colorAccent;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.colorBackgroundFloating = global::LapshaApp.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.colorButtonNormal = global::LapshaApp.Droid.Resource.Attribute.colorButtonNormal;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.colorControlActivated = global::LapshaApp.Droid.Resource.Attribute.colorControlActivated;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.colorControlHighlight = global::LapshaApp.Droid.Resource.Attribute.colorControlHighlight;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.colorControlNormal = global::LapshaApp.Droid.Resource.Attribute.colorControlNormal;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.colorError = global::LapshaApp.Droid.Resource.Attribute.colorError;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.colorPrimary = global::LapshaApp.Droid.Resource.Attribute.colorPrimary;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.colorPrimaryDark = global::LapshaApp.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.colorSecondary = global::LapshaApp.Droid.Resource.Attribute.colorSecondary;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.colorSwitchThumbNormal = global::LapshaApp.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.commitIcon = global::LapshaApp.Droid.Resource.Attribute.commitIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.contentDescription = global::LapshaApp.Droid.Resource.Attribute.contentDescription;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.contentInsetEnd = global::LapshaApp.Droid.Resource.Attribute.contentInsetEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.contentInsetEndWithActions = global::LapshaApp.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.contentInsetLeft = global::LapshaApp.Droid.Resource.Attribute.contentInsetLeft;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.contentInsetRight = global::LapshaApp.Droid.Resource.Attribute.contentInsetRight;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.contentInsetStart = global::LapshaApp.Droid.Resource.Attribute.contentInsetStart;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.contentInsetStartWithNavigation = global::LapshaApp.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.contentPadding = global::LapshaApp.Droid.Resource.Attribute.contentPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.contentPaddingBottom = global::LapshaApp.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.contentPaddingLeft = global::LapshaApp.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.contentPaddingRight = global::LapshaApp.Droid.Resource.Attribute.contentPaddingRight;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.contentPaddingTop = global::LapshaApp.Droid.Resource.Attribute.contentPaddingTop;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.contentScrim = global::LapshaApp.Droid.Resource.Attribute.contentScrim;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.controlBackground = global::LapshaApp.Droid.Resource.Attribute.controlBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.coordinatorLayoutStyle = global::LapshaApp.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.cornerRadius = global::LapshaApp.Droid.Resource.Attribute.cornerRadius;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.counterEnabled = global::LapshaApp.Droid.Resource.Attribute.counterEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.counterMaxLength = global::LapshaApp.Droid.Resource.Attribute.counterMaxLength;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.counterOverflowTextAppearance = global::LapshaApp.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.counterTextAppearance = global::LapshaApp.Droid.Resource.Attribute.counterTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.customNavigationLayout = global::LapshaApp.Droid.Resource.Attribute.customNavigationLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.defaultQueryHint = global::LapshaApp.Droid.Resource.Attribute.defaultQueryHint;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.dialogCornerRadius = global::LapshaApp.Droid.Resource.Attribute.dialogCornerRadius;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.dialogPreferredPadding = global::LapshaApp.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.dialogTheme = global::LapshaApp.Droid.Resource.Attribute.dialogTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.displayOptions = global::LapshaApp.Droid.Resource.Attribute.displayOptions;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.divider = global::LapshaApp.Droid.Resource.Attribute.divider;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.dividerHorizontal = global::LapshaApp.Droid.Resource.Attribute.dividerHorizontal;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.dividerPadding = global::LapshaApp.Droid.Resource.Attribute.dividerPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.dividerVertical = global::LapshaApp.Droid.Resource.Attribute.dividerVertical;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.drawableSize = global::LapshaApp.Droid.Resource.Attribute.drawableSize;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.drawerArrowStyle = global::LapshaApp.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.dropdownListPreferredItemHeight = global::LapshaApp.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.dropDownListViewStyle = global::LapshaApp.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.editTextBackground = global::LapshaApp.Droid.Resource.Attribute.editTextBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.editTextColor = global::LapshaApp.Droid.Resource.Attribute.editTextColor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.editTextStyle = global::LapshaApp.Droid.Resource.Attribute.editTextStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.elevation = global::LapshaApp.Droid.Resource.Attribute.elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.enforceMaterialTheme = global::LapshaApp.Droid.Resource.Attribute.enforceMaterialTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.enforceTextAppearance = global::LapshaApp.Droid.Resource.Attribute.enforceTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.errorEnabled = global::LapshaApp.Droid.Resource.Attribute.errorEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.errorTextAppearance = global::LapshaApp.Droid.Resource.Attribute.errorTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.expandActivityOverflowButtonDrawable = global::LapshaApp.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.expanded = global::LapshaApp.Droid.Resource.Attribute.expanded;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.expandedTitleGravity = global::LapshaApp.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.expandedTitleMargin = global::LapshaApp.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.expandedTitleMarginBottom = global::LapshaApp.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.expandedTitleMarginEnd = global::LapshaApp.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.expandedTitleMarginStart = global::LapshaApp.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.expandedTitleMarginTop = global::LapshaApp.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.expandedTitleTextAppearance = global::LapshaApp.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fabAlignmentMode = global::LapshaApp.Droid.Resource.Attribute.fabAlignmentMode;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fabCradleMargin = global::LapshaApp.Droid.Resource.Attribute.fabCradleMargin;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fabCradleRoundedCornerRadius = global::LapshaApp.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fabCradleVerticalOffset = global::LapshaApp.Droid.Resource.Attribute.fabCradleVerticalOffset;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fabCustomSize = global::LapshaApp.Droid.Resource.Attribute.fabCustomSize;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fabSize = global::LapshaApp.Droid.Resource.Attribute.fabSize;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fastScrollEnabled = global::LapshaApp.Droid.Resource.Attribute.fastScrollEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::LapshaApp.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::LapshaApp.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fastScrollVerticalThumbDrawable = global::LapshaApp.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fastScrollVerticalTrackDrawable = global::LapshaApp.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.firstBaselineToTopHeight = global::LapshaApp.Droid.Resource.Attribute.firstBaselineToTopHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.floatingActionButtonStyle = global::LapshaApp.Droid.Resource.Attribute.floatingActionButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.font = global::LapshaApp.Droid.Resource.Attribute.font;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fontFamily = global::LapshaApp.Droid.Resource.Attribute.fontFamily;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fontProviderAuthority = global::LapshaApp.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fontProviderCerts = global::LapshaApp.Droid.Resource.Attribute.fontProviderCerts;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fontProviderFetchStrategy = global::LapshaApp.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fontProviderFetchTimeout = global::LapshaApp.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fontProviderPackage = global::LapshaApp.Droid.Resource.Attribute.fontProviderPackage;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fontProviderQuery = global::LapshaApp.Droid.Resource.Attribute.fontProviderQuery;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fontStyle = global::LapshaApp.Droid.Resource.Attribute.fontStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fontVariationSettings = global::LapshaApp.Droid.Resource.Attribute.fontVariationSettings;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fontWeight = global::LapshaApp.Droid.Resource.Attribute.fontWeight;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.foregroundInsidePadding = global::LapshaApp.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.gapBetweenBars = global::LapshaApp.Droid.Resource.Attribute.gapBetweenBars;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.goIcon = global::LapshaApp.Droid.Resource.Attribute.goIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.headerLayout = global::LapshaApp.Droid.Resource.Attribute.headerLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.height = global::LapshaApp.Droid.Resource.Attribute.height;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.helperText = global::LapshaApp.Droid.Resource.Attribute.helperText;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.helperTextEnabled = global::LapshaApp.Droid.Resource.Attribute.helperTextEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.helperTextTextAppearance = global::LapshaApp.Droid.Resource.Attribute.helperTextTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.hideMotionSpec = global::LapshaApp.Droid.Resource.Attribute.hideMotionSpec;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.hideOnContentScroll = global::LapshaApp.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.hideOnScroll = global::LapshaApp.Droid.Resource.Attribute.hideOnScroll;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.hintAnimationEnabled = global::LapshaApp.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.hintEnabled = global::LapshaApp.Droid.Resource.Attribute.hintEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.hintTextAppearance = global::LapshaApp.Droid.Resource.Attribute.hintTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.homeAsUpIndicator = global::LapshaApp.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.homeLayout = global::LapshaApp.Droid.Resource.Attribute.homeLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.hoveredFocusedTranslationZ = global::LapshaApp.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.icon = global::LapshaApp.Droid.Resource.Attribute.icon;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.iconEndPadding = global::LapshaApp.Droid.Resource.Attribute.iconEndPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.iconGravity = global::LapshaApp.Droid.Resource.Attribute.iconGravity;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.iconifiedByDefault = global::LapshaApp.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.iconPadding = global::LapshaApp.Droid.Resource.Attribute.iconPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.iconSize = global::LapshaApp.Droid.Resource.Attribute.iconSize;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.iconStartPadding = global::LapshaApp.Droid.Resource.Attribute.iconStartPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.iconTint = global::LapshaApp.Droid.Resource.Attribute.iconTint;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.iconTintMode = global::LapshaApp.Droid.Resource.Attribute.iconTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.imageButtonStyle = global::LapshaApp.Droid.Resource.Attribute.imageButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.indeterminateProgressStyle = global::LapshaApp.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.initialActivityCount = global::LapshaApp.Droid.Resource.Attribute.initialActivityCount;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.insetForeground = global::LapshaApp.Droid.Resource.Attribute.insetForeground;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.isLightTheme = global::LapshaApp.Droid.Resource.Attribute.isLightTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.itemBackground = global::LapshaApp.Droid.Resource.Attribute.itemBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.itemHorizontalPadding = global::LapshaApp.Droid.Resource.Attribute.itemHorizontalPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.itemHorizontalTranslationEnabled = global::LapshaApp.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.itemIconPadding = global::LapshaApp.Droid.Resource.Attribute.itemIconPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.itemIconSize = global::LapshaApp.Droid.Resource.Attribute.itemIconSize;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.itemIconTint = global::LapshaApp.Droid.Resource.Attribute.itemIconTint;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.itemPadding = global::LapshaApp.Droid.Resource.Attribute.itemPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.itemSpacing = global::LapshaApp.Droid.Resource.Attribute.itemSpacing;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.itemTextAppearance = global::LapshaApp.Droid.Resource.Attribute.itemTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.itemTextAppearanceActive = global::LapshaApp.Droid.Resource.Attribute.itemTextAppearanceActive;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.itemTextAppearanceInactive = global::LapshaApp.Droid.Resource.Attribute.itemTextAppearanceInactive;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.itemTextColor = global::LapshaApp.Droid.Resource.Attribute.itemTextColor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.keylines = global::LapshaApp.Droid.Resource.Attribute.keylines;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.labelVisibilityMode = global::LapshaApp.Droid.Resource.Attribute.labelVisibilityMode;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.lastBaselineToBottomHeight = global::LapshaApp.Droid.Resource.Attribute.lastBaselineToBottomHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.layout = global::LapshaApp.Droid.Resource.Attribute.layout;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.layoutManager = global::LapshaApp.Droid.Resource.Attribute.layoutManager;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.layout_anchor = global::LapshaApp.Droid.Resource.Attribute.layout_anchor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.layout_anchorGravity = global::LapshaApp.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.layout_behavior = global::LapshaApp.Droid.Resource.Attribute.layout_behavior;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.layout_collapseMode = global::LapshaApp.Droid.Resource.Attribute.layout_collapseMode;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.layout_collapseParallaxMultiplier = global::LapshaApp.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.layout_dodgeInsetEdges = global::LapshaApp.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.layout_insetEdge = global::LapshaApp.Droid.Resource.Attribute.layout_insetEdge;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.layout_keyline = global::LapshaApp.Droid.Resource.Attribute.layout_keyline;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.layout_scrollFlags = global::LapshaApp.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.layout_scrollInterpolator = global::LapshaApp.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.liftOnScroll = global::LapshaApp.Droid.Resource.Attribute.liftOnScroll;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.lineHeight = global::LapshaApp.Droid.Resource.Attribute.lineHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.lineSpacing = global::LapshaApp.Droid.Resource.Attribute.lineSpacing;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.listChoiceBackgroundIndicator = global::LapshaApp.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.listDividerAlertDialog = global::LapshaApp.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.listItemLayout = global::LapshaApp.Droid.Resource.Attribute.listItemLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.listLayout = global::LapshaApp.Droid.Resource.Attribute.listLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.listMenuViewStyle = global::LapshaApp.Droid.Resource.Attribute.listMenuViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.listPopupWindowStyle = global::LapshaApp.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.listPreferredItemHeight = global::LapshaApp.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.listPreferredItemHeightLarge = global::LapshaApp.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.listPreferredItemHeightSmall = global::LapshaApp.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.listPreferredItemPaddingLeft = global::LapshaApp.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.listPreferredItemPaddingRight = global::LapshaApp.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.logo = global::LapshaApp.Droid.Resource.Attribute.logo;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.logoDescription = global::LapshaApp.Droid.Resource.Attribute.logoDescription;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.materialButtonStyle = global::LapshaApp.Droid.Resource.Attribute.materialButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.materialCardViewStyle = global::LapshaApp.Droid.Resource.Attribute.materialCardViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.maxActionInlineWidth = global::LapshaApp.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.maxButtonHeight = global::LapshaApp.Droid.Resource.Attribute.maxButtonHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.maxImageSize = global::LapshaApp.Droid.Resource.Attribute.maxImageSize;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.measureWithLargestChild = global::LapshaApp.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.menu = global::LapshaApp.Droid.Resource.Attribute.menu;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.multiChoiceItemLayout = global::LapshaApp.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.navigationContentDescription = global::LapshaApp.Droid.Resource.Attribute.navigationContentDescription;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.navigationIcon = global::LapshaApp.Droid.Resource.Attribute.navigationIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.navigationMode = global::LapshaApp.Droid.Resource.Attribute.navigationMode;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.navigationViewStyle = global::LapshaApp.Droid.Resource.Attribute.navigationViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.numericModifiers = global::LapshaApp.Droid.Resource.Attribute.numericModifiers;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.overlapAnchor = global::LapshaApp.Droid.Resource.Attribute.overlapAnchor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.paddingBottomNoButtons = global::LapshaApp.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.paddingEnd = global::LapshaApp.Droid.Resource.Attribute.paddingEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.paddingStart = global::LapshaApp.Droid.Resource.Attribute.paddingStart;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.paddingTopNoTitle = global::LapshaApp.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.panelBackground = global::LapshaApp.Droid.Resource.Attribute.panelBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.panelMenuListTheme = global::LapshaApp.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.panelMenuListWidth = global::LapshaApp.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.passwordToggleContentDescription = global::LapshaApp.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.passwordToggleDrawable = global::LapshaApp.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.passwordToggleEnabled = global::LapshaApp.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.passwordToggleTint = global::LapshaApp.Droid.Resource.Attribute.passwordToggleTint;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.passwordToggleTintMode = global::LapshaApp.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.popupMenuStyle = global::LapshaApp.Droid.Resource.Attribute.popupMenuStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.popupTheme = global::LapshaApp.Droid.Resource.Attribute.popupTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.popupWindowStyle = global::LapshaApp.Droid.Resource.Attribute.popupWindowStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.preserveIconSpacing = global::LapshaApp.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.pressedTranslationZ = global::LapshaApp.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.progressBarPadding = global::LapshaApp.Droid.Resource.Attribute.progressBarPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.progressBarStyle = global::LapshaApp.Droid.Resource.Attribute.progressBarStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.queryBackground = global::LapshaApp.Droid.Resource.Attribute.queryBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.queryHint = global::LapshaApp.Droid.Resource.Attribute.queryHint;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.radioButtonStyle = global::LapshaApp.Droid.Resource.Attribute.radioButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.ratingBarStyle = global::LapshaApp.Droid.Resource.Attribute.ratingBarStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.ratingBarStyleIndicator = global::LapshaApp.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.ratingBarStyleSmall = global::LapshaApp.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.reverseLayout = global::LapshaApp.Droid.Resource.Attribute.reverseLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.rippleColor = global::LapshaApp.Droid.Resource.Attribute.rippleColor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.scrimAnimationDuration = global::LapshaApp.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.scrimBackground = global::LapshaApp.Droid.Resource.Attribute.scrimBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.scrimVisibleHeightTrigger = global::LapshaApp.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.scrollViewStyle = global::LapshaApp.Droid.Resource.Attribute.scrollViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.searchHintIcon = global::LapshaApp.Droid.Resource.Attribute.searchHintIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.searchIcon = global::LapshaApp.Droid.Resource.Attribute.searchIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.searchViewStyle = global::LapshaApp.Droid.Resource.Attribute.searchViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.seekBarStyle = global::LapshaApp.Droid.Resource.Attribute.seekBarStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.selectableItemBackground = global::LapshaApp.Droid.Resource.Attribute.selectableItemBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.selectableItemBackgroundBorderless = global::LapshaApp.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.showAsAction = global::LapshaApp.Droid.Resource.Attribute.showAsAction;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.showDividers = global::LapshaApp.Droid.Resource.Attribute.showDividers;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.showMotionSpec = global::LapshaApp.Droid.Resource.Attribute.showMotionSpec;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.showText = global::LapshaApp.Droid.Resource.Attribute.showText;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.showTitle = global::LapshaApp.Droid.Resource.Attribute.showTitle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.singleChoiceItemLayout = global::LapshaApp.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.singleLine = global::LapshaApp.Droid.Resource.Attribute.singleLine;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.singleSelection = global::LapshaApp.Droid.Resource.Attribute.singleSelection;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.snackbarButtonStyle = global::LapshaApp.Droid.Resource.Attribute.snackbarButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.snackbarStyle = global::LapshaApp.Droid.Resource.Attribute.snackbarStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.spanCount = global::LapshaApp.Droid.Resource.Attribute.spanCount;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.spinBars = global::LapshaApp.Droid.Resource.Attribute.spinBars;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.spinnerDropDownItemStyle = global::LapshaApp.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.spinnerStyle = global::LapshaApp.Droid.Resource.Attribute.spinnerStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.splitTrack = global::LapshaApp.Droid.Resource.Attribute.splitTrack;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.srcCompat = global::LapshaApp.Droid.Resource.Attribute.srcCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.stackFromEnd = global::LapshaApp.Droid.Resource.Attribute.stackFromEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.state_above_anchor = global::LapshaApp.Droid.Resource.Attribute.state_above_anchor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.state_collapsed = global::LapshaApp.Droid.Resource.Attribute.state_collapsed;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.state_collapsible = global::LapshaApp.Droid.Resource.Attribute.state_collapsible;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.state_liftable = global::LapshaApp.Droid.Resource.Attribute.state_liftable;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.state_lifted = global::LapshaApp.Droid.Resource.Attribute.state_lifted;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.statusBarBackground = global::LapshaApp.Droid.Resource.Attribute.statusBarBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.statusBarScrim = global::LapshaApp.Droid.Resource.Attribute.statusBarScrim;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.strokeColor = global::LapshaApp.Droid.Resource.Attribute.strokeColor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.strokeWidth = global::LapshaApp.Droid.Resource.Attribute.strokeWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.subMenuArrow = global::LapshaApp.Droid.Resource.Attribute.subMenuArrow;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.submitBackground = global::LapshaApp.Droid.Resource.Attribute.submitBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.subtitle = global::LapshaApp.Droid.Resource.Attribute.subtitle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.subtitleTextAppearance = global::LapshaApp.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.subtitleTextColor = global::LapshaApp.Droid.Resource.Attribute.subtitleTextColor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.subtitleTextStyle = global::LapshaApp.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.suggestionRowLayout = global::LapshaApp.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.switchMinWidth = global::LapshaApp.Droid.Resource.Attribute.switchMinWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.switchPadding = global::LapshaApp.Droid.Resource.Attribute.switchPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.switchStyle = global::LapshaApp.Droid.Resource.Attribute.switchStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.switchTextAppearance = global::LapshaApp.Droid.Resource.Attribute.switchTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabBackground = global::LapshaApp.Droid.Resource.Attribute.tabBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabContentStart = global::LapshaApp.Droid.Resource.Attribute.tabContentStart;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabGravity = global::LapshaApp.Droid.Resource.Attribute.tabGravity;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabIconTint = global::LapshaApp.Droid.Resource.Attribute.tabIconTint;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabIconTintMode = global::LapshaApp.Droid.Resource.Attribute.tabIconTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabIndicator = global::LapshaApp.Droid.Resource.Attribute.tabIndicator;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabIndicatorAnimationDuration = global::LapshaApp.Droid.Resource.Attribute.tabIndicatorAnimationDuration;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabIndicatorColor = global::LapshaApp.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabIndicatorFullWidth = global::LapshaApp.Droid.Resource.Attribute.tabIndicatorFullWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabIndicatorGravity = global::LapshaApp.Droid.Resource.Attribute.tabIndicatorGravity;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabIndicatorHeight = global::LapshaApp.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabInlineLabel = global::LapshaApp.Droid.Resource.Attribute.tabInlineLabel;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabMaxWidth = global::LapshaApp.Droid.Resource.Attribute.tabMaxWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabMinWidth = global::LapshaApp.Droid.Resource.Attribute.tabMinWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabMode = global::LapshaApp.Droid.Resource.Attribute.tabMode;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabPadding = global::LapshaApp.Droid.Resource.Attribute.tabPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabPaddingBottom = global::LapshaApp.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabPaddingEnd = global::LapshaApp.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabPaddingStart = global::LapshaApp.Droid.Resource.Attribute.tabPaddingStart;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabPaddingTop = global::LapshaApp.Droid.Resource.Attribute.tabPaddingTop;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabRippleColor = global::LapshaApp.Droid.Resource.Attribute.tabRippleColor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabSelectedTextColor = global::LapshaApp.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabStyle = global::LapshaApp.Droid.Resource.Attribute.tabStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabTextAppearance = global::LapshaApp.Droid.Resource.Attribute.tabTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabTextColor = global::LapshaApp.Droid.Resource.Attribute.tabTextColor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabUnboundedRipple = global::LapshaApp.Droid.Resource.Attribute.tabUnboundedRipple;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAllCaps = global::LapshaApp.Droid.Resource.Attribute.textAllCaps;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceBody1 = global::LapshaApp.Droid.Resource.Attribute.textAppearanceBody1;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceBody2 = global::LapshaApp.Droid.Resource.Attribute.textAppearanceBody2;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceButton = global::LapshaApp.Droid.Resource.Attribute.textAppearanceButton;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceCaption = global::LapshaApp.Droid.Resource.Attribute.textAppearanceCaption;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceHeadline1 = global::LapshaApp.Droid.Resource.Attribute.textAppearanceHeadline1;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceHeadline2 = global::LapshaApp.Droid.Resource.Attribute.textAppearanceHeadline2;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceHeadline3 = global::LapshaApp.Droid.Resource.Attribute.textAppearanceHeadline3;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceHeadline4 = global::LapshaApp.Droid.Resource.Attribute.textAppearanceHeadline4;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceHeadline5 = global::LapshaApp.Droid.Resource.Attribute.textAppearanceHeadline5;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceHeadline6 = global::LapshaApp.Droid.Resource.Attribute.textAppearanceHeadline6;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceLargePopupMenu = global::LapshaApp.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceListItem = global::LapshaApp.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceListItemSecondary = global::LapshaApp.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceListItemSmall = global::LapshaApp.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceOverline = global::LapshaApp.Droid.Resource.Attribute.textAppearanceOverline;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearancePopupMenuHeader = global::LapshaApp.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceSearchResultSubtitle = global::LapshaApp.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceSearchResultTitle = global::LapshaApp.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceSmallPopupMenu = global::LapshaApp.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceSubtitle1 = global::LapshaApp.Droid.Resource.Attribute.textAppearanceSubtitle1;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceSubtitle2 = global::LapshaApp.Droid.Resource.Attribute.textAppearanceSubtitle2;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textColorAlertDialogListItem = global::LapshaApp.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textColorSearchUrl = global::LapshaApp.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textEndPadding = global::LapshaApp.Droid.Resource.Attribute.textEndPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textInputStyle = global::LapshaApp.Droid.Resource.Attribute.textInputStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textStartPadding = global::LapshaApp.Droid.Resource.Attribute.textStartPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.theme = global::LapshaApp.Droid.Resource.Attribute.theme;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.thickness = global::LapshaApp.Droid.Resource.Attribute.thickness;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.thumbTextPadding = global::LapshaApp.Droid.Resource.Attribute.thumbTextPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.thumbTint = global::LapshaApp.Droid.Resource.Attribute.thumbTint;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.thumbTintMode = global::LapshaApp.Droid.Resource.Attribute.thumbTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tickMark = global::LapshaApp.Droid.Resource.Attribute.tickMark;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tickMarkTint = global::LapshaApp.Droid.Resource.Attribute.tickMarkTint;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tickMarkTintMode = global::LapshaApp.Droid.Resource.Attribute.tickMarkTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tint = global::LapshaApp.Droid.Resource.Attribute.tint;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tintMode = global::LapshaApp.Droid.Resource.Attribute.tintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.title = global::LapshaApp.Droid.Resource.Attribute.title;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.titleEnabled = global::LapshaApp.Droid.Resource.Attribute.titleEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.titleMargin = global::LapshaApp.Droid.Resource.Attribute.titleMargin;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.titleMarginBottom = global::LapshaApp.Droid.Resource.Attribute.titleMarginBottom;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.titleMarginEnd = global::LapshaApp.Droid.Resource.Attribute.titleMarginEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.titleMargins = global::LapshaApp.Droid.Resource.Attribute.titleMargins;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.titleMarginStart = global::LapshaApp.Droid.Resource.Attribute.titleMarginStart;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.titleMarginTop = global::LapshaApp.Droid.Resource.Attribute.titleMarginTop;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.titleTextAppearance = global::LapshaApp.Droid.Resource.Attribute.titleTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.titleTextColor = global::LapshaApp.Droid.Resource.Attribute.titleTextColor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.titleTextStyle = global::LapshaApp.Droid.Resource.Attribute.titleTextStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.toolbarId = global::LapshaApp.Droid.Resource.Attribute.toolbarId;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.toolbarNavigationButtonStyle = global::LapshaApp.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.toolbarStyle = global::LapshaApp.Droid.Resource.Attribute.toolbarStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tooltipForegroundColor = global::LapshaApp.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tooltipFrameBackground = global::LapshaApp.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tooltipText = global::LapshaApp.Droid.Resource.Attribute.tooltipText;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.track = global::LapshaApp.Droid.Resource.Attribute.track;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.trackTint = global::LapshaApp.Droid.Resource.Attribute.trackTint;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.trackTintMode = global::LapshaApp.Droid.Resource.Attribute.trackTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.ttcIndex = global::LapshaApp.Droid.Resource.Attribute.ttcIndex;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.useCompatPadding = global::LapshaApp.Droid.Resource.Attribute.useCompatPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.viewInflaterClass = global::LapshaApp.Droid.Resource.Attribute.viewInflaterClass;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.voiceIcon = global::LapshaApp.Droid.Resource.Attribute.voiceIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.windowActionBar = global::LapshaApp.Droid.Resource.Attribute.windowActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.windowActionBarOverlay = global::LapshaApp.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.windowActionModeOverlay = global::LapshaApp.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.windowFixedHeightMajor = global::LapshaApp.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.windowFixedHeightMinor = global::LapshaApp.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.windowFixedWidthMajor = global::LapshaApp.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.windowFixedWidthMinor = global::LapshaApp.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.windowMinWidthMajor = global::LapshaApp.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.windowMinWidthMinor = global::LapshaApp.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.windowNoTitle = global::LapshaApp.Droid.Resource.Attribute.windowNoTitle;
+			global::Xamarin.Forms.PancakeView.Resource.Boolean.abc_action_bar_embed_tabs = global::LapshaApp.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Xamarin.Forms.PancakeView.Resource.Boolean.abc_allow_stacked_button_bar = global::LapshaApp.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::Xamarin.Forms.PancakeView.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::LapshaApp.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Xamarin.Forms.PancakeView.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::LapshaApp.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_background_cache_hint_selector_material_dark = global::LapshaApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_background_cache_hint_selector_material_light = global::LapshaApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_btn_colored_borderless_text_material = global::LapshaApp.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_btn_colored_text_material = global::LapshaApp.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_color_highlight_material = global::LapshaApp.Droid.Resource.Color.abc_color_highlight_material;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_hint_foreground_material_dark = global::LapshaApp.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_hint_foreground_material_light = global::LapshaApp.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_input_method_navigation_guard = global::LapshaApp.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_primary_text_disable_only_material_dark = global::LapshaApp.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_primary_text_disable_only_material_light = global::LapshaApp.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_primary_text_material_dark = global::LapshaApp.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_primary_text_material_light = global::LapshaApp.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_search_url_text = global::LapshaApp.Droid.Resource.Color.abc_search_url_text;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_search_url_text_normal = global::LapshaApp.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_search_url_text_pressed = global::LapshaApp.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_search_url_text_selected = global::LapshaApp.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_secondary_text_material_dark = global::LapshaApp.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_secondary_text_material_light = global::LapshaApp.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_tint_btn_checkable = global::LapshaApp.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_tint_default = global::LapshaApp.Droid.Resource.Color.abc_tint_default;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_tint_edittext = global::LapshaApp.Droid.Resource.Color.abc_tint_edittext;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_tint_seek_thumb = global::LapshaApp.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_tint_spinner = global::LapshaApp.Droid.Resource.Color.abc_tint_spinner;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_tint_switch_track = global::LapshaApp.Droid.Resource.Color.abc_tint_switch_track;
+			global::Xamarin.Forms.PancakeView.Resource.Color.accent_material_dark = global::LapshaApp.Droid.Resource.Color.accent_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.accent_material_light = global::LapshaApp.Droid.Resource.Color.accent_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.background_floating_material_dark = global::LapshaApp.Droid.Resource.Color.background_floating_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.background_floating_material_light = global::LapshaApp.Droid.Resource.Color.background_floating_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.background_material_dark = global::LapshaApp.Droid.Resource.Color.background_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.background_material_light = global::LapshaApp.Droid.Resource.Color.background_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.bright_foreground_disabled_material_dark = global::LapshaApp.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.bright_foreground_disabled_material_light = global::LapshaApp.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.bright_foreground_inverse_material_dark = global::LapshaApp.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.bright_foreground_inverse_material_light = global::LapshaApp.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.bright_foreground_material_dark = global::LapshaApp.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.bright_foreground_material_light = global::LapshaApp.Droid.Resource.Color.bright_foreground_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.browser_actions_bg_grey = global::LapshaApp.Droid.Resource.Color.browser_actions_bg_grey;
+			global::Xamarin.Forms.PancakeView.Resource.Color.browser_actions_divider_color = global::LapshaApp.Droid.Resource.Color.browser_actions_divider_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.browser_actions_text_color = global::LapshaApp.Droid.Resource.Color.browser_actions_text_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.browser_actions_title_color = global::LapshaApp.Droid.Resource.Color.browser_actions_title_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.button_material_dark = global::LapshaApp.Droid.Resource.Color.button_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.button_material_light = global::LapshaApp.Droid.Resource.Color.button_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.cardview_dark_background = global::LapshaApp.Droid.Resource.Color.cardview_dark_background;
+			global::Xamarin.Forms.PancakeView.Resource.Color.cardview_light_background = global::LapshaApp.Droid.Resource.Color.cardview_light_background;
+			global::Xamarin.Forms.PancakeView.Resource.Color.cardview_shadow_end_color = global::LapshaApp.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.cardview_shadow_start_color = global::LapshaApp.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.design_bottom_navigation_shadow_color = global::LapshaApp.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.design_default_color_primary = global::LapshaApp.Droid.Resource.Color.design_default_color_primary;
+			global::Xamarin.Forms.PancakeView.Resource.Color.design_default_color_primary_dark = global::LapshaApp.Droid.Resource.Color.design_default_color_primary_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.design_error = global::LapshaApp.Droid.Resource.Color.design_error;
+			global::Xamarin.Forms.PancakeView.Resource.Color.design_fab_shadow_end_color = global::LapshaApp.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.design_fab_shadow_mid_color = global::LapshaApp.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.design_fab_shadow_start_color = global::LapshaApp.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.design_fab_stroke_end_inner_color = global::LapshaApp.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.design_fab_stroke_end_outer_color = global::LapshaApp.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.design_fab_stroke_top_inner_color = global::LapshaApp.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.design_fab_stroke_top_outer_color = global::LapshaApp.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.design_snackbar_background_color = global::LapshaApp.Droid.Resource.Color.design_snackbar_background_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.design_tint_password_toggle = global::LapshaApp.Droid.Resource.Color.design_tint_password_toggle;
+			global::Xamarin.Forms.PancakeView.Resource.Color.dim_foreground_disabled_material_dark = global::LapshaApp.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.dim_foreground_disabled_material_light = global::LapshaApp.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.dim_foreground_material_dark = global::LapshaApp.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.dim_foreground_material_light = global::LapshaApp.Droid.Resource.Color.dim_foreground_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.error_color_material_dark = global::LapshaApp.Droid.Resource.Color.error_color_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.error_color_material_light = global::LapshaApp.Droid.Resource.Color.error_color_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.foreground_material_dark = global::LapshaApp.Droid.Resource.Color.foreground_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.foreground_material_light = global::LapshaApp.Droid.Resource.Color.foreground_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.highlighted_text_material_dark = global::LapshaApp.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.highlighted_text_material_light = global::LapshaApp.Droid.Resource.Color.highlighted_text_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.material_blue_grey_800 = global::LapshaApp.Droid.Resource.Color.material_blue_grey_800;
+			global::Xamarin.Forms.PancakeView.Resource.Color.material_blue_grey_900 = global::LapshaApp.Droid.Resource.Color.material_blue_grey_900;
+			global::Xamarin.Forms.PancakeView.Resource.Color.material_blue_grey_950 = global::LapshaApp.Droid.Resource.Color.material_blue_grey_950;
+			global::Xamarin.Forms.PancakeView.Resource.Color.material_deep_teal_200 = global::LapshaApp.Droid.Resource.Color.material_deep_teal_200;
+			global::Xamarin.Forms.PancakeView.Resource.Color.material_deep_teal_500 = global::LapshaApp.Droid.Resource.Color.material_deep_teal_500;
+			global::Xamarin.Forms.PancakeView.Resource.Color.material_grey_100 = global::LapshaApp.Droid.Resource.Color.material_grey_100;
+			global::Xamarin.Forms.PancakeView.Resource.Color.material_grey_300 = global::LapshaApp.Droid.Resource.Color.material_grey_300;
+			global::Xamarin.Forms.PancakeView.Resource.Color.material_grey_50 = global::LapshaApp.Droid.Resource.Color.material_grey_50;
+			global::Xamarin.Forms.PancakeView.Resource.Color.material_grey_600 = global::LapshaApp.Droid.Resource.Color.material_grey_600;
+			global::Xamarin.Forms.PancakeView.Resource.Color.material_grey_800 = global::LapshaApp.Droid.Resource.Color.material_grey_800;
+			global::Xamarin.Forms.PancakeView.Resource.Color.material_grey_850 = global::LapshaApp.Droid.Resource.Color.material_grey_850;
+			global::Xamarin.Forms.PancakeView.Resource.Color.material_grey_900 = global::LapshaApp.Droid.Resource.Color.material_grey_900;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_bottom_nav_colored_item_tint = global::LapshaApp.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_bottom_nav_item_tint = global::LapshaApp.Droid.Resource.Color.mtrl_bottom_nav_item_tint;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_btn_bg_color_disabled = global::LapshaApp.Droid.Resource.Color.mtrl_btn_bg_color_disabled;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_btn_bg_color_selector = global::LapshaApp.Droid.Resource.Color.mtrl_btn_bg_color_selector;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_btn_ripple_color = global::LapshaApp.Droid.Resource.Color.mtrl_btn_ripple_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_btn_stroke_color_selector = global::LapshaApp.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_btn_text_btn_ripple_color = global::LapshaApp.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_btn_text_color_disabled = global::LapshaApp.Droid.Resource.Color.mtrl_btn_text_color_disabled;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_btn_text_color_selector = global::LapshaApp.Droid.Resource.Color.mtrl_btn_text_color_selector;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_btn_transparent_bg_color = global::LapshaApp.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_chip_background_color = global::LapshaApp.Droid.Resource.Color.mtrl_chip_background_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_chip_close_icon_tint = global::LapshaApp.Droid.Resource.Color.mtrl_chip_close_icon_tint;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_chip_ripple_color = global::LapshaApp.Droid.Resource.Color.mtrl_chip_ripple_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_chip_text_color = global::LapshaApp.Droid.Resource.Color.mtrl_chip_text_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_fab_ripple_color = global::LapshaApp.Droid.Resource.Color.mtrl_fab_ripple_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_scrim_color = global::LapshaApp.Droid.Resource.Color.mtrl_scrim_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_tabs_colored_ripple_color = global::LapshaApp.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_tabs_icon_color_selector = global::LapshaApp.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::LapshaApp.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::LapshaApp.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_tabs_ripple_color = global::LapshaApp.Droid.Resource.Color.mtrl_tabs_ripple_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_textinput_default_box_stroke_color = global::LapshaApp.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_textinput_disabled_color = global::LapshaApp.Droid.Resource.Color.mtrl_textinput_disabled_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::LapshaApp.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::LapshaApp.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_text_btn_text_color_selector = global::LapshaApp.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
+			global::Xamarin.Forms.PancakeView.Resource.Color.notification_action_color_filter = global::LapshaApp.Droid.Resource.Color.notification_action_color_filter;
+			global::Xamarin.Forms.PancakeView.Resource.Color.notification_icon_bg_color = global::LapshaApp.Droid.Resource.Color.notification_icon_bg_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.notification_material_background_media_default_color = global::LapshaApp.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.primary_dark_material_dark = global::LapshaApp.Droid.Resource.Color.primary_dark_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.primary_dark_material_light = global::LapshaApp.Droid.Resource.Color.primary_dark_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.primary_material_dark = global::LapshaApp.Droid.Resource.Color.primary_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.primary_material_light = global::LapshaApp.Droid.Resource.Color.primary_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.primary_text_default_material_dark = global::LapshaApp.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.primary_text_default_material_light = global::LapshaApp.Droid.Resource.Color.primary_text_default_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.primary_text_disabled_material_dark = global::LapshaApp.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.primary_text_disabled_material_light = global::LapshaApp.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.ripple_material_dark = global::LapshaApp.Droid.Resource.Color.ripple_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.ripple_material_light = global::LapshaApp.Droid.Resource.Color.ripple_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.secondary_text_default_material_dark = global::LapshaApp.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.secondary_text_default_material_light = global::LapshaApp.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.secondary_text_disabled_material_dark = global::LapshaApp.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.secondary_text_disabled_material_light = global::LapshaApp.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.switch_thumb_disabled_material_dark = global::LapshaApp.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.switch_thumb_disabled_material_light = global::LapshaApp.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.switch_thumb_material_dark = global::LapshaApp.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.switch_thumb_material_light = global::LapshaApp.Droid.Resource.Color.switch_thumb_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.switch_thumb_normal_material_dark = global::LapshaApp.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.switch_thumb_normal_material_light = global::LapshaApp.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.tooltip_background_dark = global::LapshaApp.Droid.Resource.Color.tooltip_background_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.tooltip_background_light = global::LapshaApp.Droid.Resource.Color.tooltip_background_light;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_bar_content_inset_material = global::LapshaApp.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::LapshaApp.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_bar_default_height_material = global::LapshaApp.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_bar_default_padding_end_material = global::LapshaApp.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_bar_default_padding_start_material = global::LapshaApp.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_bar_elevation_material = global::LapshaApp.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::LapshaApp.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::LapshaApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::LapshaApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_bar_stacked_max_height = global::LapshaApp.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::LapshaApp.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::LapshaApp.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::LapshaApp.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_button_min_height_material = global::LapshaApp.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_button_min_width_material = global::LapshaApp.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_button_min_width_overflow_material = global::LapshaApp.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_alert_dialog_button_bar_height = global::LapshaApp.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_alert_dialog_button_dimen = global::LapshaApp.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_button_inset_horizontal_material = global::LapshaApp.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_button_inset_vertical_material = global::LapshaApp.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_button_padding_horizontal_material = global::LapshaApp.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_button_padding_vertical_material = global::LapshaApp.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::LapshaApp.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_config_prefDialogWidth = global::LapshaApp.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_control_corner_material = global::LapshaApp.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_control_inset_material = global::LapshaApp.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_control_padding_material = global::LapshaApp.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dialog_corner_radius_material = global::LapshaApp.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dialog_fixed_height_major = global::LapshaApp.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dialog_fixed_height_minor = global::LapshaApp.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dialog_fixed_width_major = global::LapshaApp.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dialog_fixed_width_minor = global::LapshaApp.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::LapshaApp.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::LapshaApp.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dialog_min_width_major = global::LapshaApp.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dialog_min_width_minor = global::LapshaApp.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dialog_padding_material = global::LapshaApp.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dialog_padding_top_material = global::LapshaApp.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dialog_title_divider_material = global::LapshaApp.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_disabled_alpha_material_dark = global::LapshaApp.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_disabled_alpha_material_light = global::LapshaApp.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dropdownitem_icon_width = global::LapshaApp.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dropdownitem_text_padding_left = global::LapshaApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dropdownitem_text_padding_right = global::LapshaApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_edit_text_inset_bottom_material = global::LapshaApp.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::LapshaApp.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_edit_text_inset_top_material = global::LapshaApp.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_floating_window_z = global::LapshaApp.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_list_item_padding_horizontal_material = global::LapshaApp.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_panel_menu_list_width = global::LapshaApp.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_progress_bar_height_material = global::LapshaApp.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_search_view_preferred_height = global::LapshaApp.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_search_view_preferred_width = global::LapshaApp.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_seekbar_track_background_height_material = global::LapshaApp.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_seekbar_track_progress_height_material = global::LapshaApp.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_select_dialog_padding_start_material = global::LapshaApp.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_switch_padding = global::LapshaApp.Droid.Resource.Dimension.abc_switch_padding;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_body_1_material = global::LapshaApp.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_body_2_material = global::LapshaApp.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_button_material = global::LapshaApp.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_caption_material = global::LapshaApp.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_display_1_material = global::LapshaApp.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_display_2_material = global::LapshaApp.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_display_3_material = global::LapshaApp.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_display_4_material = global::LapshaApp.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_headline_material = global::LapshaApp.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_large_material = global::LapshaApp.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_medium_material = global::LapshaApp.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_menu_header_material = global::LapshaApp.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_menu_material = global::LapshaApp.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_small_material = global::LapshaApp.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_subhead_material = global::LapshaApp.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::LapshaApp.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_title_material = global::LapshaApp.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_title_material_toolbar = global::LapshaApp.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.browser_actions_context_menu_max_width = global::LapshaApp.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.browser_actions_context_menu_min_padding = global::LapshaApp.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.cardview_compat_inset_shadow = global::LapshaApp.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.cardview_default_elevation = global::LapshaApp.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.cardview_default_radius = global::LapshaApp.Droid.Resource.Dimension.cardview_default_radius;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.compat_button_inset_horizontal_material = global::LapshaApp.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.compat_button_inset_vertical_material = global::LapshaApp.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.compat_button_padding_horizontal_material = global::LapshaApp.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.compat_button_padding_vertical_material = global::LapshaApp.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.compat_control_corner_material = global::LapshaApp.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.compat_notification_large_icon_max_height = global::LapshaApp.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.compat_notification_large_icon_max_width = global::LapshaApp.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_appbar_elevation = global::LapshaApp.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::LapshaApp.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::LapshaApp.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_bottom_navigation_active_text_size = global::LapshaApp.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_bottom_navigation_elevation = global::LapshaApp.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_bottom_navigation_height = global::LapshaApp.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_bottom_navigation_icon_size = global::LapshaApp.Droid.Resource.Dimension.design_bottom_navigation_icon_size;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_bottom_navigation_item_max_width = global::LapshaApp.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_bottom_navigation_item_min_width = global::LapshaApp.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_bottom_navigation_margin = global::LapshaApp.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_bottom_navigation_shadow_height = global::LapshaApp.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_bottom_navigation_text_size = global::LapshaApp.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_bottom_sheet_modal_elevation = global::LapshaApp.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_bottom_sheet_peek_height_min = global::LapshaApp.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_fab_border_width = global::LapshaApp.Droid.Resource.Dimension.design_fab_border_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_fab_elevation = global::LapshaApp.Droid.Resource.Dimension.design_fab_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_fab_image_size = global::LapshaApp.Droid.Resource.Dimension.design_fab_image_size;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_fab_size_mini = global::LapshaApp.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_fab_size_normal = global::LapshaApp.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_fab_translation_z_hovered_focused = global::LapshaApp.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_fab_translation_z_pressed = global::LapshaApp.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_navigation_elevation = global::LapshaApp.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_navigation_icon_padding = global::LapshaApp.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_navigation_icon_size = global::LapshaApp.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_navigation_item_horizontal_padding = global::LapshaApp.Droid.Resource.Dimension.design_navigation_item_horizontal_padding;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_navigation_item_icon_padding = global::LapshaApp.Droid.Resource.Dimension.design_navigation_item_icon_padding;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_navigation_max_width = global::LapshaApp.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_navigation_padding_bottom = global::LapshaApp.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_navigation_separator_vertical_padding = global::LapshaApp.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_snackbar_action_inline_max_width = global::LapshaApp.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_snackbar_background_corner_radius = global::LapshaApp.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_snackbar_elevation = global::LapshaApp.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::LapshaApp.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_snackbar_max_width = global::LapshaApp.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_snackbar_min_width = global::LapshaApp.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_snackbar_padding_horizontal = global::LapshaApp.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_snackbar_padding_vertical = global::LapshaApp.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::LapshaApp.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_snackbar_text_size = global::LapshaApp.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_tab_max_width = global::LapshaApp.Droid.Resource.Dimension.design_tab_max_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_tab_scrollable_min_width = global::LapshaApp.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_tab_text_size = global::LapshaApp.Droid.Resource.Dimension.design_tab_text_size;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_tab_text_size_2line = global::LapshaApp.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_textinput_caption_translate_y = global::LapshaApp.Droid.Resource.Dimension.design_textinput_caption_translate_y;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.disabled_alpha_material_dark = global::LapshaApp.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.disabled_alpha_material_light = global::LapshaApp.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.fastscroll_default_thickness = global::LapshaApp.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.fastscroll_margin = global::LapshaApp.Droid.Resource.Dimension.fastscroll_margin;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.fastscroll_minimum_range = global::LapshaApp.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.highlight_alpha_material_colored = global::LapshaApp.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.highlight_alpha_material_dark = global::LapshaApp.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.highlight_alpha_material_light = global::LapshaApp.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.hint_alpha_material_dark = global::LapshaApp.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.hint_alpha_material_light = global::LapshaApp.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.hint_pressed_alpha_material_dark = global::LapshaApp.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.hint_pressed_alpha_material_light = global::LapshaApp.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::LapshaApp.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::LapshaApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::LapshaApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::LapshaApp.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::LapshaApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::LapshaApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::LapshaApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_bottomappbar_height = global::LapshaApp.Droid.Resource.Dimension.mtrl_bottomappbar_height;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_corner_radius = global::LapshaApp.Droid.Resource.Dimension.mtrl_btn_corner_radius;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::LapshaApp.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_disabled_elevation = global::LapshaApp.Droid.Resource.Dimension.mtrl_btn_disabled_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_disabled_z = global::LapshaApp.Droid.Resource.Dimension.mtrl_btn_disabled_z;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_elevation = global::LapshaApp.Droid.Resource.Dimension.mtrl_btn_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_focused_z = global::LapshaApp.Droid.Resource.Dimension.mtrl_btn_focused_z;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_hovered_z = global::LapshaApp.Droid.Resource.Dimension.mtrl_btn_hovered_z;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::LapshaApp.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_icon_padding = global::LapshaApp.Droid.Resource.Dimension.mtrl_btn_icon_padding;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_inset = global::LapshaApp.Droid.Resource.Dimension.mtrl_btn_inset;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_letter_spacing = global::LapshaApp.Droid.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_padding_bottom = global::LapshaApp.Droid.Resource.Dimension.mtrl_btn_padding_bottom;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_padding_left = global::LapshaApp.Droid.Resource.Dimension.mtrl_btn_padding_left;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_padding_right = global::LapshaApp.Droid.Resource.Dimension.mtrl_btn_padding_right;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_padding_top = global::LapshaApp.Droid.Resource.Dimension.mtrl_btn_padding_top;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_pressed_z = global::LapshaApp.Droid.Resource.Dimension.mtrl_btn_pressed_z;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_stroke_size = global::LapshaApp.Droid.Resource.Dimension.mtrl_btn_stroke_size;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::LapshaApp.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::LapshaApp.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::LapshaApp.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_text_size = global::LapshaApp.Droid.Resource.Dimension.mtrl_btn_text_size;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_z = global::LapshaApp.Droid.Resource.Dimension.mtrl_btn_z;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_card_elevation = global::LapshaApp.Droid.Resource.Dimension.mtrl_card_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_card_spacing = global::LapshaApp.Droid.Resource.Dimension.mtrl_card_spacing;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_chip_pressed_translation_z = global::LapshaApp.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_chip_text_size = global::LapshaApp.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_fab_elevation = global::LapshaApp.Droid.Resource.Dimension.mtrl_fab_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::LapshaApp.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_fab_translation_z_pressed = global::LapshaApp.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_navigation_elevation = global::LapshaApp.Droid.Resource.Dimension.mtrl_navigation_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::LapshaApp.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_navigation_item_icon_padding = global::LapshaApp.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::LapshaApp.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_snackbar_margin = global::LapshaApp.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_textinput_box_bottom_offset = global::LapshaApp.Droid.Resource.Dimension.mtrl_textinput_box_bottom_offset;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::LapshaApp.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::LapshaApp.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::LapshaApp.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_textinput_box_padding_end = global::LapshaApp.Droid.Resource.Dimension.mtrl_textinput_box_padding_end;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::LapshaApp.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::LapshaApp.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::LapshaApp.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_toolbar_default_height = global::LapshaApp.Droid.Resource.Dimension.mtrl_toolbar_default_height;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_action_icon_size = global::LapshaApp.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_action_text_size = global::LapshaApp.Droid.Resource.Dimension.notification_action_text_size;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_big_circle_margin = global::LapshaApp.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_content_margin_start = global::LapshaApp.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_large_icon_height = global::LapshaApp.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_large_icon_width = global::LapshaApp.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_main_column_padding_top = global::LapshaApp.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_media_narrow_margin = global::LapshaApp.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_right_icon_size = global::LapshaApp.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_right_side_padding_top = global::LapshaApp.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_small_icon_background_padding = global::LapshaApp.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_small_icon_size_as_large = global::LapshaApp.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_subtext_size = global::LapshaApp.Droid.Resource.Dimension.notification_subtext_size;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_top_pad = global::LapshaApp.Droid.Resource.Dimension.notification_top_pad;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_top_pad_large_text = global::LapshaApp.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.subtitle_corner_radius = global::LapshaApp.Droid.Resource.Dimension.subtitle_corner_radius;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.subtitle_outline_width = global::LapshaApp.Droid.Resource.Dimension.subtitle_outline_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.subtitle_shadow_offset = global::LapshaApp.Droid.Resource.Dimension.subtitle_shadow_offset;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.subtitle_shadow_radius = global::LapshaApp.Droid.Resource.Dimension.subtitle_shadow_radius;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.tooltip_corner_radius = global::LapshaApp.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.tooltip_horizontal_padding = global::LapshaApp.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.tooltip_margin = global::LapshaApp.Droid.Resource.Dimension.tooltip_margin;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::LapshaApp.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.tooltip_precise_anchor_threshold = global::LapshaApp.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.tooltip_vertical_padding = global::LapshaApp.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.tooltip_y_offset_non_touch = global::LapshaApp.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.tooltip_y_offset_touch = global::LapshaApp.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::LapshaApp.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_action_bar_item_background_material = global::LapshaApp.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_btn_borderless_material = global::LapshaApp.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_btn_check_material = global::LapshaApp.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::LapshaApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::LapshaApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_btn_colored_material = global::LapshaApp.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_btn_default_mtrl_shape = global::LapshaApp.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_btn_radio_material = global::LapshaApp.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::LapshaApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::LapshaApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::LapshaApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::LapshaApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_cab_background_internal_bg = global::LapshaApp.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_cab_background_top_material = global::LapshaApp.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::LapshaApp.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_control_background_material = global::LapshaApp.Droid.Resource.Drawable.abc_control_background_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_dialog_material_background = global::LapshaApp.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_edit_text_material = global::LapshaApp.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_ab_back_material = global::LapshaApp.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::LapshaApp.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_clear_material = global::LapshaApp.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::LapshaApp.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_go_search_api_material = global::LapshaApp.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::LapshaApp.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::LapshaApp.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_menu_overflow_material = global::LapshaApp.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::LapshaApp.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::LapshaApp.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::LapshaApp.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_search_api_material = global::LapshaApp.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_star_black_16dp = global::LapshaApp.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_star_black_36dp = global::LapshaApp.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_star_black_48dp = global::LapshaApp.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_star_half_black_16dp = global::LapshaApp.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_star_half_black_36dp = global::LapshaApp.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_star_half_black_48dp = global::LapshaApp.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_voice_search_api_material = global::LapshaApp.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_item_background_holo_dark = global::LapshaApp.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_item_background_holo_light = global::LapshaApp.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_list_divider_material = global::LapshaApp.Droid.Resource.Drawable.abc_list_divider_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_list_divider_mtrl_alpha = global::LapshaApp.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_list_focused_holo = global::LapshaApp.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_list_longpressed_holo = global::LapshaApp.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_list_pressed_holo_dark = global::LapshaApp.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_list_pressed_holo_light = global::LapshaApp.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::LapshaApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::LapshaApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::LapshaApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_list_selector_disabled_holo_light = global::LapshaApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_list_selector_holo_dark = global::LapshaApp.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_list_selector_holo_light = global::LapshaApp.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::LapshaApp.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_popup_background_mtrl_mult = global::LapshaApp.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ratingbar_indicator_material = global::LapshaApp.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ratingbar_material = global::LapshaApp.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ratingbar_small_material = global::LapshaApp.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::LapshaApp.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::LapshaApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::LapshaApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::LapshaApp.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::LapshaApp.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_seekbar_thumb_material = global::LapshaApp.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_seekbar_tick_mark_material = global::LapshaApp.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_seekbar_track_material = global::LapshaApp.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::LapshaApp.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_spinner_textfield_background_material = global::LapshaApp.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_switch_thumb_material = global::LapshaApp.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_switch_track_mtrl_alpha = global::LapshaApp.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_tab_indicator_material = global::LapshaApp.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::LapshaApp.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::LapshaApp.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::LapshaApp.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::LapshaApp.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::LapshaApp.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_textfield_search_material = global::LapshaApp.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_text_cursor_material = global::LapshaApp.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::LapshaApp.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::LapshaApp.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::LapshaApp.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::LapshaApp.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::LapshaApp.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::LapshaApp.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_vector_test = global::LapshaApp.Droid.Resource.Drawable.abc_vector_test;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.avd_hide_password = global::LapshaApp.Droid.Resource.Drawable.avd_hide_password;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.avd_show_password = global::LapshaApp.Droid.Resource.Drawable.avd_show_password;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.design_bottom_navigation_item_background = global::LapshaApp.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.design_fab_background = global::LapshaApp.Droid.Resource.Drawable.design_fab_background;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.design_ic_visibility = global::LapshaApp.Droid.Resource.Drawable.design_ic_visibility;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.design_ic_visibility_off = global::LapshaApp.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.design_password_eye = global::LapshaApp.Droid.Resource.Drawable.design_password_eye;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.design_snackbar_background = global::LapshaApp.Droid.Resource.Drawable.design_snackbar_background;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.ic_mtrl_chip_checked_black = global::LapshaApp.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.ic_mtrl_chip_checked_circle = global::LapshaApp.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.ic_mtrl_chip_close_circle = global::LapshaApp.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.mtrl_snackbar_background = global::LapshaApp.Droid.Resource.Drawable.mtrl_snackbar_background;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.mtrl_tabs_default_indicator = global::LapshaApp.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.navigation_empty_icon = global::LapshaApp.Droid.Resource.Drawable.navigation_empty_icon;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.notification_action_background = global::LapshaApp.Droid.Resource.Drawable.notification_action_background;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.notification_bg = global::LapshaApp.Droid.Resource.Drawable.notification_bg;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.notification_bg_low = global::LapshaApp.Droid.Resource.Drawable.notification_bg_low;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.notification_bg_low_normal = global::LapshaApp.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.notification_bg_low_pressed = global::LapshaApp.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.notification_bg_normal = global::LapshaApp.Droid.Resource.Drawable.notification_bg_normal;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.notification_bg_normal_pressed = global::LapshaApp.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.notification_icon_background = global::LapshaApp.Droid.Resource.Drawable.notification_icon_background;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.notification_template_icon_bg = global::LapshaApp.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.notification_template_icon_low_bg = global::LapshaApp.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.notification_tile_bg = global::LapshaApp.Droid.Resource.Drawable.notification_tile_bg;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.notify_panel_notification_icon_bg = global::LapshaApp.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.tooltip_frame_dark = global::LapshaApp.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.tooltip_frame_light = global::LapshaApp.Droid.Resource.Drawable.tooltip_frame_light;
+			global::Xamarin.Forms.PancakeView.Resource.Id.action0 = global::LapshaApp.Droid.Resource.Id.action0;
+			global::Xamarin.Forms.PancakeView.Resource.Id.actions = global::LapshaApp.Droid.Resource.Id.actions;
+			global::Xamarin.Forms.PancakeView.Resource.Id.action_bar = global::LapshaApp.Droid.Resource.Id.action_bar;
+			global::Xamarin.Forms.PancakeView.Resource.Id.action_bar_activity_content = global::LapshaApp.Droid.Resource.Id.action_bar_activity_content;
+			global::Xamarin.Forms.PancakeView.Resource.Id.action_bar_container = global::LapshaApp.Droid.Resource.Id.action_bar_container;
+			global::Xamarin.Forms.PancakeView.Resource.Id.action_bar_root = global::LapshaApp.Droid.Resource.Id.action_bar_root;
+			global::Xamarin.Forms.PancakeView.Resource.Id.action_bar_spinner = global::LapshaApp.Droid.Resource.Id.action_bar_spinner;
+			global::Xamarin.Forms.PancakeView.Resource.Id.action_bar_subtitle = global::LapshaApp.Droid.Resource.Id.action_bar_subtitle;
+			global::Xamarin.Forms.PancakeView.Resource.Id.action_bar_title = global::LapshaApp.Droid.Resource.Id.action_bar_title;
+			global::Xamarin.Forms.PancakeView.Resource.Id.action_container = global::LapshaApp.Droid.Resource.Id.action_container;
+			global::Xamarin.Forms.PancakeView.Resource.Id.action_context_bar = global::LapshaApp.Droid.Resource.Id.action_context_bar;
+			global::Xamarin.Forms.PancakeView.Resource.Id.action_divider = global::LapshaApp.Droid.Resource.Id.action_divider;
+			global::Xamarin.Forms.PancakeView.Resource.Id.action_image = global::LapshaApp.Droid.Resource.Id.action_image;
+			global::Xamarin.Forms.PancakeView.Resource.Id.action_menu_divider = global::LapshaApp.Droid.Resource.Id.action_menu_divider;
+			global::Xamarin.Forms.PancakeView.Resource.Id.action_menu_presenter = global::LapshaApp.Droid.Resource.Id.action_menu_presenter;
+			global::Xamarin.Forms.PancakeView.Resource.Id.action_mode_bar = global::LapshaApp.Droid.Resource.Id.action_mode_bar;
+			global::Xamarin.Forms.PancakeView.Resource.Id.action_mode_bar_stub = global::LapshaApp.Droid.Resource.Id.action_mode_bar_stub;
+			global::Xamarin.Forms.PancakeView.Resource.Id.action_mode_close_button = global::LapshaApp.Droid.Resource.Id.action_mode_close_button;
+			global::Xamarin.Forms.PancakeView.Resource.Id.action_text = global::LapshaApp.Droid.Resource.Id.action_text;
+			global::Xamarin.Forms.PancakeView.Resource.Id.activity_chooser_view_content = global::LapshaApp.Droid.Resource.Id.activity_chooser_view_content;
+			global::Xamarin.Forms.PancakeView.Resource.Id.add = global::LapshaApp.Droid.Resource.Id.add;
+			global::Xamarin.Forms.PancakeView.Resource.Id.alertTitle = global::LapshaApp.Droid.Resource.Id.alertTitle;
+			global::Xamarin.Forms.PancakeView.Resource.Id.all = global::LapshaApp.Droid.Resource.Id.all;
+			global::Xamarin.Forms.PancakeView.Resource.Id.ALT = global::LapshaApp.Droid.Resource.Id.ALT;
+			global::Xamarin.Forms.PancakeView.Resource.Id.always = global::LapshaApp.Droid.Resource.Id.always;
+			global::Xamarin.Forms.PancakeView.Resource.Id.async = global::LapshaApp.Droid.Resource.Id.async;
+			global::Xamarin.Forms.PancakeView.Resource.Id.auto = global::LapshaApp.Droid.Resource.Id.auto;
+			global::Xamarin.Forms.PancakeView.Resource.Id.beginning = global::LapshaApp.Droid.Resource.Id.beginning;
+			global::Xamarin.Forms.PancakeView.Resource.Id.blocking = global::LapshaApp.Droid.Resource.Id.blocking;
+			global::Xamarin.Forms.PancakeView.Resource.Id.bottom = global::LapshaApp.Droid.Resource.Id.bottom;
+			global::Xamarin.Forms.PancakeView.Resource.Id.bottomtab_navarea = global::LapshaApp.Droid.Resource.Id.bottomtab_navarea;
+			global::Xamarin.Forms.PancakeView.Resource.Id.bottomtab_tabbar = global::LapshaApp.Droid.Resource.Id.bottomtab_tabbar;
+			global::Xamarin.Forms.PancakeView.Resource.Id.browser_actions_header_text = global::LapshaApp.Droid.Resource.Id.browser_actions_header_text;
+			global::Xamarin.Forms.PancakeView.Resource.Id.browser_actions_menu_items = global::LapshaApp.Droid.Resource.Id.browser_actions_menu_items;
+			global::Xamarin.Forms.PancakeView.Resource.Id.browser_actions_menu_item_icon = global::LapshaApp.Droid.Resource.Id.browser_actions_menu_item_icon;
+			global::Xamarin.Forms.PancakeView.Resource.Id.browser_actions_menu_item_text = global::LapshaApp.Droid.Resource.Id.browser_actions_menu_item_text;
+			global::Xamarin.Forms.PancakeView.Resource.Id.browser_actions_menu_view = global::LapshaApp.Droid.Resource.Id.browser_actions_menu_view;
+			global::Xamarin.Forms.PancakeView.Resource.Id.buttonPanel = global::LapshaApp.Droid.Resource.Id.buttonPanel;
+			global::Xamarin.Forms.PancakeView.Resource.Id.cancel_action = global::LapshaApp.Droid.Resource.Id.cancel_action;
+			global::Xamarin.Forms.PancakeView.Resource.Id.center = global::LapshaApp.Droid.Resource.Id.center;
+			global::Xamarin.Forms.PancakeView.Resource.Id.center_horizontal = global::LapshaApp.Droid.Resource.Id.center_horizontal;
+			global::Xamarin.Forms.PancakeView.Resource.Id.center_vertical = global::LapshaApp.Droid.Resource.Id.center_vertical;
+			global::Xamarin.Forms.PancakeView.Resource.Id.checkbox = global::LapshaApp.Droid.Resource.Id.checkbox;
+			global::Xamarin.Forms.PancakeView.Resource.Id.chronometer = global::LapshaApp.Droid.Resource.Id.chronometer;
+			global::Xamarin.Forms.PancakeView.Resource.Id.clip_horizontal = global::LapshaApp.Droid.Resource.Id.clip_horizontal;
+			global::Xamarin.Forms.PancakeView.Resource.Id.clip_vertical = global::LapshaApp.Droid.Resource.Id.clip_vertical;
+			global::Xamarin.Forms.PancakeView.Resource.Id.collapseActionView = global::LapshaApp.Droid.Resource.Id.collapseActionView;
+			global::Xamarin.Forms.PancakeView.Resource.Id.container = global::LapshaApp.Droid.Resource.Id.container;
+			global::Xamarin.Forms.PancakeView.Resource.Id.content = global::LapshaApp.Droid.Resource.Id.content;
+			global::Xamarin.Forms.PancakeView.Resource.Id.contentPanel = global::LapshaApp.Droid.Resource.Id.contentPanel;
+			global::Xamarin.Forms.PancakeView.Resource.Id.coordinator = global::LapshaApp.Droid.Resource.Id.coordinator;
+			global::Xamarin.Forms.PancakeView.Resource.Id.CTRL = global::LapshaApp.Droid.Resource.Id.CTRL;
+			global::Xamarin.Forms.PancakeView.Resource.Id.custom = global::LapshaApp.Droid.Resource.Id.custom;
+			global::Xamarin.Forms.PancakeView.Resource.Id.customPanel = global::LapshaApp.Droid.Resource.Id.customPanel;
+			global::Xamarin.Forms.PancakeView.Resource.Id.decor_content_parent = global::LapshaApp.Droid.Resource.Id.decor_content_parent;
+			global::Xamarin.Forms.PancakeView.Resource.Id.default_activity_button = global::LapshaApp.Droid.Resource.Id.default_activity_button;
+			global::Xamarin.Forms.PancakeView.Resource.Id.design_bottom_sheet = global::LapshaApp.Droid.Resource.Id.design_bottom_sheet;
+			global::Xamarin.Forms.PancakeView.Resource.Id.design_menu_item_action_area = global::LapshaApp.Droid.Resource.Id.design_menu_item_action_area;
+			global::Xamarin.Forms.PancakeView.Resource.Id.design_menu_item_action_area_stub = global::LapshaApp.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Xamarin.Forms.PancakeView.Resource.Id.design_menu_item_text = global::LapshaApp.Droid.Resource.Id.design_menu_item_text;
+			global::Xamarin.Forms.PancakeView.Resource.Id.design_navigation_view = global::LapshaApp.Droid.Resource.Id.design_navigation_view;
+			global::Xamarin.Forms.PancakeView.Resource.Id.disableHome = global::LapshaApp.Droid.Resource.Id.disableHome;
+			global::Xamarin.Forms.PancakeView.Resource.Id.edit_query = global::LapshaApp.Droid.Resource.Id.edit_query;
+			global::Xamarin.Forms.PancakeView.Resource.Id.end = global::LapshaApp.Droid.Resource.Id.end;
+			global::Xamarin.Forms.PancakeView.Resource.Id.end_padder = global::LapshaApp.Droid.Resource.Id.end_padder;
+			global::Xamarin.Forms.PancakeView.Resource.Id.enterAlways = global::LapshaApp.Droid.Resource.Id.enterAlways;
+			global::Xamarin.Forms.PancakeView.Resource.Id.enterAlwaysCollapsed = global::LapshaApp.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Xamarin.Forms.PancakeView.Resource.Id.exitUntilCollapsed = global::LapshaApp.Droid.Resource.Id.exitUntilCollapsed;
+			global::Xamarin.Forms.PancakeView.Resource.Id.expanded_menu = global::LapshaApp.Droid.Resource.Id.expanded_menu;
+			global::Xamarin.Forms.PancakeView.Resource.Id.expand_activities_button = global::LapshaApp.Droid.Resource.Id.expand_activities_button;
+			global::Xamarin.Forms.PancakeView.Resource.Id.fill = global::LapshaApp.Droid.Resource.Id.fill;
+			global::Xamarin.Forms.PancakeView.Resource.Id.filled = global::LapshaApp.Droid.Resource.Id.filled;
+			global::Xamarin.Forms.PancakeView.Resource.Id.fill_horizontal = global::LapshaApp.Droid.Resource.Id.fill_horizontal;
+			global::Xamarin.Forms.PancakeView.Resource.Id.fill_vertical = global::LapshaApp.Droid.Resource.Id.fill_vertical;
+			global::Xamarin.Forms.PancakeView.Resource.Id.@fixed = global::LapshaApp.Droid.Resource.Id.@fixed;
+			global::Xamarin.Forms.PancakeView.Resource.Id.flyoutcontent_appbar = global::LapshaApp.Droid.Resource.Id.flyoutcontent_appbar;
+			global::Xamarin.Forms.PancakeView.Resource.Id.flyoutcontent_recycler = global::LapshaApp.Droid.Resource.Id.flyoutcontent_recycler;
+			global::Xamarin.Forms.PancakeView.Resource.Id.forever = global::LapshaApp.Droid.Resource.Id.forever;
+			global::Xamarin.Forms.PancakeView.Resource.Id.FUNCTION = global::LapshaApp.Droid.Resource.Id.FUNCTION;
+			global::Xamarin.Forms.PancakeView.Resource.Id.ghost_view = global::LapshaApp.Droid.Resource.Id.ghost_view;
+			global::Xamarin.Forms.PancakeView.Resource.Id.group_divider = global::LapshaApp.Droid.Resource.Id.group_divider;
+			global::Xamarin.Forms.PancakeView.Resource.Id.home = global::LapshaApp.Droid.Resource.Id.home;
+			global::Xamarin.Forms.PancakeView.Resource.Id.homeAsUp = global::LapshaApp.Droid.Resource.Id.homeAsUp;
+			global::Xamarin.Forms.PancakeView.Resource.Id.icon = global::LapshaApp.Droid.Resource.Id.icon;
+			global::Xamarin.Forms.PancakeView.Resource.Id.icon_group = global::LapshaApp.Droid.Resource.Id.icon_group;
+			global::Xamarin.Forms.PancakeView.Resource.Id.ifRoom = global::LapshaApp.Droid.Resource.Id.ifRoom;
+			global::Xamarin.Forms.PancakeView.Resource.Id.image = global::LapshaApp.Droid.Resource.Id.image;
+			global::Xamarin.Forms.PancakeView.Resource.Id.info = global::LapshaApp.Droid.Resource.Id.info;
+			global::Xamarin.Forms.PancakeView.Resource.Id.italic = global::LapshaApp.Droid.Resource.Id.italic;
+			global::Xamarin.Forms.PancakeView.Resource.Id.item_touch_helper_previous_elevation = global::LapshaApp.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Id.labeled = global::LapshaApp.Droid.Resource.Id.labeled;
+			global::Xamarin.Forms.PancakeView.Resource.Id.largeLabel = global::LapshaApp.Droid.Resource.Id.largeLabel;
+			global::Xamarin.Forms.PancakeView.Resource.Id.left = global::LapshaApp.Droid.Resource.Id.left;
+			global::Xamarin.Forms.PancakeView.Resource.Id.line1 = global::LapshaApp.Droid.Resource.Id.line1;
+			global::Xamarin.Forms.PancakeView.Resource.Id.line3 = global::LapshaApp.Droid.Resource.Id.line3;
+			global::Xamarin.Forms.PancakeView.Resource.Id.listMode = global::LapshaApp.Droid.Resource.Id.listMode;
+			global::Xamarin.Forms.PancakeView.Resource.Id.list_item = global::LapshaApp.Droid.Resource.Id.list_item;
+			global::Xamarin.Forms.PancakeView.Resource.Id.main_appbar = global::LapshaApp.Droid.Resource.Id.main_appbar;
+			global::Xamarin.Forms.PancakeView.Resource.Id.main_tablayout = global::LapshaApp.Droid.Resource.Id.main_tablayout;
+			global::Xamarin.Forms.PancakeView.Resource.Id.main_toolbar = global::LapshaApp.Droid.Resource.Id.main_toolbar;
+			global::Xamarin.Forms.PancakeView.Resource.Id.main_viewpager = global::LapshaApp.Droid.Resource.Id.main_viewpager;
+			global::Xamarin.Forms.PancakeView.Resource.Id.masked = global::LapshaApp.Droid.Resource.Id.masked;
+			global::Xamarin.Forms.PancakeView.Resource.Id.media_actions = global::LapshaApp.Droid.Resource.Id.media_actions;
+			global::Xamarin.Forms.PancakeView.Resource.Id.message = global::LapshaApp.Droid.Resource.Id.message;
+			global::Xamarin.Forms.PancakeView.Resource.Id.META = global::LapshaApp.Droid.Resource.Id.META;
+			global::Xamarin.Forms.PancakeView.Resource.Id.middle = global::LapshaApp.Droid.Resource.Id.middle;
+			global::Xamarin.Forms.PancakeView.Resource.Id.mini = global::LapshaApp.Droid.Resource.Id.mini;
+			global::Xamarin.Forms.PancakeView.Resource.Id.mtrl_child_content_container = global::LapshaApp.Droid.Resource.Id.mtrl_child_content_container;
+			global::Xamarin.Forms.PancakeView.Resource.Id.mtrl_internal_children_alpha_tag = global::LapshaApp.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::Xamarin.Forms.PancakeView.Resource.Id.multiply = global::LapshaApp.Droid.Resource.Id.multiply;
+			global::Xamarin.Forms.PancakeView.Resource.Id.navigation_header_container = global::LapshaApp.Droid.Resource.Id.navigation_header_container;
+			global::Xamarin.Forms.PancakeView.Resource.Id.never = global::LapshaApp.Droid.Resource.Id.never;
+			global::Xamarin.Forms.PancakeView.Resource.Id.none = global::LapshaApp.Droid.Resource.Id.none;
+			global::Xamarin.Forms.PancakeView.Resource.Id.normal = global::LapshaApp.Droid.Resource.Id.normal;
+			global::Xamarin.Forms.PancakeView.Resource.Id.notification_background = global::LapshaApp.Droid.Resource.Id.notification_background;
+			global::Xamarin.Forms.PancakeView.Resource.Id.notification_main_column = global::LapshaApp.Droid.Resource.Id.notification_main_column;
+			global::Xamarin.Forms.PancakeView.Resource.Id.notification_main_column_container = global::LapshaApp.Droid.Resource.Id.notification_main_column_container;
+			global::Xamarin.Forms.PancakeView.Resource.Id.outline = global::LapshaApp.Droid.Resource.Id.outline;
+			global::Xamarin.Forms.PancakeView.Resource.Id.parallax = global::LapshaApp.Droid.Resource.Id.parallax;
+			global::Xamarin.Forms.PancakeView.Resource.Id.parentPanel = global::LapshaApp.Droid.Resource.Id.parentPanel;
+			global::Xamarin.Forms.PancakeView.Resource.Id.parent_matrix = global::LapshaApp.Droid.Resource.Id.parent_matrix;
+			global::Xamarin.Forms.PancakeView.Resource.Id.pin = global::LapshaApp.Droid.Resource.Id.pin;
+			global::Xamarin.Forms.PancakeView.Resource.Id.progress_circular = global::LapshaApp.Droid.Resource.Id.progress_circular;
+			global::Xamarin.Forms.PancakeView.Resource.Id.progress_horizontal = global::LapshaApp.Droid.Resource.Id.progress_horizontal;
+			global::Xamarin.Forms.PancakeView.Resource.Id.radio = global::LapshaApp.Droid.Resource.Id.radio;
+			global::Xamarin.Forms.PancakeView.Resource.Id.right = global::LapshaApp.Droid.Resource.Id.right;
+			global::Xamarin.Forms.PancakeView.Resource.Id.right_icon = global::LapshaApp.Droid.Resource.Id.right_icon;
+			global::Xamarin.Forms.PancakeView.Resource.Id.right_side = global::LapshaApp.Droid.Resource.Id.right_side;
+			global::Xamarin.Forms.PancakeView.Resource.Id.save_image_matrix = global::LapshaApp.Droid.Resource.Id.save_image_matrix;
+			global::Xamarin.Forms.PancakeView.Resource.Id.save_non_transition_alpha = global::LapshaApp.Droid.Resource.Id.save_non_transition_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Id.save_scale_type = global::LapshaApp.Droid.Resource.Id.save_scale_type;
+			global::Xamarin.Forms.PancakeView.Resource.Id.screen = global::LapshaApp.Droid.Resource.Id.screen;
+			global::Xamarin.Forms.PancakeView.Resource.Id.scroll = global::LapshaApp.Droid.Resource.Id.scroll;
+			global::Xamarin.Forms.PancakeView.Resource.Id.scrollable = global::LapshaApp.Droid.Resource.Id.scrollable;
+			global::Xamarin.Forms.PancakeView.Resource.Id.scrollIndicatorDown = global::LapshaApp.Droid.Resource.Id.scrollIndicatorDown;
+			global::Xamarin.Forms.PancakeView.Resource.Id.scrollIndicatorUp = global::LapshaApp.Droid.Resource.Id.scrollIndicatorUp;
+			global::Xamarin.Forms.PancakeView.Resource.Id.scrollView = global::LapshaApp.Droid.Resource.Id.scrollView;
+			global::Xamarin.Forms.PancakeView.Resource.Id.search_badge = global::LapshaApp.Droid.Resource.Id.search_badge;
+			global::Xamarin.Forms.PancakeView.Resource.Id.search_bar = global::LapshaApp.Droid.Resource.Id.search_bar;
+			global::Xamarin.Forms.PancakeView.Resource.Id.search_button = global::LapshaApp.Droid.Resource.Id.search_button;
+			global::Xamarin.Forms.PancakeView.Resource.Id.search_close_btn = global::LapshaApp.Droid.Resource.Id.search_close_btn;
+			global::Xamarin.Forms.PancakeView.Resource.Id.search_edit_frame = global::LapshaApp.Droid.Resource.Id.search_edit_frame;
+			global::Xamarin.Forms.PancakeView.Resource.Id.search_go_btn = global::LapshaApp.Droid.Resource.Id.search_go_btn;
+			global::Xamarin.Forms.PancakeView.Resource.Id.search_mag_icon = global::LapshaApp.Droid.Resource.Id.search_mag_icon;
+			global::Xamarin.Forms.PancakeView.Resource.Id.search_plate = global::LapshaApp.Droid.Resource.Id.search_plate;
+			global::Xamarin.Forms.PancakeView.Resource.Id.search_src_text = global::LapshaApp.Droid.Resource.Id.search_src_text;
+			global::Xamarin.Forms.PancakeView.Resource.Id.search_voice_btn = global::LapshaApp.Droid.Resource.Id.search_voice_btn;
+			global::Xamarin.Forms.PancakeView.Resource.Id.selected = global::LapshaApp.Droid.Resource.Id.selected;
+			global::Xamarin.Forms.PancakeView.Resource.Id.select_dialog_listview = global::LapshaApp.Droid.Resource.Id.select_dialog_listview;
+			global::Xamarin.Forms.PancakeView.Resource.Id.shellcontent_appbar = global::LapshaApp.Droid.Resource.Id.shellcontent_appbar;
+			global::Xamarin.Forms.PancakeView.Resource.Id.shellcontent_toolbar = global::LapshaApp.Droid.Resource.Id.shellcontent_toolbar;
+			global::Xamarin.Forms.PancakeView.Resource.Id.SHIFT = global::LapshaApp.Droid.Resource.Id.SHIFT;
+			global::Xamarin.Forms.PancakeView.Resource.Id.shortcut = global::LapshaApp.Droid.Resource.Id.shortcut;
+			global::Xamarin.Forms.PancakeView.Resource.Id.showCustom = global::LapshaApp.Droid.Resource.Id.showCustom;
+			global::Xamarin.Forms.PancakeView.Resource.Id.showHome = global::LapshaApp.Droid.Resource.Id.showHome;
+			global::Xamarin.Forms.PancakeView.Resource.Id.showTitle = global::LapshaApp.Droid.Resource.Id.showTitle;
+			global::Xamarin.Forms.PancakeView.Resource.Id.smallLabel = global::LapshaApp.Droid.Resource.Id.smallLabel;
+			global::Xamarin.Forms.PancakeView.Resource.Id.snackbar_action = global::LapshaApp.Droid.Resource.Id.snackbar_action;
+			global::Xamarin.Forms.PancakeView.Resource.Id.snackbar_text = global::LapshaApp.Droid.Resource.Id.snackbar_text;
+			global::Xamarin.Forms.PancakeView.Resource.Id.snap = global::LapshaApp.Droid.Resource.Id.snap;
+			global::Xamarin.Forms.PancakeView.Resource.Id.snapMargins = global::LapshaApp.Droid.Resource.Id.snapMargins;
+			global::Xamarin.Forms.PancakeView.Resource.Id.spacer = global::LapshaApp.Droid.Resource.Id.spacer;
+			global::Xamarin.Forms.PancakeView.Resource.Id.split_action_bar = global::LapshaApp.Droid.Resource.Id.split_action_bar;
+			global::Xamarin.Forms.PancakeView.Resource.Id.src_atop = global::LapshaApp.Droid.Resource.Id.src_atop;
+			global::Xamarin.Forms.PancakeView.Resource.Id.src_in = global::LapshaApp.Droid.Resource.Id.src_in;
+			global::Xamarin.Forms.PancakeView.Resource.Id.src_over = global::LapshaApp.Droid.Resource.Id.src_over;
+			global::Xamarin.Forms.PancakeView.Resource.Id.start = global::LapshaApp.Droid.Resource.Id.start;
+			global::Xamarin.Forms.PancakeView.Resource.Id.status_bar_latest_event_content = global::LapshaApp.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Xamarin.Forms.PancakeView.Resource.Id.stretch = global::LapshaApp.Droid.Resource.Id.stretch;
+			global::Xamarin.Forms.PancakeView.Resource.Id.submenuarrow = global::LapshaApp.Droid.Resource.Id.submenuarrow;
+			global::Xamarin.Forms.PancakeView.Resource.Id.submit_area = global::LapshaApp.Droid.Resource.Id.submit_area;
+			global::Xamarin.Forms.PancakeView.Resource.Id.SYM = global::LapshaApp.Droid.Resource.Id.SYM;
+			global::Xamarin.Forms.PancakeView.Resource.Id.tabMode = global::LapshaApp.Droid.Resource.Id.tabMode;
+			global::Xamarin.Forms.PancakeView.Resource.Id.tag_transition_group = global::LapshaApp.Droid.Resource.Id.tag_transition_group;
+			global::Xamarin.Forms.PancakeView.Resource.Id.tag_unhandled_key_event_manager = global::LapshaApp.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::Xamarin.Forms.PancakeView.Resource.Id.tag_unhandled_key_listeners = global::LapshaApp.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::Xamarin.Forms.PancakeView.Resource.Id.text = global::LapshaApp.Droid.Resource.Id.text;
+			global::Xamarin.Forms.PancakeView.Resource.Id.text2 = global::LapshaApp.Droid.Resource.Id.text2;
+			global::Xamarin.Forms.PancakeView.Resource.Id.textinput_counter = global::LapshaApp.Droid.Resource.Id.textinput_counter;
+			global::Xamarin.Forms.PancakeView.Resource.Id.textinput_error = global::LapshaApp.Droid.Resource.Id.textinput_error;
+			global::Xamarin.Forms.PancakeView.Resource.Id.textinput_helper_text = global::LapshaApp.Droid.Resource.Id.textinput_helper_text;
+			global::Xamarin.Forms.PancakeView.Resource.Id.textSpacerNoButtons = global::LapshaApp.Droid.Resource.Id.textSpacerNoButtons;
+			global::Xamarin.Forms.PancakeView.Resource.Id.textSpacerNoTitle = global::LapshaApp.Droid.Resource.Id.textSpacerNoTitle;
+			global::Xamarin.Forms.PancakeView.Resource.Id.textStart = global::LapshaApp.Droid.Resource.Id.textStart;
+			global::Xamarin.Forms.PancakeView.Resource.Id.text_input_password_toggle = global::LapshaApp.Droid.Resource.Id.text_input_password_toggle;
+			global::Xamarin.Forms.PancakeView.Resource.Id.time = global::LapshaApp.Droid.Resource.Id.time;
+			global::Xamarin.Forms.PancakeView.Resource.Id.title = global::LapshaApp.Droid.Resource.Id.title;
+			global::Xamarin.Forms.PancakeView.Resource.Id.titleDividerNoCustom = global::LapshaApp.Droid.Resource.Id.titleDividerNoCustom;
+			global::Xamarin.Forms.PancakeView.Resource.Id.title_template = global::LapshaApp.Droid.Resource.Id.title_template;
+			global::Xamarin.Forms.PancakeView.Resource.Id.top = global::LapshaApp.Droid.Resource.Id.top;
+			global::Xamarin.Forms.PancakeView.Resource.Id.topPanel = global::LapshaApp.Droid.Resource.Id.topPanel;
+			global::Xamarin.Forms.PancakeView.Resource.Id.touch_outside = global::LapshaApp.Droid.Resource.Id.touch_outside;
+			global::Xamarin.Forms.PancakeView.Resource.Id.transition_current_scene = global::LapshaApp.Droid.Resource.Id.transition_current_scene;
+			global::Xamarin.Forms.PancakeView.Resource.Id.transition_layout_save = global::LapshaApp.Droid.Resource.Id.transition_layout_save;
+			global::Xamarin.Forms.PancakeView.Resource.Id.transition_position = global::LapshaApp.Droid.Resource.Id.transition_position;
+			global::Xamarin.Forms.PancakeView.Resource.Id.transition_scene_layoutid_cache = global::LapshaApp.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::Xamarin.Forms.PancakeView.Resource.Id.transition_transform = global::LapshaApp.Droid.Resource.Id.transition_transform;
+			global::Xamarin.Forms.PancakeView.Resource.Id.uniform = global::LapshaApp.Droid.Resource.Id.uniform;
+			global::Xamarin.Forms.PancakeView.Resource.Id.unlabeled = global::LapshaApp.Droid.Resource.Id.unlabeled;
+			global::Xamarin.Forms.PancakeView.Resource.Id.up = global::LapshaApp.Droid.Resource.Id.up;
+			global::Xamarin.Forms.PancakeView.Resource.Id.useLogo = global::LapshaApp.Droid.Resource.Id.useLogo;
+			global::Xamarin.Forms.PancakeView.Resource.Id.view_offset_helper = global::LapshaApp.Droid.Resource.Id.view_offset_helper;
+			global::Xamarin.Forms.PancakeView.Resource.Id.visible = global::LapshaApp.Droid.Resource.Id.visible;
+			global::Xamarin.Forms.PancakeView.Resource.Id.withText = global::LapshaApp.Droid.Resource.Id.withText;
+			global::Xamarin.Forms.PancakeView.Resource.Id.wrap_content = global::LapshaApp.Droid.Resource.Id.wrap_content;
+			global::Xamarin.Forms.PancakeView.Resource.Integer.abc_config_activityDefaultDur = global::LapshaApp.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Xamarin.Forms.PancakeView.Resource.Integer.abc_config_activityShortDur = global::LapshaApp.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Xamarin.Forms.PancakeView.Resource.Integer.app_bar_elevation_anim_duration = global::LapshaApp.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::Xamarin.Forms.PancakeView.Resource.Integer.bottom_sheet_slide_duration = global::LapshaApp.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Xamarin.Forms.PancakeView.Resource.Integer.cancel_button_image_alpha = global::LapshaApp.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Integer.config_tooltipAnimTime = global::LapshaApp.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::Xamarin.Forms.PancakeView.Resource.Integer.design_snackbar_text_max_lines = global::LapshaApp.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Xamarin.Forms.PancakeView.Resource.Integer.design_tab_indicator_anim_duration_ms = global::LapshaApp.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
+			global::Xamarin.Forms.PancakeView.Resource.Integer.hide_password_duration = global::LapshaApp.Droid.Resource.Integer.hide_password_duration;
+			global::Xamarin.Forms.PancakeView.Resource.Integer.mtrl_btn_anim_delay_ms = global::LapshaApp.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
+			global::Xamarin.Forms.PancakeView.Resource.Integer.mtrl_btn_anim_duration_ms = global::LapshaApp.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::Xamarin.Forms.PancakeView.Resource.Integer.mtrl_chip_anim_duration = global::LapshaApp.Droid.Resource.Integer.mtrl_chip_anim_duration;
+			global::Xamarin.Forms.PancakeView.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::LapshaApp.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
+			global::Xamarin.Forms.PancakeView.Resource.Integer.show_password_duration = global::LapshaApp.Droid.Resource.Integer.show_password_duration;
+			global::Xamarin.Forms.PancakeView.Resource.Integer.status_bar_notification_info_maxnum = global::LapshaApp.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Xamarin.Forms.PancakeView.Resource.Interpolator.mtrl_fast_out_linear_in = global::LapshaApp.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
+			global::Xamarin.Forms.PancakeView.Resource.Interpolator.mtrl_fast_out_slow_in = global::LapshaApp.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
+			global::Xamarin.Forms.PancakeView.Resource.Interpolator.mtrl_linear = global::LapshaApp.Droid.Resource.Interpolator.mtrl_linear;
+			global::Xamarin.Forms.PancakeView.Resource.Interpolator.mtrl_linear_out_slow_in = global::LapshaApp.Droid.Resource.Interpolator.mtrl_linear_out_slow_in;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_action_bar_title_item = global::LapshaApp.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_action_bar_up_container = global::LapshaApp.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_action_menu_item_layout = global::LapshaApp.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_action_menu_layout = global::LapshaApp.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_action_mode_bar = global::LapshaApp.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_action_mode_close_item_material = global::LapshaApp.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_activity_chooser_view = global::LapshaApp.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_activity_chooser_view_list_item = global::LapshaApp.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_alert_dialog_button_bar_material = global::LapshaApp.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_alert_dialog_material = global::LapshaApp.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_alert_dialog_title_material = global::LapshaApp.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_cascading_menu_item_layout = global::LapshaApp.Droid.Resource.Layout.abc_cascading_menu_item_layout;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_dialog_title_material = global::LapshaApp.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_expanded_menu_layout = global::LapshaApp.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_list_menu_item_checkbox = global::LapshaApp.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_list_menu_item_icon = global::LapshaApp.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_list_menu_item_layout = global::LapshaApp.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_list_menu_item_radio = global::LapshaApp.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_popup_menu_header_item_layout = global::LapshaApp.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_popup_menu_item_layout = global::LapshaApp.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_screen_content_include = global::LapshaApp.Droid.Resource.Layout.abc_screen_content_include;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_screen_simple = global::LapshaApp.Droid.Resource.Layout.abc_screen_simple;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_screen_simple_overlay_action_mode = global::LapshaApp.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_screen_toolbar = global::LapshaApp.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_search_dropdown_item_icons_2line = global::LapshaApp.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_search_view = global::LapshaApp.Droid.Resource.Layout.abc_search_view;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_select_dialog_material = global::LapshaApp.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_tooltip = global::LapshaApp.Droid.Resource.Layout.abc_tooltip;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.BottomTabLayout = global::LapshaApp.Droid.Resource.Layout.BottomTabLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.browser_actions_context_menu_page = global::LapshaApp.Droid.Resource.Layout.browser_actions_context_menu_page;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.browser_actions_context_menu_row = global::LapshaApp.Droid.Resource.Layout.browser_actions_context_menu_row;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.design_bottom_navigation_item = global::LapshaApp.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.design_bottom_sheet_dialog = global::LapshaApp.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.design_layout_snackbar = global::LapshaApp.Droid.Resource.Layout.design_layout_snackbar;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.design_layout_snackbar_include = global::LapshaApp.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.design_layout_tab_icon = global::LapshaApp.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.design_layout_tab_text = global::LapshaApp.Droid.Resource.Layout.design_layout_tab_text;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.design_menu_item_action_area = global::LapshaApp.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.design_navigation_item = global::LapshaApp.Droid.Resource.Layout.design_navigation_item;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.design_navigation_item_header = global::LapshaApp.Droid.Resource.Layout.design_navigation_item_header;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.design_navigation_item_separator = global::LapshaApp.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.design_navigation_item_subheader = global::LapshaApp.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.design_navigation_menu = global::LapshaApp.Droid.Resource.Layout.design_navigation_menu;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.design_navigation_menu_item = global::LapshaApp.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.design_text_input_password_icon = global::LapshaApp.Droid.Resource.Layout.design_text_input_password_icon;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.FlyoutContent = global::LapshaApp.Droid.Resource.Layout.FlyoutContent;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.mtrl_layout_snackbar = global::LapshaApp.Droid.Resource.Layout.mtrl_layout_snackbar;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.mtrl_layout_snackbar_include = global::LapshaApp.Droid.Resource.Layout.mtrl_layout_snackbar_include;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_action = global::LapshaApp.Droid.Resource.Layout.notification_action;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_action_tombstone = global::LapshaApp.Droid.Resource.Layout.notification_action_tombstone;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_media_action = global::LapshaApp.Droid.Resource.Layout.notification_media_action;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_media_cancel_action = global::LapshaApp.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_template_big_media = global::LapshaApp.Droid.Resource.Layout.notification_template_big_media;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_template_big_media_custom = global::LapshaApp.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_template_big_media_narrow = global::LapshaApp.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_template_big_media_narrow_custom = global::LapshaApp.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_template_custom_big = global::LapshaApp.Droid.Resource.Layout.notification_template_custom_big;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_template_icon_group = global::LapshaApp.Droid.Resource.Layout.notification_template_icon_group;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_template_lines_media = global::LapshaApp.Droid.Resource.Layout.notification_template_lines_media;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_template_media = global::LapshaApp.Droid.Resource.Layout.notification_template_media;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_template_media_custom = global::LapshaApp.Droid.Resource.Layout.notification_template_media_custom;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_template_part_chronometer = global::LapshaApp.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_template_part_time = global::LapshaApp.Droid.Resource.Layout.notification_template_part_time;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.RootLayout = global::LapshaApp.Droid.Resource.Layout.RootLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.select_dialog_item_material = global::LapshaApp.Droid.Resource.Layout.select_dialog_item_material;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.select_dialog_multichoice_material = global::LapshaApp.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.select_dialog_singlechoice_material = global::LapshaApp.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.ShellContent = global::LapshaApp.Droid.Resource.Layout.ShellContent;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.support_simple_spinner_dropdown_item = global::LapshaApp.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_action_bar_home_description = global::LapshaApp.Droid.Resource.String.abc_action_bar_home_description;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_action_bar_up_description = global::LapshaApp.Droid.Resource.String.abc_action_bar_up_description;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_action_menu_overflow_description = global::LapshaApp.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_action_mode_done = global::LapshaApp.Droid.Resource.String.abc_action_mode_done;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_activitychooserview_choose_application = global::LapshaApp.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_activity_chooser_view_see_all = global::LapshaApp.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_capital_off = global::LapshaApp.Droid.Resource.String.abc_capital_off;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_capital_on = global::LapshaApp.Droid.Resource.String.abc_capital_on;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_font_family_body_1_material = global::LapshaApp.Droid.Resource.String.abc_font_family_body_1_material;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_font_family_body_2_material = global::LapshaApp.Droid.Resource.String.abc_font_family_body_2_material;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_font_family_button_material = global::LapshaApp.Droid.Resource.String.abc_font_family_button_material;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_font_family_caption_material = global::LapshaApp.Droid.Resource.String.abc_font_family_caption_material;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_font_family_display_1_material = global::LapshaApp.Droid.Resource.String.abc_font_family_display_1_material;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_font_family_display_2_material = global::LapshaApp.Droid.Resource.String.abc_font_family_display_2_material;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_font_family_display_3_material = global::LapshaApp.Droid.Resource.String.abc_font_family_display_3_material;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_font_family_display_4_material = global::LapshaApp.Droid.Resource.String.abc_font_family_display_4_material;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_font_family_headline_material = global::LapshaApp.Droid.Resource.String.abc_font_family_headline_material;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_font_family_menu_material = global::LapshaApp.Droid.Resource.String.abc_font_family_menu_material;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_font_family_subhead_material = global::LapshaApp.Droid.Resource.String.abc_font_family_subhead_material;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_font_family_title_material = global::LapshaApp.Droid.Resource.String.abc_font_family_title_material;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_menu_alt_shortcut_label = global::LapshaApp.Droid.Resource.String.abc_menu_alt_shortcut_label;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_menu_ctrl_shortcut_label = global::LapshaApp.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_menu_delete_shortcut_label = global::LapshaApp.Droid.Resource.String.abc_menu_delete_shortcut_label;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_menu_enter_shortcut_label = global::LapshaApp.Droid.Resource.String.abc_menu_enter_shortcut_label;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_menu_function_shortcut_label = global::LapshaApp.Droid.Resource.String.abc_menu_function_shortcut_label;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_menu_meta_shortcut_label = global::LapshaApp.Droid.Resource.String.abc_menu_meta_shortcut_label;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_menu_shift_shortcut_label = global::LapshaApp.Droid.Resource.String.abc_menu_shift_shortcut_label;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_menu_space_shortcut_label = global::LapshaApp.Droid.Resource.String.abc_menu_space_shortcut_label;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_menu_sym_shortcut_label = global::LapshaApp.Droid.Resource.String.abc_menu_sym_shortcut_label;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_prepend_shortcut_label = global::LapshaApp.Droid.Resource.String.abc_prepend_shortcut_label;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_searchview_description_clear = global::LapshaApp.Droid.Resource.String.abc_searchview_description_clear;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_searchview_description_query = global::LapshaApp.Droid.Resource.String.abc_searchview_description_query;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_searchview_description_search = global::LapshaApp.Droid.Resource.String.abc_searchview_description_search;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_searchview_description_submit = global::LapshaApp.Droid.Resource.String.abc_searchview_description_submit;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_searchview_description_voice = global::LapshaApp.Droid.Resource.String.abc_searchview_description_voice;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_search_hint = global::LapshaApp.Droid.Resource.String.abc_search_hint;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_shareactionprovider_share_with = global::LapshaApp.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_shareactionprovider_share_with_application = global::LapshaApp.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_toolbar_collapse_description = global::LapshaApp.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Xamarin.Forms.PancakeView.Resource.String.appbar_scrolling_view_behavior = global::LapshaApp.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Xamarin.Forms.PancakeView.Resource.String.bottom_sheet_behavior = global::LapshaApp.Droid.Resource.String.bottom_sheet_behavior;
+			global::Xamarin.Forms.PancakeView.Resource.String.character_counter_content_description = global::LapshaApp.Droid.Resource.String.character_counter_content_description;
+			global::Xamarin.Forms.PancakeView.Resource.String.character_counter_pattern = global::LapshaApp.Droid.Resource.String.character_counter_pattern;
+			global::Xamarin.Forms.PancakeView.Resource.String.fab_transformation_scrim_behavior = global::LapshaApp.Droid.Resource.String.fab_transformation_scrim_behavior;
+			global::Xamarin.Forms.PancakeView.Resource.String.fab_transformation_sheet_behavior = global::LapshaApp.Droid.Resource.String.fab_transformation_sheet_behavior;
+			global::Xamarin.Forms.PancakeView.Resource.String.hide_bottom_view_on_scroll_behavior = global::LapshaApp.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::Xamarin.Forms.PancakeView.Resource.String.mtrl_chip_close_icon_content_description = global::LapshaApp.Droid.Resource.String.mtrl_chip_close_icon_content_description;
+			global::Xamarin.Forms.PancakeView.Resource.String.overflow_tab_title = global::LapshaApp.Droid.Resource.String.overflow_tab_title;
+			global::Xamarin.Forms.PancakeView.Resource.String.password_toggle_content_description = global::LapshaApp.Droid.Resource.String.password_toggle_content_description;
+			global::Xamarin.Forms.PancakeView.Resource.String.path_password_eye = global::LapshaApp.Droid.Resource.String.path_password_eye;
+			global::Xamarin.Forms.PancakeView.Resource.String.path_password_eye_mask_strike_through = global::LapshaApp.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::Xamarin.Forms.PancakeView.Resource.String.path_password_eye_mask_visible = global::LapshaApp.Droid.Resource.String.path_password_eye_mask_visible;
+			global::Xamarin.Forms.PancakeView.Resource.String.path_password_strike_through = global::LapshaApp.Droid.Resource.String.path_password_strike_through;
+			global::Xamarin.Forms.PancakeView.Resource.String.search_menu_title = global::LapshaApp.Droid.Resource.String.search_menu_title;
+			global::Xamarin.Forms.PancakeView.Resource.String.status_bar_notification_info_overflow = global::LapshaApp.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Xamarin.Forms.PancakeView.Resource.Style.AlertDialog_AppCompat = global::LapshaApp.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.AlertDialog_AppCompat_Light = global::LapshaApp.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Animation_AppCompat_Dialog = global::LapshaApp.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Animation_AppCompat_DropDownUp = global::LapshaApp.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Animation_AppCompat_Tooltip = global::LapshaApp.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Animation_Design_BottomSheetDialog = global::LapshaApp.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.AppCompatDialogStyle = global::LapshaApp.Droid.Resource.Style.AppCompatDialogStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_AlertDialog_AppCompat = global::LapshaApp.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_AlertDialog_AppCompat_Light = global::LapshaApp.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Animation_AppCompat_Dialog = global::LapshaApp.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::LapshaApp.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Animation_AppCompat_Tooltip = global::LapshaApp.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_CardView = global::LapshaApp.Droid.Resource.Style.Base_CardView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::LapshaApp.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_DialogWindowTitle_AppCompat = global::LapshaApp.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat = global::LapshaApp.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::LapshaApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::LapshaApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Button = global::LapshaApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::LapshaApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::LapshaApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::LapshaApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::LapshaApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::LapshaApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::LapshaApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::LapshaApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Large = global::LapshaApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::LapshaApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::LapshaApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::LapshaApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::LapshaApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::LapshaApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::LapshaApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::LapshaApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::LapshaApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::LapshaApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Small = global::LapshaApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::LapshaApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::LapshaApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::LapshaApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Title = global::LapshaApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::LapshaApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::LapshaApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::LapshaApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::LapshaApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::LapshaApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::LapshaApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::LapshaApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::LapshaApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::LapshaApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::LapshaApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::LapshaApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::LapshaApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::LapshaApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::LapshaApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::LapshaApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::LapshaApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::LapshaApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::LapshaApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::LapshaApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::LapshaApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::LapshaApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::LapshaApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_ThemeOverlay_AppCompat = global::LapshaApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::LapshaApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::LapshaApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::LapshaApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::LapshaApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::LapshaApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::LapshaApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::LapshaApp.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::LapshaApp.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat = global::LapshaApp.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::LapshaApp.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat_Dialog = global::LapshaApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::LapshaApp.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::LapshaApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::LapshaApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::LapshaApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat_Light = global::LapshaApp.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::LapshaApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::LapshaApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::LapshaApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::LapshaApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::LapshaApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::LapshaApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents = global::LapshaApp.Droid.Resource.Style.Base_Theme_MaterialComponents;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::LapshaApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::LapshaApp.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::LapshaApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::LapshaApp.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::LapshaApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::LapshaApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::LapshaApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Light = global::LapshaApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::LapshaApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::LapshaApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::LapshaApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::LapshaApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::LapshaApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::LapshaApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::LapshaApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::LapshaApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::LapshaApp.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::LapshaApp.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V14_Theme_MaterialComponents = global::LapshaApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::LapshaApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::LapshaApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::LapshaApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::LapshaApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::LapshaApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::LapshaApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::LapshaApp.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V21_Theme_AppCompat = global::LapshaApp.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::LapshaApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V21_Theme_AppCompat_Light = global::LapshaApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::LapshaApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V22_Theme_AppCompat = global::LapshaApp.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V22_Theme_AppCompat_Light = global::LapshaApp.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V23_Theme_AppCompat = global::LapshaApp.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V23_Theme_AppCompat_Light = global::LapshaApp.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V26_Theme_AppCompat = global::LapshaApp.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V26_Theme_AppCompat_Light = global::LapshaApp.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::LapshaApp.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V28_Theme_AppCompat = global::LapshaApp.Droid.Resource.Style.Base_V28_Theme_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V28_Theme_AppCompat_Light = global::LapshaApp.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::LapshaApp.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V7_Theme_AppCompat = global::LapshaApp.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::LapshaApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V7_Theme_AppCompat_Light = global::LapshaApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::LapshaApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::LapshaApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::LapshaApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::LapshaApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ActionBar = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ActionButton = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ActionMode = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Button = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Button_Small = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_EditText = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ImageButton = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ListView = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_RatingBar = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_SearchView = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_SeekBar = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Spinner = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Toolbar = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::LapshaApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_Design_TabLayout = global::LapshaApp.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_MaterialComponents_Chip = global::LapshaApp.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::LapshaApp.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::LapshaApp.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Style.CardView = global::LapshaApp.Droid.Resource.Style.CardView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.CardView_Dark = global::LapshaApp.Droid.Resource.Style.CardView_Dark;
+			global::Xamarin.Forms.PancakeView.Resource.Style.CardView_Light = global::LapshaApp.Droid.Resource.Style.CardView_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.collectionViewTheme = global::LapshaApp.Droid.Resource.Style.collectionViewTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Style.MainTheme = global::LapshaApp.Droid.Resource.Style.MainTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Style.MainTheme_Base = global::LapshaApp.Droid.Resource.Style.MainTheme_Base;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_AppCompat = global::LapshaApp.Droid.Resource.Style.Platform_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_AppCompat_Light = global::LapshaApp.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_MaterialComponents = global::LapshaApp.Droid.Resource.Style.Platform_MaterialComponents;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_MaterialComponents_Dialog = global::LapshaApp.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_MaterialComponents_Light = global::LapshaApp.Droid.Resource.Style.Platform_MaterialComponents_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::LapshaApp.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_ThemeOverlay_AppCompat = global::LapshaApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::LapshaApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::LapshaApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_V21_AppCompat = global::LapshaApp.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_V21_AppCompat_Light = global::LapshaApp.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_V25_AppCompat = global::LapshaApp.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_V25_AppCompat_Light = global::LapshaApp.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_Widget_AppCompat_Spinner = global::LapshaApp.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::LapshaApp.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::LapshaApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::LapshaApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::LapshaApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::LapshaApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::LapshaApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::LapshaApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
+			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::LapshaApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::LapshaApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::LapshaApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::LapshaApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::LapshaApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::LapshaApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::LapshaApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::LapshaApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Xamarin.Forms.PancakeView.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::LapshaApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Xamarin.Forms.PancakeView.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::LapshaApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.Forms.PancakeView.Resource.Style.scrollViewScrollBars = global::LapshaApp.Droid.Resource.Style.scrollViewScrollBars;
+			global::Xamarin.Forms.PancakeView.Resource.Style.scrollViewTheme = global::LapshaApp.Droid.Resource.Style.scrollViewTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat = global::LapshaApp.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Body1 = global::LapshaApp.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Body2 = global::LapshaApp.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Button = global::LapshaApp.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Caption = global::LapshaApp.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Display1 = global::LapshaApp.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Display2 = global::LapshaApp.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Display3 = global::LapshaApp.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Display4 = global::LapshaApp.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Headline = global::LapshaApp.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Inverse = global::LapshaApp.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Large = global::LapshaApp.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::LapshaApp.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::LapshaApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::LapshaApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::LapshaApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::LapshaApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Medium = global::LapshaApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::LapshaApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Menu = global::LapshaApp.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::LapshaApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::LapshaApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Small = global::LapshaApp.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::LapshaApp.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Subhead = global::LapshaApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::LapshaApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Title = global::LapshaApp.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::LapshaApp.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Tooltip = global::LapshaApp.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::LapshaApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::LapshaApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::LapshaApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::LapshaApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::LapshaApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::LapshaApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::LapshaApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::LapshaApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::LapshaApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::LapshaApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::LapshaApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::LapshaApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::LapshaApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::LapshaApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::LapshaApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::LapshaApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::LapshaApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::LapshaApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::LapshaApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Compat_Notification = global::LapshaApp.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Compat_Notification_Info = global::LapshaApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::LapshaApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::LapshaApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::LapshaApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Compat_Notification_Media = global::LapshaApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Compat_Notification_Time = global::LapshaApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::LapshaApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Compat_Notification_Title = global::LapshaApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::LapshaApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::LapshaApp.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Design_Counter = global::LapshaApp.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Design_Counter_Overflow = global::LapshaApp.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Design_Error = global::LapshaApp.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Design_HelperText = global::LapshaApp.Droid.Resource.Style.TextAppearance_Design_HelperText;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Design_Hint = global::LapshaApp.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Design_Snackbar_Message = global::LapshaApp.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Design_Tab = global::LapshaApp.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::LapshaApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::LapshaApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Button = global::LapshaApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Caption = global::LapshaApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Chip = global::LapshaApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::LapshaApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::LapshaApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::LapshaApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::LapshaApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::LapshaApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::LapshaApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Overline = global::LapshaApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::LapshaApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::LapshaApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Tab = global::LapshaApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Tab;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::LapshaApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::LapshaApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::LapshaApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_AppCompat = global::LapshaApp.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::LapshaApp.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_AppCompat_Dark = global::LapshaApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::LapshaApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::LapshaApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::LapshaApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_AppCompat_Light = global::LapshaApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_MaterialComponents = global::LapshaApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::LapshaApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::LapshaApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::LapshaApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::LapshaApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::LapshaApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::LapshaApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::LapshaApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::LapshaApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::LapshaApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::LapshaApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::LapshaApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat = global::LapshaApp.Droid.Resource.Style.Theme_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_CompactMenu = global::LapshaApp.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_DayNight = global::LapshaApp.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::LapshaApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::LapshaApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::LapshaApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::LapshaApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::LapshaApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::LapshaApp.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_Dialog = global::LapshaApp.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::LapshaApp.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_Dialog_Alert = global::LapshaApp.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::LapshaApp.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_Light = global::LapshaApp.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::LapshaApp.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_Light_Dialog = global::LapshaApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::LapshaApp.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::LapshaApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::LapshaApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::LapshaApp.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_NoActionBar = global::LapshaApp.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_Design = global::LapshaApp.Droid.Resource.Style.Theme_Design;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_Design_BottomSheetDialog = global::LapshaApp.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_Design_Light = global::LapshaApp.Droid.Resource.Style.Theme_Design_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::LapshaApp.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_Design_Light_NoActionBar = global::LapshaApp.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_Design_NoActionBar = global::LapshaApp.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents = global::LapshaApp.Droid.Resource.Style.Theme_MaterialComponents;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::LapshaApp.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Bridge = global::LapshaApp.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_CompactMenu = global::LapshaApp.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Dialog = global::LapshaApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::LapshaApp.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::LapshaApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::LapshaApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Light = global::LapshaApp.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::LapshaApp.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::LapshaApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::LapshaApp.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::LapshaApp.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::LapshaApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::LapshaApp.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::LapshaApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::LapshaApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::LapshaApp.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::LapshaApp.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_NoActionBar = global::LapshaApp.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::LapshaApp.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ActionBar = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ActionButton = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ActionMode = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ActivityChooserView = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Button = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ButtonBar = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Button_Borderless = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Button_Colored = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Button_Small = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_EditText = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ImageButton = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActionBar = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActionButton = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_SearchView = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ListMenuView = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ListPopupWindow = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ListView = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ListView_DropDown = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ListView_Menu = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_PopupMenu = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_PopupWindow = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ProgressBar = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_RatingBar = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_RatingBar_Small = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_SearchView = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_SeekBar = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Spinner = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Toolbar = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::LapshaApp.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_Compat_NotificationActionContainer = global::LapshaApp.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_Compat_NotificationActionText = global::LapshaApp.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_Design_AppBarLayout = global::LapshaApp.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_Design_BottomNavigationView = global::LapshaApp.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_Design_BottomSheet_Modal = global::LapshaApp.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_Design_CollapsingToolbar = global::LapshaApp.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_Design_FloatingActionButton = global::LapshaApp.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_Design_NavigationView = global::LapshaApp.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::LapshaApp.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_Design_Snackbar = global::LapshaApp.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_Design_TabLayout = global::LapshaApp.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_Design_TextInputLayout = global::LapshaApp.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::LapshaApp.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::LapshaApp.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::LapshaApp.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::LapshaApp.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::LapshaApp.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Button = global::LapshaApp.Droid.Resource.Style.Widget_MaterialComponents_Button;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Button_Icon = global::LapshaApp.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::LapshaApp.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::LapshaApp.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::LapshaApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::LapshaApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::LapshaApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::LapshaApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::LapshaApp.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::LapshaApp.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_CardView = global::LapshaApp.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_ChipGroup = global::LapshaApp.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Chip_Action = global::LapshaApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::LapshaApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::LapshaApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::LapshaApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::LapshaApp.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_NavigationView = global::LapshaApp.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Snackbar = global::LapshaApp.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::LapshaApp.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_TabLayout = global::LapshaApp.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::LapshaApp.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::LapshaApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::LapshaApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::LapshaApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::LapshaApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::LapshaApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::LapshaApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::LapshaApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::LapshaApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Toolbar = global::LapshaApp.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_Support_CoordinatorLayout = global::LapshaApp.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar = global::LapshaApp.Droid.Resource.Styleable.ActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBarLayout = global::LapshaApp.Droid.Resource.Styleable.ActionBarLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::LapshaApp.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_background = global::LapshaApp.Droid.Resource.Styleable.ActionBar_background;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_backgroundSplit = global::LapshaApp.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_backgroundStacked = global::LapshaApp.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_contentInsetEnd = global::LapshaApp.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::LapshaApp.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_contentInsetLeft = global::LapshaApp.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_contentInsetRight = global::LapshaApp.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_contentInsetStart = global::LapshaApp.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::LapshaApp.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_customNavigationLayout = global::LapshaApp.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_displayOptions = global::LapshaApp.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_divider = global::LapshaApp.Droid.Resource.Styleable.ActionBar_divider;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_elevation = global::LapshaApp.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_height = global::LapshaApp.Droid.Resource.Styleable.ActionBar_height;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_hideOnContentScroll = global::LapshaApp.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_homeAsUpIndicator = global::LapshaApp.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_homeLayout = global::LapshaApp.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_icon = global::LapshaApp.Droid.Resource.Styleable.ActionBar_icon;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::LapshaApp.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_itemPadding = global::LapshaApp.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_logo = global::LapshaApp.Droid.Resource.Styleable.ActionBar_logo;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_navigationMode = global::LapshaApp.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_popupTheme = global::LapshaApp.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_progressBarPadding = global::LapshaApp.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_progressBarStyle = global::LapshaApp.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_subtitle = global::LapshaApp.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_subtitleTextStyle = global::LapshaApp.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_title = global::LapshaApp.Droid.Resource.Styleable.ActionBar_title;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_titleTextStyle = global::LapshaApp.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionMenuItemView = global::LapshaApp.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionMenuItemView_android_minWidth = global::LapshaApp.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionMenuView = global::LapshaApp.Droid.Resource.Styleable.ActionMenuView;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionMode = global::LapshaApp.Droid.Resource.Styleable.ActionMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionMode_background = global::LapshaApp.Droid.Resource.Styleable.ActionMode_background;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionMode_backgroundSplit = global::LapshaApp.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionMode_closeItemLayout = global::LapshaApp.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionMode_height = global::LapshaApp.Droid.Resource.Styleable.ActionMode_height;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionMode_subtitleTextStyle = global::LapshaApp.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionMode_titleTextStyle = global::LapshaApp.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActivityChooserView = global::LapshaApp.Droid.Resource.Styleable.ActivityChooserView;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::LapshaApp.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActivityChooserView_initialActivityCount = global::LapshaApp.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AlertDialog = global::LapshaApp.Droid.Resource.Styleable.AlertDialog;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AlertDialog_android_layout = global::LapshaApp.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AlertDialog_buttonIconDimen = global::LapshaApp.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::LapshaApp.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AlertDialog_listItemLayout = global::LapshaApp.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AlertDialog_listLayout = global::LapshaApp.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::LapshaApp.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AlertDialog_showTitle = global::LapshaApp.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::LapshaApp.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableCompat = global::LapshaApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::LapshaApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::LapshaApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::LapshaApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::LapshaApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::LapshaApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::LapshaApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableItem = global::LapshaApp.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::LapshaApp.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::LapshaApp.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableTransition = global::LapshaApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::LapshaApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::LapshaApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::LapshaApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::LapshaApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayout = global::LapshaApp.Droid.Resource.Styleable.AppBarLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayoutStates = global::LapshaApp.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::LapshaApp.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::LapshaApp.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayoutStates_state_liftable = global::LapshaApp.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayoutStates_state_lifted = global::LapshaApp.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayout_android_background = global::LapshaApp.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::LapshaApp.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::LapshaApp.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayout_elevation = global::LapshaApp.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayout_expanded = global::LapshaApp.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayout_Layout = global::LapshaApp.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::LapshaApp.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::LapshaApp.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayout_liftOnScroll = global::LapshaApp.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatImageView = global::LapshaApp.Droid.Resource.Styleable.AppCompatImageView;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatImageView_android_src = global::LapshaApp.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatImageView_srcCompat = global::LapshaApp.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatImageView_tint = global::LapshaApp.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatImageView_tintMode = global::LapshaApp.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatSeekBar = global::LapshaApp.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatSeekBar_android_thumb = global::LapshaApp.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatSeekBar_tickMark = global::LapshaApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::LapshaApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::LapshaApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextHelper = global::LapshaApp.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::LapshaApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::LapshaApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::LapshaApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::LapshaApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::LapshaApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::LapshaApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::LapshaApp.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView = global::LapshaApp.Droid.Resource.Styleable.AppCompatTextView;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_android_textAppearance = global::LapshaApp.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::LapshaApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::LapshaApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::LapshaApp.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::LapshaApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::LapshaApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::LapshaApp.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_fontFamily = global::LapshaApp.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::LapshaApp.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_lineHeight = global::LapshaApp.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_textAllCaps = global::LapshaApp.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionBarDivider = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionBarSize = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionBarStyle = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionBarTheme = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionModeBackground = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionModeStyle = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_buttonStyle = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_checkboxStyle = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_colorAccent = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_colorControlActivated = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_colorControlNormal = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_colorError = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_colorPrimary = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_controlBackground = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_dialogTheme = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_dividerVertical = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_editTextBackground = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_editTextColor = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_editTextStyle = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_panelBackground = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_searchViewStyle = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_seekBarStyle = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_spinnerStyle = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_switchStyle = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_toolbarStyle = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_windowActionBar = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_windowNoTitle = global::LapshaApp.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomAppBar = global::LapshaApp.Droid.Resource.Styleable.BottomAppBar;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomAppBar_backgroundTint = global::LapshaApp.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::LapshaApp.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomAppBar_fabCradleMargin = global::LapshaApp.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::LapshaApp.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::LapshaApp.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomAppBar_hideOnScroll = global::LapshaApp.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomNavigationView = global::LapshaApp.Droid.Resource.Styleable.BottomNavigationView;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomNavigationView_elevation = global::LapshaApp.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomNavigationView_itemBackground = global::LapshaApp.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::LapshaApp.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomNavigationView_itemIconSize = global::LapshaApp.Droid.Resource.Styleable.BottomNavigationView_itemIconSize;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomNavigationView_itemIconTint = global::LapshaApp.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive = global::LapshaApp.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive = global::LapshaApp.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomNavigationView_itemTextColor = global::LapshaApp.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomNavigationView_labelVisibilityMode = global::LapshaApp.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomNavigationView_menu = global::LapshaApp.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomSheetBehavior_Layout = global::LapshaApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::LapshaApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::LapshaApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::LapshaApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::LapshaApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ButtonBarLayout = global::LapshaApp.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ButtonBarLayout_allowStacking = global::LapshaApp.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView = global::LapshaApp.Droid.Resource.Styleable.CardView;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView_android_minHeight = global::LapshaApp.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView_android_minWidth = global::LapshaApp.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView_cardBackgroundColor = global::LapshaApp.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView_cardCornerRadius = global::LapshaApp.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView_cardElevation = global::LapshaApp.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView_cardMaxElevation = global::LapshaApp.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView_cardPreventCornerOverlap = global::LapshaApp.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView_cardUseCompatPadding = global::LapshaApp.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView_contentPadding = global::LapshaApp.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView_contentPaddingBottom = global::LapshaApp.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView_contentPaddingLeft = global::LapshaApp.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView_contentPaddingRight = global::LapshaApp.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView_contentPaddingTop = global::LapshaApp.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip = global::LapshaApp.Droid.Resource.Styleable.Chip;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ChipGroup = global::LapshaApp.Droid.Resource.Styleable.ChipGroup;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ChipGroup_checkedChip = global::LapshaApp.Droid.Resource.Styleable.ChipGroup_checkedChip;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ChipGroup_chipSpacing = global::LapshaApp.Droid.Resource.Styleable.ChipGroup_chipSpacing;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::LapshaApp.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ChipGroup_chipSpacingVertical = global::LapshaApp.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ChipGroup_singleLine = global::LapshaApp.Droid.Resource.Styleable.ChipGroup_singleLine;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ChipGroup_singleSelection = global::LapshaApp.Droid.Resource.Styleable.ChipGroup_singleSelection;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_android_checkable = global::LapshaApp.Droid.Resource.Styleable.Chip_android_checkable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_android_ellipsize = global::LapshaApp.Droid.Resource.Styleable.Chip_android_ellipsize;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_android_maxWidth = global::LapshaApp.Droid.Resource.Styleable.Chip_android_maxWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_android_text = global::LapshaApp.Droid.Resource.Styleable.Chip_android_text;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_android_textAppearance = global::LapshaApp.Droid.Resource.Styleable.Chip_android_textAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_checkedIcon = global::LapshaApp.Droid.Resource.Styleable.Chip_checkedIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_checkedIconEnabled = global::LapshaApp.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_checkedIconVisible = global::LapshaApp.Droid.Resource.Styleable.Chip_checkedIconVisible;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_chipBackgroundColor = global::LapshaApp.Droid.Resource.Styleable.Chip_chipBackgroundColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_chipCornerRadius = global::LapshaApp.Droid.Resource.Styleable.Chip_chipCornerRadius;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_chipEndPadding = global::LapshaApp.Droid.Resource.Styleable.Chip_chipEndPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_chipIcon = global::LapshaApp.Droid.Resource.Styleable.Chip_chipIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_chipIconEnabled = global::LapshaApp.Droid.Resource.Styleable.Chip_chipIconEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_chipIconSize = global::LapshaApp.Droid.Resource.Styleable.Chip_chipIconSize;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_chipIconTint = global::LapshaApp.Droid.Resource.Styleable.Chip_chipIconTint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_chipIconVisible = global::LapshaApp.Droid.Resource.Styleable.Chip_chipIconVisible;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_chipMinHeight = global::LapshaApp.Droid.Resource.Styleable.Chip_chipMinHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_chipStartPadding = global::LapshaApp.Droid.Resource.Styleable.Chip_chipStartPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_chipStrokeColor = global::LapshaApp.Droid.Resource.Styleable.Chip_chipStrokeColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_chipStrokeWidth = global::LapshaApp.Droid.Resource.Styleable.Chip_chipStrokeWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_closeIcon = global::LapshaApp.Droid.Resource.Styleable.Chip_closeIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_closeIconEnabled = global::LapshaApp.Droid.Resource.Styleable.Chip_closeIconEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_closeIconEndPadding = global::LapshaApp.Droid.Resource.Styleable.Chip_closeIconEndPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_closeIconSize = global::LapshaApp.Droid.Resource.Styleable.Chip_closeIconSize;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_closeIconStartPadding = global::LapshaApp.Droid.Resource.Styleable.Chip_closeIconStartPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_closeIconTint = global::LapshaApp.Droid.Resource.Styleable.Chip_closeIconTint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_closeIconVisible = global::LapshaApp.Droid.Resource.Styleable.Chip_closeIconVisible;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_hideMotionSpec = global::LapshaApp.Droid.Resource.Styleable.Chip_hideMotionSpec;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_iconEndPadding = global::LapshaApp.Droid.Resource.Styleable.Chip_iconEndPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_iconStartPadding = global::LapshaApp.Droid.Resource.Styleable.Chip_iconStartPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_rippleColor = global::LapshaApp.Droid.Resource.Styleable.Chip_rippleColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_showMotionSpec = global::LapshaApp.Droid.Resource.Styleable.Chip_showMotionSpec;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_textEndPadding = global::LapshaApp.Droid.Resource.Styleable.Chip_textEndPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_textStartPadding = global::LapshaApp.Droid.Resource.Styleable.Chip_textStartPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout = global::LapshaApp.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::LapshaApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::LapshaApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::LapshaApp.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::LapshaApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::LapshaApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::LapshaApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::LapshaApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::LapshaApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::LapshaApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::LapshaApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_Layout = global::LapshaApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::LapshaApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::LapshaApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::LapshaApp.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::LapshaApp.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::LapshaApp.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_title = global::LapshaApp.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::LapshaApp.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::LapshaApp.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ColorStateListItem = global::LapshaApp.Droid.Resource.Styleable.ColorStateListItem;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ColorStateListItem_alpha = global::LapshaApp.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ColorStateListItem_android_alpha = global::LapshaApp.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ColorStateListItem_android_color = global::LapshaApp.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CompoundButton = global::LapshaApp.Droid.Resource.Styleable.CompoundButton;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CompoundButton_android_button = global::LapshaApp.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CompoundButton_buttonTint = global::LapshaApp.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CompoundButton_buttonTintMode = global::LapshaApp.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CoordinatorLayout = global::LapshaApp.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CoordinatorLayout_keylines = global::LapshaApp.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CoordinatorLayout_Layout = global::LapshaApp.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::LapshaApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::LapshaApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::LapshaApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::LapshaApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::LapshaApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::LapshaApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::LapshaApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::LapshaApp.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.DesignTheme = global::LapshaApp.Droid.Resource.Styleable.DesignTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::LapshaApp.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.DesignTheme_bottomSheetStyle = global::LapshaApp.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.DrawerArrowToggle = global::LapshaApp.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::LapshaApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::LapshaApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.DrawerArrowToggle_barLength = global::LapshaApp.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.DrawerArrowToggle_color = global::LapshaApp.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.DrawerArrowToggle_drawableSize = global::LapshaApp.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::LapshaApp.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.DrawerArrowToggle_spinBars = global::LapshaApp.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.DrawerArrowToggle_thickness = global::LapshaApp.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton = global::LapshaApp.Droid.Resource.Styleable.FloatingActionButton;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_backgroundTint = global::LapshaApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::LapshaApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::LapshaApp.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::LapshaApp.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_borderWidth = global::LapshaApp.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_elevation = global::LapshaApp.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_fabCustomSize = global::LapshaApp.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_fabSize = global::LapshaApp.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::LapshaApp.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::LapshaApp.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_maxImageSize = global::LapshaApp.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::LapshaApp.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_rippleColor = global::LapshaApp.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_showMotionSpec = global::LapshaApp.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_useCompatPadding = global::LapshaApp.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FlowLayout = global::LapshaApp.Droid.Resource.Styleable.FlowLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FlowLayout_itemSpacing = global::LapshaApp.Droid.Resource.Styleable.FlowLayout_itemSpacing;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FlowLayout_lineSpacing = global::LapshaApp.Droid.Resource.Styleable.FlowLayout_lineSpacing;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamily = global::LapshaApp.Droid.Resource.Styleable.FontFamily;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamilyFont = global::LapshaApp.Droid.Resource.Styleable.FontFamilyFont;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamilyFont_android_font = global::LapshaApp.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamilyFont_android_fontStyle = global::LapshaApp.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::LapshaApp.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamilyFont_android_fontWeight = global::LapshaApp.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::LapshaApp.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamilyFont_font = global::LapshaApp.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamilyFont_fontStyle = global::LapshaApp.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::LapshaApp.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamilyFont_fontWeight = global::LapshaApp.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamilyFont_ttcIndex = global::LapshaApp.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamily_fontProviderAuthority = global::LapshaApp.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamily_fontProviderCerts = global::LapshaApp.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::LapshaApp.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::LapshaApp.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamily_fontProviderPackage = global::LapshaApp.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamily_fontProviderQuery = global::LapshaApp.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ForegroundLinearLayout = global::LapshaApp.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::LapshaApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::LapshaApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::LapshaApp.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColor = global::LapshaApp.Droid.Resource.Styleable.GradientColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColorItem = global::LapshaApp.Droid.Resource.Styleable.GradientColorItem;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColorItem_android_color = global::LapshaApp.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColorItem_android_offset = global::LapshaApp.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColor_android_centerColor = global::LapshaApp.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColor_android_centerX = global::LapshaApp.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColor_android_centerY = global::LapshaApp.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColor_android_endColor = global::LapshaApp.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColor_android_endX = global::LapshaApp.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColor_android_endY = global::LapshaApp.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColor_android_gradientRadius = global::LapshaApp.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColor_android_startColor = global::LapshaApp.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColor_android_startX = global::LapshaApp.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColor_android_startY = global::LapshaApp.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColor_android_tileMode = global::LapshaApp.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColor_android_type = global::LapshaApp.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ItemsViewRendererTheme = global::LapshaApp.Droid.Resource.Styleable.ItemsViewRendererTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle = global::LapshaApp.Droid.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat = global::LapshaApp.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::LapshaApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::LapshaApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_android_gravity = global::LapshaApp.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_android_orientation = global::LapshaApp.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::LapshaApp.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_divider = global::LapshaApp.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::LapshaApp.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_Layout = global::LapshaApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::LapshaApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::LapshaApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::LapshaApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::LapshaApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::LapshaApp.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_showDividers = global::LapshaApp.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ListPopupWindow = global::LapshaApp.Droid.Resource.Styleable.ListPopupWindow;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::LapshaApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::LapshaApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton = global::LapshaApp.Droid.Resource.Styleable.MaterialButton;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_android_insetBottom = global::LapshaApp.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_android_insetLeft = global::LapshaApp.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_android_insetRight = global::LapshaApp.Droid.Resource.Styleable.MaterialButton_android_insetRight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_android_insetTop = global::LapshaApp.Droid.Resource.Styleable.MaterialButton_android_insetTop;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_backgroundTint = global::LapshaApp.Droid.Resource.Styleable.MaterialButton_backgroundTint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_backgroundTintMode = global::LapshaApp.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_cornerRadius = global::LapshaApp.Droid.Resource.Styleable.MaterialButton_cornerRadius;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_icon = global::LapshaApp.Droid.Resource.Styleable.MaterialButton_icon;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_iconGravity = global::LapshaApp.Droid.Resource.Styleable.MaterialButton_iconGravity;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_iconPadding = global::LapshaApp.Droid.Resource.Styleable.MaterialButton_iconPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_iconSize = global::LapshaApp.Droid.Resource.Styleable.MaterialButton_iconSize;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_iconTint = global::LapshaApp.Droid.Resource.Styleable.MaterialButton_iconTint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_iconTintMode = global::LapshaApp.Droid.Resource.Styleable.MaterialButton_iconTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_rippleColor = global::LapshaApp.Droid.Resource.Styleable.MaterialButton_rippleColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_strokeColor = global::LapshaApp.Droid.Resource.Styleable.MaterialButton_strokeColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_strokeWidth = global::LapshaApp.Droid.Resource.Styleable.MaterialButton_strokeWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialCardView = global::LapshaApp.Droid.Resource.Styleable.MaterialCardView;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialCardView_strokeColor = global::LapshaApp.Droid.Resource.Styleable.MaterialCardView_strokeColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialCardView_strokeWidth = global::LapshaApp.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme = global::LapshaApp.Droid.Resource.Styleable.MaterialComponentsTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme = global::LapshaApp.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle = global::LapshaApp.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle = global::LapshaApp.Droid.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle = global::LapshaApp.Droid.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_chipStyle = global::LapshaApp.Droid.Resource.Styleable.MaterialComponentsTheme_chipStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_colorAccent = global::LapshaApp.Droid.Resource.Styleable.MaterialComponentsTheme_colorAccent;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating = global::LapshaApp.Droid.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_colorPrimary = global::LapshaApp.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimary;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark = global::LapshaApp.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_colorSecondary = global::LapshaApp.Droid.Resource.Styleable.MaterialComponentsTheme_colorSecondary;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_editTextStyle = global::LapshaApp.Droid.Resource.Styleable.MaterialComponentsTheme_editTextStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle = global::LapshaApp.Droid.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle = global::LapshaApp.Droid.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle = global::LapshaApp.Droid.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle = global::LapshaApp.Droid.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_scrimBackground = global::LapshaApp.Droid.Resource.Styleable.MaterialComponentsTheme_scrimBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle = global::LapshaApp.Droid.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_tabStyle = global::LapshaApp.Droid.Resource.Styleable.MaterialComponentsTheme_tabStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1 = global::LapshaApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2 = global::LapshaApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton = global::LapshaApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption = global::LapshaApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1 = global::LapshaApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2 = global::LapshaApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3 = global::LapshaApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4 = global::LapshaApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5 = global::LapshaApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6 = global::LapshaApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline = global::LapshaApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1 = global::LapshaApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2 = global::LapshaApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_textInputStyle = global::LapshaApp.Droid.Resource.Styleable.MaterialComponentsTheme_textInputStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuGroup = global::LapshaApp.Droid.Resource.Styleable.MenuGroup;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuGroup_android_checkableBehavior = global::LapshaApp.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuGroup_android_enabled = global::LapshaApp.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuGroup_android_id = global::LapshaApp.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuGroup_android_menuCategory = global::LapshaApp.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuGroup_android_orderInCategory = global::LapshaApp.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuGroup_android_visible = global::LapshaApp.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem = global::LapshaApp.Droid.Resource.Styleable.MenuItem;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_actionLayout = global::LapshaApp.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_actionProviderClass = global::LapshaApp.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_actionViewClass = global::LapshaApp.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_alphabeticModifiers = global::LapshaApp.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::LapshaApp.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_android_checkable = global::LapshaApp.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_android_checked = global::LapshaApp.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_android_enabled = global::LapshaApp.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_android_icon = global::LapshaApp.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_android_id = global::LapshaApp.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_android_menuCategory = global::LapshaApp.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_android_numericShortcut = global::LapshaApp.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_android_onClick = global::LapshaApp.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_android_orderInCategory = global::LapshaApp.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_android_title = global::LapshaApp.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_android_titleCondensed = global::LapshaApp.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_android_visible = global::LapshaApp.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_contentDescription = global::LapshaApp.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_iconTint = global::LapshaApp.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_iconTintMode = global::LapshaApp.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_numericModifiers = global::LapshaApp.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_showAsAction = global::LapshaApp.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_tooltipText = global::LapshaApp.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuView = global::LapshaApp.Droid.Resource.Styleable.MenuView;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuView_android_headerBackground = global::LapshaApp.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuView_android_horizontalDivider = global::LapshaApp.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuView_android_itemBackground = global::LapshaApp.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::LapshaApp.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuView_android_itemTextAppearance = global::LapshaApp.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuView_android_verticalDivider = global::LapshaApp.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuView_android_windowAnimationStyle = global::LapshaApp.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuView_preserveIconSpacing = global::LapshaApp.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuView_subMenuArrow = global::LapshaApp.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.NavigationView = global::LapshaApp.Droid.Resource.Styleable.NavigationView;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.NavigationView_android_background = global::LapshaApp.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::LapshaApp.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.NavigationView_android_maxWidth = global::LapshaApp.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.NavigationView_elevation = global::LapshaApp.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.NavigationView_headerLayout = global::LapshaApp.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.NavigationView_itemBackground = global::LapshaApp.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.NavigationView_itemHorizontalPadding = global::LapshaApp.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.NavigationView_itemIconPadding = global::LapshaApp.Droid.Resource.Styleable.NavigationView_itemIconPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.NavigationView_itemIconTint = global::LapshaApp.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.NavigationView_itemTextAppearance = global::LapshaApp.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.NavigationView_itemTextColor = global::LapshaApp.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.NavigationView_menu = global::LapshaApp.Droid.Resource.Styleable.NavigationView_menu;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.PopupWindow = global::LapshaApp.Droid.Resource.Styleable.PopupWindow;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.PopupWindowBackgroundState = global::LapshaApp.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::LapshaApp.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::LapshaApp.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.PopupWindow_android_popupBackground = global::LapshaApp.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.PopupWindow_overlapAnchor = global::LapshaApp.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecycleListView = global::LapshaApp.Droid.Resource.Styleable.RecycleListView;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::LapshaApp.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::LapshaApp.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecyclerView = global::LapshaApp.Droid.Resource.Styleable.RecyclerView;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecyclerView_android_descendantFocusability = global::LapshaApp.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecyclerView_android_orientation = global::LapshaApp.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecyclerView_fastScrollEnabled = global::LapshaApp.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::LapshaApp.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::LapshaApp.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::LapshaApp.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::LapshaApp.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecyclerView_layoutManager = global::LapshaApp.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecyclerView_reverseLayout = global::LapshaApp.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecyclerView_spanCount = global::LapshaApp.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecyclerView_stackFromEnd = global::LapshaApp.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ScrimInsetsFrameLayout = global::LapshaApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::LapshaApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ScrollingViewBehavior_Layout = global::LapshaApp.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::LapshaApp.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ScrollViewRendererTheme = global::LapshaApp.Droid.Resource.Styleable.ScrollViewRendererTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ScrollViewRendererTheme_scrollViewStyle = global::LapshaApp.Droid.Resource.Styleable.ScrollViewRendererTheme_scrollViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView = global::LapshaApp.Droid.Resource.Styleable.SearchView;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_android_focusable = global::LapshaApp.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_android_imeOptions = global::LapshaApp.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_android_inputType = global::LapshaApp.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_android_maxWidth = global::LapshaApp.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_closeIcon = global::LapshaApp.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_commitIcon = global::LapshaApp.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_defaultQueryHint = global::LapshaApp.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_goIcon = global::LapshaApp.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_iconifiedByDefault = global::LapshaApp.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_layout = global::LapshaApp.Droid.Resource.Styleable.SearchView_layout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_queryBackground = global::LapshaApp.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_queryHint = global::LapshaApp.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_searchHintIcon = global::LapshaApp.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_searchIcon = global::LapshaApp.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_submitBackground = global::LapshaApp.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_suggestionRowLayout = global::LapshaApp.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_voiceIcon = global::LapshaApp.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Snackbar = global::LapshaApp.Droid.Resource.Styleable.Snackbar;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SnackbarLayout = global::LapshaApp.Droid.Resource.Styleable.SnackbarLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SnackbarLayout_android_maxWidth = global::LapshaApp.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SnackbarLayout_elevation = global::LapshaApp.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::LapshaApp.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Snackbar_snackbarButtonStyle = global::LapshaApp.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Snackbar_snackbarStyle = global::LapshaApp.Droid.Resource.Styleable.Snackbar_snackbarStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Spinner = global::LapshaApp.Droid.Resource.Styleable.Spinner;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Spinner_android_dropDownWidth = global::LapshaApp.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Spinner_android_entries = global::LapshaApp.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Spinner_android_popupBackground = global::LapshaApp.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Spinner_android_prompt = global::LapshaApp.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Spinner_popupTheme = global::LapshaApp.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.StateListDrawable = global::LapshaApp.Droid.Resource.Styleable.StateListDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.StateListDrawableItem = global::LapshaApp.Droid.Resource.Styleable.StateListDrawableItem;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.StateListDrawableItem_android_drawable = global::LapshaApp.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.StateListDrawable_android_constantSize = global::LapshaApp.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.StateListDrawable_android_dither = global::LapshaApp.Droid.Resource.Styleable.StateListDrawable_android_dither;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::LapshaApp.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::LapshaApp.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.StateListDrawable_android_variablePadding = global::LapshaApp.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.StateListDrawable_android_visible = global::LapshaApp.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat = global::LapshaApp.Droid.Resource.Styleable.SwitchCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_android_textOff = global::LapshaApp.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_android_textOn = global::LapshaApp.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_android_thumb = global::LapshaApp.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_showText = global::LapshaApp.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_splitTrack = global::LapshaApp.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_switchMinWidth = global::LapshaApp.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_switchPadding = global::LapshaApp.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_switchTextAppearance = global::LapshaApp.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_thumbTextPadding = global::LapshaApp.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_thumbTint = global::LapshaApp.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_thumbTintMode = global::LapshaApp.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_track = global::LapshaApp.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_trackTint = global::LapshaApp.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_trackTintMode = global::LapshaApp.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabItem = global::LapshaApp.Droid.Resource.Styleable.TabItem;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabItem_android_icon = global::LapshaApp.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabItem_android_layout = global::LapshaApp.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabItem_android_text = global::LapshaApp.Droid.Resource.Styleable.TabItem_android_text;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout = global::LapshaApp.Droid.Resource.Styleable.TabLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabBackground = global::LapshaApp.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabContentStart = global::LapshaApp.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabGravity = global::LapshaApp.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabIconTint = global::LapshaApp.Droid.Resource.Styleable.TabLayout_tabIconTint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabIconTintMode = global::LapshaApp.Droid.Resource.Styleable.TabLayout_tabIconTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabIndicator = global::LapshaApp.Droid.Resource.Styleable.TabLayout_tabIndicator;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::LapshaApp.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabIndicatorColor = global::LapshaApp.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::LapshaApp.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabIndicatorGravity = global::LapshaApp.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabIndicatorHeight = global::LapshaApp.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabInlineLabel = global::LapshaApp.Droid.Resource.Styleable.TabLayout_tabInlineLabel;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabMaxWidth = global::LapshaApp.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabMinWidth = global::LapshaApp.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabMode = global::LapshaApp.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabPadding = global::LapshaApp.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabPaddingBottom = global::LapshaApp.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabPaddingEnd = global::LapshaApp.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabPaddingStart = global::LapshaApp.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabPaddingTop = global::LapshaApp.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabRippleColor = global::LapshaApp.Droid.Resource.Styleable.TabLayout_tabRippleColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabSelectedTextColor = global::LapshaApp.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabTextAppearance = global::LapshaApp.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabTextColor = global::LapshaApp.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabUnboundedRipple = global::LapshaApp.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance = global::LapshaApp.Droid.Resource.Styleable.TextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_android_fontFamily = global::LapshaApp.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_android_shadowColor = global::LapshaApp.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_android_shadowDx = global::LapshaApp.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_android_shadowDy = global::LapshaApp.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_android_shadowRadius = global::LapshaApp.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_android_textColor = global::LapshaApp.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_android_textColorHint = global::LapshaApp.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_android_textColorLink = global::LapshaApp.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_android_textSize = global::LapshaApp.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_android_textStyle = global::LapshaApp.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_android_typeface = global::LapshaApp.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_fontFamily = global::LapshaApp.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_textAllCaps = global::LapshaApp.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout = global::LapshaApp.Droid.Resource.Styleable.TextInputLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_android_hint = global::LapshaApp.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_android_textColorHint = global::LapshaApp.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::LapshaApp.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::LapshaApp.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::LapshaApp.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::LapshaApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::LapshaApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::LapshaApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::LapshaApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_boxStrokeColor = global::LapshaApp.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::LapshaApp.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_counterEnabled = global::LapshaApp.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_counterMaxLength = global::LapshaApp.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::LapshaApp.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_counterTextAppearance = global::LapshaApp.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_errorEnabled = global::LapshaApp.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_errorTextAppearance = global::LapshaApp.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_helperText = global::LapshaApp.Droid.Resource.Styleable.TextInputLayout_helperText;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_helperTextEnabled = global::LapshaApp.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::LapshaApp.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::LapshaApp.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_hintEnabled = global::LapshaApp.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_hintTextAppearance = global::LapshaApp.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::LapshaApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::LapshaApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::LapshaApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_passwordToggleTint = global::LapshaApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::LapshaApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ThemeEnforcement = global::LapshaApp.Droid.Resource.Styleable.ThemeEnforcement;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::LapshaApp.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::LapshaApp.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::LapshaApp.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar = global::LapshaApp.Droid.Resource.Styleable.Toolbar;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_android_gravity = global::LapshaApp.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_android_minHeight = global::LapshaApp.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_buttonGravity = global::LapshaApp.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_collapseContentDescription = global::LapshaApp.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_collapseIcon = global::LapshaApp.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_contentInsetEnd = global::LapshaApp.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::LapshaApp.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_contentInsetLeft = global::LapshaApp.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_contentInsetRight = global::LapshaApp.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_contentInsetStart = global::LapshaApp.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::LapshaApp.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_logo = global::LapshaApp.Droid.Resource.Styleable.Toolbar_logo;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_logoDescription = global::LapshaApp.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_maxButtonHeight = global::LapshaApp.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_navigationContentDescription = global::LapshaApp.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_navigationIcon = global::LapshaApp.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_popupTheme = global::LapshaApp.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_subtitle = global::LapshaApp.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_subtitleTextAppearance = global::LapshaApp.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_subtitleTextColor = global::LapshaApp.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_title = global::LapshaApp.Droid.Resource.Styleable.Toolbar_title;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_titleMargin = global::LapshaApp.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_titleMarginBottom = global::LapshaApp.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_titleMarginEnd = global::LapshaApp.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_titleMargins = global::LapshaApp.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_titleMarginStart = global::LapshaApp.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_titleMarginTop = global::LapshaApp.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_titleTextAppearance = global::LapshaApp.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_titleTextColor = global::LapshaApp.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.View = global::LapshaApp.Droid.Resource.Styleable.View;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ViewBackgroundHelper = global::LapshaApp.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ViewBackgroundHelper_android_background = global::LapshaApp.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::LapshaApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::LapshaApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ViewStubCompat = global::LapshaApp.Droid.Resource.Styleable.ViewStubCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ViewStubCompat_android_id = global::LapshaApp.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ViewStubCompat_android_inflatedId = global::LapshaApp.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ViewStubCompat_android_layout = global::LapshaApp.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.View_android_focusable = global::LapshaApp.Droid.Resource.Styleable.View_android_focusable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.View_android_theme = global::LapshaApp.Droid.Resource.Styleable.View_android_theme;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.View_paddingEnd = global::LapshaApp.Droid.Resource.Styleable.View_paddingEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.View_paddingStart = global::LapshaApp.Droid.Resource.Styleable.View_paddingStart;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.View_theme = global::LapshaApp.Droid.Resource.Styleable.View_theme;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_in = global::LapshaApp.Droid.Resource.Animation.abc_fade_in;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_out = global::LapshaApp.Droid.Resource.Animation.abc_fade_out;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::LapshaApp.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -5360,65 +7947,65 @@ namespace LapshaApp.Droid
 		public partial class Animation
 		{
 			
-			// aapt resource value: 0x7F010004
-			public const int abc_fade_in = 2130771972;
-			
-			// aapt resource value: 0x7F010005
-			public const int abc_fade_out = 2130771973;
-			
-			// aapt resource value: 0x7F010006
-			public const int abc_grow_fade_in_from_bottom = 2130771974;
-			
-			// aapt resource value: 0x7F010007
-			public const int abc_popup_enter = 2130771975;
-			
-			// aapt resource value: 0x7F010008
-			public const int abc_popup_exit = 2130771976;
-			
-			// aapt resource value: 0x7F010009
-			public const int abc_shrink_fade_out_from_bottom = 2130771977;
-			
-			// aapt resource value: 0x7F01000A
-			public const int abc_slide_in_bottom = 2130771978;
-			
-			// aapt resource value: 0x7F01000B
-			public const int abc_slide_in_top = 2130771979;
-			
-			// aapt resource value: 0x7F01000C
-			public const int abc_slide_out_bottom = 2130771980;
-			
-			// aapt resource value: 0x7F01000D
-			public const int abc_slide_out_top = 2130771981;
-			
-			// aapt resource value: 0x7F01000E
-			public const int abc_tooltip_enter = 2130771982;
-			
-			// aapt resource value: 0x7F01000F
-			public const int abc_tooltip_exit = 2130771983;
-			
-			// aapt resource value: 0x7F010010
-			public const int design_bottom_sheet_slide_in = 2130771984;
-			
-			// aapt resource value: 0x7F010011
-			public const int design_bottom_sheet_slide_out = 2130771985;
-			
-			// aapt resource value: 0x7F010012
-			public const int design_snackbar_in = 2130771986;
-			
-			// aapt resource value: 0x7F010013
-			public const int design_snackbar_out = 2130771987;
-			
 			// aapt resource value: 0x7F010000
-			public const int EnterFromLeft = 2130771968;
+			public const int abc_fade_in = 2130771968;
 			
 			// aapt resource value: 0x7F010001
-			public const int EnterFromRight = 2130771969;
+			public const int abc_fade_out = 2130771969;
 			
 			// aapt resource value: 0x7F010002
-			public const int ExitToLeft = 2130771970;
+			public const int abc_grow_fade_in_from_bottom = 2130771970;
 			
 			// aapt resource value: 0x7F010003
-			public const int ExitToRight = 2130771971;
+			public const int abc_popup_enter = 2130771971;
+			
+			// aapt resource value: 0x7F010004
+			public const int abc_popup_exit = 2130771972;
+			
+			// aapt resource value: 0x7F010005
+			public const int abc_shrink_fade_out_from_bottom = 2130771973;
+			
+			// aapt resource value: 0x7F010006
+			public const int abc_slide_in_bottom = 2130771974;
+			
+			// aapt resource value: 0x7F010007
+			public const int abc_slide_in_top = 2130771975;
+			
+			// aapt resource value: 0x7F010008
+			public const int abc_slide_out_bottom = 2130771976;
+			
+			// aapt resource value: 0x7F010009
+			public const int abc_slide_out_top = 2130771977;
+			
+			// aapt resource value: 0x7F01000A
+			public const int abc_tooltip_enter = 2130771978;
+			
+			// aapt resource value: 0x7F01000B
+			public const int abc_tooltip_exit = 2130771979;
+			
+			// aapt resource value: 0x7F01000C
+			public const int design_bottom_sheet_slide_in = 2130771980;
+			
+			// aapt resource value: 0x7F01000D
+			public const int design_bottom_sheet_slide_out = 2130771981;
+			
+			// aapt resource value: 0x7F01000E
+			public const int design_snackbar_in = 2130771982;
+			
+			// aapt resource value: 0x7F01000F
+			public const int design_snackbar_out = 2130771983;
+			
+			// aapt resource value: 0x7F010010
+			public const int EnterFromLeft = 2130771984;
+			
+			// aapt resource value: 0x7F010011
+			public const int EnterFromRight = 2130771985;
+			
+			// aapt resource value: 0x7F010012
+			public const int ExitToLeft = 2130771986;
+			
+			// aapt resource value: 0x7F010013
+			public const int ExitToRight = 2130771987;
 			
 			static Animation()
 			{
@@ -8048,341 +10635,341 @@ namespace LapshaApp.Droid
 		public partial class Drawable
 		{
 			
-			// aapt resource value: 0x7F070000
-			public const int abc_ab_share_pack_mtrl_alpha = 2131165184;
-			
-			// aapt resource value: 0x7F070001
-			public const int abc_action_bar_item_background_material = 2131165185;
-			
-			// aapt resource value: 0x7F070002
-			public const int abc_btn_borderless_material = 2131165186;
-			
-			// aapt resource value: 0x7F070003
-			public const int abc_btn_check_material = 2131165187;
-			
-			// aapt resource value: 0x7F070004
-			public const int abc_btn_check_to_on_mtrl_000 = 2131165188;
-			
-			// aapt resource value: 0x7F070005
-			public const int abc_btn_check_to_on_mtrl_015 = 2131165189;
-			
 			// aapt resource value: 0x7F070006
-			public const int abc_btn_colored_material = 2131165190;
+			public const int abc_ab_share_pack_mtrl_alpha = 2131165190;
 			
 			// aapt resource value: 0x7F070007
-			public const int abc_btn_default_mtrl_shape = 2131165191;
+			public const int abc_action_bar_item_background_material = 2131165191;
 			
 			// aapt resource value: 0x7F070008
-			public const int abc_btn_radio_material = 2131165192;
+			public const int abc_btn_borderless_material = 2131165192;
 			
 			// aapt resource value: 0x7F070009
-			public const int abc_btn_radio_to_on_mtrl_000 = 2131165193;
+			public const int abc_btn_check_material = 2131165193;
 			
 			// aapt resource value: 0x7F07000A
-			public const int abc_btn_radio_to_on_mtrl_015 = 2131165194;
+			public const int abc_btn_check_to_on_mtrl_000 = 2131165194;
 			
 			// aapt resource value: 0x7F07000B
-			public const int abc_btn_switch_to_on_mtrl_00001 = 2131165195;
+			public const int abc_btn_check_to_on_mtrl_015 = 2131165195;
 			
 			// aapt resource value: 0x7F07000C
-			public const int abc_btn_switch_to_on_mtrl_00012 = 2131165196;
+			public const int abc_btn_colored_material = 2131165196;
 			
 			// aapt resource value: 0x7F07000D
-			public const int abc_cab_background_internal_bg = 2131165197;
+			public const int abc_btn_default_mtrl_shape = 2131165197;
 			
 			// aapt resource value: 0x7F07000E
-			public const int abc_cab_background_top_material = 2131165198;
+			public const int abc_btn_radio_material = 2131165198;
 			
 			// aapt resource value: 0x7F07000F
-			public const int abc_cab_background_top_mtrl_alpha = 2131165199;
+			public const int abc_btn_radio_to_on_mtrl_000 = 2131165199;
 			
 			// aapt resource value: 0x7F070010
-			public const int abc_control_background_material = 2131165200;
+			public const int abc_btn_radio_to_on_mtrl_015 = 2131165200;
 			
 			// aapt resource value: 0x7F070011
-			public const int abc_dialog_material_background = 2131165201;
+			public const int abc_btn_switch_to_on_mtrl_00001 = 2131165201;
 			
 			// aapt resource value: 0x7F070012
-			public const int abc_edit_text_material = 2131165202;
+			public const int abc_btn_switch_to_on_mtrl_00012 = 2131165202;
 			
 			// aapt resource value: 0x7F070013
-			public const int abc_ic_ab_back_material = 2131165203;
+			public const int abc_cab_background_internal_bg = 2131165203;
 			
 			// aapt resource value: 0x7F070014
-			public const int abc_ic_arrow_drop_right_black_24dp = 2131165204;
+			public const int abc_cab_background_top_material = 2131165204;
 			
 			// aapt resource value: 0x7F070015
-			public const int abc_ic_clear_material = 2131165205;
+			public const int abc_cab_background_top_mtrl_alpha = 2131165205;
 			
 			// aapt resource value: 0x7F070016
-			public const int abc_ic_commit_search_api_mtrl_alpha = 2131165206;
+			public const int abc_control_background_material = 2131165206;
 			
 			// aapt resource value: 0x7F070017
-			public const int abc_ic_go_search_api_material = 2131165207;
+			public const int abc_dialog_material_background = 2131165207;
 			
 			// aapt resource value: 0x7F070018
-			public const int abc_ic_menu_copy_mtrl_am_alpha = 2131165208;
+			public const int abc_edit_text_material = 2131165208;
 			
 			// aapt resource value: 0x7F070019
-			public const int abc_ic_menu_cut_mtrl_alpha = 2131165209;
+			public const int abc_ic_ab_back_material = 2131165209;
 			
 			// aapt resource value: 0x7F07001A
-			public const int abc_ic_menu_overflow_material = 2131165210;
+			public const int abc_ic_arrow_drop_right_black_24dp = 2131165210;
 			
 			// aapt resource value: 0x7F07001B
-			public const int abc_ic_menu_paste_mtrl_am_alpha = 2131165211;
+			public const int abc_ic_clear_material = 2131165211;
 			
 			// aapt resource value: 0x7F07001C
-			public const int abc_ic_menu_selectall_mtrl_alpha = 2131165212;
+			public const int abc_ic_commit_search_api_mtrl_alpha = 2131165212;
 			
 			// aapt resource value: 0x7F07001D
-			public const int abc_ic_menu_share_mtrl_alpha = 2131165213;
+			public const int abc_ic_go_search_api_material = 2131165213;
 			
 			// aapt resource value: 0x7F07001E
-			public const int abc_ic_search_api_material = 2131165214;
+			public const int abc_ic_menu_copy_mtrl_am_alpha = 2131165214;
 			
 			// aapt resource value: 0x7F07001F
-			public const int abc_ic_star_black_16dp = 2131165215;
+			public const int abc_ic_menu_cut_mtrl_alpha = 2131165215;
 			
 			// aapt resource value: 0x7F070020
-			public const int abc_ic_star_black_36dp = 2131165216;
+			public const int abc_ic_menu_overflow_material = 2131165216;
 			
 			// aapt resource value: 0x7F070021
-			public const int abc_ic_star_black_48dp = 2131165217;
+			public const int abc_ic_menu_paste_mtrl_am_alpha = 2131165217;
 			
 			// aapt resource value: 0x7F070022
-			public const int abc_ic_star_half_black_16dp = 2131165218;
+			public const int abc_ic_menu_selectall_mtrl_alpha = 2131165218;
 			
 			// aapt resource value: 0x7F070023
-			public const int abc_ic_star_half_black_36dp = 2131165219;
+			public const int abc_ic_menu_share_mtrl_alpha = 2131165219;
 			
 			// aapt resource value: 0x7F070024
-			public const int abc_ic_star_half_black_48dp = 2131165220;
+			public const int abc_ic_search_api_material = 2131165220;
 			
 			// aapt resource value: 0x7F070025
-			public const int abc_ic_voice_search_api_material = 2131165221;
+			public const int abc_ic_star_black_16dp = 2131165221;
 			
 			// aapt resource value: 0x7F070026
-			public const int abc_item_background_holo_dark = 2131165222;
+			public const int abc_ic_star_black_36dp = 2131165222;
 			
 			// aapt resource value: 0x7F070027
-			public const int abc_item_background_holo_light = 2131165223;
+			public const int abc_ic_star_black_48dp = 2131165223;
 			
 			// aapt resource value: 0x7F070028
-			public const int abc_list_divider_material = 2131165224;
+			public const int abc_ic_star_half_black_16dp = 2131165224;
 			
 			// aapt resource value: 0x7F070029
-			public const int abc_list_divider_mtrl_alpha = 2131165225;
+			public const int abc_ic_star_half_black_36dp = 2131165225;
 			
 			// aapt resource value: 0x7F07002A
-			public const int abc_list_focused_holo = 2131165226;
+			public const int abc_ic_star_half_black_48dp = 2131165226;
 			
 			// aapt resource value: 0x7F07002B
-			public const int abc_list_longpressed_holo = 2131165227;
+			public const int abc_ic_voice_search_api_material = 2131165227;
 			
 			// aapt resource value: 0x7F07002C
-			public const int abc_list_pressed_holo_dark = 2131165228;
+			public const int abc_item_background_holo_dark = 2131165228;
 			
 			// aapt resource value: 0x7F07002D
-			public const int abc_list_pressed_holo_light = 2131165229;
+			public const int abc_item_background_holo_light = 2131165229;
 			
 			// aapt resource value: 0x7F07002E
-			public const int abc_list_selector_background_transition_holo_dark = 2131165230;
+			public const int abc_list_divider_material = 2131165230;
 			
 			// aapt resource value: 0x7F07002F
-			public const int abc_list_selector_background_transition_holo_light = 2131165231;
+			public const int abc_list_divider_mtrl_alpha = 2131165231;
 			
 			// aapt resource value: 0x7F070030
-			public const int abc_list_selector_disabled_holo_dark = 2131165232;
+			public const int abc_list_focused_holo = 2131165232;
 			
 			// aapt resource value: 0x7F070031
-			public const int abc_list_selector_disabled_holo_light = 2131165233;
+			public const int abc_list_longpressed_holo = 2131165233;
 			
 			// aapt resource value: 0x7F070032
-			public const int abc_list_selector_holo_dark = 2131165234;
+			public const int abc_list_pressed_holo_dark = 2131165234;
 			
 			// aapt resource value: 0x7F070033
-			public const int abc_list_selector_holo_light = 2131165235;
+			public const int abc_list_pressed_holo_light = 2131165235;
 			
 			// aapt resource value: 0x7F070034
-			public const int abc_menu_hardkey_panel_mtrl_mult = 2131165236;
+			public const int abc_list_selector_background_transition_holo_dark = 2131165236;
 			
 			// aapt resource value: 0x7F070035
-			public const int abc_popup_background_mtrl_mult = 2131165237;
+			public const int abc_list_selector_background_transition_holo_light = 2131165237;
 			
 			// aapt resource value: 0x7F070036
-			public const int abc_ratingbar_indicator_material = 2131165238;
+			public const int abc_list_selector_disabled_holo_dark = 2131165238;
 			
 			// aapt resource value: 0x7F070037
-			public const int abc_ratingbar_material = 2131165239;
+			public const int abc_list_selector_disabled_holo_light = 2131165239;
 			
 			// aapt resource value: 0x7F070038
-			public const int abc_ratingbar_small_material = 2131165240;
+			public const int abc_list_selector_holo_dark = 2131165240;
 			
 			// aapt resource value: 0x7F070039
-			public const int abc_scrubber_control_off_mtrl_alpha = 2131165241;
+			public const int abc_list_selector_holo_light = 2131165241;
 			
 			// aapt resource value: 0x7F07003A
-			public const int abc_scrubber_control_to_pressed_mtrl_000 = 2131165242;
+			public const int abc_menu_hardkey_panel_mtrl_mult = 2131165242;
 			
 			// aapt resource value: 0x7F07003B
-			public const int abc_scrubber_control_to_pressed_mtrl_005 = 2131165243;
+			public const int abc_popup_background_mtrl_mult = 2131165243;
 			
 			// aapt resource value: 0x7F07003C
-			public const int abc_scrubber_primary_mtrl_alpha = 2131165244;
+			public const int abc_ratingbar_indicator_material = 2131165244;
 			
 			// aapt resource value: 0x7F07003D
-			public const int abc_scrubber_track_mtrl_alpha = 2131165245;
+			public const int abc_ratingbar_material = 2131165245;
 			
 			// aapt resource value: 0x7F07003E
-			public const int abc_seekbar_thumb_material = 2131165246;
+			public const int abc_ratingbar_small_material = 2131165246;
 			
 			// aapt resource value: 0x7F07003F
-			public const int abc_seekbar_tick_mark_material = 2131165247;
+			public const int abc_scrubber_control_off_mtrl_alpha = 2131165247;
 			
 			// aapt resource value: 0x7F070040
-			public const int abc_seekbar_track_material = 2131165248;
+			public const int abc_scrubber_control_to_pressed_mtrl_000 = 2131165248;
 			
 			// aapt resource value: 0x7F070041
-			public const int abc_spinner_mtrl_am_alpha = 2131165249;
+			public const int abc_scrubber_control_to_pressed_mtrl_005 = 2131165249;
 			
 			// aapt resource value: 0x7F070042
-			public const int abc_spinner_textfield_background_material = 2131165250;
+			public const int abc_scrubber_primary_mtrl_alpha = 2131165250;
 			
 			// aapt resource value: 0x7F070043
-			public const int abc_switch_thumb_material = 2131165251;
+			public const int abc_scrubber_track_mtrl_alpha = 2131165251;
 			
 			// aapt resource value: 0x7F070044
-			public const int abc_switch_track_mtrl_alpha = 2131165252;
+			public const int abc_seekbar_thumb_material = 2131165252;
 			
 			// aapt resource value: 0x7F070045
-			public const int abc_tab_indicator_material = 2131165253;
+			public const int abc_seekbar_tick_mark_material = 2131165253;
 			
 			// aapt resource value: 0x7F070046
-			public const int abc_tab_indicator_mtrl_alpha = 2131165254;
-			
-			// aapt resource value: 0x7F07004E
-			public const int abc_textfield_activated_mtrl_alpha = 2131165262;
-			
-			// aapt resource value: 0x7F07004F
-			public const int abc_textfield_default_mtrl_alpha = 2131165263;
-			
-			// aapt resource value: 0x7F070050
-			public const int abc_textfield_search_activated_mtrl_alpha = 2131165264;
-			
-			// aapt resource value: 0x7F070051
-			public const int abc_textfield_search_default_mtrl_alpha = 2131165265;
-			
-			// aapt resource value: 0x7F070052
-			public const int abc_textfield_search_material = 2131165266;
+			public const int abc_seekbar_track_material = 2131165254;
 			
 			// aapt resource value: 0x7F070047
-			public const int abc_text_cursor_material = 2131165255;
+			public const int abc_spinner_mtrl_am_alpha = 2131165255;
 			
 			// aapt resource value: 0x7F070048
-			public const int abc_text_select_handle_left_mtrl_dark = 2131165256;
+			public const int abc_spinner_textfield_background_material = 2131165256;
 			
 			// aapt resource value: 0x7F070049
-			public const int abc_text_select_handle_left_mtrl_light = 2131165257;
+			public const int abc_switch_thumb_material = 2131165257;
 			
 			// aapt resource value: 0x7F07004A
-			public const int abc_text_select_handle_middle_mtrl_dark = 2131165258;
+			public const int abc_switch_track_mtrl_alpha = 2131165258;
 			
 			// aapt resource value: 0x7F07004B
-			public const int abc_text_select_handle_middle_mtrl_light = 2131165259;
+			public const int abc_tab_indicator_material = 2131165259;
 			
 			// aapt resource value: 0x7F07004C
-			public const int abc_text_select_handle_right_mtrl_dark = 2131165260;
-			
-			// aapt resource value: 0x7F07004D
-			public const int abc_text_select_handle_right_mtrl_light = 2131165261;
-			
-			// aapt resource value: 0x7F070053
-			public const int abc_vector_test = 2131165267;
+			public const int abc_tab_indicator_mtrl_alpha = 2131165260;
 			
 			// aapt resource value: 0x7F070054
-			public const int avd_hide_password = 2131165268;
+			public const int abc_textfield_activated_mtrl_alpha = 2131165268;
 			
 			// aapt resource value: 0x7F070055
-			public const int avd_show_password = 2131165269;
+			public const int abc_textfield_default_mtrl_alpha = 2131165269;
 			
 			// aapt resource value: 0x7F070056
-			public const int design_bottom_navigation_item_background = 2131165270;
+			public const int abc_textfield_search_activated_mtrl_alpha = 2131165270;
 			
 			// aapt resource value: 0x7F070057
-			public const int design_fab_background = 2131165271;
+			public const int abc_textfield_search_default_mtrl_alpha = 2131165271;
 			
 			// aapt resource value: 0x7F070058
-			public const int design_ic_visibility = 2131165272;
+			public const int abc_textfield_search_material = 2131165272;
+			
+			// aapt resource value: 0x7F07004D
+			public const int abc_text_cursor_material = 2131165261;
+			
+			// aapt resource value: 0x7F07004E
+			public const int abc_text_select_handle_left_mtrl_dark = 2131165262;
+			
+			// aapt resource value: 0x7F07004F
+			public const int abc_text_select_handle_left_mtrl_light = 2131165263;
+			
+			// aapt resource value: 0x7F070050
+			public const int abc_text_select_handle_middle_mtrl_dark = 2131165264;
+			
+			// aapt resource value: 0x7F070051
+			public const int abc_text_select_handle_middle_mtrl_light = 2131165265;
+			
+			// aapt resource value: 0x7F070052
+			public const int abc_text_select_handle_right_mtrl_dark = 2131165266;
+			
+			// aapt resource value: 0x7F070053
+			public const int abc_text_select_handle_right_mtrl_light = 2131165267;
 			
 			// aapt resource value: 0x7F070059
-			public const int design_ic_visibility_off = 2131165273;
+			public const int abc_vector_test = 2131165273;
 			
 			// aapt resource value: 0x7F07005A
-			public const int design_password_eye = 2131165274;
+			public const int avd_hide_password = 2131165274;
 			
 			// aapt resource value: 0x7F07005B
-			public const int design_snackbar_background = 2131165275;
+			public const int avd_show_password = 2131165275;
 			
 			// aapt resource value: 0x7F07005C
-			public const int ic_mtrl_chip_checked_black = 2131165276;
+			public const int design_bottom_navigation_item_background = 2131165276;
 			
 			// aapt resource value: 0x7F07005D
-			public const int ic_mtrl_chip_checked_circle = 2131165277;
+			public const int design_fab_background = 2131165277;
 			
 			// aapt resource value: 0x7F07005E
-			public const int ic_mtrl_chip_close_circle = 2131165278;
+			public const int design_ic_visibility = 2131165278;
 			
 			// aapt resource value: 0x7F07005F
-			public const int mtrl_snackbar_background = 2131165279;
+			public const int design_ic_visibility_off = 2131165279;
 			
 			// aapt resource value: 0x7F070060
-			public const int mtrl_tabs_default_indicator = 2131165280;
+			public const int design_password_eye = 2131165280;
 			
 			// aapt resource value: 0x7F070061
-			public const int navigation_empty_icon = 2131165281;
+			public const int design_snackbar_background = 2131165281;
 			
 			// aapt resource value: 0x7F070062
-			public const int notification_action_background = 2131165282;
+			public const int ic_mtrl_chip_checked_black = 2131165282;
 			
 			// aapt resource value: 0x7F070063
-			public const int notification_bg = 2131165283;
+			public const int ic_mtrl_chip_checked_circle = 2131165283;
 			
 			// aapt resource value: 0x7F070064
-			public const int notification_bg_low = 2131165284;
+			public const int ic_mtrl_chip_close_circle = 2131165284;
 			
 			// aapt resource value: 0x7F070065
-			public const int notification_bg_low_normal = 2131165285;
+			public const int mtrl_snackbar_background = 2131165285;
 			
 			// aapt resource value: 0x7F070066
-			public const int notification_bg_low_pressed = 2131165286;
+			public const int mtrl_tabs_default_indicator = 2131165286;
 			
 			// aapt resource value: 0x7F070067
-			public const int notification_bg_normal = 2131165287;
+			public const int navigation_empty_icon = 2131165287;
 			
 			// aapt resource value: 0x7F070068
-			public const int notification_bg_normal_pressed = 2131165288;
+			public const int notification_action_background = 2131165288;
 			
 			// aapt resource value: 0x7F070069
-			public const int notification_icon_background = 2131165289;
+			public const int notification_bg = 2131165289;
 			
 			// aapt resource value: 0x7F07006A
-			public const int notification_template_icon_bg = 2131165290;
+			public const int notification_bg_low = 2131165290;
 			
 			// aapt resource value: 0x7F07006B
-			public const int notification_template_icon_low_bg = 2131165291;
+			public const int notification_bg_low_normal = 2131165291;
 			
 			// aapt resource value: 0x7F07006C
-			public const int notification_tile_bg = 2131165292;
+			public const int notification_bg_low_pressed = 2131165292;
 			
 			// aapt resource value: 0x7F07006D
-			public const int notify_panel_notification_icon_bg = 2131165293;
+			public const int notification_bg_normal = 2131165293;
 			
 			// aapt resource value: 0x7F07006E
-			public const int tooltip_frame_dark = 2131165294;
+			public const int notification_bg_normal_pressed = 2131165294;
 			
 			// aapt resource value: 0x7F07006F
-			public const int tooltip_frame_light = 2131165295;
+			public const int notification_icon_background = 2131165295;
+			
+			// aapt resource value: 0x7F070070
+			public const int notification_template_icon_bg = 2131165296;
+			
+			// aapt resource value: 0x7F070071
+			public const int notification_template_icon_low_bg = 2131165297;
+			
+			// aapt resource value: 0x7F070072
+			public const int notification_tile_bg = 2131165298;
+			
+			// aapt resource value: 0x7F070073
+			public const int notify_panel_notification_icon_bg = 2131165299;
+			
+			// aapt resource value: 0x7F070074
+			public const int tooltip_frame_dark = 2131165300;
+			
+			// aapt resource value: 0x7F070075
+			public const int tooltip_frame_light = 2131165301;
 			
 			static Drawable()
 			{
@@ -8397,659 +10984,626 @@ namespace LapshaApp.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7F080007
-			public const int action0 = 2131230727;
-			
-			// aapt resource value: 0x7F080019
-			public const int actions = 2131230745;
-			
-			// aapt resource value: 0x7F080008
-			public const int action_bar = 2131230728;
-			
-			// aapt resource value: 0x7F080009
-			public const int action_bar_activity_content = 2131230729;
-			
-			// aapt resource value: 0x7F08000A
-			public const int action_bar_container = 2131230730;
-			
-			// aapt resource value: 0x7F08000B
-			public const int action_bar_root = 2131230731;
-			
-			// aapt resource value: 0x7F08000C
-			public const int action_bar_spinner = 2131230732;
-			
-			// aapt resource value: 0x7F08000D
-			public const int action_bar_subtitle = 2131230733;
-			
-			// aapt resource value: 0x7F08000E
-			public const int action_bar_title = 2131230734;
-			
-			// aapt resource value: 0x7F08000F
-			public const int action_container = 2131230735;
-			
-			// aapt resource value: 0x7F080010
-			public const int action_context_bar = 2131230736;
-			
-			// aapt resource value: 0x7F080011
-			public const int action_divider = 2131230737;
-			
-			// aapt resource value: 0x7F080012
-			public const int action_image = 2131230738;
-			
-			// aapt resource value: 0x7F080013
-			public const int action_menu_divider = 2131230739;
-			
-			// aapt resource value: 0x7F080014
-			public const int action_menu_presenter = 2131230740;
-			
-			// aapt resource value: 0x7F080015
-			public const int action_mode_bar = 2131230741;
-			
-			// aapt resource value: 0x7F080016
-			public const int action_mode_bar_stub = 2131230742;
-			
-			// aapt resource value: 0x7F080017
-			public const int action_mode_close_button = 2131230743;
+			// aapt resource value: 0x7F080006
+			public const int action0 = 2131230726;
 			
 			// aapt resource value: 0x7F080018
-			public const int action_text = 2131230744;
+			public const int actions = 2131230744;
+			
+			// aapt resource value: 0x7F080007
+			public const int action_bar = 2131230727;
+			
+			// aapt resource value: 0x7F080008
+			public const int action_bar_activity_content = 2131230728;
+			
+			// aapt resource value: 0x7F080009
+			public const int action_bar_container = 2131230729;
+			
+			// aapt resource value: 0x7F08000A
+			public const int action_bar_root = 2131230730;
+			
+			// aapt resource value: 0x7F08000B
+			public const int action_bar_spinner = 2131230731;
+			
+			// aapt resource value: 0x7F08000C
+			public const int action_bar_subtitle = 2131230732;
+			
+			// aapt resource value: 0x7F08000D
+			public const int action_bar_title = 2131230733;
+			
+			// aapt resource value: 0x7F08000E
+			public const int action_container = 2131230734;
+			
+			// aapt resource value: 0x7F08000F
+			public const int action_context_bar = 2131230735;
+			
+			// aapt resource value: 0x7F080010
+			public const int action_divider = 2131230736;
+			
+			// aapt resource value: 0x7F080011
+			public const int action_image = 2131230737;
+			
+			// aapt resource value: 0x7F080012
+			public const int action_menu_divider = 2131230738;
+			
+			// aapt resource value: 0x7F080013
+			public const int action_menu_presenter = 2131230739;
+			
+			// aapt resource value: 0x7F080014
+			public const int action_mode_bar = 2131230740;
+			
+			// aapt resource value: 0x7F080015
+			public const int action_mode_bar_stub = 2131230741;
+			
+			// aapt resource value: 0x7F080016
+			public const int action_mode_close_button = 2131230742;
+			
+			// aapt resource value: 0x7F080017
+			public const int action_text = 2131230743;
+			
+			// aapt resource value: 0x7F080019
+			public const int activity_chooser_view_content = 2131230745;
 			
 			// aapt resource value: 0x7F08001A
-			public const int activity_chooser_view_content = 2131230746;
+			public const int add = 2131230746;
 			
 			// aapt resource value: 0x7F08001B
-			public const int add = 2131230747;
+			public const int alertTitle = 2131230747;
 			
 			// aapt resource value: 0x7F08001C
-			public const int alertTitle = 2131230748;
-			
-			// aapt resource value: 0x7F08001D
-			public const int all = 2131230749;
+			public const int all = 2131230748;
 			
 			// aapt resource value: 0x7F080000
 			public const int ALT = 2131230720;
 			
+			// aapt resource value: 0x7F08001D
+			public const int always = 2131230749;
+			
 			// aapt resource value: 0x7F08001E
-			public const int always = 2131230750;
+			public const int async = 2131230750;
 			
 			// aapt resource value: 0x7F08001F
-			public const int application_name = 2131230751;
-			
-			// aapt resource value: 0x7F080001
-			public const int APPLICATION_NAME = 2131230721;
+			public const int auto = 2131230751;
 			
 			// aapt resource value: 0x7F080020
-			public const int async = 2131230752;
+			public const int beginning = 2131230752;
 			
 			// aapt resource value: 0x7F080021
-			public const int auto = 2131230753;
+			public const int blocking = 2131230753;
 			
 			// aapt resource value: 0x7F080022
-			public const int background = 2131230754;
+			public const int bottom = 2131230754;
 			
 			// aapt resource value: 0x7F080023
-			public const int beginning = 2131230755;
+			public const int bottomtab_navarea = 2131230755;
 			
 			// aapt resource value: 0x7F080024
-			public const int blocking = 2131230756;
+			public const int bottomtab_tabbar = 2131230756;
 			
 			// aapt resource value: 0x7F080025
-			public const int bottom = 2131230757;
-			
-			// aapt resource value: 0x7F080026
-			public const int bottomtab_navarea = 2131230758;
-			
-			// aapt resource value: 0x7F080027
-			public const int bottomtab_tabbar = 2131230759;
+			public const int browser_actions_header_text = 2131230757;
 			
 			// aapt resource value: 0x7F080028
-			public const int browser_actions_header_text = 2131230760;
+			public const int browser_actions_menu_items = 2131230760;
 			
-			// aapt resource value: 0x7F08002B
-			public const int browser_actions_menu_items = 2131230763;
+			// aapt resource value: 0x7F080026
+			public const int browser_actions_menu_item_icon = 2131230758;
+			
+			// aapt resource value: 0x7F080027
+			public const int browser_actions_menu_item_text = 2131230759;
 			
 			// aapt resource value: 0x7F080029
-			public const int browser_actions_menu_item_icon = 2131230761;
+			public const int browser_actions_menu_view = 2131230761;
 			
 			// aapt resource value: 0x7F08002A
-			public const int browser_actions_menu_item_text = 2131230762;
+			public const int buttonPanel = 2131230762;
+			
+			// aapt resource value: 0x7F08002B
+			public const int cancel_action = 2131230763;
 			
 			// aapt resource value: 0x7F08002C
-			public const int browser_actions_menu_view = 2131230764;
+			public const int center = 2131230764;
 			
 			// aapt resource value: 0x7F08002D
-			public const int button1 = 2131230765;
+			public const int center_horizontal = 2131230765;
 			
 			// aapt resource value: 0x7F08002E
-			public const int button2 = 2131230766;
+			public const int center_vertical = 2131230766;
 			
 			// aapt resource value: 0x7F08002F
-			public const int button3 = 2131230767;
+			public const int checkbox = 2131230767;
 			
 			// aapt resource value: 0x7F080030
-			public const int buttonPanel = 2131230768;
+			public const int chronometer = 2131230768;
 			
 			// aapt resource value: 0x7F080031
-			public const int cancel_action = 2131230769;
+			public const int clip_horizontal = 2131230769;
 			
 			// aapt resource value: 0x7F080032
-			public const int center = 2131230770;
+			public const int clip_vertical = 2131230770;
 			
 			// aapt resource value: 0x7F080033
-			public const int center_horizontal = 2131230771;
+			public const int collapseActionView = 2131230771;
 			
 			// aapt resource value: 0x7F080034
-			public const int center_vertical = 2131230772;
+			public const int container = 2131230772;
 			
 			// aapt resource value: 0x7F080035
-			public const int checkbox = 2131230773;
+			public const int content = 2131230773;
 			
 			// aapt resource value: 0x7F080036
-			public const int chronometer = 2131230774;
+			public const int contentPanel = 2131230774;
 			
 			// aapt resource value: 0x7F080037
-			public const int clip_horizontal = 2131230775;
+			public const int coordinator = 2131230775;
+			
+			// aapt resource value: 0x7F080001
+			public const int CTRL = 2131230721;
 			
 			// aapt resource value: 0x7F080038
-			public const int clip_vertical = 2131230776;
+			public const int custom = 2131230776;
 			
 			// aapt resource value: 0x7F080039
-			public const int collapseActionView = 2131230777;
+			public const int customPanel = 2131230777;
 			
 			// aapt resource value: 0x7F08003A
-			public const int container = 2131230778;
+			public const int decor_content_parent = 2131230778;
 			
 			// aapt resource value: 0x7F08003B
-			public const int content = 2131230779;
+			public const int default_activity_button = 2131230779;
 			
 			// aapt resource value: 0x7F08003C
-			public const int contentPanel = 2131230780;
+			public const int design_bottom_sheet = 2131230780;
 			
 			// aapt resource value: 0x7F08003D
-			public const int coordinator = 2131230781;
-			
-			// aapt resource value: 0x7F080002
-			public const int CTRL = 2131230722;
+			public const int design_menu_item_action_area = 2131230781;
 			
 			// aapt resource value: 0x7F08003E
-			public const int custom = 2131230782;
+			public const int design_menu_item_action_area_stub = 2131230782;
 			
 			// aapt resource value: 0x7F08003F
-			public const int customPanel = 2131230783;
+			public const int design_menu_item_text = 2131230783;
 			
 			// aapt resource value: 0x7F080040
-			public const int decor_content_parent = 2131230784;
+			public const int design_navigation_view = 2131230784;
 			
 			// aapt resource value: 0x7F080041
-			public const int default_activity_button = 2131230785;
+			public const int disableHome = 2131230785;
 			
 			// aapt resource value: 0x7F080042
-			public const int design_bottom_sheet = 2131230786;
+			public const int edit_query = 2131230786;
 			
 			// aapt resource value: 0x7F080043
-			public const int design_menu_item_action_area = 2131230787;
+			public const int end = 2131230787;
 			
 			// aapt resource value: 0x7F080044
-			public const int design_menu_item_action_area_stub = 2131230788;
+			public const int end_padder = 2131230788;
 			
 			// aapt resource value: 0x7F080045
-			public const int design_menu_item_text = 2131230789;
+			public const int enterAlways = 2131230789;
 			
 			// aapt resource value: 0x7F080046
-			public const int design_navigation_view = 2131230790;
+			public const int enterAlwaysCollapsed = 2131230790;
 			
 			// aapt resource value: 0x7F080047
-			public const int disableHome = 2131230791;
-			
-			// aapt resource value: 0x7F080048
-			public const int edit_query = 2131230792;
+			public const int exitUntilCollapsed = 2131230791;
 			
 			// aapt resource value: 0x7F080049
-			public const int end = 2131230793;
+			public const int expanded_menu = 2131230793;
+			
+			// aapt resource value: 0x7F080048
+			public const int expand_activities_button = 2131230792;
 			
 			// aapt resource value: 0x7F08004A
-			public const int end_padder = 2131230794;
-			
-			// aapt resource value: 0x7F08004B
-			public const int enterAlways = 2131230795;
-			
-			// aapt resource value: 0x7F08004C
-			public const int enterAlwaysCollapsed = 2131230796;
+			public const int fill = 2131230794;
 			
 			// aapt resource value: 0x7F08004D
-			public const int exitUntilCollapsed = 2131230797;
+			public const int filled = 2131230797;
 			
-			// aapt resource value: 0x7F08004F
-			public const int expanded_menu = 2131230799;
+			// aapt resource value: 0x7F08004B
+			public const int fill_horizontal = 2131230795;
+			
+			// aapt resource value: 0x7F08004C
+			public const int fill_vertical = 2131230796;
 			
 			// aapt resource value: 0x7F08004E
-			public const int expand_activities_button = 2131230798;
+			public const int @fixed = 2131230798;
+			
+			// aapt resource value: 0x7F08004F
+			public const int flyoutcontent_appbar = 2131230799;
 			
 			// aapt resource value: 0x7F080050
-			public const int fill = 2131230800;
-			
-			// aapt resource value: 0x7F080053
-			public const int filled = 2131230803;
+			public const int flyoutcontent_recycler = 2131230800;
 			
 			// aapt resource value: 0x7F080051
-			public const int fill_horizontal = 2131230801;
+			public const int forever = 2131230801;
+			
+			// aapt resource value: 0x7F080002
+			public const int FUNCTION = 2131230722;
 			
 			// aapt resource value: 0x7F080052
-			public const int fill_vertical = 2131230802;
+			public const int ghost_view = 2131230802;
+			
+			// aapt resource value: 0x7F080053
+			public const int group_divider = 2131230803;
 			
 			// aapt resource value: 0x7F080054
-			public const int @fixed = 2131230804;
+			public const int home = 2131230804;
 			
 			// aapt resource value: 0x7F080055
-			public const int flyoutcontent_appbar = 2131230805;
+			public const int homeAsUp = 2131230805;
 			
 			// aapt resource value: 0x7F080056
-			public const int flyoutcontent_recycler = 2131230806;
+			public const int icon = 2131230806;
 			
 			// aapt resource value: 0x7F080057
-			public const int forever = 2131230807;
-			
-			// aapt resource value: 0x7F080003
-			public const int FUNCTION = 2131230723;
+			public const int icon_group = 2131230807;
 			
 			// aapt resource value: 0x7F080058
-			public const int ghost_view = 2131230808;
+			public const int ifRoom = 2131230808;
 			
 			// aapt resource value: 0x7F080059
-			public const int group_divider = 2131230809;
+			public const int image = 2131230809;
 			
 			// aapt resource value: 0x7F08005A
-			public const int home = 2131230810;
+			public const int info = 2131230810;
 			
 			// aapt resource value: 0x7F08005B
-			public const int homeAsUp = 2131230811;
+			public const int italic = 2131230811;
 			
 			// aapt resource value: 0x7F08005C
-			public const int icon = 2131230812;
+			public const int item_touch_helper_previous_elevation = 2131230812;
 			
 			// aapt resource value: 0x7F08005D
-			public const int icon1 = 2131230813;
+			public const int labeled = 2131230813;
 			
 			// aapt resource value: 0x7F08005E
-			public const int icon_group = 2131230814;
+			public const int largeLabel = 2131230814;
 			
 			// aapt resource value: 0x7F08005F
-			public const int ifRoom = 2131230815;
+			public const int left = 2131230815;
 			
 			// aapt resource value: 0x7F080060
-			public const int image = 2131230816;
+			public const int line1 = 2131230816;
 			
 			// aapt resource value: 0x7F080061
-			public const int info = 2131230817;
+			public const int line3 = 2131230817;
 			
 			// aapt resource value: 0x7F080062
-			public const int italic = 2131230818;
+			public const int listMode = 2131230818;
 			
 			// aapt resource value: 0x7F080063
-			public const int item_touch_helper_previous_elevation = 2131230819;
+			public const int list_item = 2131230819;
 			
 			// aapt resource value: 0x7F080064
-			public const int labeled = 2131230820;
+			public const int main_appbar = 2131230820;
 			
 			// aapt resource value: 0x7F080065
-			public const int largeLabel = 2131230821;
+			public const int main_tablayout = 2131230821;
 			
 			// aapt resource value: 0x7F080066
-			public const int left = 2131230822;
+			public const int main_toolbar = 2131230822;
 			
 			// aapt resource value: 0x7F080067
-			public const int line1 = 2131230823;
+			public const int main_viewpager = 2131230823;
 			
 			// aapt resource value: 0x7F080068
-			public const int line3 = 2131230824;
+			public const int masked = 2131230824;
 			
 			// aapt resource value: 0x7F080069
-			public const int listMode = 2131230825;
+			public const int media_actions = 2131230825;
 			
 			// aapt resource value: 0x7F08006A
-			public const int list_item = 2131230826;
+			public const int message = 2131230826;
+			
+			// aapt resource value: 0x7F080003
+			public const int META = 2131230723;
 			
 			// aapt resource value: 0x7F08006B
-			public const int main_appbar = 2131230827;
+			public const int middle = 2131230827;
 			
 			// aapt resource value: 0x7F08006C
-			public const int main_tablayout = 2131230828;
+			public const int mini = 2131230828;
 			
 			// aapt resource value: 0x7F08006D
-			public const int main_toolbar = 2131230829;
+			public const int mtrl_child_content_container = 2131230829;
 			
 			// aapt resource value: 0x7F08006E
-			public const int main_viewpager = 2131230830;
+			public const int mtrl_internal_children_alpha_tag = 2131230830;
 			
 			// aapt resource value: 0x7F08006F
-			public const int mask = 2131230831;
+			public const int multiply = 2131230831;
 			
 			// aapt resource value: 0x7F080070
-			public const int masked = 2131230832;
+			public const int navigation_header_container = 2131230832;
 			
 			// aapt resource value: 0x7F080071
-			public const int media_actions = 2131230833;
+			public const int never = 2131230833;
 			
 			// aapt resource value: 0x7F080072
-			public const int message = 2131230834;
-			
-			// aapt resource value: 0x7F080004
-			public const int META = 2131230724;
+			public const int none = 2131230834;
 			
 			// aapt resource value: 0x7F080073
-			public const int middle = 2131230835;
+			public const int normal = 2131230835;
 			
 			// aapt resource value: 0x7F080074
-			public const int mini = 2131230836;
+			public const int notification_background = 2131230836;
 			
 			// aapt resource value: 0x7F080075
-			public const int mtrl_child_content_container = 2131230837;
+			public const int notification_main_column = 2131230837;
 			
 			// aapt resource value: 0x7F080076
-			public const int mtrl_internal_children_alpha_tag = 2131230838;
+			public const int notification_main_column_container = 2131230838;
 			
 			// aapt resource value: 0x7F080077
-			public const int multiply = 2131230839;
+			public const int outline = 2131230839;
 			
 			// aapt resource value: 0x7F080078
-			public const int navigation_header_container = 2131230840;
+			public const int parallax = 2131230840;
 			
 			// aapt resource value: 0x7F080079
-			public const int never = 2131230841;
+			public const int parentPanel = 2131230841;
 			
 			// aapt resource value: 0x7F08007A
-			public const int none = 2131230842;
+			public const int parent_matrix = 2131230842;
 			
 			// aapt resource value: 0x7F08007B
-			public const int normal = 2131230843;
+			public const int pin = 2131230843;
 			
 			// aapt resource value: 0x7F08007C
-			public const int notification_background = 2131230844;
+			public const int progress_circular = 2131230844;
 			
 			// aapt resource value: 0x7F08007D
-			public const int notification_main_column = 2131230845;
+			public const int progress_horizontal = 2131230845;
 			
 			// aapt resource value: 0x7F08007E
-			public const int notification_main_column_container = 2131230846;
+			public const int radio = 2131230846;
 			
 			// aapt resource value: 0x7F08007F
-			public const int outline = 2131230847;
+			public const int right = 2131230847;
 			
 			// aapt resource value: 0x7F080080
-			public const int parallax = 2131230848;
+			public const int right_icon = 2131230848;
 			
 			// aapt resource value: 0x7F080081
-			public const int parentPanel = 2131230849;
+			public const int right_side = 2131230849;
 			
 			// aapt resource value: 0x7F080082
-			public const int parent_matrix = 2131230850;
+			public const int save_image_matrix = 2131230850;
 			
 			// aapt resource value: 0x7F080083
-			public const int pin = 2131230851;
+			public const int save_non_transition_alpha = 2131230851;
 			
 			// aapt resource value: 0x7F080084
-			public const int progress = 2131230852;
+			public const int save_scale_type = 2131230852;
 			
 			// aapt resource value: 0x7F080085
-			public const int progress_circular = 2131230853;
+			public const int screen = 2131230853;
 			
 			// aapt resource value: 0x7F080086
-			public const int progress_horizontal = 2131230854;
-			
-			// aapt resource value: 0x7F080087
-			public const int radio = 2131230855;
-			
-			// aapt resource value: 0x7F080088
-			public const int right = 2131230856;
-			
-			// aapt resource value: 0x7F080089
-			public const int right_icon = 2131230857;
+			public const int scroll = 2131230854;
 			
 			// aapt resource value: 0x7F08008A
-			public const int right_side = 2131230858;
+			public const int scrollable = 2131230858;
+			
+			// aapt resource value: 0x7F080087
+			public const int scrollIndicatorDown = 2131230855;
+			
+			// aapt resource value: 0x7F080088
+			public const int scrollIndicatorUp = 2131230856;
+			
+			// aapt resource value: 0x7F080089
+			public const int scrollView = 2131230857;
 			
 			// aapt resource value: 0x7F08008B
-			public const int save_image_matrix = 2131230859;
+			public const int search_badge = 2131230859;
 			
 			// aapt resource value: 0x7F08008C
-			public const int save_non_transition_alpha = 2131230860;
+			public const int search_bar = 2131230860;
 			
 			// aapt resource value: 0x7F08008D
-			public const int save_scale_type = 2131230861;
+			public const int search_button = 2131230861;
 			
 			// aapt resource value: 0x7F08008E
-			public const int screen = 2131230862;
+			public const int search_close_btn = 2131230862;
 			
 			// aapt resource value: 0x7F08008F
-			public const int scroll = 2131230863;
-			
-			// aapt resource value: 0x7F080093
-			public const int scrollable = 2131230867;
+			public const int search_edit_frame = 2131230863;
 			
 			// aapt resource value: 0x7F080090
-			public const int scrollIndicatorDown = 2131230864;
+			public const int search_go_btn = 2131230864;
 			
 			// aapt resource value: 0x7F080091
-			public const int scrollIndicatorUp = 2131230865;
+			public const int search_mag_icon = 2131230865;
 			
 			// aapt resource value: 0x7F080092
-			public const int scrollView = 2131230866;
+			public const int search_plate = 2131230866;
+			
+			// aapt resource value: 0x7F080093
+			public const int search_src_text = 2131230867;
 			
 			// aapt resource value: 0x7F080094
-			public const int search_badge = 2131230868;
-			
-			// aapt resource value: 0x7F080095
-			public const int search_bar = 2131230869;
+			public const int search_voice_btn = 2131230868;
 			
 			// aapt resource value: 0x7F080096
-			public const int search_button = 2131230870;
+			public const int selected = 2131230870;
+			
+			// aapt resource value: 0x7F080095
+			public const int select_dialog_listview = 2131230869;
 			
 			// aapt resource value: 0x7F080097
-			public const int search_close_btn = 2131230871;
+			public const int shellcontent_appbar = 2131230871;
 			
 			// aapt resource value: 0x7F080098
-			public const int search_edit_frame = 2131230872;
+			public const int shellcontent_toolbar = 2131230872;
+			
+			// aapt resource value: 0x7F080004
+			public const int SHIFT = 2131230724;
 			
 			// aapt resource value: 0x7F080099
-			public const int search_go_btn = 2131230873;
+			public const int shortcut = 2131230873;
 			
 			// aapt resource value: 0x7F08009A
-			public const int search_mag_icon = 2131230874;
+			public const int showCustom = 2131230874;
 			
 			// aapt resource value: 0x7F08009B
-			public const int search_plate = 2131230875;
+			public const int showHome = 2131230875;
 			
 			// aapt resource value: 0x7F08009C
-			public const int search_src_text = 2131230876;
+			public const int showTitle = 2131230876;
 			
 			// aapt resource value: 0x7F08009D
-			public const int search_voice_btn = 2131230877;
+			public const int sliding_tabs = 2131230877;
 			
 			// aapt resource value: 0x7F08009E
-			public const int secondaryProgress = 2131230878;
-			
-			// aapt resource value: 0x7F0800A0
-			public const int selected = 2131230880;
+			public const int smallLabel = 2131230878;
 			
 			// aapt resource value: 0x7F08009F
-			public const int select_dialog_listview = 2131230879;
+			public const int snackbar_action = 2131230879;
+			
+			// aapt resource value: 0x7F0800A0
+			public const int snackbar_text = 2131230880;
 			
 			// aapt resource value: 0x7F0800A1
-			public const int shellcontent_appbar = 2131230881;
+			public const int snap = 2131230881;
 			
 			// aapt resource value: 0x7F0800A2
-			public const int shellcontent_toolbar = 2131230882;
-			
-			// aapt resource value: 0x7F080005
-			public const int SHIFT = 2131230725;
+			public const int snapMargins = 2131230882;
 			
 			// aapt resource value: 0x7F0800A3
-			public const int shortcut = 2131230883;
+			public const int spacer = 2131230883;
 			
 			// aapt resource value: 0x7F0800A4
-			public const int showCustom = 2131230884;
+			public const int split_action_bar = 2131230884;
 			
 			// aapt resource value: 0x7F0800A5
-			public const int showHome = 2131230885;
+			public const int src_atop = 2131230885;
 			
 			// aapt resource value: 0x7F0800A6
-			public const int showTitle = 2131230886;
+			public const int src_in = 2131230886;
 			
 			// aapt resource value: 0x7F0800A7
-			public const int sliding_tabs = 2131230887;
+			public const int src_over = 2131230887;
 			
 			// aapt resource value: 0x7F0800A8
-			public const int smallLabel = 2131230888;
+			public const int start = 2131230888;
 			
 			// aapt resource value: 0x7F0800A9
-			public const int snackbar_action = 2131230889;
+			public const int status_bar_latest_event_content = 2131230889;
 			
 			// aapt resource value: 0x7F0800AA
-			public const int snackbar_text = 2131230890;
+			public const int stretch = 2131230890;
 			
 			// aapt resource value: 0x7F0800AB
-			public const int snap = 2131230891;
+			public const int submenuarrow = 2131230891;
 			
 			// aapt resource value: 0x7F0800AC
-			public const int snapMargins = 2131230892;
+			public const int submit_area = 2131230892;
+			
+			// aapt resource value: 0x7F080005
+			public const int SYM = 2131230725;
 			
 			// aapt resource value: 0x7F0800AD
-			public const int spacer = 2131230893;
+			public const int tabMode = 2131230893;
 			
 			// aapt resource value: 0x7F0800AE
-			public const int split_action_bar = 2131230894;
+			public const int tag_transition_group = 2131230894;
 			
 			// aapt resource value: 0x7F0800AF
-			public const int src_atop = 2131230895;
+			public const int tag_unhandled_key_event_manager = 2131230895;
 			
 			// aapt resource value: 0x7F0800B0
-			public const int src_in = 2131230896;
+			public const int tag_unhandled_key_listeners = 2131230896;
 			
 			// aapt resource value: 0x7F0800B1
-			public const int src_over = 2131230897;
+			public const int text = 2131230897;
 			
 			// aapt resource value: 0x7F0800B2
-			public const int start = 2131230898;
-			
-			// aapt resource value: 0x7F0800B3
-			public const int status_bar_latest_event_content = 2131230899;
-			
-			// aapt resource value: 0x7F0800B4
-			public const int stretch = 2131230900;
-			
-			// aapt resource value: 0x7F0800B5
-			public const int submenuarrow = 2131230901;
-			
-			// aapt resource value: 0x7F0800B6
-			public const int submit_area = 2131230902;
-			
-			// aapt resource value: 0x7F080006
-			public const int SYM = 2131230726;
+			public const int text2 = 2131230898;
 			
 			// aapt resource value: 0x7F0800B7
-			public const int tabMode = 2131230903;
+			public const int textinput_counter = 2131230903;
 			
 			// aapt resource value: 0x7F0800B8
-			public const int tag_transition_group = 2131230904;
+			public const int textinput_error = 2131230904;
 			
 			// aapt resource value: 0x7F0800B9
-			public const int tag_unhandled_key_event_manager = 2131230905;
+			public const int textinput_helper_text = 2131230905;
+			
+			// aapt resource value: 0x7F0800B3
+			public const int textSpacerNoButtons = 2131230899;
+			
+			// aapt resource value: 0x7F0800B4
+			public const int textSpacerNoTitle = 2131230900;
+			
+			// aapt resource value: 0x7F0800B5
+			public const int textStart = 2131230901;
+			
+			// aapt resource value: 0x7F0800B6
+			public const int text_input_password_toggle = 2131230902;
 			
 			// aapt resource value: 0x7F0800BA
-			public const int tag_unhandled_key_listeners = 2131230906;
+			public const int time = 2131230906;
 			
 			// aapt resource value: 0x7F0800BB
-			public const int text = 2131230907;
+			public const int title = 2131230907;
 			
 			// aapt resource value: 0x7F0800BC
-			public const int text1 = 2131230908;
+			public const int titleDividerNoCustom = 2131230908;
 			
 			// aapt resource value: 0x7F0800BD
-			public const int text2 = 2131230909;
-			
-			// aapt resource value: 0x7F0800C2
-			public const int textinput_counter = 2131230914;
-			
-			// aapt resource value: 0x7F0800C3
-			public const int textinput_error = 2131230915;
-			
-			// aapt resource value: 0x7F0800C4
-			public const int textinput_helper_text = 2131230916;
+			public const int title_template = 2131230909;
 			
 			// aapt resource value: 0x7F0800BE
-			public const int textSpacerNoButtons = 2131230910;
+			public const int toolbar = 2131230910;
 			
 			// aapt resource value: 0x7F0800BF
-			public const int textSpacerNoTitle = 2131230911;
+			public const int top = 2131230911;
 			
 			// aapt resource value: 0x7F0800C0
-			public const int textStart = 2131230912;
+			public const int topPanel = 2131230912;
 			
 			// aapt resource value: 0x7F0800C1
-			public const int text_input_password_toggle = 2131230913;
+			public const int touch_outside = 2131230913;
+			
+			// aapt resource value: 0x7F0800C2
+			public const int transition_current_scene = 2131230914;
+			
+			// aapt resource value: 0x7F0800C3
+			public const int transition_layout_save = 2131230915;
+			
+			// aapt resource value: 0x7F0800C4
+			public const int transition_position = 2131230916;
 			
 			// aapt resource value: 0x7F0800C5
-			public const int time = 2131230917;
+			public const int transition_scene_layoutid_cache = 2131230917;
 			
 			// aapt resource value: 0x7F0800C6
-			public const int title = 2131230918;
+			public const int transition_transform = 2131230918;
 			
 			// aapt resource value: 0x7F0800C7
-			public const int titleDividerNoCustom = 2131230919;
+			public const int uniform = 2131230919;
 			
 			// aapt resource value: 0x7F0800C8
-			public const int title_template = 2131230920;
+			public const int unlabeled = 2131230920;
 			
 			// aapt resource value: 0x7F0800C9
-			public const int toolbar = 2131230921;
+			public const int up = 2131230921;
 			
 			// aapt resource value: 0x7F0800CA
-			public const int top = 2131230922;
+			public const int useLogo = 2131230922;
 			
 			// aapt resource value: 0x7F0800CB
-			public const int topPanel = 2131230923;
+			public const int view_offset_helper = 2131230923;
 			
 			// aapt resource value: 0x7F0800CC
-			public const int touch_outside = 2131230924;
+			public const int visible = 2131230924;
 			
 			// aapt resource value: 0x7F0800CD
-			public const int transition_current_scene = 2131230925;
+			public const int withText = 2131230925;
 			
 			// aapt resource value: 0x7F0800CE
-			public const int transition_layout_save = 2131230926;
-			
-			// aapt resource value: 0x7F0800CF
-			public const int transition_position = 2131230927;
-			
-			// aapt resource value: 0x7F0800D0
-			public const int transition_scene_layoutid_cache = 2131230928;
-			
-			// aapt resource value: 0x7F0800D1
-			public const int transition_transform = 2131230929;
-			
-			// aapt resource value: 0x7F0800D2
-			public const int uniform = 2131230930;
-			
-			// aapt resource value: 0x7F0800D3
-			public const int unlabeled = 2131230931;
-			
-			// aapt resource value: 0x7F0800D4
-			public const int up = 2131230932;
-			
-			// aapt resource value: 0x7F0800D5
-			public const int useLogo = 2131230933;
-			
-			// aapt resource value: 0x7F0800D6
-			public const int view_offset_helper = 2131230934;
-			
-			// aapt resource value: 0x7F0800D7
-			public const int visible = 2131230935;
-			
-			// aapt resource value: 0x7F0800D8
-			public const int withText = 2131230936;
-			
-			// aapt resource value: 0x7F0800D9
-			public const int wrap_content = 2131230937;
+			public const int wrap_content = 2131230926;
 			
 			static Id()
 			{
@@ -9147,218 +11701,218 @@ namespace LapshaApp.Droid
 		public partial class Layout
 		{
 			
-			// aapt resource value: 0x7F0B0006
-			public const int abc_action_bar_title_item = 2131427334;
-			
-			// aapt resource value: 0x7F0B0007
-			public const int abc_action_bar_up_container = 2131427335;
-			
-			// aapt resource value: 0x7F0B0008
-			public const int abc_action_menu_item_layout = 2131427336;
-			
-			// aapt resource value: 0x7F0B0009
-			public const int abc_action_menu_layout = 2131427337;
-			
-			// aapt resource value: 0x7F0B000A
-			public const int abc_action_mode_bar = 2131427338;
-			
-			// aapt resource value: 0x7F0B000B
-			public const int abc_action_mode_close_item_material = 2131427339;
-			
-			// aapt resource value: 0x7F0B000C
-			public const int abc_activity_chooser_view = 2131427340;
-			
-			// aapt resource value: 0x7F0B000D
-			public const int abc_activity_chooser_view_list_item = 2131427341;
-			
-			// aapt resource value: 0x7F0B000E
-			public const int abc_alert_dialog_button_bar_material = 2131427342;
-			
-			// aapt resource value: 0x7F0B000F
-			public const int abc_alert_dialog_material = 2131427343;
-			
-			// aapt resource value: 0x7F0B0010
-			public const int abc_alert_dialog_title_material = 2131427344;
-			
-			// aapt resource value: 0x7F0B0011
-			public const int abc_cascading_menu_item_layout = 2131427345;
-			
-			// aapt resource value: 0x7F0B0012
-			public const int abc_dialog_title_material = 2131427346;
-			
-			// aapt resource value: 0x7F0B0013
-			public const int abc_expanded_menu_layout = 2131427347;
-			
-			// aapt resource value: 0x7F0B0014
-			public const int abc_list_menu_item_checkbox = 2131427348;
-			
-			// aapt resource value: 0x7F0B0015
-			public const int abc_list_menu_item_icon = 2131427349;
-			
-			// aapt resource value: 0x7F0B0016
-			public const int abc_list_menu_item_layout = 2131427350;
-			
-			// aapt resource value: 0x7F0B0017
-			public const int abc_list_menu_item_radio = 2131427351;
-			
-			// aapt resource value: 0x7F0B0018
-			public const int abc_popup_menu_header_item_layout = 2131427352;
-			
-			// aapt resource value: 0x7F0B0019
-			public const int abc_popup_menu_item_layout = 2131427353;
-			
-			// aapt resource value: 0x7F0B001A
-			public const int abc_screen_content_include = 2131427354;
-			
-			// aapt resource value: 0x7F0B001B
-			public const int abc_screen_simple = 2131427355;
-			
-			// aapt resource value: 0x7F0B001C
-			public const int abc_screen_simple_overlay_action_mode = 2131427356;
-			
-			// aapt resource value: 0x7F0B001D
-			public const int abc_screen_toolbar = 2131427357;
-			
-			// aapt resource value: 0x7F0B001E
-			public const int abc_search_dropdown_item_icons_2line = 2131427358;
-			
-			// aapt resource value: 0x7F0B001F
-			public const int abc_search_view = 2131427359;
-			
-			// aapt resource value: 0x7F0B0020
-			public const int abc_select_dialog_material = 2131427360;
-			
-			// aapt resource value: 0x7F0B0021
-			public const int abc_tooltip = 2131427361;
-			
 			// aapt resource value: 0x7F0B0000
-			public const int BottomTabLayout = 2131427328;
-			
-			// aapt resource value: 0x7F0B0022
-			public const int browser_actions_context_menu_page = 2131427362;
-			
-			// aapt resource value: 0x7F0B0023
-			public const int browser_actions_context_menu_row = 2131427363;
-			
-			// aapt resource value: 0x7F0B0024
-			public const int design_bottom_navigation_item = 2131427364;
-			
-			// aapt resource value: 0x7F0B0025
-			public const int design_bottom_sheet_dialog = 2131427365;
-			
-			// aapt resource value: 0x7F0B0026
-			public const int design_layout_snackbar = 2131427366;
-			
-			// aapt resource value: 0x7F0B0027
-			public const int design_layout_snackbar_include = 2131427367;
-			
-			// aapt resource value: 0x7F0B0028
-			public const int design_layout_tab_icon = 2131427368;
-			
-			// aapt resource value: 0x7F0B0029
-			public const int design_layout_tab_text = 2131427369;
-			
-			// aapt resource value: 0x7F0B002A
-			public const int design_menu_item_action_area = 2131427370;
-			
-			// aapt resource value: 0x7F0B002B
-			public const int design_navigation_item = 2131427371;
-			
-			// aapt resource value: 0x7F0B002C
-			public const int design_navigation_item_header = 2131427372;
-			
-			// aapt resource value: 0x7F0B002D
-			public const int design_navigation_item_separator = 2131427373;
-			
-			// aapt resource value: 0x7F0B002E
-			public const int design_navigation_item_subheader = 2131427374;
-			
-			// aapt resource value: 0x7F0B002F
-			public const int design_navigation_menu = 2131427375;
-			
-			// aapt resource value: 0x7F0B0030
-			public const int design_navigation_menu_item = 2131427376;
-			
-			// aapt resource value: 0x7F0B0031
-			public const int design_text_input_password_icon = 2131427377;
+			public const int abc_action_bar_title_item = 2131427328;
 			
 			// aapt resource value: 0x7F0B0001
-			public const int FlyoutContent = 2131427329;
-			
-			// aapt resource value: 0x7F0B0032
-			public const int mtrl_layout_snackbar = 2131427378;
-			
-			// aapt resource value: 0x7F0B0033
-			public const int mtrl_layout_snackbar_include = 2131427379;
-			
-			// aapt resource value: 0x7F0B0034
-			public const int notification_action = 2131427380;
-			
-			// aapt resource value: 0x7F0B0035
-			public const int notification_action_tombstone = 2131427381;
-			
-			// aapt resource value: 0x7F0B0036
-			public const int notification_media_action = 2131427382;
-			
-			// aapt resource value: 0x7F0B0037
-			public const int notification_media_cancel_action = 2131427383;
-			
-			// aapt resource value: 0x7F0B0038
-			public const int notification_template_big_media = 2131427384;
-			
-			// aapt resource value: 0x7F0B0039
-			public const int notification_template_big_media_custom = 2131427385;
-			
-			// aapt resource value: 0x7F0B003A
-			public const int notification_template_big_media_narrow = 2131427386;
-			
-			// aapt resource value: 0x7F0B003B
-			public const int notification_template_big_media_narrow_custom = 2131427387;
-			
-			// aapt resource value: 0x7F0B003C
-			public const int notification_template_custom_big = 2131427388;
-			
-			// aapt resource value: 0x7F0B003D
-			public const int notification_template_icon_group = 2131427389;
-			
-			// aapt resource value: 0x7F0B003E
-			public const int notification_template_lines_media = 2131427390;
-			
-			// aapt resource value: 0x7F0B003F
-			public const int notification_template_media = 2131427391;
-			
-			// aapt resource value: 0x7F0B0040
-			public const int notification_template_media_custom = 2131427392;
-			
-			// aapt resource value: 0x7F0B0041
-			public const int notification_template_part_chronometer = 2131427393;
-			
-			// aapt resource value: 0x7F0B0042
-			public const int notification_template_part_time = 2131427394;
+			public const int abc_action_bar_up_container = 2131427329;
 			
 			// aapt resource value: 0x7F0B0002
-			public const int RootLayout = 2131427330;
-			
-			// aapt resource value: 0x7F0B0043
-			public const int select_dialog_item_material = 2131427395;
-			
-			// aapt resource value: 0x7F0B0044
-			public const int select_dialog_multichoice_material = 2131427396;
-			
-			// aapt resource value: 0x7F0B0045
-			public const int select_dialog_singlechoice_material = 2131427397;
+			public const int abc_action_menu_item_layout = 2131427330;
 			
 			// aapt resource value: 0x7F0B0003
-			public const int ShellContent = 2131427331;
-			
-			// aapt resource value: 0x7F0B0046
-			public const int support_simple_spinner_dropdown_item = 2131427398;
+			public const int abc_action_menu_layout = 2131427331;
 			
 			// aapt resource value: 0x7F0B0004
-			public const int Tabbar = 2131427332;
+			public const int abc_action_mode_bar = 2131427332;
 			
 			// aapt resource value: 0x7F0B0005
-			public const int Toolbar = 2131427333;
+			public const int abc_action_mode_close_item_material = 2131427333;
+			
+			// aapt resource value: 0x7F0B0006
+			public const int abc_activity_chooser_view = 2131427334;
+			
+			// aapt resource value: 0x7F0B0007
+			public const int abc_activity_chooser_view_list_item = 2131427335;
+			
+			// aapt resource value: 0x7F0B0008
+			public const int abc_alert_dialog_button_bar_material = 2131427336;
+			
+			// aapt resource value: 0x7F0B0009
+			public const int abc_alert_dialog_material = 2131427337;
+			
+			// aapt resource value: 0x7F0B000A
+			public const int abc_alert_dialog_title_material = 2131427338;
+			
+			// aapt resource value: 0x7F0B000B
+			public const int abc_cascading_menu_item_layout = 2131427339;
+			
+			// aapt resource value: 0x7F0B000C
+			public const int abc_dialog_title_material = 2131427340;
+			
+			// aapt resource value: 0x7F0B000D
+			public const int abc_expanded_menu_layout = 2131427341;
+			
+			// aapt resource value: 0x7F0B000E
+			public const int abc_list_menu_item_checkbox = 2131427342;
+			
+			// aapt resource value: 0x7F0B000F
+			public const int abc_list_menu_item_icon = 2131427343;
+			
+			// aapt resource value: 0x7F0B0010
+			public const int abc_list_menu_item_layout = 2131427344;
+			
+			// aapt resource value: 0x7F0B0011
+			public const int abc_list_menu_item_radio = 2131427345;
+			
+			// aapt resource value: 0x7F0B0012
+			public const int abc_popup_menu_header_item_layout = 2131427346;
+			
+			// aapt resource value: 0x7F0B0013
+			public const int abc_popup_menu_item_layout = 2131427347;
+			
+			// aapt resource value: 0x7F0B0014
+			public const int abc_screen_content_include = 2131427348;
+			
+			// aapt resource value: 0x7F0B0015
+			public const int abc_screen_simple = 2131427349;
+			
+			// aapt resource value: 0x7F0B0016
+			public const int abc_screen_simple_overlay_action_mode = 2131427350;
+			
+			// aapt resource value: 0x7F0B0017
+			public const int abc_screen_toolbar = 2131427351;
+			
+			// aapt resource value: 0x7F0B0018
+			public const int abc_search_dropdown_item_icons_2line = 2131427352;
+			
+			// aapt resource value: 0x7F0B0019
+			public const int abc_search_view = 2131427353;
+			
+			// aapt resource value: 0x7F0B001A
+			public const int abc_select_dialog_material = 2131427354;
+			
+			// aapt resource value: 0x7F0B001B
+			public const int abc_tooltip = 2131427355;
+			
+			// aapt resource value: 0x7F0B001C
+			public const int BottomTabLayout = 2131427356;
+			
+			// aapt resource value: 0x7F0B001D
+			public const int browser_actions_context_menu_page = 2131427357;
+			
+			// aapt resource value: 0x7F0B001E
+			public const int browser_actions_context_menu_row = 2131427358;
+			
+			// aapt resource value: 0x7F0B001F
+			public const int design_bottom_navigation_item = 2131427359;
+			
+			// aapt resource value: 0x7F0B0020
+			public const int design_bottom_sheet_dialog = 2131427360;
+			
+			// aapt resource value: 0x7F0B0021
+			public const int design_layout_snackbar = 2131427361;
+			
+			// aapt resource value: 0x7F0B0022
+			public const int design_layout_snackbar_include = 2131427362;
+			
+			// aapt resource value: 0x7F0B0023
+			public const int design_layout_tab_icon = 2131427363;
+			
+			// aapt resource value: 0x7F0B0024
+			public const int design_layout_tab_text = 2131427364;
+			
+			// aapt resource value: 0x7F0B0025
+			public const int design_menu_item_action_area = 2131427365;
+			
+			// aapt resource value: 0x7F0B0026
+			public const int design_navigation_item = 2131427366;
+			
+			// aapt resource value: 0x7F0B0027
+			public const int design_navigation_item_header = 2131427367;
+			
+			// aapt resource value: 0x7F0B0028
+			public const int design_navigation_item_separator = 2131427368;
+			
+			// aapt resource value: 0x7F0B0029
+			public const int design_navigation_item_subheader = 2131427369;
+			
+			// aapt resource value: 0x7F0B002A
+			public const int design_navigation_menu = 2131427370;
+			
+			// aapt resource value: 0x7F0B002B
+			public const int design_navigation_menu_item = 2131427371;
+			
+			// aapt resource value: 0x7F0B002C
+			public const int design_text_input_password_icon = 2131427372;
+			
+			// aapt resource value: 0x7F0B002D
+			public const int FlyoutContent = 2131427373;
+			
+			// aapt resource value: 0x7F0B002E
+			public const int mtrl_layout_snackbar = 2131427374;
+			
+			// aapt resource value: 0x7F0B002F
+			public const int mtrl_layout_snackbar_include = 2131427375;
+			
+			// aapt resource value: 0x7F0B0030
+			public const int notification_action = 2131427376;
+			
+			// aapt resource value: 0x7F0B0031
+			public const int notification_action_tombstone = 2131427377;
+			
+			// aapt resource value: 0x7F0B0032
+			public const int notification_media_action = 2131427378;
+			
+			// aapt resource value: 0x7F0B0033
+			public const int notification_media_cancel_action = 2131427379;
+			
+			// aapt resource value: 0x7F0B0034
+			public const int notification_template_big_media = 2131427380;
+			
+			// aapt resource value: 0x7F0B0035
+			public const int notification_template_big_media_custom = 2131427381;
+			
+			// aapt resource value: 0x7F0B0036
+			public const int notification_template_big_media_narrow = 2131427382;
+			
+			// aapt resource value: 0x7F0B0037
+			public const int notification_template_big_media_narrow_custom = 2131427383;
+			
+			// aapt resource value: 0x7F0B0038
+			public const int notification_template_custom_big = 2131427384;
+			
+			// aapt resource value: 0x7F0B0039
+			public const int notification_template_icon_group = 2131427385;
+			
+			// aapt resource value: 0x7F0B003A
+			public const int notification_template_lines_media = 2131427386;
+			
+			// aapt resource value: 0x7F0B003B
+			public const int notification_template_media = 2131427387;
+			
+			// aapt resource value: 0x7F0B003C
+			public const int notification_template_media_custom = 2131427388;
+			
+			// aapt resource value: 0x7F0B003D
+			public const int notification_template_part_chronometer = 2131427389;
+			
+			// aapt resource value: 0x7F0B003E
+			public const int notification_template_part_time = 2131427390;
+			
+			// aapt resource value: 0x7F0B003F
+			public const int RootLayout = 2131427391;
+			
+			// aapt resource value: 0x7F0B0040
+			public const int select_dialog_item_material = 2131427392;
+			
+			// aapt resource value: 0x7F0B0041
+			public const int select_dialog_multichoice_material = 2131427393;
+			
+			// aapt resource value: 0x7F0B0042
+			public const int select_dialog_singlechoice_material = 2131427394;
+			
+			// aapt resource value: 0x7F0B0043
+			public const int ShellContent = 2131427395;
+			
+			// aapt resource value: 0x7F0B0044
+			public const int support_simple_spinner_dropdown_item = 2131427396;
+			
+			// aapt resource value: 0x7F0B0045
+			public const int Tabbar = 2131427397;
+			
+			// aapt resource value: 0x7F0B0046
+			public const int Toolbar = 2131427398;
 			
 			static Layout()
 			{
@@ -9612,11 +12166,11 @@ namespace LapshaApp.Droid
 			// aapt resource value: 0x7F0E000C
 			public const int Base_CardView = 2131623948;
 			
-			// aapt resource value: 0x7F0E000D
-			public const int Base_DialogWindowTitleBackground_AppCompat = 2131623949;
-			
 			// aapt resource value: 0x7F0E000E
-			public const int Base_DialogWindowTitle_AppCompat = 2131623950;
+			public const int Base_DialogWindowTitleBackground_AppCompat = 2131623950;
+			
+			// aapt resource value: 0x7F0E000D
+			public const int Base_DialogWindowTitle_AppCompat = 2131623949;
 			
 			// aapt resource value: 0x7F0E000F
 			public const int Base_TextAppearance_AppCompat = 2131623951;
@@ -9762,167 +12316,167 @@ namespace LapshaApp.Droid
 			// aapt resource value: 0x7F0E003E
 			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Title = 2131623998;
 			
-			// aapt resource value: 0x7F0E003F
-			public const int Base_ThemeOverlay_AppCompat = 2131623999;
-			
-			// aapt resource value: 0x7F0E0040
-			public const int Base_ThemeOverlay_AppCompat_ActionBar = 2131624000;
-			
-			// aapt resource value: 0x7F0E0041
-			public const int Base_ThemeOverlay_AppCompat_Dark = 2131624001;
-			
-			// aapt resource value: 0x7F0E0042
-			public const int Base_ThemeOverlay_AppCompat_Dark_ActionBar = 2131624002;
-			
-			// aapt resource value: 0x7F0E0043
-			public const int Base_ThemeOverlay_AppCompat_Dialog = 2131624003;
-			
-			// aapt resource value: 0x7F0E0044
-			public const int Base_ThemeOverlay_AppCompat_Dialog_Alert = 2131624004;
-			
-			// aapt resource value: 0x7F0E0045
-			public const int Base_ThemeOverlay_AppCompat_Light = 2131624005;
-			
-			// aapt resource value: 0x7F0E0046
-			public const int Base_ThemeOverlay_MaterialComponents_Dialog = 2131624006;
-			
-			// aapt resource value: 0x7F0E0047
-			public const int Base_ThemeOverlay_MaterialComponents_Dialog_Alert = 2131624007;
-			
-			// aapt resource value: 0x7F0E0048
-			public const int Base_Theme_AppCompat = 2131624008;
-			
-			// aapt resource value: 0x7F0E0049
-			public const int Base_Theme_AppCompat_CompactMenu = 2131624009;
-			
-			// aapt resource value: 0x7F0E004A
-			public const int Base_Theme_AppCompat_Dialog = 2131624010;
-			
-			// aapt resource value: 0x7F0E004B
-			public const int Base_Theme_AppCompat_DialogWhenLarge = 2131624011;
-			
-			// aapt resource value: 0x7F0E004C
-			public const int Base_Theme_AppCompat_Dialog_Alert = 2131624012;
-			
-			// aapt resource value: 0x7F0E004D
-			public const int Base_Theme_AppCompat_Dialog_FixedSize = 2131624013;
-			
-			// aapt resource value: 0x7F0E004E
-			public const int Base_Theme_AppCompat_Dialog_MinWidth = 2131624014;
-			
-			// aapt resource value: 0x7F0E004F
-			public const int Base_Theme_AppCompat_Light = 2131624015;
-			
-			// aapt resource value: 0x7F0E0050
-			public const int Base_Theme_AppCompat_Light_DarkActionBar = 2131624016;
-			
-			// aapt resource value: 0x7F0E0051
-			public const int Base_Theme_AppCompat_Light_Dialog = 2131624017;
-			
-			// aapt resource value: 0x7F0E0052
-			public const int Base_Theme_AppCompat_Light_DialogWhenLarge = 2131624018;
-			
-			// aapt resource value: 0x7F0E0053
-			public const int Base_Theme_AppCompat_Light_Dialog_Alert = 2131624019;
-			
-			// aapt resource value: 0x7F0E0054
-			public const int Base_Theme_AppCompat_Light_Dialog_FixedSize = 2131624020;
-			
-			// aapt resource value: 0x7F0E0055
-			public const int Base_Theme_AppCompat_Light_Dialog_MinWidth = 2131624021;
-			
-			// aapt resource value: 0x7F0E0056
-			public const int Base_Theme_MaterialComponents = 2131624022;
-			
-			// aapt resource value: 0x7F0E0057
-			public const int Base_Theme_MaterialComponents_Bridge = 2131624023;
-			
-			// aapt resource value: 0x7F0E0058
-			public const int Base_Theme_MaterialComponents_CompactMenu = 2131624024;
-			
-			// aapt resource value: 0x7F0E0059
-			public const int Base_Theme_MaterialComponents_Dialog = 2131624025;
-			
-			// aapt resource value: 0x7F0E005A
-			public const int Base_Theme_MaterialComponents_DialogWhenLarge = 2131624026;
-			
-			// aapt resource value: 0x7F0E005B
-			public const int Base_Theme_MaterialComponents_Dialog_Alert = 2131624027;
-			
-			// aapt resource value: 0x7F0E005C
-			public const int Base_Theme_MaterialComponents_Dialog_FixedSize = 2131624028;
-			
-			// aapt resource value: 0x7F0E005D
-			public const int Base_Theme_MaterialComponents_Dialog_MinWidth = 2131624029;
-			
 			// aapt resource value: 0x7F0E005E
-			public const int Base_Theme_MaterialComponents_Light = 2131624030;
+			public const int Base_ThemeOverlay_AppCompat = 2131624030;
 			
 			// aapt resource value: 0x7F0E005F
-			public const int Base_Theme_MaterialComponents_Light_Bridge = 2131624031;
+			public const int Base_ThemeOverlay_AppCompat_ActionBar = 2131624031;
 			
 			// aapt resource value: 0x7F0E0060
-			public const int Base_Theme_MaterialComponents_Light_DarkActionBar = 2131624032;
+			public const int Base_ThemeOverlay_AppCompat_Dark = 2131624032;
 			
 			// aapt resource value: 0x7F0E0061
-			public const int Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131624033;
+			public const int Base_ThemeOverlay_AppCompat_Dark_ActionBar = 2131624033;
 			
 			// aapt resource value: 0x7F0E0062
-			public const int Base_Theme_MaterialComponents_Light_Dialog = 2131624034;
+			public const int Base_ThemeOverlay_AppCompat_Dialog = 2131624034;
 			
 			// aapt resource value: 0x7F0E0063
-			public const int Base_Theme_MaterialComponents_Light_DialogWhenLarge = 2131624035;
+			public const int Base_ThemeOverlay_AppCompat_Dialog_Alert = 2131624035;
 			
 			// aapt resource value: 0x7F0E0064
-			public const int Base_Theme_MaterialComponents_Light_Dialog_Alert = 2131624036;
+			public const int Base_ThemeOverlay_AppCompat_Light = 2131624036;
 			
 			// aapt resource value: 0x7F0E0065
-			public const int Base_Theme_MaterialComponents_Light_Dialog_FixedSize = 2131624037;
+			public const int Base_ThemeOverlay_MaterialComponents_Dialog = 2131624037;
 			
 			// aapt resource value: 0x7F0E0066
-			public const int Base_Theme_MaterialComponents_Light_Dialog_MinWidth = 2131624038;
+			public const int Base_ThemeOverlay_MaterialComponents_Dialog_Alert = 2131624038;
 			
-			// aapt resource value: 0x7F0E0067
-			public const int Base_V14_ThemeOverlay_MaterialComponents_Dialog = 2131624039;
+			// aapt resource value: 0x7F0E003F
+			public const int Base_Theme_AppCompat = 2131623999;
 			
-			// aapt resource value: 0x7F0E0068
-			public const int Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = 2131624040;
+			// aapt resource value: 0x7F0E0040
+			public const int Base_Theme_AppCompat_CompactMenu = 2131624000;
 			
-			// aapt resource value: 0x7F0E0069
-			public const int Base_V14_Theme_MaterialComponents = 2131624041;
+			// aapt resource value: 0x7F0E0041
+			public const int Base_Theme_AppCompat_Dialog = 2131624001;
 			
-			// aapt resource value: 0x7F0E006A
-			public const int Base_V14_Theme_MaterialComponents_Bridge = 2131624042;
+			// aapt resource value: 0x7F0E0045
+			public const int Base_Theme_AppCompat_DialogWhenLarge = 2131624005;
 			
-			// aapt resource value: 0x7F0E006B
-			public const int Base_V14_Theme_MaterialComponents_Dialog = 2131624043;
+			// aapt resource value: 0x7F0E0042
+			public const int Base_Theme_AppCompat_Dialog_Alert = 2131624002;
 			
-			// aapt resource value: 0x7F0E006C
-			public const int Base_V14_Theme_MaterialComponents_Light = 2131624044;
+			// aapt resource value: 0x7F0E0043
+			public const int Base_Theme_AppCompat_Dialog_FixedSize = 2131624003;
 			
-			// aapt resource value: 0x7F0E006D
-			public const int Base_V14_Theme_MaterialComponents_Light_Bridge = 2131624045;
+			// aapt resource value: 0x7F0E0044
+			public const int Base_Theme_AppCompat_Dialog_MinWidth = 2131624004;
+			
+			// aapt resource value: 0x7F0E0046
+			public const int Base_Theme_AppCompat_Light = 2131624006;
+			
+			// aapt resource value: 0x7F0E0047
+			public const int Base_Theme_AppCompat_Light_DarkActionBar = 2131624007;
+			
+			// aapt resource value: 0x7F0E0048
+			public const int Base_Theme_AppCompat_Light_Dialog = 2131624008;
+			
+			// aapt resource value: 0x7F0E004C
+			public const int Base_Theme_AppCompat_Light_DialogWhenLarge = 2131624012;
+			
+			// aapt resource value: 0x7F0E0049
+			public const int Base_Theme_AppCompat_Light_Dialog_Alert = 2131624009;
+			
+			// aapt resource value: 0x7F0E004A
+			public const int Base_Theme_AppCompat_Light_Dialog_FixedSize = 2131624010;
+			
+			// aapt resource value: 0x7F0E004B
+			public const int Base_Theme_AppCompat_Light_Dialog_MinWidth = 2131624011;
+			
+			// aapt resource value: 0x7F0E004D
+			public const int Base_Theme_MaterialComponents = 2131624013;
+			
+			// aapt resource value: 0x7F0E004E
+			public const int Base_Theme_MaterialComponents_Bridge = 2131624014;
+			
+			// aapt resource value: 0x7F0E004F
+			public const int Base_Theme_MaterialComponents_CompactMenu = 2131624015;
+			
+			// aapt resource value: 0x7F0E0050
+			public const int Base_Theme_MaterialComponents_Dialog = 2131624016;
+			
+			// aapt resource value: 0x7F0E0054
+			public const int Base_Theme_MaterialComponents_DialogWhenLarge = 2131624020;
+			
+			// aapt resource value: 0x7F0E0051
+			public const int Base_Theme_MaterialComponents_Dialog_Alert = 2131624017;
+			
+			// aapt resource value: 0x7F0E0052
+			public const int Base_Theme_MaterialComponents_Dialog_FixedSize = 2131624018;
+			
+			// aapt resource value: 0x7F0E0053
+			public const int Base_Theme_MaterialComponents_Dialog_MinWidth = 2131624019;
+			
+			// aapt resource value: 0x7F0E0055
+			public const int Base_Theme_MaterialComponents_Light = 2131624021;
+			
+			// aapt resource value: 0x7F0E0056
+			public const int Base_Theme_MaterialComponents_Light_Bridge = 2131624022;
+			
+			// aapt resource value: 0x7F0E0057
+			public const int Base_Theme_MaterialComponents_Light_DarkActionBar = 2131624023;
+			
+			// aapt resource value: 0x7F0E0058
+			public const int Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131624024;
+			
+			// aapt resource value: 0x7F0E0059
+			public const int Base_Theme_MaterialComponents_Light_Dialog = 2131624025;
+			
+			// aapt resource value: 0x7F0E005D
+			public const int Base_Theme_MaterialComponents_Light_DialogWhenLarge = 2131624029;
+			
+			// aapt resource value: 0x7F0E005A
+			public const int Base_Theme_MaterialComponents_Light_Dialog_Alert = 2131624026;
+			
+			// aapt resource value: 0x7F0E005B
+			public const int Base_Theme_MaterialComponents_Light_Dialog_FixedSize = 2131624027;
+			
+			// aapt resource value: 0x7F0E005C
+			public const int Base_Theme_MaterialComponents_Light_Dialog_MinWidth = 2131624028;
 			
 			// aapt resource value: 0x7F0E006E
-			public const int Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131624046;
+			public const int Base_V14_ThemeOverlay_MaterialComponents_Dialog = 2131624046;
 			
 			// aapt resource value: 0x7F0E006F
-			public const int Base_V14_Theme_MaterialComponents_Light_Dialog = 2131624047;
+			public const int Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = 2131624047;
 			
-			// aapt resource value: 0x7F0E0070
-			public const int Base_V21_ThemeOverlay_AppCompat_Dialog = 2131624048;
+			// aapt resource value: 0x7F0E0067
+			public const int Base_V14_Theme_MaterialComponents = 2131624039;
 			
-			// aapt resource value: 0x7F0E0071
-			public const int Base_V21_Theme_AppCompat = 2131624049;
+			// aapt resource value: 0x7F0E0068
+			public const int Base_V14_Theme_MaterialComponents_Bridge = 2131624040;
 			
-			// aapt resource value: 0x7F0E0072
-			public const int Base_V21_Theme_AppCompat_Dialog = 2131624050;
+			// aapt resource value: 0x7F0E0069
+			public const int Base_V14_Theme_MaterialComponents_Dialog = 2131624041;
 			
-			// aapt resource value: 0x7F0E0073
-			public const int Base_V21_Theme_AppCompat_Light = 2131624051;
+			// aapt resource value: 0x7F0E006A
+			public const int Base_V14_Theme_MaterialComponents_Light = 2131624042;
+			
+			// aapt resource value: 0x7F0E006B
+			public const int Base_V14_Theme_MaterialComponents_Light_Bridge = 2131624043;
+			
+			// aapt resource value: 0x7F0E006C
+			public const int Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131624044;
+			
+			// aapt resource value: 0x7F0E006D
+			public const int Base_V14_Theme_MaterialComponents_Light_Dialog = 2131624045;
 			
 			// aapt resource value: 0x7F0E0074
-			public const int Base_V21_Theme_AppCompat_Light_Dialog = 2131624052;
+			public const int Base_V21_ThemeOverlay_AppCompat_Dialog = 2131624052;
+			
+			// aapt resource value: 0x7F0E0070
+			public const int Base_V21_Theme_AppCompat = 2131624048;
+			
+			// aapt resource value: 0x7F0E0071
+			public const int Base_V21_Theme_AppCompat_Dialog = 2131624049;
+			
+			// aapt resource value: 0x7F0E0072
+			public const int Base_V21_Theme_AppCompat_Light = 2131624050;
+			
+			// aapt resource value: 0x7F0E0073
+			public const int Base_V21_Theme_AppCompat_Light_Dialog = 2131624051;
 			
 			// aapt resource value: 0x7F0E0075
 			public const int Base_V22_Theme_AppCompat = 2131624053;
@@ -9951,20 +12505,20 @@ namespace LapshaApp.Droid
 			// aapt resource value: 0x7F0E007D
 			public const int Base_V28_Theme_AppCompat_Light = 2131624061;
 			
+			// aapt resource value: 0x7F0E0082
+			public const int Base_V7_ThemeOverlay_AppCompat_Dialog = 2131624066;
+			
 			// aapt resource value: 0x7F0E007E
-			public const int Base_V7_ThemeOverlay_AppCompat_Dialog = 2131624062;
+			public const int Base_V7_Theme_AppCompat = 2131624062;
 			
 			// aapt resource value: 0x7F0E007F
-			public const int Base_V7_Theme_AppCompat = 2131624063;
+			public const int Base_V7_Theme_AppCompat_Dialog = 2131624063;
 			
 			// aapt resource value: 0x7F0E0080
-			public const int Base_V7_Theme_AppCompat_Dialog = 2131624064;
+			public const int Base_V7_Theme_AppCompat_Light = 2131624064;
 			
 			// aapt resource value: 0x7F0E0081
-			public const int Base_V7_Theme_AppCompat_Light = 2131624065;
-			
-			// aapt resource value: 0x7F0E0082
-			public const int Base_V7_Theme_AppCompat_Light_Dialog = 2131624066;
+			public const int Base_V7_Theme_AppCompat_Light_Dialog = 2131624065;
 			
 			// aapt resource value: 0x7F0E0083
 			public const int Base_V7_Widget_AppCompat_AutoCompleteTextView = 2131624067;
@@ -10011,26 +12565,26 @@ namespace LapshaApp.Droid
 			// aapt resource value: 0x7F0E0091
 			public const int Base_Widget_AppCompat_Button = 2131624081;
 			
-			// aapt resource value: 0x7F0E0092
-			public const int Base_Widget_AppCompat_ButtonBar = 2131624082;
-			
-			// aapt resource value: 0x7F0E0093
-			public const int Base_Widget_AppCompat_ButtonBar_AlertDialog = 2131624083;
-			
-			// aapt resource value: 0x7F0E0094
-			public const int Base_Widget_AppCompat_Button_Borderless = 2131624084;
-			
-			// aapt resource value: 0x7F0E0095
-			public const int Base_Widget_AppCompat_Button_Borderless_Colored = 2131624085;
-			
-			// aapt resource value: 0x7F0E0096
-			public const int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131624086;
-			
 			// aapt resource value: 0x7F0E0097
-			public const int Base_Widget_AppCompat_Button_Colored = 2131624087;
+			public const int Base_Widget_AppCompat_ButtonBar = 2131624087;
 			
 			// aapt resource value: 0x7F0E0098
-			public const int Base_Widget_AppCompat_Button_Small = 2131624088;
+			public const int Base_Widget_AppCompat_ButtonBar_AlertDialog = 2131624088;
+			
+			// aapt resource value: 0x7F0E0092
+			public const int Base_Widget_AppCompat_Button_Borderless = 2131624082;
+			
+			// aapt resource value: 0x7F0E0093
+			public const int Base_Widget_AppCompat_Button_Borderless_Colored = 2131624083;
+			
+			// aapt resource value: 0x7F0E0094
+			public const int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131624084;
+			
+			// aapt resource value: 0x7F0E0095
+			public const int Base_Widget_AppCompat_Button_Colored = 2131624085;
+			
+			// aapt resource value: 0x7F0E0096
+			public const int Base_Widget_AppCompat_Button_Small = 2131624086;
 			
 			// aapt resource value: 0x7F0E0099
 			public const int Base_Widget_AppCompat_CompoundButton_CheckBox = 2131624089;
@@ -10245,23 +12799,23 @@ namespace LapshaApp.Droid
 			// aapt resource value: 0x7F0E00DE
 			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = 2131624158;
 			
+			// aapt resource value: 0x7F0E00E4
+			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131624164;
+			
 			// aapt resource value: 0x7F0E00DF
-			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131624159;
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131624159;
 			
 			// aapt resource value: 0x7F0E00E0
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131624160;
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131624160;
 			
 			// aapt resource value: 0x7F0E00E1
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131624161;
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131624161;
 			
 			// aapt resource value: 0x7F0E00E2
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131624162;
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131624162;
 			
 			// aapt resource value: 0x7F0E00E3
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131624163;
-			
-			// aapt resource value: 0x7F0E00E4
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131624164;
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131624163;
 			
 			// aapt resource value: 0x7F0E00E5
 			public const int RtlUnderlay_Widget_AppCompat_ActionButton = 2131624165;
@@ -10527,206 +13081,206 @@ namespace LapshaApp.Droid
 			// aapt resource value: 0x7F0E013A
 			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131624250;
 			
-			// aapt resource value: 0x7F0E013B
-			public const int ThemeOverlay_AppCompat = 2131624251;
-			
-			// aapt resource value: 0x7F0E013C
-			public const int ThemeOverlay_AppCompat_ActionBar = 2131624252;
-			
-			// aapt resource value: 0x7F0E013D
-			public const int ThemeOverlay_AppCompat_Dark = 2131624253;
-			
-			// aapt resource value: 0x7F0E013E
-			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131624254;
-			
-			// aapt resource value: 0x7F0E013F
-			public const int ThemeOverlay_AppCompat_Dialog = 2131624255;
-			
-			// aapt resource value: 0x7F0E0140
-			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131624256;
-			
-			// aapt resource value: 0x7F0E0141
-			public const int ThemeOverlay_AppCompat_Light = 2131624257;
-			
-			// aapt resource value: 0x7F0E0142
-			public const int ThemeOverlay_MaterialComponents = 2131624258;
-			
-			// aapt resource value: 0x7F0E0143
-			public const int ThemeOverlay_MaterialComponents_ActionBar = 2131624259;
-			
-			// aapt resource value: 0x7F0E0144
-			public const int ThemeOverlay_MaterialComponents_Dark = 2131624260;
-			
-			// aapt resource value: 0x7F0E0145
-			public const int ThemeOverlay_MaterialComponents_Dark_ActionBar = 2131624261;
-			
-			// aapt resource value: 0x7F0E0146
-			public const int ThemeOverlay_MaterialComponents_Dialog = 2131624262;
-			
-			// aapt resource value: 0x7F0E0147
-			public const int ThemeOverlay_MaterialComponents_Dialog_Alert = 2131624263;
-			
-			// aapt resource value: 0x7F0E0148
-			public const int ThemeOverlay_MaterialComponents_Light = 2131624264;
-			
-			// aapt resource value: 0x7F0E0149
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText = 2131624265;
-			
-			// aapt resource value: 0x7F0E014A
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = 2131624266;
-			
-			// aapt resource value: 0x7F0E014B
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624267;
-			
-			// aapt resource value: 0x7F0E014C
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = 2131624268;
-			
-			// aapt resource value: 0x7F0E014D
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624269;
-			
-			// aapt resource value: 0x7F0E014E
-			public const int Theme_AppCompat = 2131624270;
-			
-			// aapt resource value: 0x7F0E014F
-			public const int Theme_AppCompat_CompactMenu = 2131624271;
-			
-			// aapt resource value: 0x7F0E0150
-			public const int Theme_AppCompat_DayNight = 2131624272;
-			
-			// aapt resource value: 0x7F0E0151
-			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131624273;
-			
-			// aapt resource value: 0x7F0E0152
-			public const int Theme_AppCompat_DayNight_Dialog = 2131624274;
-			
-			// aapt resource value: 0x7F0E0153
-			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131624275;
-			
-			// aapt resource value: 0x7F0E0154
-			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131624276;
-			
-			// aapt resource value: 0x7F0E0155
-			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131624277;
-			
-			// aapt resource value: 0x7F0E0156
-			public const int Theme_AppCompat_DayNight_NoActionBar = 2131624278;
-			
-			// aapt resource value: 0x7F0E0157
-			public const int Theme_AppCompat_Dialog = 2131624279;
-			
-			// aapt resource value: 0x7F0E0158
-			public const int Theme_AppCompat_DialogWhenLarge = 2131624280;
-			
-			// aapt resource value: 0x7F0E0159
-			public const int Theme_AppCompat_Dialog_Alert = 2131624281;
-			
-			// aapt resource value: 0x7F0E015A
-			public const int Theme_AppCompat_Dialog_MinWidth = 2131624282;
-			
-			// aapt resource value: 0x7F0E015B
-			public const int Theme_AppCompat_Light = 2131624283;
-			
-			// aapt resource value: 0x7F0E015C
-			public const int Theme_AppCompat_Light_DarkActionBar = 2131624284;
-			
-			// aapt resource value: 0x7F0E015D
-			public const int Theme_AppCompat_Light_Dialog = 2131624285;
-			
-			// aapt resource value: 0x7F0E015E
-			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131624286;
-			
-			// aapt resource value: 0x7F0E015F
-			public const int Theme_AppCompat_Light_Dialog_Alert = 2131624287;
-			
-			// aapt resource value: 0x7F0E0160
-			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131624288;
-			
-			// aapt resource value: 0x7F0E0161
-			public const int Theme_AppCompat_Light_NoActionBar = 2131624289;
-			
-			// aapt resource value: 0x7F0E0162
-			public const int Theme_AppCompat_NoActionBar = 2131624290;
-			
-			// aapt resource value: 0x7F0E0163
-			public const int Theme_Design = 2131624291;
-			
-			// aapt resource value: 0x7F0E0164
-			public const int Theme_Design_BottomSheetDialog = 2131624292;
-			
-			// aapt resource value: 0x7F0E0165
-			public const int Theme_Design_Light = 2131624293;
-			
-			// aapt resource value: 0x7F0E0166
-			public const int Theme_Design_Light_BottomSheetDialog = 2131624294;
-			
-			// aapt resource value: 0x7F0E0167
-			public const int Theme_Design_Light_NoActionBar = 2131624295;
-			
-			// aapt resource value: 0x7F0E0168
-			public const int Theme_Design_NoActionBar = 2131624296;
-			
-			// aapt resource value: 0x7F0E0169
-			public const int Theme_MaterialComponents = 2131624297;
-			
-			// aapt resource value: 0x7F0E016A
-			public const int Theme_MaterialComponents_BottomSheetDialog = 2131624298;
-			
 			// aapt resource value: 0x7F0E016B
-			public const int Theme_MaterialComponents_Bridge = 2131624299;
+			public const int ThemeOverlay_AppCompat = 2131624299;
 			
 			// aapt resource value: 0x7F0E016C
-			public const int Theme_MaterialComponents_CompactMenu = 2131624300;
+			public const int ThemeOverlay_AppCompat_ActionBar = 2131624300;
 			
 			// aapt resource value: 0x7F0E016D
-			public const int Theme_MaterialComponents_Dialog = 2131624301;
+			public const int ThemeOverlay_AppCompat_Dark = 2131624301;
 			
 			// aapt resource value: 0x7F0E016E
-			public const int Theme_MaterialComponents_DialogWhenLarge = 2131624302;
+			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131624302;
 			
 			// aapt resource value: 0x7F0E016F
-			public const int Theme_MaterialComponents_Dialog_Alert = 2131624303;
+			public const int ThemeOverlay_AppCompat_Dialog = 2131624303;
 			
 			// aapt resource value: 0x7F0E0170
-			public const int Theme_MaterialComponents_Dialog_MinWidth = 2131624304;
+			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131624304;
 			
 			// aapt resource value: 0x7F0E0171
-			public const int Theme_MaterialComponents_Light = 2131624305;
+			public const int ThemeOverlay_AppCompat_Light = 2131624305;
 			
 			// aapt resource value: 0x7F0E0172
-			public const int Theme_MaterialComponents_Light_BottomSheetDialog = 2131624306;
+			public const int ThemeOverlay_MaterialComponents = 2131624306;
 			
 			// aapt resource value: 0x7F0E0173
-			public const int Theme_MaterialComponents_Light_Bridge = 2131624307;
+			public const int ThemeOverlay_MaterialComponents_ActionBar = 2131624307;
 			
 			// aapt resource value: 0x7F0E0174
-			public const int Theme_MaterialComponents_Light_DarkActionBar = 2131624308;
+			public const int ThemeOverlay_MaterialComponents_Dark = 2131624308;
 			
 			// aapt resource value: 0x7F0E0175
-			public const int Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131624309;
+			public const int ThemeOverlay_MaterialComponents_Dark_ActionBar = 2131624309;
 			
 			// aapt resource value: 0x7F0E0176
-			public const int Theme_MaterialComponents_Light_Dialog = 2131624310;
+			public const int ThemeOverlay_MaterialComponents_Dialog = 2131624310;
 			
 			// aapt resource value: 0x7F0E0177
-			public const int Theme_MaterialComponents_Light_DialogWhenLarge = 2131624311;
+			public const int ThemeOverlay_MaterialComponents_Dialog_Alert = 2131624311;
 			
 			// aapt resource value: 0x7F0E0178
-			public const int Theme_MaterialComponents_Light_Dialog_Alert = 2131624312;
+			public const int ThemeOverlay_MaterialComponents_Light = 2131624312;
 			
 			// aapt resource value: 0x7F0E0179
-			public const int Theme_MaterialComponents_Light_Dialog_MinWidth = 2131624313;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText = 2131624313;
 			
 			// aapt resource value: 0x7F0E017A
-			public const int Theme_MaterialComponents_Light_NoActionBar = 2131624314;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = 2131624314;
 			
 			// aapt resource value: 0x7F0E017B
-			public const int Theme_MaterialComponents_Light_NoActionBar_Bridge = 2131624315;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624315;
 			
 			// aapt resource value: 0x7F0E017C
-			public const int Theme_MaterialComponents_NoActionBar = 2131624316;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = 2131624316;
 			
 			// aapt resource value: 0x7F0E017D
-			public const int Theme_MaterialComponents_NoActionBar_Bridge = 2131624317;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624317;
+			
+			// aapt resource value: 0x7F0E013B
+			public const int Theme_AppCompat = 2131624251;
+			
+			// aapt resource value: 0x7F0E013C
+			public const int Theme_AppCompat_CompactMenu = 2131624252;
+			
+			// aapt resource value: 0x7F0E013D
+			public const int Theme_AppCompat_DayNight = 2131624253;
+			
+			// aapt resource value: 0x7F0E013E
+			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131624254;
+			
+			// aapt resource value: 0x7F0E013F
+			public const int Theme_AppCompat_DayNight_Dialog = 2131624255;
+			
+			// aapt resource value: 0x7F0E0142
+			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131624258;
+			
+			// aapt resource value: 0x7F0E0140
+			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131624256;
+			
+			// aapt resource value: 0x7F0E0141
+			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131624257;
+			
+			// aapt resource value: 0x7F0E0143
+			public const int Theme_AppCompat_DayNight_NoActionBar = 2131624259;
+			
+			// aapt resource value: 0x7F0E0144
+			public const int Theme_AppCompat_Dialog = 2131624260;
+			
+			// aapt resource value: 0x7F0E0147
+			public const int Theme_AppCompat_DialogWhenLarge = 2131624263;
+			
+			// aapt resource value: 0x7F0E0145
+			public const int Theme_AppCompat_Dialog_Alert = 2131624261;
+			
+			// aapt resource value: 0x7F0E0146
+			public const int Theme_AppCompat_Dialog_MinWidth = 2131624262;
+			
+			// aapt resource value: 0x7F0E0148
+			public const int Theme_AppCompat_Light = 2131624264;
+			
+			// aapt resource value: 0x7F0E0149
+			public const int Theme_AppCompat_Light_DarkActionBar = 2131624265;
+			
+			// aapt resource value: 0x7F0E014A
+			public const int Theme_AppCompat_Light_Dialog = 2131624266;
+			
+			// aapt resource value: 0x7F0E014D
+			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131624269;
+			
+			// aapt resource value: 0x7F0E014B
+			public const int Theme_AppCompat_Light_Dialog_Alert = 2131624267;
+			
+			// aapt resource value: 0x7F0E014C
+			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131624268;
+			
+			// aapt resource value: 0x7F0E014E
+			public const int Theme_AppCompat_Light_NoActionBar = 2131624270;
+			
+			// aapt resource value: 0x7F0E014F
+			public const int Theme_AppCompat_NoActionBar = 2131624271;
+			
+			// aapt resource value: 0x7F0E0150
+			public const int Theme_Design = 2131624272;
+			
+			// aapt resource value: 0x7F0E0151
+			public const int Theme_Design_BottomSheetDialog = 2131624273;
+			
+			// aapt resource value: 0x7F0E0152
+			public const int Theme_Design_Light = 2131624274;
+			
+			// aapt resource value: 0x7F0E0153
+			public const int Theme_Design_Light_BottomSheetDialog = 2131624275;
+			
+			// aapt resource value: 0x7F0E0154
+			public const int Theme_Design_Light_NoActionBar = 2131624276;
+			
+			// aapt resource value: 0x7F0E0155
+			public const int Theme_Design_NoActionBar = 2131624277;
+			
+			// aapt resource value: 0x7F0E0156
+			public const int Theme_MaterialComponents = 2131624278;
+			
+			// aapt resource value: 0x7F0E0157
+			public const int Theme_MaterialComponents_BottomSheetDialog = 2131624279;
+			
+			// aapt resource value: 0x7F0E0158
+			public const int Theme_MaterialComponents_Bridge = 2131624280;
+			
+			// aapt resource value: 0x7F0E0159
+			public const int Theme_MaterialComponents_CompactMenu = 2131624281;
+			
+			// aapt resource value: 0x7F0E015A
+			public const int Theme_MaterialComponents_Dialog = 2131624282;
+			
+			// aapt resource value: 0x7F0E015D
+			public const int Theme_MaterialComponents_DialogWhenLarge = 2131624285;
+			
+			// aapt resource value: 0x7F0E015B
+			public const int Theme_MaterialComponents_Dialog_Alert = 2131624283;
+			
+			// aapt resource value: 0x7F0E015C
+			public const int Theme_MaterialComponents_Dialog_MinWidth = 2131624284;
+			
+			// aapt resource value: 0x7F0E015E
+			public const int Theme_MaterialComponents_Light = 2131624286;
+			
+			// aapt resource value: 0x7F0E015F
+			public const int Theme_MaterialComponents_Light_BottomSheetDialog = 2131624287;
+			
+			// aapt resource value: 0x7F0E0160
+			public const int Theme_MaterialComponents_Light_Bridge = 2131624288;
+			
+			// aapt resource value: 0x7F0E0161
+			public const int Theme_MaterialComponents_Light_DarkActionBar = 2131624289;
+			
+			// aapt resource value: 0x7F0E0162
+			public const int Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131624290;
+			
+			// aapt resource value: 0x7F0E0163
+			public const int Theme_MaterialComponents_Light_Dialog = 2131624291;
+			
+			// aapt resource value: 0x7F0E0166
+			public const int Theme_MaterialComponents_Light_DialogWhenLarge = 2131624294;
+			
+			// aapt resource value: 0x7F0E0164
+			public const int Theme_MaterialComponents_Light_Dialog_Alert = 2131624292;
+			
+			// aapt resource value: 0x7F0E0165
+			public const int Theme_MaterialComponents_Light_Dialog_MinWidth = 2131624293;
+			
+			// aapt resource value: 0x7F0E0167
+			public const int Theme_MaterialComponents_Light_NoActionBar = 2131624295;
+			
+			// aapt resource value: 0x7F0E0168
+			public const int Theme_MaterialComponents_Light_NoActionBar_Bridge = 2131624296;
+			
+			// aapt resource value: 0x7F0E0169
+			public const int Theme_MaterialComponents_NoActionBar = 2131624297;
+			
+			// aapt resource value: 0x7F0E016A
+			public const int Theme_MaterialComponents_NoActionBar_Bridge = 2131624298;
 			
 			// aapt resource value: 0x7F0E017E
 			public const int Widget_AppCompat_ActionBar = 2131624318;
@@ -10764,26 +13318,26 @@ namespace LapshaApp.Droid
 			// aapt resource value: 0x7F0E0189
 			public const int Widget_AppCompat_Button = 2131624329;
 			
-			// aapt resource value: 0x7F0E018A
-			public const int Widget_AppCompat_ButtonBar = 2131624330;
-			
-			// aapt resource value: 0x7F0E018B
-			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131624331;
-			
-			// aapt resource value: 0x7F0E018C
-			public const int Widget_AppCompat_Button_Borderless = 2131624332;
-			
-			// aapt resource value: 0x7F0E018D
-			public const int Widget_AppCompat_Button_Borderless_Colored = 2131624333;
-			
-			// aapt resource value: 0x7F0E018E
-			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131624334;
-			
 			// aapt resource value: 0x7F0E018F
-			public const int Widget_AppCompat_Button_Colored = 2131624335;
+			public const int Widget_AppCompat_ButtonBar = 2131624335;
 			
 			// aapt resource value: 0x7F0E0190
-			public const int Widget_AppCompat_Button_Small = 2131624336;
+			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131624336;
+			
+			// aapt resource value: 0x7F0E018A
+			public const int Widget_AppCompat_Button_Borderless = 2131624330;
+			
+			// aapt resource value: 0x7F0E018B
+			public const int Widget_AppCompat_Button_Borderless_Colored = 2131624331;
+			
+			// aapt resource value: 0x7F0E018C
+			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131624332;
+			
+			// aapt resource value: 0x7F0E018D
+			public const int Widget_AppCompat_Button_Colored = 2131624333;
+			
+			// aapt resource value: 0x7F0E018E
+			public const int Widget_AppCompat_Button_Small = 2131624334;
 			
 			// aapt resource value: 0x7F0E0191
 			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131624337;
@@ -11028,20 +13582,20 @@ namespace LapshaApp.Droid
 			// aapt resource value: 0x7F0E01E1
 			public const int Widget_MaterialComponents_CardView = 2131624417;
 			
+			// aapt resource value: 0x7F0E01E6
+			public const int Widget_MaterialComponents_ChipGroup = 2131624422;
+			
 			// aapt resource value: 0x7F0E01E2
-			public const int Widget_MaterialComponents_ChipGroup = 2131624418;
+			public const int Widget_MaterialComponents_Chip_Action = 2131624418;
 			
 			// aapt resource value: 0x7F0E01E3
-			public const int Widget_MaterialComponents_Chip_Action = 2131624419;
+			public const int Widget_MaterialComponents_Chip_Choice = 2131624419;
 			
 			// aapt resource value: 0x7F0E01E4
-			public const int Widget_MaterialComponents_Chip_Choice = 2131624420;
+			public const int Widget_MaterialComponents_Chip_Entry = 2131624420;
 			
 			// aapt resource value: 0x7F0E01E5
-			public const int Widget_MaterialComponents_Chip_Entry = 2131624421;
-			
-			// aapt resource value: 0x7F0E01E6
-			public const int Widget_MaterialComponents_Chip_Filter = 2131624422;
+			public const int Widget_MaterialComponents_Chip_Filter = 2131624421;
 			
 			// aapt resource value: 0x7F0E01E7
 			public const int Widget_MaterialComponents_FloatingActionButton = 2131624423;
@@ -11237,8 +13791,9 @@ namespace LapshaApp.Droid
 			// aapt resource value: 0
 			public const int ActionMenuItemView_android_minWidth = 0;
 			
-			// aapt resource value: {  }
-			public static int[] ActionMenuView = new int[0];
+			// aapt resource value: { 0xFFFFFFFF }
+			public static int[] ActionMenuView = new int[] {
+					-1};
 			
 			// aapt resource value: { 0x7F030031,0x7F030032,0x7F03007E,0x7F0300E0,0x7F030178,0x7F0301C7 }
 			public static int[] ActionMode = new int[] {

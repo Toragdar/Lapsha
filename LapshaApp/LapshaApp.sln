@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LapshaApp.Android", "Lapsha
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LapshaApp", "LapshaApp\LapshaApp.csproj", "{0729D209-8A27-4DF9-974F-228C994419AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbTesting", "DbTesting\DbTesting.csproj", "{377DCB70-8301-4902-8F2E-3BD0D1C579C2}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,10 +25,6 @@ Global
 		{0729D209-8A27-4DF9-974F-228C994419AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0729D209-8A27-4DF9-974F-228C994419AF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0729D209-8A27-4DF9-974F-228C994419AF}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{377DCB70-8301-4902-8F2E-3BD0D1C579C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{377DCB70-8301-4902-8F2E-3BD0D1C579C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{377DCB70-8301-4902-8F2E-3BD0D1C579C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{377DCB70-8301-4902-8F2E-3BD0D1C579C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
