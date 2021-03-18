@@ -1288,6 +1288,24 @@
           "buildTransitive/monoandroid90/Xamarin.AndroidX.ViewPager2.targets": {}
         }
       },
+      "Xamarin.CommunityToolkit/1.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.1874"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid10.0/Xamarin.CommunityToolkit.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid10.0/Xamarin.CommunityToolkit.dll": {}
+        },
+        "build": {
+          "build/Xamarin.CommunityToolkit.targets": {}
+        }
+      },
       "Xamarin.Essentials/1.6.1": {
         "type": "package",
         "dependencies": {
@@ -1397,6 +1415,7 @@
         "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Sqlite": "5.0.3",
+          "Xamarin.CommunityToolkit": "1.0.3",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012",
           "Xamarin.Forms.PancakeView": "2.3.0.759",
@@ -3027,6 +3046,48 @@
         "xamarin.androidx.viewpager2.nuspec"
       ]
     },
+    "Xamarin.CommunityToolkit/1.0.3": {
+      "sha512": "QdRt+tuweqKqBWdDKgx4xjS8YJmb3Qc33Iv1crEWpoiYtjAbCaEyi1stbZLXxZtvoRfzoWcIrFb5A1V0Am82og==",
+      "type": "package",
+      "path": "xamarin.communitytoolkit/1.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "build/PreserveXamarinCommunityToolkit.cs",
+        "build/Xamarin.CommunityToolkit.targets",
+        "icon.png",
+        "lib/monoandroid10.0/Xamarin.CommunityToolkit.dll",
+        "lib/monoandroid10.0/Xamarin.CommunityToolkit.xml",
+        "lib/net471/Xamarin.CommunityToolkit.dll",
+        "lib/net471/Xamarin.CommunityToolkit.xml",
+        "lib/net472/Xamarin.CommunityToolkit.dll",
+        "lib/net472/Xamarin.CommunityToolkit.xml",
+        "lib/netcoreapp3.1/Xamarin.CommunityToolkit.dll",
+        "lib/netcoreapp3.1/Xamarin.CommunityToolkit.xml",
+        "lib/netstandard1.0/Xamarin.CommunityToolkit.dll",
+        "lib/netstandard1.0/Xamarin.CommunityToolkit.xml",
+        "lib/netstandard2.0/Xamarin.CommunityToolkit.dll",
+        "lib/netstandard2.0/Xamarin.CommunityToolkit.xml",
+        "lib/netstandard2.1/Xamarin.CommunityToolkit.dll",
+        "lib/netstandard2.1/Xamarin.CommunityToolkit.xml",
+        "lib/tizen40/Xamarin.CommunityToolkit.dll",
+        "lib/tizen40/Xamarin.CommunityToolkit.xml",
+        "lib/uap10.0.17763/Xamarin.CommunityToolkit.dll",
+        "lib/uap10.0.17763/Xamarin.CommunityToolkit.pri",
+        "lib/uap10.0.17763/Xamarin.CommunityToolkit.xml",
+        "lib/xamarinios10/Xamarin.CommunityToolkit.dll",
+        "lib/xamarinios10/Xamarin.CommunityToolkit.xml",
+        "lib/xamarinmac20/Xamarin.CommunityToolkit.dll",
+        "lib/xamarinmac20/Xamarin.CommunityToolkit.xml",
+        "lib/xamarintvos10/Xamarin.CommunityToolkit.dll",
+        "lib/xamarintvos10/Xamarin.CommunityToolkit.xml",
+        "lib/xamarinwatchos10/Xamarin.CommunityToolkit.dll",
+        "lib/xamarinwatchos10/Xamarin.CommunityToolkit.xml",
+        "xamarin.communitytoolkit.1.0.3.nupkg.sha512",
+        "xamarin.communitytoolkit.nuspec"
+      ]
+    },
     "Xamarin.Essentials/1.6.1": {
       "sha512": "gG1Bp4j4bpJQ0dp9MeBJQJ9c8xULauIlhc7Cx5Qw4J2K1c+4Glq5n+gkb9Pm0UA/CevXVqLK5ZXmZkuYI52FgA==",
       "type": "package",
@@ -3375,6 +3436,7 @@
     "MonoAndroid,Version=v10.0": [
       "LapshaApp >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Sqlite >= 5.0.3",
+      "Xamarin.CommunityToolkit >= 1.0.3",
       "Xamarin.Essentials >= 1.6.1",
       "Xamarin.Forms >= 5.0.0.2012",
       "Xamarin.Forms.PancakeView >= 2.3.0.759",
@@ -3382,24 +3444,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Z\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Valer\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Z\\Desktop\\Progr\\Lapsha\\LapshaApp\\LapshaApp.Android\\LapshaApp.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Valer\\Desktop\\Progr\\Lapsha\\LapshaApp\\LapshaApp.Android\\LapshaApp.Android.csproj",
       "projectName": "LapshaApp.Android",
-      "projectPath": "C:\\Users\\Z\\Desktop\\Progr\\Lapsha\\LapshaApp\\LapshaApp.Android\\LapshaApp.Android.csproj",
-      "packagesPath": "C:\\Users\\Z\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Z\\Desktop\\Progr\\Lapsha\\LapshaApp\\LapshaApp.Android\\obj\\",
+      "projectPath": "C:\\Users\\Valer\\Desktop\\Progr\\Lapsha\\LapshaApp\\LapshaApp.Android\\LapshaApp.Android.csproj",
+      "packagesPath": "C:\\Users\\Valer\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Valer\\Desktop\\Progr\\Lapsha\\LapshaApp\\LapshaApp.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Z\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Valer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -3413,8 +3478,8 @@
       "frameworks": {
         "monoandroid10.0": {
           "projectReferences": {
-            "C:\\Users\\Z\\Desktop\\Progr\\Lapsha\\LapshaApp\\LapshaApp\\LapshaApp.csproj": {
-              "projectPath": "C:\\Users\\Z\\Desktop\\Progr\\Lapsha\\LapshaApp\\LapshaApp\\LapshaApp.csproj"
+            "C:\\Users\\Valer\\Desktop\\Progr\\Lapsha\\LapshaApp\\LapshaApp\\LapshaApp.csproj": {
+              "projectPath": "C:\\Users\\Valer\\Desktop\\Progr\\Lapsha\\LapshaApp\\LapshaApp\\LapshaApp.csproj"
             }
           }
         }
@@ -3426,6 +3491,10 @@
           "Microsoft.EntityFrameworkCore.Sqlite": {
             "target": "Package",
             "version": "[5.0.3, )"
+          },
+          "Xamarin.CommunityToolkit": {
+            "target": "Package",
+            "version": "[1.0.3, )"
           },
           "Xamarin.Essentials": {
             "target": "Package",
