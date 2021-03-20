@@ -1264,3 +1264,5 @@ C:\Users\Valer\Desktop\Progr\Lapsha\LapshaApp\LapshaApp.Android\obj\Debug\100\st
 C:\Users\Valer\Desktop\Progr\Lapsha\LapshaApp\LapshaApp.Android\obj\Debug\100\stamp\_GenerateJavaStubs.stamp
 C:\Users\Valer\Desktop\Progr\Lapsha\LapshaApp\LapshaApp.Android\obj\Debug\100\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Valer\Desktop\Progr\Lapsha\LapshaApp\LapshaApp.Android\obj\Debug\100\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Valer\Desktop\Progr\Lapsha\LapshaApp\LapshaApp.Android\obj\Debug\100\res\drawable\splashscreenbackground.png
+C:\Users\Valer\Desktop\Progr\Lapsha\LapshaApp\LapshaApp.Android\obj\Debug\100\res\drawable\logo.png
