@@ -8,65 +8,70 @@
              xmlns:pv="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView" 
              mc:Ignorable="d">
 
-    <Grid BackgroundColor="Wheat" RowSpacing="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="100"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
-        
-        <Grid BackgroundColor="#fe9224" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-            <StackLayout Margin="0,-40,0,0" HorizontalOptions="Center" VerticalOptions="Center">
-                
-            </StackLayout>            
-        </Grid>
-        
-        <CollectionView Grid.Row="1" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" 
-                        SelectionMode="None" ItemsSource="{Binding TestDays}">
-            <CollectionView.ItemsLayout>
-                <LinearItemsLayout Orientation="Vertical" ItemSpacing="15"/>
-            </CollectionView.ItemsLayout>
-            <CollectionView.ItemTemplate>
-                <DataTemplate>
-                    <pv:PancakeView BackgroundColor="White" VerticalOptions="StartAndExpand"
-                                    HorizontalOptions="FillAndExpand">
-                        <Grid VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand">
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="Auto"/>
-                                <ColumnDefinition Width="*"/>
-                            </Grid.ColumnDefinitions>
-                            <BoxView BackgroundColor="#fe9224" WidthRequest="3" HorizontalOptions="Start"
-                                     VerticalOptions="FillAndExpand"/>
-                            <behaviors:Expander Grid.Column="1">
-                                <behaviors:Expander.Header>
+    <RelativeLayout BackgroundColor="Blue">
+        <Image Source="MainScreenBackground.png" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}" 
+     RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=1}"/>
+        <Grid RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}" 
+     RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=1}"
+              RowSpacing="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid BackgroundColor="#fe9224" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                <StackLayout Margin="0,-40,0,0" HorizontalOptions="Center" VerticalOptions="Center">
+
+                </StackLayout>
+            </Grid>
+
+            <CollectionView Grid.Row="1" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" 
+                            SelectionMode="None" ItemsSource="{Binding TestDays}">
+                <CollectionView.ItemsLayout>
+                    <LinearItemsLayout Orientation="Vertical" ItemSpacing="15"/>
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <pv:PancakeView BackgroundColor="White" VerticalOptions="StartAndExpand"
+                                        HorizontalOptions="FillAndExpand">
+                            <Grid VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <BoxView BackgroundColor="#fe9224" WidthRequest="3" HorizontalOptions="Start"
+                                         VerticalOptions="FillAndExpand"/>
+                                <behaviors:Expander Grid.Column="1">
+                                    <behaviors:Expander.Header>
+                                        <StackLayout>
+                                            <Label Text="{Binding DayName}" TextColor="Black" FontSize="20"/>
+                                        </StackLayout>
+                                    </behaviors:Expander.Header>
                                     <StackLayout>
-                                        <Label Text="{Binding DayName}" TextColor="Black" FontSize="20"/>
+                                        <Label Text="PRODUCTS" TextColor="Black" Opacity="0.5" FontSize="15" Margin="20,0"/>
+                                        <StackLayout BindableLayout.ItemsSource="{Binding TestProducts}" HorizontalOptions="Start" VerticalOptions="Center" Margin="20,0,0,20">
+                                            <BindableLayout.ItemTemplate>
+                                                <DataTemplate>
+                                                    <Label TextColor="Black" FontSize="12">
+                                                        <Label.FormattedText>
+                                                            <FormattedString>
+                                                                <Span Text="{Binding ProductName}" FontAttributes="Bold"/>
+                                                                <Span Text=" - "/>
+                                                                <Span Text="{Binding ProductWeight}"/>
+                                                            </FormattedString>
+                                                        </Label.FormattedText>
+                                                    </Label>
+                                                </DataTemplate>
+                                            </BindableLayout.ItemTemplate>
+                                        </StackLayout>
                                     </StackLayout>
-                                </behaviors:Expander.Header>
-                                <StackLayout>
-                                    <Label Text="PRODUCTS" TextColor="Black" Opacity="0.5" FontSize="15" Margin="20,0"/>
-                                    <StackLayout BindableLayout.ItemsSource="{Binding TestProducts}" HorizontalOptions="Start" VerticalOptions="Center" Margin="20,0,0,20">
-                                        <BindableLayout.ItemTemplate>
-                                            <DataTemplate>
-                                                <Label TextColor="Black" FontSize="12">
-                                                    <Label.FormattedText>
-                                                        <FormattedString>
-                                                            <Span Text="{Binding ProductName}" FontAttributes="Bold"/>
-                                                            <Span Text=" - "/>
-                                                            <Span Text="{Binding ProductWeight}"/>
-                                                        </FormattedString>
-                                                    </Label.FormattedText>
-                                                </Label>
-                                            </DataTemplate>
-                                        </BindableLayout.ItemTemplate>
-                                    </StackLayout>
-                                </StackLayout>
-                            </behaviors:Expander>
-                        </Grid>
-                    </pv:PancakeView>
-                </DataTemplate>
-            </CollectionView.ItemTemplate>
-        </CollectionView>
+                                </behaviors:Expander>
+                            </Grid>
+                        </pv:PancakeView>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
 
-    </Grid>
-
+        </Grid>
+    </RelativeLayout>
 </ContentPage>
