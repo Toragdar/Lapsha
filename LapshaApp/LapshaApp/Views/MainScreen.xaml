@@ -8,24 +8,24 @@
              xmlns:pv="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView" 
              mc:Ignorable="d">
 
-    <RelativeLayout BackgroundColor="Blue">
-        <Image Source="MainScreenBackground.png" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}" 
-     RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=1}"/>
-        <Grid RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}" 
-     RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=1}"
-              RowSpacing="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+    <!--MyOrange="#fe9224"-->
+
+    <RelativeLayout BackgroundColor="White">
+        <Image Source="MainScreenBackground.png" Aspect="Fill"/>
+        <Grid RowSpacing="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
             <Grid.RowDefinitions>
                 <RowDefinition Height="100"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
-
-            <Grid BackgroundColor="#fe9224" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-                <StackLayout Margin="0,-40,0,0" HorizontalOptions="Center" VerticalOptions="Center">
-
-                </StackLayout>
+            
+            <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                <Image Source="UpBack.png" Aspect="AspectFill"/>
+                <AbsoluteLayout HorizontalOptions="Center" VerticalOptions="Center">
+                    <Label Text="DD.MM.YY" TextColor="White" FontSize="40"/>
+                </AbsoluteLayout>
             </Grid>
 
-            <CollectionView Grid.Row="1" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" 
+            <CollectionView Grid.Row="1" Margin="20" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" 
                             SelectionMode="None" ItemsSource="{Binding TestDays}">
                 <CollectionView.ItemsLayout>
                     <LinearItemsLayout Orientation="Vertical" ItemSpacing="15"/>

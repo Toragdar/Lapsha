@@ -3,7 +3,8 @@
   <PropertyGroup>
     <SelectedDevice>pixel_2_q_10_0_-_api_29</SelectedDevice>
     <DefaultDevice>pixel_2_q_10_0_-_api_29</DefaultDevice>
-    <ActiveDebugProfile>Xiaomi Redmi Note 6 Pro</ActiveDebugProfile>
+    <ActiveDebugProfile>pixel_2_q_10_0_-_api_29</ActiveDebugProfile>
     <AndroidDesignerPreferredTheme>MainTheme</AndroidDesignerPreferredTheme>
+    <AndroidDesignerPreferredDevice>Nexus 4</AndroidDesignerPreferredDevice>
   </PropertyGroup>
 </Project>

@@ -9,6 +9,7 @@ using Xamarin.Forms;
 
 namespace LapshaApp
 {
+    [DesignTimeVisible(false)]
     public partial class MainScreen : ContentPage
     {
         public MainScreen()
