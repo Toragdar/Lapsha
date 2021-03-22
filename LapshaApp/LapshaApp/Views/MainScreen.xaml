@@ -9,6 +9,7 @@
              mc:Ignorable="d">
 
     <!--MyOrange="#fe9224"-->
+    <!--Gradient from "#fed18e" to "#fda44c"-->
 
     <RelativeLayout BackgroundColor="White">
         <Image Source="MainScreenBackground.png" Aspect="Fill"/>
@@ -32,15 +33,23 @@
                 </CollectionView.ItemsLayout>
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
-                        <pv:PancakeView BackgroundColor="White" VerticalOptions="StartAndExpand"
+                        <pv:PancakeView BackgroundGradientStartPoint="0,0" 
+                                        BackgroundGradientEndPoint="1,0"
+                                        CornerRadius="13,13,13,13"
+                                        VerticalOptions="StartAndExpand"
                                         HorizontalOptions="FillAndExpand">
+                            <pv:PancakeView.BackgroundGradientStops>
+                                <pv:GradientStopCollection>
+                                    <pv:GradientStop Color="#fed18e" Offset="0"/>
+                                    <pv:GradientStop Color="#fda44c" Offset="0.5"/>
+                                </pv:GradientStopCollection>
+                            </pv:PancakeView.BackgroundGradientStops>
+                                                        
                             <Grid VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand">
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="Auto"/>
                                     <ColumnDefinition Width="*"/>
                                 </Grid.ColumnDefinitions>
-                                <BoxView BackgroundColor="#fe9224" WidthRequest="3" HorizontalOptions="Start"
-                                         VerticalOptions="FillAndExpand"/>
                                 <behaviors:Expander Grid.Column="1">
                                     <behaviors:Expander.Header>
                                         <StackLayout>
