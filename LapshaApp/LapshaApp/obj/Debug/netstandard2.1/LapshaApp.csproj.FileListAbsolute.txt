@@ -26,5 +26,4 @@ C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\obj\Debug\netstandard2.1\Vie
 C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\obj\Debug\netstandard2.1\Views\MainScreen.xaml.g.cs
 C:\Users\Valer\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\obj\Debug\netstandard2.1\Views\DayScreens.xaml.g.cs
 C:\Users\Valer\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\obj\Debug\netstandard2.1\Views\MainScreen.xaml.g.cs
-C:\Users\Valer\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\obj\Debug\netstandard2.1\LapshaApp.csprojAssemblyReference.cache
 C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\obj\Debug\netstandard2.1\LapshaApp.csprojAssemblyReference.cache
