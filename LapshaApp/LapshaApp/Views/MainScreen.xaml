@@ -40,8 +40,8 @@
                                         HorizontalOptions="FillAndExpand">
                             <pv:PancakeView.BackgroundGradientStops>
                                 <pv:GradientStopCollection>
-                                    <pv:GradientStop Color="#fed18e" Offset="0"/>
-                                    <pv:GradientStop Color="#fda44c" Offset="0.5"/>
+                                    <pv:GradientStop Color="#fda44c" Offset="0"/>
+                                    <pv:GradientStop Color="#fed18e" Offset="0.85"/>                                    
                                 </pv:GradientStopCollection>
                             </pv:PancakeView.BackgroundGradientStops>
                                                         
@@ -50,35 +50,38 @@
                                     <ColumnDefinition Width="Auto"/>
                                     <ColumnDefinition Width="*"/>
                                 </Grid.ColumnDefinitions>
-                                <behaviors:Expander Grid.Column="1">
+                                
+                                <behaviors:Expander>
                                     <behaviors:Expander.Header>
                                         <Grid HeightRequest="50">
                                             <Grid.ColumnDefinitions>
                                                 <ColumnDefinition Width="300"/>
                                                 <ColumnDefinition Width="*"/>
                                             </Grid.ColumnDefinitions>
-                                            <Label Grid.Column="0" Text="{Binding DayName}" TextColor="White" FontSize="30" VerticalTextAlignment="Center" Margin="20,0,0,0" FontAttributes="Bold"/>
-                                            <Image Grid.Column="1" Source="ArrowDown.png" HorizontalOptions="End" HeightRequest="50" WidthRequest="50" Margin="0,0,10,0" VerticalOptions="Center"/>
+                                            <Label Grid.Column="0" Text="{Binding DayName}" TextColor="White" FontSize="30" VerticalTextAlignment="Center" Margin="20,5,5,5" FontAttributes="Bold"/>
+                                            <Image Grid.Column="1" Source="ArrowDown.png" HorizontalOptions="End" Margin="5,5,10,5" VerticalOptions="Center"/>
                                         </Grid>
                                     </behaviors:Expander.Header>
-                                    <StackLayout>
+
+                                    <StackLayout BackgroundColor="Gray" >
                                         <Label Text="PRODUCTS" TextColor="Black" Opacity="0.5" FontSize="15" Margin="20,0"/>
                                         <StackLayout BindableLayout.ItemsSource="{Binding TestProducts}" HorizontalOptions="Start" VerticalOptions="Center" Margin="20,0,0,20">
                                             <BindableLayout.ItemTemplate>
-                                                <DataTemplate>
-                                                    <Label TextColor="Black" FontSize="12">
-                                                        <Label.FormattedText>
-                                                            <FormattedString>
-                                                                <Span Text="{Binding ProductName}" FontAttributes="Bold"/>
-                                                                <Span Text=" - "/>
-                                                                <Span Text="{Binding ProductWeight}"/>
-                                                            </FormattedString>
-                                                        </Label.FormattedText>
-                                                    </Label>
+                                                <DataTemplate>                                                    
+                                                        <Label TextColor="Black" FontSize="12">
+                                                            <Label.FormattedText>
+                                                                <FormattedString>
+                                                                    <Span Text="{Binding ProductName}" FontAttributes="Bold"/>
+                                                                    <Span Text=" - "/>
+                                                                    <Span Text="{Binding ProductWeight}"/>
+                                                                </FormattedString>
+                                                            </Label.FormattedText>
+                                                        </Label>                                                        
                                                 </DataTemplate>
-                                            </BindableLayout.ItemTemplate>
+                                            </BindableLayout.ItemTemplate>                                            
                                         </StackLayout>
-                                    </StackLayout>
+                                        <BoxView BackgroundColor="Red" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" HeightRequest="20" Margin="-30,0,0,0"/>
+                                    </StackLayout>                                  
                                 </behaviors:Expander>
                             </Grid>
                         </pv:PancakeView>
