@@ -1287,3 +1287,4 @@ C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp.Android\obj\Debug\100\androi
 C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp.Android\obj\Debug\100\res\drawable\mainscreenbackground.png
 C:\Users\Valer\Desktop\Progr\Lapsha\LapshaApp\LapshaApp.Android\obj\Debug\100\res\drawable\mainscreenbackground.png
 C:\Users\Valer\Desktop\Progr\Lapsha\LapshaApp\LapshaApp.Android\obj\Debug\100\res\drawable\upback.png
+C:\Users\Valer\Desktop\Progr\Lapsha\LapshaApp\LapshaApp.Android\obj\Debug\100\res\drawable\arrowdown.png

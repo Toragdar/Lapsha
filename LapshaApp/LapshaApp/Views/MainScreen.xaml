@@ -26,16 +26,16 @@
                 </AbsoluteLayout>
             </Grid>
 
-            <CollectionView Grid.Row="1" Margin="20" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" 
+            <CollectionView Grid.Row="1" Margin="20,50,20,20" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" 
                             SelectionMode="None" ItemsSource="{Binding TestDays}">
                 <CollectionView.ItemsLayout>
-                    <LinearItemsLayout Orientation="Vertical" ItemSpacing="15"/>
+                    <LinearItemsLayout Orientation="Vertical" ItemSpacing="20"/>
                 </CollectionView.ItemsLayout>
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <pv:PancakeView BackgroundGradientStartPoint="0,0" 
                                         BackgroundGradientEndPoint="1,0"
-                                        CornerRadius="13,13,13,13"
+                                        CornerRadius="25,25,25,25"
                                         VerticalOptions="StartAndExpand"
                                         HorizontalOptions="FillAndExpand">
                             <pv:PancakeView.BackgroundGradientStops>
@@ -45,16 +45,21 @@
                                 </pv:GradientStopCollection>
                             </pv:PancakeView.BackgroundGradientStops>
                                                         
-                            <Grid VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand">
+                            <Grid VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand">                                
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="Auto"/>
                                     <ColumnDefinition Width="*"/>
                                 </Grid.ColumnDefinitions>
                                 <behaviors:Expander Grid.Column="1">
                                     <behaviors:Expander.Header>
-                                        <StackLayout>
-                                            <Label Text="{Binding DayName}" TextColor="Black" FontSize="20"/>
-                                        </StackLayout>
+                                        <Grid HeightRequest="50">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="300"/>
+                                                <ColumnDefinition Width="*"/>
+                                            </Grid.ColumnDefinitions>
+                                            <Label Grid.Column="0" Text="{Binding DayName}" TextColor="White" FontSize="30" VerticalTextAlignment="Center" Margin="20,0,0,0" FontAttributes="Bold"/>
+                                            <Image Grid.Column="1" Source="ArrowDown.png" HorizontalOptions="End" HeightRequest="50" WidthRequest="50" Margin="0,0,10,0" VerticalOptions="Center"/>
+                                        </Grid>
                                     </behaviors:Expander.Header>
                                     <StackLayout>
                                         <Label Text="PRODUCTS" TextColor="Black" Opacity="0.5" FontSize="15" Margin="20,0"/>

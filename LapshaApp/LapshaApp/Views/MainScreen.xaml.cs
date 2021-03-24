@@ -34,6 +34,36 @@ namespace LapshaApp
                         new TestProduct {ProductName = "Egg", ProductWeight = 50},
                         new TestProduct {ProductName = "Salad", ProductWeight = 200}
                     }
+                },
+                new TestDay{DayName = "Wednesday", TestProducts = new ObservableCollection<TestProduct>
+                    {
+                        new TestProduct {ProductName = "Egg", ProductWeight = 50},
+                        new TestProduct {ProductName = "Salad", ProductWeight = 200}
+                    }
+                },
+                new TestDay{DayName = "Thursday", TestProducts = new ObservableCollection<TestProduct>
+                    {
+                        new TestProduct {ProductName = "Egg", ProductWeight = 50},
+                        new TestProduct {ProductName = "Salad", ProductWeight = 200}
+                    }
+                },
+                new TestDay{DayName = "Friday", TestProducts = new ObservableCollection<TestProduct>
+                    {
+                        new TestProduct {ProductName = "Egg", ProductWeight = 50},
+                        new TestProduct {ProductName = "Salad", ProductWeight = 200}
+                    }
+                },
+                new TestDay{DayName = "Saturday", TestProducts = new ObservableCollection<TestProduct>
+                    {
+                        new TestProduct {ProductName = "Egg", ProductWeight = 50},
+                        new TestProduct {ProductName = "Salad", ProductWeight = 200}
+                    }
+                },
+                new TestDay{DayName = "Sunday", TestProducts = new ObservableCollection<TestProduct>
+                    {
+                        new TestProduct {ProductName = "Egg", ProductWeight = 50},
+                        new TestProduct {ProductName = "Salad", ProductWeight = 200}
+                    }
                 }
             };
         }
