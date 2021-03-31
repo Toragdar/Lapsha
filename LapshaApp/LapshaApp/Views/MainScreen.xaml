@@ -47,74 +47,68 @@
                             </pv:PancakeView.BackgroundGradientStops>
                             
                             <Grid VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand">
-                                <!--<Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="1"/>
-                                    <ColumnDefinition Width="*"/>
-                                    <ColumnDefinition Width="1"/>
-                                </Grid.ColumnDefinitions>-->
-                                <!--<behaviors:Expander Grid.Column="1">-->
-                                    <behaviors:Expander>
-                                    <behaviors:Expander.Header>
-                                            <Grid HeightRequest="50">
-                                                <Grid.ColumnDefinitions>
-                                                    <ColumnDefinition Width="300"/>
-                                                    <ColumnDefinition Width="*"/>
-                                                </Grid.ColumnDefinitions>
-                                                <Label Grid.Column="0" Text="{Binding DayName}" TextColor="White" FontSize="30" VerticalTextAlignment="Center" Margin="20,5,5,5" FontAttributes="Bold"/>
-                                                <Image Grid.Column="1" Source="ArrowDown.png" HorizontalOptions="End" VerticalOptions="Center" HeightRequest="100"/>
-                                        </Grid>
-                                    </behaviors:Expander.Header>
+                                <behaviors:Expander>
+                                <behaviors:Expander.Header>
+                                        <Grid HeightRequest="50">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="300"/>
+                                                <ColumnDefinition Width="*"/>
+                                            </Grid.ColumnDefinitions>
+                                            <Label Grid.Column="0" Text="{Binding DayName}" TextColor="White" FontSize="30" VerticalTextAlignment="Center" Margin="20,5,5,5" FontAttributes="Bold"/>
+                                            <Image Grid.Column="1" Source="ArrowDown.png" HorizontalOptions="End" VerticalOptions="Center" HeightRequest="100"/>
+                                    </Grid>
+                                </behaviors:Expander.Header>
                                     
                                     <!--MEAL INFO-->
-                                    <!--<StackLayout BackgroundColor="DarkCyan">-->
-                                    <!--HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"-->
-                                            <CollectionView Margin="5"
-                                                        SelectionMode="None" ItemsSource="{Binding TestMeals}"  HeightRequest="{Binding DayUIHeight}">
-                                            <CollectionView.ItemsLayout>
-                                                <LinearItemsLayout Orientation="Vertical" ItemSpacing="5"/>
-                                            </CollectionView.ItemsLayout>
-                                            <CollectionView.ItemTemplate>
-                                                <DataTemplate>
-                                                    <pv:PancakeView BackgroundGradientStartPoint="0,0" 
-                                                                    BackgroundGradientEndPoint="1,0"
-                                                                    CornerRadius="20,20,20,20">
-                                                        <pv:PancakeView.BackgroundGradientStops>
-                                                            <pv:GradientStopCollection>
-                                                                <pv:GradientStop Color="Wheat" Offset="0"/>
-                                                                <pv:GradientStop Color="White" Offset="0.85"/>
-                                                            </pv:GradientStopCollection>
-                                                        </pv:PancakeView.BackgroundGradientStops>
-                                                        <Grid>
-                                                        <Grid.ColumnDefinitions>
-                                                            <ColumnDefinition Width="30"/>
-                                                            <ColumnDefinition Width="*"/>
-                                                        </Grid.ColumnDefinitions>
-                                                        <Label Grid.Column="0" Text="{Binding MealNum}" HorizontalOptions="Center" VerticalOptions="Start" Margin="0,5,0,5" MinimumHeightRequest="30"/>
-                                                            
-                                                            <!--PRODUCT INFO-->
-                                                            <!--<StackLayout Grid.Column="1" Grid.Row="0">-->
-                                                            <StackLayout Grid.Column="1" BindableLayout.ItemsSource="{Binding TestProducts}" HorizontalOptions="Start" VerticalOptions="Center" Margin="20,0,0,20">
-                                                                <BindableLayout.ItemTemplate>
-                                                                    <DataTemplate>
-                                                                        <Label TextColor="Black" FontSize="12">
-                                                                            <Label.FormattedText>
-                                                                                <FormattedString>
-                                                                                    <Span Text="{Binding ProductName}" FontAttributes="Bold"/>
-                                                                                    <Span Text=" - "/>
-                                                                                    <Span Text="{Binding ProductWeight}"/>
-                                                                                </FormattedString>
-                                                                            </Label.FormattedText>
-                                                                        </Label>
-                                                                    </DataTemplate>
-                                                                </BindableLayout.ItemTemplate>
-                                                            </StackLayout>
-                                                            <!--</StackLayout>-->
-                                                        </Grid>
-                                                    </pv:PancakeView>
-                                                </DataTemplate>
-                                            </CollectionView.ItemTemplate>
-                                        </CollectionView>                                        
-                                    <!--</StackLayout>-->
+                                    <CollectionView Margin="10"
+                                                SelectionMode="None" ItemsSource="{Binding TestMeals}"  HeightRequest="{Binding DayUIHeight}">
+                                    <CollectionView.ItemsLayout>
+                                        <LinearItemsLayout Orientation="Vertical" ItemSpacing="10"/>
+                                    </CollectionView.ItemsLayout>
+                                    <CollectionView.ItemTemplate>
+                                        <DataTemplate>
+                                            <pv:PancakeView BackgroundGradientStartPoint="0,0" 
+                                                            BackgroundGradientEndPoint="1,0"
+                                                            CornerRadius="20,20,20,20">
+                                                <pv:PancakeView.BackgroundGradientStops>
+                                                    <pv:GradientStopCollection>
+                                                        <pv:GradientStop Color="Wheat" Offset="0"/>
+                                                        <pv:GradientStop Color="White" Offset="0.85"/>
+                                                    </pv:GradientStopCollection>
+                                                </pv:PancakeView.BackgroundGradientStops>
+                                                <Grid>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="30"/>
+                                                    <ColumnDefinition Width="*"/>
+                                                </Grid.ColumnDefinitions>
+                                                <Label Grid.Column="0" Text="{Binding MealNum}" HorizontalOptions="Center" VerticalOptions="Start" Margin="0,5,0,5"/>
+                                                    
+                                                    <!--PRODUCT INFO-->
+                                                    <!--Доработать верстку информации о продукте-->
+                                                    <Grid Grid.Column="1" BindableLayout.ItemsSource="{Binding TestProducts}" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="20,0,0,20">
+                                                    <Grid.ColumnDefinitions>
+                                                        <ColumnDefinition Width="*"/>
+                                                        <ColumnDefinition Width="*"/>
+                                                    </Grid.ColumnDefinitions>
+                                                        <BindableLayout.ItemTemplate>
+                                                            <DataTemplate>
+                                                                    <Label TextColor="#fe9224" BackgroundColor="#fed18e" FontSize="12" VerticalTextAlignment="Center">
+                                                                    <Label.FormattedText>
+                                                                        <FormattedString>
+                                                                            <Span Text="{Binding ProductName}" FontAttributes="Bold"/>
+                                                                            <Span Text=" - "/>
+                                                                            <Span Text="{Binding ProductWeight}"/>
+                                                                        </FormattedString>
+                                                                    </Label.FormattedText>
+                                                                </Label>
+                                                            </DataTemplate>
+                                                        </BindableLayout.ItemTemplate>
+                                                    </Grid>
+                                                </Grid>
+                                            </pv:PancakeView>
+                                        </DataTemplate>
+                                    </CollectionView.ItemTemplate>
+                                    </CollectionView> 
                                 </behaviors:Expander>    
                             </Grid>
                         </pv:PancakeView>

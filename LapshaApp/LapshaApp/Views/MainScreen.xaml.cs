@@ -193,24 +193,36 @@ namespace LapshaApp
             public int DayUIHeight { get; set; }
             public TestDay()
             {
-                DayUIHeight = 40;
+                DayUIHeight = 0;
             }
             public void CalculateUIHeight()
             {
-                int MealSpacingHeight = 0;
-                int MealHeight = 0;
-                int ProductHeight = 0;
+                int elements = 0;
+                int spaces = 0;
+                int elementsHeight = 30;
+                int spacesHeight = 11;
 
                 if (this.TestMeals.Count > 0)
                 {
-                    MealHeight = this.TestMeals.Count * 40;
-                    foreach (TestMeal meal in TestMeals)
+                    spaces = 4;
+                    foreach(TestMeal meal in this.TestMeals)
                     {
-                        MealSpacingHeight += 10;
-                        ProductHeight = meal.TestProducts.Count * 30;
+                        if (meal.TestProducts.Count > 1)
+                        {
+                            elements += meal.TestProducts.Count;
+                            spaces++;
+                        }
+                        else
+                        {
+                            elements++;
+                        }
                     }
+                    this.DayUIHeight += ((elements * elementsHeight) + (spaces * spacesHeight));
                 }
-                this.DayUIHeight += (MealSpacingHeight + MealHeight + ProductHeight);
+                else
+                {
+                    this.DayUIHeight = 30;
+                }
             }
         }
         public class TestProduct
