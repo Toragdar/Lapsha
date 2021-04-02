@@ -199,7 +199,7 @@ namespace LapshaApp
             {
                 int elements = 0;
                 int spaces = 0;
-                int elementsHeight = 30;
+                int elementsHeight = 40;
                 int spacesHeight = 11;
 
                 if (this.TestMeals.Count > 0)
