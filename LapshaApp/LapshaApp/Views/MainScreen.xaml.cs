@@ -18,7 +18,12 @@ namespace LapshaApp
             this.BindingContext = this;            
         }
         public ObservableCollection<TestDay> TestDays { get => GetTestDays(); }
-       
+        private async void OnImageButtonClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new DayScreens());
+        }
+
+        #region MockData
         private ObservableCollection<TestDay> GetTestDays()
         {
             ObservableCollection<TestDay> days = new ObservableCollection<TestDay>
@@ -235,5 +240,6 @@ namespace LapshaApp
             public int MealNum { get; set; }
             public ObservableCollection<TestProduct> TestProducts { get; set; }
         }
+        #endregion
     }
 }

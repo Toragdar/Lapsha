@@ -8,21 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("LapshaApp.Views.DayScreens.xaml", "Views/DayScreens.xaml", typeof(global::LapshaApp.CarouselOfDayScreens))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("LapshaApp.Views.DayScreens.xaml", "Views/DayScreens.xaml", typeof(global::LapshaApp.DayScreens))]
 
 namespace LapshaApp {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\DayScreens.xaml")]
-    public partial class CarouselOfDayScreens : global::Xamarin.Forms.CarouselPage {
-        
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.ListView ProductList;
+    public partial class DayScreens : global::Xamarin.Forms.CarouselPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(CarouselOfDayScreens));
-            ProductList = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ListView>(this, "ProductList");
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(DayScreens));
         }
     }
 }

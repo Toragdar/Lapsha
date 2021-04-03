@@ -3444,18 +3444,18 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Valer\\.nuget\\packages\\": {},
+    "C:\\Users\\Z\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Valer\\Desktop\\Progr\\Lapsha\\LapshaApp\\LapshaApp.Android\\LapshaApp.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Z\\Desktop\\Progr\\Lapsha\\LapshaApp\\LapshaApp.Android\\LapshaApp.Android.csproj",
       "projectName": "LapshaApp.Android",
-      "projectPath": "C:\\Users\\Valer\\Desktop\\Progr\\Lapsha\\LapshaApp\\LapshaApp.Android\\LapshaApp.Android.csproj",
-      "packagesPath": "C:\\Users\\Valer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Valer\\Desktop\\Progr\\Lapsha\\LapshaApp\\LapshaApp.Android\\obj\\",
+      "projectPath": "C:\\Users\\Z\\Desktop\\Progr\\Lapsha\\LapshaApp\\LapshaApp.Android\\LapshaApp.Android.csproj",
+      "packagesPath": "C:\\Users\\Z\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Z\\Desktop\\Progr\\Lapsha\\LapshaApp\\LapshaApp.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -3463,7 +3463,7 @@
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Valer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Z\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -3478,8 +3478,8 @@
       "frameworks": {
         "monoandroid10.0": {
           "projectReferences": {
-            "C:\\Users\\Valer\\Desktop\\Progr\\Lapsha\\LapshaApp\\LapshaApp\\LapshaApp.csproj": {
-              "projectPath": "C:\\Users\\Valer\\Desktop\\Progr\\Lapsha\\LapshaApp\\LapshaApp\\LapshaApp.csproj"
+            "C:\\Users\\Z\\Desktop\\Progr\\Lapsha\\LapshaApp\\LapshaApp\\LapshaApp.csproj": {
+              "projectPath": "C:\\Users\\Z\\Desktop\\Progr\\Lapsha\\LapshaApp\\LapshaApp\\LapshaApp.csproj"
             }
           }
         }

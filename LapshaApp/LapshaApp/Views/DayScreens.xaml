@@ -1,24 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="LapshaApp.CarouselOfDayScreens">
+             x:Class="LapshaApp.DayScreens"
+             xmlns:pv="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             NavigationPage.HasNavigationBar="False"
+             ItemsSource="{Binding TestDays}">
 
-    <ContentPage Title="GetProductTest" >
-        <StackLayout>
-            <ListView x:Name="ProductList" ItemsSource="{Binding}">
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <ViewCell>
-                            <ViewCell.View>
-                                <StackLayout Orientation="Horizontal">
-                                    <Label Text="{Binding ProductName}" FontSize="Medium" />
-                                </StackLayout>
-                            </ViewCell.View>
-                        </ViewCell>
-                    </DataTemplate>
-                </ListView.ItemTemplate>                
-            </ListView>            
-        </StackLayout>
-    </ContentPage>
-    
+    <CarouselPage.ItemTemplate>
+        <DataTemplate>
+            <ContentPage>
+                <RelativeLayout BackgroundColor="White">
+                    <Image Source="DayScreenBackground.png" 
+                           Aspect="Fill"/>
+                    <Grid RowSpacing="0" 
+                          HorizontalOptions="FillAndExpand" 
+                          VerticalOptions="FillAndExpand">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                        <Grid HorizontalOptions="FillAndExpand" 
+                              VerticalOptions="FillAndExpand">
+                            <Image Source="UpBack.png" 
+                                   Aspect="AspectFill"/>
+                            <AbsoluteLayout HorizontalOptions="Center" 
+                                            VerticalOptions="Center">
+                                <Label Text="{Binding DayName}" 
+                                       TextColor="White" 
+                                       FontSize="40"/>
+                            </AbsoluteLayout>
+                        </Grid>
+                    </Grid>
+                </RelativeLayout>
+            </ContentPage>
+        </DataTemplate>
+    </CarouselPage.ItemTemplate>    
 </CarouselPage>
