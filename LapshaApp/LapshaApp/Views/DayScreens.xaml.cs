@@ -30,156 +30,132 @@ namespace LapshaApp
             {
                 new TestDay
                 {
-                    DayName = "Monday", TestMeals = new ObservableCollection<TestMeal>
+                    DayName = "Monday", DayProt = 50, DayFat = 14, DayCarb = 130, DayCallories = 220, TestMeals = new ObservableCollection<TestMeal>
                     {
                         new TestMeal
                         {
-                            MealNum = 1, TestProducts = new ObservableCollection<TestProduct>
+                            MealNum = 1, MealProt = 25, MealFat = 7, MealCarb = 65, MealCallories = 110, TestProducts = new ObservableCollection<TestProduct>
                             {
-                                new TestProduct {ProductName = "Potato", ProductWeight = 100},
-                                new TestProduct {ProductName = "Tomato", ProductWeight = 150}
+                                new TestProduct {ProductName = "Potato", ProductProt = 15, ProductFat = 5, ProductCarb = 50, ProductCallories = 55, ProductWeight = 100},
+                                new TestProduct {ProductName = "Tomato", ProductProt = 10, ProductFat = 2, ProductCarb = 15, ProductCallories = 55, ProductWeight = 150}
                             }
                         },
                         new TestMeal
                         {
-                            MealNum = 2, TestProducts = new ObservableCollection<TestProduct>
+                            MealNum = 2, MealProt = 25, MealFat = 7, MealCarb = 65, MealCallories = 110, TestProducts = new ObservableCollection<TestProduct>
                             {
-                                new TestProduct {ProductName = "Egg", ProductWeight = 55},
-                                new TestProduct {ProductName = "Salad", ProductWeight = 300}
+                                new TestProduct {ProductName = "Egg", ProductProt = 15, ProductFat = 5, ProductCarb = 50, ProductCallories = 55, ProductWeight = 55},
+                                new TestProduct {ProductName = "Salad", ProductProt = 10, ProductFat = 2, ProductCarb = 15, ProductCallories = 55, ProductWeight = 300}
                             }
                         }
                     }
                 },
                 new TestDay
                 {
-                    DayName = "Tuesday", TestMeals = new ObservableCollection<TestMeal>
+                    DayName = "Tuesday", DayProt = 25, DayFat = 7, DayCarb = 65, DayCallories = 110, TestMeals = new ObservableCollection<TestMeal>
                     {
                         new TestMeal
                         {
-                            MealNum = 1, TestProducts = new ObservableCollection<TestProduct>
+                            MealNum = 1, MealProt = 25, MealFat = 7, MealCarb = 65, MealCallories = 110, TestProducts = new ObservableCollection<TestProduct>
                             {
-                                new TestProduct {ProductName = "Potato", ProductWeight = 100},
-                                new TestProduct {ProductName = "Tomato", ProductWeight = 150}
+                                new TestProduct {ProductName = "Potato", ProductProt = 15, ProductFat = 5, ProductCarb = 50, ProductCallories = 55, ProductWeight = 100},
+                                new TestProduct {ProductName = "Tomato", ProductProt = 10, ProductFat = 2, ProductCarb = 15, ProductCallories = 55, ProductWeight = 150}
                             }
                         },
                         new TestMeal
                         {
-                            MealNum = 2, TestProducts = new ObservableCollection<TestProduct>
+                            MealNum = 2, MealProt = 0, MealFat = 0, MealCarb = 0, MealCallories = 0, TestProducts = new ObservableCollection<TestProduct>
                             {
-                                //new TestProduct {ProductName = "Egg", ProductWeight = 55},
-                                //new TestProduct {ProductName = "Salad", ProductWeight = 300}
+
                             }
                         }
                     }
                 },
                 new TestDay
                 {
-                    DayName = "Wednesday", TestMeals = new ObservableCollection<TestMeal>
-                    {
-                        //new TestMeal
-                        //{
-                        //    MealNum = 1, TestProducts = new ObservableCollection<TestProduct>
-                        //    {
-                        //        new TestProduct {ProductName = "Potato", ProductWeight = 100},
-                        //        new TestProduct {ProductName = "Tomato", ProductWeight = 150}
-                        //    }
-                        //},
+                    DayName = "Wednesday", DayProt = 25, DayFat = 7, DayCarb = 65, DayCallories = 110, TestMeals = new ObservableCollection<TestMeal>
+                    {                        
                         new TestMeal
                         {
-                            MealNum = 2, TestProducts = new ObservableCollection<TestProduct>
+                            MealNum = 1, MealProt = 25, MealFat = 7, MealCarb = 65, MealCallories = 110, TestProducts = new ObservableCollection<TestProduct>
                             {
-                                new TestProduct {ProductName = "Egg", ProductWeight = 55},
-                                new TestProduct {ProductName = "Salad", ProductWeight = 300}
+                                new TestProduct {ProductName = "Egg", ProductProt = 15, ProductFat = 5, ProductCarb = 50, ProductCallories = 55, ProductWeight = 55},
+                                new TestProduct {ProductName = "Salad", ProductProt = 10, ProductFat = 2, ProductCarb = 15, ProductCallories = 55, ProductWeight = 300}
                             }
                         }
                     }
                 },
                 new TestDay
                 {
-                    DayName = "Thursday", TestMeals = new ObservableCollection<TestMeal>
+                    DayName = "Thursday", DayProt = 0, DayFat = 0, DayCarb = 0, DayCallories = 0, TestMeals = new ObservableCollection<TestMeal>
                     {
-                        //new TestMeal
-                        //{
-                        //    MealNum = 1, TestProducts = new ObservableCollection<TestProduct>
-                        //    {
-                        //        new TestProduct {ProductName = "Potato", ProductWeight = 100},
-                        //        new TestProduct {ProductName = "Tomato", ProductWeight = 150}
-                        //    }
-                        //},
-                        //new TestMeal
-                        //{
-                        //    MealNum = 2, TestProducts = new ObservableCollection<TestProduct>
-                        //    {
-                        //        new TestProduct {ProductName = "Egg", ProductWeight = 55},
-                        //        new TestProduct {ProductName = "Salad", ProductWeight = 300}
-                        //    }
-                        //}
+                        
                     }
                 },
                 new TestDay
                 {
-                    DayName = "Friday", TestMeals = new ObservableCollection<TestMeal>
+                    DayName = "Friday", DayProt = 75, DayFat = 21, DayCarb = 195, DayCallories = 330, TestMeals = new ObservableCollection<TestMeal>
                     {
                         new TestMeal
                         {
-                            MealNum = 1, TestProducts = new ObservableCollection<TestProduct>
+                            MealNum = 1, MealProt = 50, MealFat = 14, MealCarb = 130, MealCallories = 220, TestProducts = new ObservableCollection<TestProduct>
                             {
-                                new TestProduct {ProductName = "Potato", ProductWeight = 100},
-                                new TestProduct {ProductName = "Tomato", ProductWeight = 150},
-                                new TestProduct {ProductName = "Egg", ProductWeight = 55},
-                                new TestProduct {ProductName = "Salad", ProductWeight = 300}
+                                new TestProduct {ProductName = "Potato", ProductProt = 15, ProductFat = 5, ProductCarb = 50, ProductCallories = 55, ProductWeight = 100},
+                                new TestProduct {ProductName = "Tomato", ProductProt = 10, ProductFat = 2, ProductCarb = 15, ProductCallories = 55, ProductWeight = 150},
+                                new TestProduct {ProductName = "Egg", ProductProt = 15, ProductFat = 5, ProductCarb = 50, ProductCallories = 55, ProductWeight = 55},
+                                new TestProduct {ProductName = "Salad", ProductProt = 10, ProductFat = 2, ProductCarb = 15, ProductCallories = 55, ProductWeight = 300}
                             }
                         },
                         new TestMeal
                         {
-                            MealNum = 2, TestProducts = new ObservableCollection<TestProduct>
+                            MealNum = 2, MealProt = 25, MealFat = 7, MealCarb = 65, MealCallories = 110, TestProducts = new ObservableCollection<TestProduct>
                             {
-                                new TestProduct {ProductName = "Egg", ProductWeight = 55},
-                                new TestProduct {ProductName = "Salad", ProductWeight = 300}
+                                new TestProduct {ProductName = "Egg", ProductProt = 15, ProductFat = 5, ProductCarb = 50, ProductCallories = 55, ProductWeight = 55},
+                                new TestProduct {ProductName = "Salad", ProductProt = 10, ProductFat = 2, ProductCarb = 15, ProductCallories = 55, ProductWeight = 300}
                             }
                         }
                     }
                 },
                 new TestDay
                 {
-                    DayName = "Saturday", TestMeals = new ObservableCollection<TestMeal>
+                    DayName = "Saturday", DayProt = 50, DayFat = 14, DayCarb = 130, DayCallories = 220, TestMeals = new ObservableCollection<TestMeal>
                     {
                         new TestMeal
                         {
-                            MealNum = 1, TestProducts = new ObservableCollection<TestProduct>
+                            MealNum = 1, MealProt = 25, MealFat = 7, MealCarb = 65, MealCallories = 110, TestProducts = new ObservableCollection<TestProduct>
                             {
-                                new TestProduct {ProductName = "Potato", ProductWeight = 100},
-                                new TestProduct {ProductName = "Tomato", ProductWeight = 150}
+                                new TestProduct {ProductName = "Potato", ProductProt = 15, ProductFat = 5, ProductCarb = 50, ProductCallories = 55, ProductWeight = 100},
+                                new TestProduct {ProductName = "Tomato", ProductProt = 10, ProductFat = 2, ProductCarb = 15, ProductCallories = 55, ProductWeight = 150}
                             }
                         },
                         new TestMeal
                         {
-                            MealNum = 2, TestProducts = new ObservableCollection<TestProduct>
+                            MealNum = 2, MealProt = 25, MealFat = 7, MealCarb = 65, MealCallories = 110, TestProducts = new ObservableCollection<TestProduct>
                             {
-                                new TestProduct {ProductName = "Egg", ProductWeight = 55},
-                                new TestProduct {ProductName = "Salad", ProductWeight = 300}
+                                new TestProduct {ProductName = "Egg", ProductProt = 15, ProductFat = 5, ProductCarb = 50, ProductCallories = 55, ProductWeight = 55},
+                                new TestProduct {ProductName = "Salad", ProductProt = 10, ProductFat = 2, ProductCarb = 15, ProductCallories = 55, ProductWeight = 300}
                             }
                         }
                     }
                 },
                 new TestDay
                 {
-                    DayName = "Sunday", TestMeals = new ObservableCollection<TestMeal>
+                    DayName = "Sunday", DayProt = 50, DayFat = 14, DayCarb = 130, DayCallories = 220, TestMeals = new ObservableCollection<TestMeal>
                     {
                         new TestMeal
                         {
-                            MealNum = 1, TestProducts = new ObservableCollection<TestProduct>
+                            MealNum = 1, MealProt = 25, MealFat = 7, MealCarb = 65, MealCallories = 110, TestProducts = new ObservableCollection<TestProduct>
                             {
-                                new TestProduct {ProductName = "Potato", ProductWeight = 100},
-                                new TestProduct {ProductName = "Tomato", ProductWeight = 150}
+                                new TestProduct {ProductName = "Potato", ProductProt = 15, ProductFat = 5, ProductCarb = 50, ProductCallories = 55, ProductWeight = 100},
+                                new TestProduct {ProductName = "Tomato", ProductProt = 10, ProductFat = 2, ProductCarb = 15, ProductCallories = 55, ProductWeight = 150}
                             }
                         },
                         new TestMeal
                         {
-                            MealNum = 2, TestProducts = new ObservableCollection<TestProduct>
+                            MealNum = 2, MealProt = 25, MealFat = 7, MealCarb = 65, MealCallories = 110, TestProducts = new ObservableCollection<TestProduct>
                             {
-                                new TestProduct {ProductName = "Egg", ProductWeight = 55},
-                                new TestProduct {ProductName = "Salad", ProductWeight = 300}
+                                new TestProduct {ProductName = "Egg", ProductProt = 15, ProductFat = 5, ProductCarb = 50, ProductCallories = 55, ProductWeight = 55},
+                                new TestProduct {ProductName = "Salad", ProductProt = 10, ProductFat = 2, ProductCarb = 15, ProductCallories = 55, ProductWeight = 300}
                             }
                         }
                     }
