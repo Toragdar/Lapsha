@@ -9,16 +9,16 @@
     <CarouselPage.ItemTemplate>
         <DataTemplate>
             <ContentPage>
-                <RelativeLayout BackgroundColor="White">
+                <RelativeLayout>
                     <Image Source="DayScreenBackground.png" 
                            Aspect="Fill"/>
                     <Grid RowSpacing="0" 
                           HorizontalOptions="FillAndExpand" 
                           VerticalOptions="FillAndExpand">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="100"/>
-                        <RowDefinition Height="*"/>
-                    </Grid.RowDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="100"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
 
                         <Grid HorizontalOptions="FillAndExpand" 
                               VerticalOptions="FillAndExpand">

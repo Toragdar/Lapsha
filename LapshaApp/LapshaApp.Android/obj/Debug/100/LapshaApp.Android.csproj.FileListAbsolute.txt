@@ -1290,4 +1290,4 @@ C:\Users\Valer\Desktop\Progr\Lapsha\LapshaApp\LapshaApp.Android\obj\Debug\100\re
 C:\Users\Valer\Desktop\Progr\Lapsha\LapshaApp\LapshaApp.Android\obj\Debug\100\res\drawable\arrowdown.png
 C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp.Android\obj\Debug\100\res\drawable\upback.png
 C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp.Android\obj\Debug\100\res\drawable\arrowdown.png
-C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp.Android\obj\Debug\100\res\drawable\dayscreenbackground.png
+C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp.Android\obj\Debug\100\res\mipmap-anydpi-v26\dayscreenbackground.png

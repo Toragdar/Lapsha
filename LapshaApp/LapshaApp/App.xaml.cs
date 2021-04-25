@@ -30,7 +30,8 @@ namespace LapshaApp
 
             }
 
-            MainPage = new NavigationPage(new MainScreen());
+            //MainPage = new NavigationPage(new MainScreen());
+            MainPage = new NavigationPage(new DayScreens());
         }
 
         protected override void OnStart()
