@@ -163,7 +163,10 @@ namespace LapshaApp
             };
             foreach (TestDay day in days)
             {
-                day.CalculateUIHeight();
+                foreach (TestMeal testMeal in day.TestMeals)
+                {
+                    testMeal.CalculateUIHeight();
+                }
             }
             return days;
         }
@@ -237,6 +240,7 @@ namespace LapshaApp
             public double MealFat { get; set; }
             public double MealCarb { get; set; }
             public int MealCallories { get; set; }
+            public int MealUIHeight { get; set; }
             public ObservableCollection<TestProduct> TestProducts { get; set; }
             public TestMeal()
             {
@@ -244,6 +248,32 @@ namespace LapshaApp
                 MealFat = 0;
                 MealCarb = 0;
                 MealCallories = 0;
+            }
+            public void CalculateUIHeight()
+            {
+                int elements = 0;
+                int spaces = 0;
+                int elementsHeight = 90;
+                int spacesHeight = 11;
+
+                if (this.TestProducts.Count > 0)
+                {
+                    spaces = 4;                    
+                        if (this.TestProducts.Count > 1)
+                        {
+                            elements += this.TestProducts.Count;
+                            spaces++;
+                        }
+                        else
+                        {
+                            elements++;
+                        }                    
+                    this.MealUIHeight += ((elements * elementsHeight) + (spaces * spacesHeight));
+                }
+                else
+                {
+                    this.MealUIHeight = 30;
+                }
             }
         }
         #endregion
