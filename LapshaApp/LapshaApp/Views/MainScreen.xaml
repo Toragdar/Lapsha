@@ -82,7 +82,7 @@
                                                FontAttributes="Bold"/>
                                         <!--Тень при клике надо убрать-->
                                         <ImageButton Grid.Column="1"
-                                                     Source="ArrowDown.png" 
+                                                     Source="ArrowRight.png" 
                                                      HorizontalOptions="EndAndExpand" 
                                                      VerticalOptions="CenterAndExpand" 
                                                      Margin="5"
