@@ -9,9 +9,12 @@
     <CarouselPage.ItemTemplate>
         <DataTemplate>
             <ContentPage>
-                <RelativeLayout>
+                <RelativeLayout BackgroundColor="White">
                     <Image Source="DayScreenBackground1.png" 
-                           Aspect="Fill"/>
+                           Aspect="AspectFill"
+                           VerticalOptions="Center"
+                           HorizontalOptions="Center"
+                           Margin="30,230,30,0"/>
                     <Grid RowSpacing="0"
                           HorizontalOptions="FillAndExpand" 
                           VerticalOptions="FillAndExpand">
@@ -165,8 +168,14 @@
                                                                     </FormattedString>
                                                                 </Label.FormattedText>
                                                             </Label>
-                                                        </Grid>                                                        
-                                                               
+                                                        </Grid>
+                                                        <ImageButton Grid.Column="2"
+                                                                     Source="Cancel1.png" 
+                                                                     HorizontalOptions="EndAndExpand" 
+                                                                     VerticalOptions="CenterAndExpand" 
+                                                                     Margin="5"
+                                                                     Clicked="OnImageButtonClicked"/>
+
                                                         <!--Изменить иконку-->
                                                         <Image Grid.Column="2"
                                                                Source="ArrowDown.png" 

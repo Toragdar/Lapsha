@@ -23,6 +23,12 @@ namespace LapshaApp
             base.OnAppearing();
         }
         public ObservableCollection<TestDay> TestDays { get => GetTestDays(); }
+
+        private async void OnImageButtonClicked(object sender, EventArgs e)
+        {
+            
+        }
+
         #region MockData
         private ObservableCollection<TestDay> GetTestDays()
         {
