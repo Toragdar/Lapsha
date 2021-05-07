@@ -11,6 +11,7 @@ public class SplashActivity
 	static {
 		__md_methods = 
 			"n_onCreate:(Landroid/os/Bundle;Landroid/os/PersistableBundle;)V:GetOnCreate_Landroid_os_Bundle_Landroid_os_PersistableBundle_Handler\n" +
+			"n_onResume:()V:GetOnResumeHandler\n" +
 			"";
 		mono.android.Runtime.register ("LapshaApp.Droid.Resources.SplashActivity, LapshaApp.Android", SplashActivity.class, __md_methods);
 	}
@@ -38,6 +39,14 @@ public class SplashActivity
 	}
 
 	private native void n_onCreate (android.os.Bundle p0, android.os.PersistableBundle p1);
+
+
+	public void onResume ()
+	{
+		n_onResume ();
+	}
+
+	private native void n_onResume ();
 
 	private java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)

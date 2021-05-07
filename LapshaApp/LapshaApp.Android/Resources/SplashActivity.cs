@@ -19,5 +19,10 @@ namespace LapshaApp.Droid.Resources
         {
             base.OnCreate(savedInstanceState, persistentState);
         }
+        protected override void OnResume()
+        {
+            base.OnResume();
+            StartActivity(new Intent(Application.Context, typeof(MainActivity)));
+        }
     }
 }
