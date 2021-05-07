@@ -9804,7 +9804,7 @@ map_managed_to_java:
 	.xword	.L.managed_type_name.4897
 	.xword	.L.java_type_name.4608
 	.xword	.L.managed_type_name.4898
-	.xword	.L.java_type_name.5244
+	.xword	.L.java_type_name.5245
 	.xword	.L.managed_type_name.4899
 	.xword	.L.java_type_name.4609
 	.xword	.L.managed_type_name.4900
@@ -9814,7 +9814,7 @@ map_managed_to_java:
 	.xword	.L.managed_type_name.4902
 	.xword	.L.java_type_name.4612
 	.xword	.L.managed_type_name.4903
-	.xword	.L.java_type_name.5245
+	.xword	.L.java_type_name.5246
 	.xword	.L.managed_type_name.4904
 	.xword	.L.java_type_name.4613
 	.xword	.L.managed_type_name.4905
@@ -9850,9 +9850,9 @@ map_managed_to_java:
 	.xword	.L.managed_type_name.4920
 	.xword	.L.java_type_name.4628
 	.xword	.L.managed_type_name.4921
-	.xword	.L.java_type_name.5247
+	.xword	.L.java_type_name.5248
 	.xword	.L.managed_type_name.4922
-	.xword	.L.java_type_name.5246
+	.xword	.L.java_type_name.5247
 	.xword	.L.managed_type_name.4923
 	.xword	.L.java_type_name.4629
 	.xword	.L.managed_type_name.4924
@@ -9968,15 +9968,15 @@ map_managed_to_java:
 	.xword	.L.managed_type_name.4979
 	.xword	.L.java_type_name.5259
 	.xword	.L.managed_type_name.4980
-	.xword	.L.java_type_name.5258
+	.xword	.L.java_type_name.5257
 	.xword	.L.managed_type_name.4981
-	.xword	.L.java_type_name.5256
+	.xword	.L.java_type_name.5258
 	.xword	.L.managed_type_name.4982
 	.xword	.L.java_type_name.5260
 	.xword	.L.managed_type_name.4983
 	.xword	.L.java_type_name.5261
 	.xword	.L.managed_type_name.4984
-	.xword	.L.java_type_name.5257
+	.xword	.L.java_type_name.5256
 	.xword	.L.managed_type_name.4985
 	.xword	.L.java_type_name.5262
 	.xword	.L.managed_type_name.4986
@@ -13830,7 +13830,7 @@ map_managed_to_java:
 	.xword	.L.managed_type_name.6910
 	.xword	.L.java_type_name.5205
 	.xword	.L.managed_type_name.6911
-	.xword	.L.java_type_name.5248
+	.xword	.L.java_type_name.5206
 	.xword	.L.managed_type_name.6912
 	.xword	.L.java_type_name.7161
 	.xword	.L.managed_type_name.6913
@@ -14844,11 +14844,11 @@ map_managed_to_java:
 	.xword	.L.managed_type_name.7417
 	.xword	.L.java_type_name.7666
 	.xword	.L.managed_type_name.7418
-	.xword	.L.java_type_name.5206
-	.xword	.L.managed_type_name.7419
 	.xword	.L.java_type_name.5207
-	.xword	.L.managed_type_name.7420
+	.xword	.L.managed_type_name.7419
 	.xword	.L.java_type_name.5208
+	.xword	.L.managed_type_name.7420
+	.xword	.L.java_type_name.5209
 	.xword	.L.managed_type_name.7421
 	.xword	.L.java_type_name.5002
 	.xword	.L.managed_type_name.7422
@@ -14872,41 +14872,41 @@ map_managed_to_java:
 	.xword	.L.managed_type_name.7431
 	.xword	.L.java_type_name.5012
 	.xword	.L.managed_type_name.7432
-	.xword	.L.java_type_name.5227
-	.xword	.L.managed_type_name.7433
 	.xword	.L.java_type_name.5228
-	.xword	.L.managed_type_name.7434
+	.xword	.L.managed_type_name.7433
 	.xword	.L.java_type_name.5229
-	.xword	.L.managed_type_name.7435
+	.xword	.L.managed_type_name.7434
 	.xword	.L.java_type_name.5230
-	.xword	.L.managed_type_name.7436
+	.xword	.L.managed_type_name.7435
 	.xword	.L.java_type_name.5231
-	.xword	.L.managed_type_name.7437
+	.xword	.L.managed_type_name.7436
 	.xword	.L.java_type_name.5232
-	.xword	.L.managed_type_name.7438
+	.xword	.L.managed_type_name.7437
 	.xword	.L.java_type_name.5233
+	.xword	.L.managed_type_name.7438
+	.xword	.L.java_type_name.5234
 	.xword	.L.managed_type_name.7439
 	.xword	.L.java_type_name.7667
 	.xword	.L.managed_type_name.7440
-	.xword	.L.java_type_name.5234
-	.xword	.L.managed_type_name.7441
 	.xword	.L.java_type_name.5235
-	.xword	.L.managed_type_name.7442
+	.xword	.L.managed_type_name.7441
 	.xword	.L.java_type_name.5236
-	.xword	.L.managed_type_name.7443
+	.xword	.L.managed_type_name.7442
 	.xword	.L.java_type_name.5237
-	.xword	.L.managed_type_name.7444
+	.xword	.L.managed_type_name.7443
 	.xword	.L.java_type_name.5238
-	.xword	.L.managed_type_name.7445
+	.xword	.L.managed_type_name.7444
 	.xword	.L.java_type_name.5239
-	.xword	.L.managed_type_name.7446
+	.xword	.L.managed_type_name.7445
 	.xword	.L.java_type_name.5240
-	.xword	.L.managed_type_name.7447
+	.xword	.L.managed_type_name.7446
 	.xword	.L.java_type_name.5241
-	.xword	.L.managed_type_name.7448
+	.xword	.L.managed_type_name.7447
 	.xword	.L.java_type_name.5242
-	.xword	.L.managed_type_name.7449
+	.xword	.L.managed_type_name.7448
 	.xword	.L.java_type_name.5243
+	.xword	.L.managed_type_name.7449
+	.xword	.L.java_type_name.5244
 	.xword	.L.managed_type_name.7450
 	.xword	.L.java_type_name.5253
 	.xword	.L.managed_type_name.7451
@@ -14922,41 +14922,41 @@ map_managed_to_java:
 	.xword	.L.managed_type_name.7456
 	.xword	.L.java_type_name.5018
 	.xword	.L.managed_type_name.7457
-	.xword	.L.java_type_name.5209
-	.xword	.L.managed_type_name.7458
 	.xword	.L.java_type_name.5210
-	.xword	.L.managed_type_name.7459
+	.xword	.L.managed_type_name.7458
 	.xword	.L.java_type_name.5211
-	.xword	.L.managed_type_name.7460
+	.xword	.L.managed_type_name.7459
 	.xword	.L.java_type_name.5212
-	.xword	.L.managed_type_name.7461
+	.xword	.L.managed_type_name.7460
 	.xword	.L.java_type_name.5213
-	.xword	.L.managed_type_name.7462
+	.xword	.L.managed_type_name.7461
 	.xword	.L.java_type_name.5214
-	.xword	.L.managed_type_name.7463
+	.xword	.L.managed_type_name.7462
 	.xword	.L.java_type_name.5215
-	.xword	.L.managed_type_name.7464
-	.xword	.L.java_type_name.5217
-	.xword	.L.managed_type_name.7465
-	.xword	.L.java_type_name.5218
-	.xword	.L.managed_type_name.7466
-	.xword	.L.java_type_name.5219
-	.xword	.L.managed_type_name.7467
+	.xword	.L.managed_type_name.7463
 	.xword	.L.java_type_name.5216
-	.xword	.L.managed_type_name.7468
+	.xword	.L.managed_type_name.7464
+	.xword	.L.java_type_name.5218
+	.xword	.L.managed_type_name.7465
+	.xword	.L.java_type_name.5219
+	.xword	.L.managed_type_name.7466
 	.xword	.L.java_type_name.5220
-	.xword	.L.managed_type_name.7469
+	.xword	.L.managed_type_name.7467
+	.xword	.L.java_type_name.5217
+	.xword	.L.managed_type_name.7468
 	.xword	.L.java_type_name.5221
-	.xword	.L.managed_type_name.7470
+	.xword	.L.managed_type_name.7469
 	.xword	.L.java_type_name.5222
-	.xword	.L.managed_type_name.7471
+	.xword	.L.managed_type_name.7470
 	.xword	.L.java_type_name.5223
-	.xword	.L.managed_type_name.7472
+	.xword	.L.managed_type_name.7471
 	.xword	.L.java_type_name.5224
-	.xword	.L.managed_type_name.7473
+	.xword	.L.managed_type_name.7472
 	.xword	.L.java_type_name.5225
-	.xword	.L.managed_type_name.7474
+	.xword	.L.managed_type_name.7473
 	.xword	.L.java_type_name.5226
+	.xword	.L.managed_type_name.7474
+	.xword	.L.java_type_name.5227
 	.xword	.L.managed_type_name.7475
 	.xword	.L.java_type_name.5019
 	.xword	.L.managed_type_name.7476
@@ -25764,91 +25764,91 @@ map_java_to_managed:
 	.xword	.L.java_type_name.5205
 	.xword	.L.managed_type_name.6910
 	.xword	.L.java_type_name.5206
-	.xword	.L.managed_type_name.7418
-	.xword	.L.java_type_name.5207
-	.xword	.L.managed_type_name.7419
-	.xword	.L.java_type_name.5208
-	.xword	.L.managed_type_name.7420
-	.xword	.L.java_type_name.5209
-	.xword	.L.managed_type_name.7457
-	.xword	.L.java_type_name.5210
-	.xword	.L.managed_type_name.7458
-	.xword	.L.java_type_name.5211
-	.xword	0
-	.xword	.L.java_type_name.5212
-	.xword	.L.managed_type_name.7460
-	.xword	.L.java_type_name.5213
-	.xword	.L.managed_type_name.7461
-	.xword	.L.java_type_name.5214
-	.xword	.L.managed_type_name.7462
-	.xword	.L.java_type_name.5215
-	.xword	.L.managed_type_name.7463
-	.xword	.L.java_type_name.5216
-	.xword	.L.managed_type_name.7467
-	.xword	.L.java_type_name.5217
-	.xword	.L.managed_type_name.7464
-	.xword	.L.java_type_name.5218
-	.xword	.L.managed_type_name.7465
-	.xword	.L.java_type_name.5219
-	.xword	.L.managed_type_name.7466
-	.xword	.L.java_type_name.5220
-	.xword	.L.managed_type_name.7468
-	.xword	.L.java_type_name.5221
-	.xword	0
-	.xword	.L.java_type_name.5222
-	.xword	.L.managed_type_name.7470
-	.xword	.L.java_type_name.5223
-	.xword	.L.managed_type_name.7471
-	.xword	.L.java_type_name.5224
-	.xword	.L.managed_type_name.7472
-	.xword	.L.java_type_name.5225
-	.xword	.L.managed_type_name.7473
-	.xword	.L.java_type_name.5226
-	.xword	0
-	.xword	.L.java_type_name.5227
-	.xword	.L.managed_type_name.7432
-	.xword	.L.java_type_name.5228
-	.xword	.L.managed_type_name.7433
-	.xword	.L.java_type_name.5229
-	.xword	.L.managed_type_name.7434
-	.xword	.L.java_type_name.5230
-	.xword	.L.managed_type_name.7435
-	.xword	.L.java_type_name.5231
-	.xword	.L.managed_type_name.7436
-	.xword	.L.java_type_name.5232
-	.xword	.L.managed_type_name.7437
-	.xword	.L.java_type_name.5233
-	.xword	.L.managed_type_name.7438
-	.xword	.L.java_type_name.5234
-	.xword	.L.managed_type_name.7440
-	.xword	.L.java_type_name.5235
-	.xword	.L.managed_type_name.7441
-	.xword	.L.java_type_name.5236
-	.xword	.L.managed_type_name.7442
-	.xword	.L.java_type_name.5237
-	.xword	.L.managed_type_name.7443
-	.xword	.L.java_type_name.5238
-	.xword	.L.managed_type_name.7444
-	.xword	.L.java_type_name.5239
-	.xword	.L.managed_type_name.7445
-	.xword	.L.java_type_name.5240
-	.xword	.L.managed_type_name.7446
-	.xword	.L.java_type_name.5241
-	.xword	.L.managed_type_name.7447
-	.xword	.L.java_type_name.5242
-	.xword	.L.managed_type_name.7448
-	.xword	.L.java_type_name.5243
-	.xword	.L.managed_type_name.7449
-	.xword	.L.java_type_name.5244
-	.xword	.L.managed_type_name.4898
-	.xword	.L.java_type_name.5245
-	.xword	.L.managed_type_name.4903
-	.xword	.L.java_type_name.5246
-	.xword	.L.managed_type_name.4922
-	.xword	.L.java_type_name.5247
-	.xword	.L.managed_type_name.4921
-	.xword	.L.java_type_name.5248
 	.xword	.L.managed_type_name.6911
+	.xword	.L.java_type_name.5207
+	.xword	.L.managed_type_name.7418
+	.xword	.L.java_type_name.5208
+	.xword	.L.managed_type_name.7419
+	.xword	.L.java_type_name.5209
+	.xword	.L.managed_type_name.7420
+	.xword	.L.java_type_name.5210
+	.xword	.L.managed_type_name.7457
+	.xword	.L.java_type_name.5211
+	.xword	.L.managed_type_name.7458
+	.xword	.L.java_type_name.5212
+	.xword	0
+	.xword	.L.java_type_name.5213
+	.xword	.L.managed_type_name.7460
+	.xword	.L.java_type_name.5214
+	.xword	.L.managed_type_name.7461
+	.xword	.L.java_type_name.5215
+	.xword	.L.managed_type_name.7462
+	.xword	.L.java_type_name.5216
+	.xword	.L.managed_type_name.7463
+	.xword	.L.java_type_name.5217
+	.xword	.L.managed_type_name.7467
+	.xword	.L.java_type_name.5218
+	.xword	.L.managed_type_name.7464
+	.xword	.L.java_type_name.5219
+	.xword	.L.managed_type_name.7465
+	.xword	.L.java_type_name.5220
+	.xword	.L.managed_type_name.7466
+	.xword	.L.java_type_name.5221
+	.xword	.L.managed_type_name.7468
+	.xword	.L.java_type_name.5222
+	.xword	0
+	.xword	.L.java_type_name.5223
+	.xword	.L.managed_type_name.7470
+	.xword	.L.java_type_name.5224
+	.xword	.L.managed_type_name.7471
+	.xword	.L.java_type_name.5225
+	.xword	.L.managed_type_name.7472
+	.xword	.L.java_type_name.5226
+	.xword	.L.managed_type_name.7473
+	.xword	.L.java_type_name.5227
+	.xword	0
+	.xword	.L.java_type_name.5228
+	.xword	.L.managed_type_name.7432
+	.xword	.L.java_type_name.5229
+	.xword	.L.managed_type_name.7433
+	.xword	.L.java_type_name.5230
+	.xword	.L.managed_type_name.7434
+	.xword	.L.java_type_name.5231
+	.xword	.L.managed_type_name.7435
+	.xword	.L.java_type_name.5232
+	.xword	.L.managed_type_name.7436
+	.xword	.L.java_type_name.5233
+	.xword	.L.managed_type_name.7437
+	.xword	.L.java_type_name.5234
+	.xword	.L.managed_type_name.7438
+	.xword	.L.java_type_name.5235
+	.xword	.L.managed_type_name.7440
+	.xword	.L.java_type_name.5236
+	.xword	.L.managed_type_name.7441
+	.xword	.L.java_type_name.5237
+	.xword	.L.managed_type_name.7442
+	.xword	.L.java_type_name.5238
+	.xword	.L.managed_type_name.7443
+	.xword	.L.java_type_name.5239
+	.xword	.L.managed_type_name.7444
+	.xword	.L.java_type_name.5240
+	.xword	.L.managed_type_name.7445
+	.xword	.L.java_type_name.5241
+	.xword	.L.managed_type_name.7446
+	.xword	.L.java_type_name.5242
+	.xword	.L.managed_type_name.7447
+	.xword	.L.java_type_name.5243
+	.xword	.L.managed_type_name.7448
+	.xword	.L.java_type_name.5244
+	.xword	.L.managed_type_name.7449
+	.xword	.L.java_type_name.5245
+	.xword	.L.managed_type_name.4898
+	.xword	.L.java_type_name.5246
+	.xword	.L.managed_type_name.4903
+	.xword	.L.java_type_name.5247
+	.xword	.L.managed_type_name.4922
+	.xword	.L.java_type_name.5248
+	.xword	.L.managed_type_name.4921
 	.xword	.L.java_type_name.5249
 	.xword	.L.managed_type_name.7521
 	.xword	.L.java_type_name.5250

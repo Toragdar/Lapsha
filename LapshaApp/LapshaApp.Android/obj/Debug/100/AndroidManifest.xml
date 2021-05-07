@@ -12,7 +12,7 @@
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   <application android:label="LapshaApp.Android" android:theme="@style/MainTheme" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true" android:extractNativeLibs="true">
     <activity android:configChanges="orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:theme="@style/MainTheme" android:name="crc644b7f5fa663a9f6c3.MainActivity" />
-    <activity android:icon="@drawable/logo" android:label="LapshaApp" android:noHistory="true" android:theme="@style/Splash" android:name="crc64a7add80a65ae37a0.SplashActivity">
+    <activity android:icon="@drawable/logo" android:label="LapshaApp" android:noHistory="true" android:theme="@style/Splash" android:name="crc644b7f5fa663a9f6c3.SplashActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
