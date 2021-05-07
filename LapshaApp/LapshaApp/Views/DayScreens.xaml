@@ -14,7 +14,7 @@
                            Aspect="AspectFill"
                            VerticalOptions="Center"
                            HorizontalOptions="Center"
-                           Margin="30,230,30,0"/>
+                           Margin="30,150,30,0"/>
                     <Grid RowSpacing="0"
                           HorizontalOptions="FillAndExpand" 
                           VerticalOptions="FillAndExpand">

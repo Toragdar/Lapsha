@@ -23,7 +23,11 @@
     <item name="android:datePickerDialogTheme">@style/AppCompatDialogStyle</item>
   </style>
 
-  <style name="AppCompatDialogStyle" parent="Theme.AppCompat.Light.Dialog">
-    <item name="colorAccent">#455399</item>
+  <style name="Splash" parent ="Theme.AppCompat.Light.NoActionBar">
+    <item name="android:windowBackground">@drawable/splashscreen</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowFullscreen">true</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="android:windowActionBar">true</item>
   </style>
 </resources>
