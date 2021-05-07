@@ -12,7 +12,7 @@ using System.Text;
 
 namespace LapshaApp.Droid.Resources
 {
-    [Activity(Theme ="@style/Splash", MainLauncher = true, NoHistory = true)]
+    [Activity(Label = "LapshaApp", Icon = "@drawable/Logo", Theme = "@style/Splash", MainLauncher = true, NoHistory = true)]
     public class SplashActivity : AppCompatActivity
     {
         public override void OnCreate(Bundle savedInstanceState, PersistableBundle persistentState)

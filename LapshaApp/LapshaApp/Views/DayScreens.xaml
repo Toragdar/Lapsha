@@ -239,13 +239,15 @@
                                                                                        FontSize="Small"
                                                                                        TextColor="Black"
                                                                                        VerticalTextAlignment="End"
-                                                                                       HorizontalTextAlignment="Start"/>
+                                                                                       HorizontalTextAlignment="Start"
+                                                                                       Margin="20,5,5,0"/>
                                                                                 <Label Grid.Row="0"
                                                                                        Grid.Column="2"                                                                                   
                                                                                        FontSize="Small"
                                                                                        TextColor="Black"
                                                                                        VerticalTextAlignment="End"
-                                                                                       HorizontalTextAlignment="End">
+                                                                                       HorizontalTextAlignment="End"
+                                                                                       Margin="5,5,20,0">
                                                                                     <Label.FormattedText>
                                                                                         <FormattedString>
                                                                                             <Span Text="{Binding ProductWeight}"/>
@@ -258,7 +260,8 @@
                                                                                        FontSize="Small"
                                                                                        TextColor="Black"
                                                                                        VerticalTextAlignment="Start"
-                                                                                       HorizontalTextAlignment="Start">
+                                                                                       HorizontalTextAlignment="Start"
+                                                                                       Margin="20,0,5,5">
                                                                                     <Label.FormattedText>
                                                                                         <FormattedString>
                                                                                             <Span Text="{Binding ProductProt}"/>
@@ -274,7 +277,8 @@
                                                                                        FontSize="Small"
                                                                                        TextColor="Black"
                                                                                        VerticalTextAlignment="Start"
-                                                                                       HorizontalTextAlignment="End">
+                                                                                       HorizontalTextAlignment="End"
+                                                                                       Margin="5,0,20,5">
                                                                                     <Label.FormattedText>
                                                                                         <FormattedString>
                                                                                             <Span Text="{Binding ProductCallories}"/>
