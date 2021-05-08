@@ -174,7 +174,27 @@
                                                                      HorizontalOptions="EndAndExpand" 
                                                                      VerticalOptions="CenterAndExpand" 
                                                                      Margin="5"
-                                                                     Clicked="OnImageButtonClicked"/>
+                                                                     BackgroundColor="Transparent"
+                                                                     Clicked="OnImageButtonClicked">
+                                                            <VisualStateManager.VisualStateGroups>
+                                                                <VisualStateGroup x:Name="CommonStates">
+                                                                    <VisualState x:Name="Normal">
+                                                                        <VisualState.Setters>
+                                                                            <Setter Property="Scale"
+                                                                        Value="1" />
+                                                                        </VisualState.Setters>
+                                                                    </VisualState>
+
+                                                                    <VisualState x:Name="Pressed">
+                                                                        <VisualState.Setters>
+                                                                            <Setter Property="Scale"
+                                                                        Value="0.9" />
+                                                                        </VisualState.Setters>
+                                                                    </VisualState>
+
+                                                                </VisualStateGroup>
+                                                            </VisualStateManager.VisualStateGroups>
+                                                        </ImageButton>
 
                                                         <!--Изменить иконку-->
                                                         <Image Grid.Column="2"

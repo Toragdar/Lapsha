@@ -80,18 +80,36 @@
                                                VerticalTextAlignment="Center" 
                                                Margin="20,5,5,5" 
                                                FontAttributes="Bold"/>
-                                        <!--Тень при клике надо убрать-->
-                                        <ImageButton Grid.Column="1"
-                                                     Source="ArrowRight.png" 
-                                                     HorizontalOptions="EndAndExpand" 
-                                                     VerticalOptions="CenterAndExpand" 
-                                                     Margin="5"
-                                                     Clicked="OnImageButtonClicked"/>
-                                    </Grid>
+                                            <ImageButton Grid.Column="1"
+                                                         Source="ArrowRight.png" 
+                                                         HorizontalOptions="EndAndExpand" 
+                                                         VerticalOptions="CenterAndExpand" 
+                                                         Margin="5"
+                                                         BackgroundColor="Transparent"
+                                                         Clicked="OnImageButtonClicked">
+                                                <VisualStateManager.VisualStateGroups>
+                                                    <VisualStateGroup x:Name="CommonStates">
+                                                        <VisualState x:Name="Normal">
+                                                            <VisualState.Setters>
+                                                                <Setter Property="Scale"
+                                                                        Value="1" />
+                                                            </VisualState.Setters>
+                                                        </VisualState>
+
+                                                        <VisualState x:Name="Pressed">
+                                                            <VisualState.Setters>
+                                                                <Setter Property="Scale"
+                                                                        Value="0.9" />
+                                                            </VisualState.Setters>
+                                                        </VisualState>
+
+                                                    </VisualStateGroup>
+                                                </VisualStateManager.VisualStateGroups>
+                                            </ImageButton>
+                                        </Grid>
                                 </behaviors:Expander.Header>
                                     
                                     <!--MEAL INFO-->
-                                    <!--Заменить label на image с номером приема пищи-->
                                     <CollectionView Margin="10"
                                                     SelectionMode="None" 
                                                     ItemsSource="{Binding TestMeals}"  
@@ -105,20 +123,21 @@
                                             <pv:PancakeView CornerRadius="20,20,20,20">
                                                 <Grid BackgroundColor="White">                                                
                                                 <Grid.ColumnDefinitions>
-                                                    <ColumnDefinition Width="30"/>
+                                                    <ColumnDefinition Width="50"/>
                                                     <ColumnDefinition Width="*"/>
                                                 </Grid.ColumnDefinitions>
-                                                    <Label BackgroundColor="Orange" 
-                                                           Grid.Column="0" 
-                                                           Text="{Binding MealNum}" 
-                                                           TextColor="White" 
-                                                           FontAttributes="Bold" 
-                                                           VerticalOptions="Start" 
-                                                           VerticalTextAlignment="Center" 
-                                                           HorizontalTextAlignment="Center" 
-                                                           Margin="10,15,0,0"/>                                                        
+                                                    <pv:PancakeView CornerRadius="10">
+                                                        <Label Grid.Column="0" 
+                                                               Text="{Binding MealNum}" 
+                                                               TextColor="Black" 
+                                                               FontAttributes="Bold"
+                                                               VerticalOptions="Start" 
+                                                               VerticalTextAlignment="Center" 
+                                                               HorizontalTextAlignment="Center" 
+                                                               Margin="10,10,0,0"/>
+                                                    </pv:PancakeView>
 
-                                                    <!--PRODUCT INFO-->
+                                                        <!--PRODUCT INFO-->
                                                     <StackLayout Grid.Column="1" 
                                                                  BindableLayout.ItemsSource="{Binding TestProducts}" 
                                                                  HorizontalOptions="FillAndExpand" 
@@ -147,7 +166,7 @@
                                                                     </Grid.ColumnDefinitions>
                                                                     <Label Grid.Column="0"
                                                                            Text="{Binding ProductName}" 
-                                                                           TextColor="White" 
+                                                                           TextColor="Black" 
                                                                            FontSize="15" 
                                                                            FontAttributes="Bold"
                                                                            VerticalTextAlignment="Center" 
@@ -155,7 +174,7 @@
                                                                            HorizontalOptions="Start" 
                                                                            Margin="20,5,5,5"/>
                                                                     <Label Grid.Column="1" 
-                                                                           TextColor="White" 
+                                                                           TextColor="Black" 
                                                                            FontSize="15" 
                                                                            FontAttributes="Bold"
                                                                            VerticalTextAlignment="Center" 
