@@ -28,6 +28,18 @@ namespace LapshaApp
         {
             
         }
+        private async void DeleteProduct(object sender, EventArgs e)
+        {
+
+        }
+        private async void AddProduct(object sender, EventArgs e)
+        {
+
+        }
+        private async void AddMeal(object sender, EventArgs e)
+        {
+
+        }
 
         #region MockData
         private ObservableCollection<TestDay> GetTestDays()
@@ -250,6 +262,7 @@ namespace LapshaApp
             public ObservableCollection<TestProduct> TestProducts { get; set; }
             public TestMeal()
             {
+                MealUIHeight = 0;
                 MealProt = 0;
                 MealFat = 0;
                 MealCarb = 0;
@@ -259,8 +272,8 @@ namespace LapshaApp
             {
                 int elements = 0;
                 int spaces = 0;
-                int elementsHeight = 90;
-                int spacesHeight = 11;
+                int elementsHeight = 72;
+                int spacesHeight = 14;
 
                 if (this.TestProducts.Count > 0)
                 {

@@ -86,7 +86,7 @@
                                                          VerticalOptions="CenterAndExpand" 
                                                          Margin="5"
                                                          BackgroundColor="Transparent"
-                                                         Clicked="OnImageButtonClicked">
+                                                         Clicked="GoToDay">
                                                 <VisualStateManager.VisualStateGroups>
                                                     <VisualStateGroup x:Name="CommonStates">
                                                         <VisualState x:Name="Normal">
@@ -126,16 +126,21 @@
                                                     <ColumnDefinition Width="50"/>
                                                     <ColumnDefinition Width="*"/>
                                                 </Grid.ColumnDefinitions>
-                                                    <pv:PancakeView CornerRadius="10">
-                                                        <Label Grid.Column="0" 
-                                                               Text="{Binding MealNum}" 
-                                                               TextColor="Black" 
-                                                               FontAttributes="Bold"
-                                                               VerticalOptions="Start" 
-                                                               VerticalTextAlignment="Center" 
-                                                               HorizontalTextAlignment="Center" 
-                                                               Margin="10,10,0,0"/>
-                                                    </pv:PancakeView>
+                                                    <!--Вставить подложку фон-->
+                                                    <Image Grid.Column="0"
+                                                           Source="MealBack.png"
+                                                           VerticalOptions="Start" 
+                                                           Margin="10,10,0,0"
+                                                           HeightRequest="30"
+                                                           WidthRequest="30"/>
+                                                    <Label Grid.Column="0" 
+                                                           Text="{Binding MealNum}"
+                                                           TextColor="White" 
+                                                           FontAttributes="Bold"
+                                                           VerticalOptions="Start" 
+                                                           VerticalTextAlignment="Center" 
+                                                           HorizontalTextAlignment="Center" 
+                                                           Margin="10,15,0,0"/>
 
                                                         <!--PRODUCT INFO-->
                                                     <StackLayout Grid.Column="1" 
@@ -167,16 +172,14 @@
                                                                     <Label Grid.Column="0"
                                                                            Text="{Binding ProductName}" 
                                                                            TextColor="Black" 
-                                                                           FontSize="15" 
-                                                                           FontAttributes="Bold"
+                                                                           FontSize="16"
                                                                            VerticalTextAlignment="Center" 
                                                                            HorizontalTextAlignment="Center" 
                                                                            HorizontalOptions="Start" 
                                                                            Margin="20,5,5,5"/>
                                                                     <Label Grid.Column="1" 
                                                                            TextColor="Black" 
-                                                                           FontSize="15" 
-                                                                           FontAttributes="Bold"
+                                                                           FontSize="16"
                                                                            VerticalTextAlignment="Center" 
                                                                            HorizontalTextAlignment="Center" 
                                                                            HorizontalOptions="End"

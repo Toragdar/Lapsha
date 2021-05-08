@@ -18,7 +18,7 @@ namespace LapshaApp
             this.BindingContext = this;            
         }
         public ObservableCollection<TestDay> TestDays { get => GetTestDays(); }
-        private async void OnImageButtonClicked(object sender, EventArgs e)
+        private async void GoToDay(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new DayScreens());
         }
@@ -60,14 +60,6 @@ namespace LapshaApp
                             {
                                 new TestProduct {ProductName = "Potato", ProductWeight = 100},
                                 new TestProduct {ProductName = "Tomato", ProductWeight = 150}
-                            }
-                        },
-                        new TestMeal
-                        {
-                            MealNum = 2, TestProducts = new ObservableCollection<TestProduct>
-                            {
-                                //new TestProduct {ProductName = "Egg", ProductWeight = 55},
-                                //new TestProduct {ProductName = "Salad", ProductWeight = 300}
                             }
                         }
                     }
@@ -204,8 +196,8 @@ namespace LapshaApp
             {
                 int elements = 0;
                 int spaces = 0;
-                int elementsHeight = 40;
-                int spacesHeight = 11;
+                int elementsHeight = 37;
+                int spacesHeight = 14;
 
                 if (this.TestMeals.Count > 0)
                 {
