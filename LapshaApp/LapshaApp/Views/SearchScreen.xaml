@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage x:Class="LapshaApp.SearchScreen"
+             xmlns:behaviors="http://xamarin.com/schemas/2020/toolkit"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:pv="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             NavigationPage.HasNavigationBar="False"
+             mc:Ignorable="d">
+    <RelativeLayout BackgroundColor="White">
+        <Image Source="SearchScreenBackground.png" 
+               Aspect="AspectFill"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"
+               Margin="30,250,30,0"/>
+        <Grid RowSpacing="0" 
+              HorizontalOptions="FillAndExpand" 
+              VerticalOptions="FillAndExpand">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid HorizontalOptions="FillAndExpand" 
+                  VerticalOptions="FillAndExpand">
+                <Image Source="UpBack.png" 
+                       Aspect="AspectFill"/>
+                <AbsoluteLayout HorizontalOptions="Center" 
+                                VerticalOptions="Center">
+                    <Label Text="SEARCH" 
+                           TextColor="White" 
+                           FontSize="40"/>
+                </AbsoluteLayout>
+            </Grid>            
+            
+            <Grid Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="95"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="50"/>
+                </Grid.RowDefinitions>
+
+                <!--Строка поиска-->
+
+                <pv:PancakeView BackgroundGradientStartPoint="0,0" 
+                                BackgroundGradientEndPoint="1,0"
+                                CornerRadius="25"
+                                VerticalOptions="StartAndExpand"
+                                HorizontalOptions="FillAndExpand"
+                                Margin="15, 20">
+                    <pv:PancakeView.BackgroundGradientStops>
+                        <pv:GradientStopCollection>
+                            <pv:GradientStop Color="#fda44c" 
+                                             Offset="0"/>
+                            <pv:GradientStop Color="#fed18e" 
+                                             Offset="0.85"/>
+                        </pv:GradientStopCollection>
+                    </pv:PancakeView.BackgroundGradientStops>
+                    <StackLayout Margin="5">
+                        <pv:PancakeView CornerRadius="45">
+                            <Grid Grid.Row="0"
+                                  BackgroundColor="White">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="50"/>
+                                </Grid.ColumnDefinitions>
+                                
+                                <Entry Grid.Column="0"
+                                       Margin="20,2,0,2"
+                                       TextColor="Black"
+                                       />
+
+                                <ImageButton x:Name="ClearEntryFieldImageButton"
+                                             Grid.Column="1"
+                                             Source="Cancel1.png" 
+                                             HorizontalOptions="EndAndExpand" 
+                                             VerticalOptions="CenterAndExpand" 
+                                             Margin="2"
+                                             BackgroundColor="Transparent"
+                                             Clicked="ClearEntryField"/>
+
+                            </Grid>
+                        </pv:PancakeView>                        
+                    </StackLayout>
+                </pv:PancakeView>                
+            </Grid>
+            
+            <!--Список продуктов-->
+            
+            <!--Добавление продуктов и рецептов-->
+
+        </Grid>
+    </RelativeLayout>
+</ContentPage>

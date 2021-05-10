@@ -28,3 +28,4 @@ C:\Users\Valer\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\obj\Debug\netstandard2.1
 C:\Users\Valer\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\obj\Debug\netstandard2.1\Views\MainScreen.xaml.g.cs
 C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\obj\Debug\netstandard2.1\LapshaApp.csprojAssemblyReference.cache
 C:\Users\Valer\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\obj\Debug\netstandard2.1\LapshaApp.csprojAssemblyReference.cache
+C:\Users\Valer\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\obj\Debug\netstandard2.1\Views\SearchScreen.xaml.g.cs

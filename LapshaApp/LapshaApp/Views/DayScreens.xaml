@@ -176,7 +176,7 @@
                                                                      VerticalOptions="CenterAndExpand" 
                                                                      Margin="5"
                                                                      BackgroundColor="Transparent"
-                                                                     Clicked="OnImageButtonClicked">
+                                                                     Clicked="DeleteMeal">
                                                             <VisualStateManager.VisualStateGroups>
                                                                 <VisualStateGroup x:Name="CommonStates">
                                                                     <VisualState x:Name="Normal">
