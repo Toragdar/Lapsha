@@ -176,7 +176,7 @@ namespace LapshaApp
                             }
                         }
                     }
-                },
+                }
             };
             foreach (TestDay day in days)
             {
