@@ -21,12 +21,14 @@ namespace LapshaApp
         protected override void OnAppearing()
         {
             base.OnAppearing();
+            TestProducts = new ObservableCollection<TestProduct>();
+            TestProducts = GetTestProducts();
         }
         private async void ClearEntryField(object sender, EventArgs e)
         {
 
         }
-        public ObservableCollection<TestProduct> TestProducts { get => GetTestProducts(); }
+        public ObservableCollection<TestProduct> TestProducts { get; set; }
 
         #region MockData
 
