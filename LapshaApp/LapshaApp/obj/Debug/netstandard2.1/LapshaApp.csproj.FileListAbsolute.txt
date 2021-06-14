@@ -30,3 +30,4 @@ C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\obj\Debug\netstandard2.1\Lap
 C:\Users\Valer\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\obj\Debug\netstandard2.1\LapshaApp.csprojAssemblyReference.cache
 C:\Users\Valer\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\obj\Debug\netstandard2.1\Views\SearchScreen.xaml.g.cs
 C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\obj\Debug\netstandard2.1\Views\SearchScreen.xaml.g.cs
+C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp\obj\Debug\netstandard2.1\Views\AddProductScreen.xaml.g.cs
