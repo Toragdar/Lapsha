@@ -20,9 +20,13 @@ namespace LapshaApp {
         private global::Xamarin.Forms.ImageButton ClearEntryFieldImageButton;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.ImageButton AddMealImageButton;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(SearchScreen));
             ClearEntryFieldImageButton = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ImageButton>(this, "ClearEntryFieldImageButton");
+            AddMealImageButton = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ImageButton>(this, "AddMealImageButton");
         }
     }
 }

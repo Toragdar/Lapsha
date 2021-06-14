@@ -38,7 +38,7 @@
                 <Grid.RowDefinitions>
                     <RowDefinition Height="95"/>
                     <RowDefinition Height="*"/>
-                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="60"/>
                 </Grid.RowDefinitions>
 
                 <!--Строка поиска-->
@@ -87,15 +87,34 @@
 
                 <!--Список продуктов-->
                 
-                
-                    <ListView Grid.Row="1"
-                              ItemsSource="{Binding TestProducts}">
-                        <ListView.ItemTemplate>
-                            <DataTemplate>
-                                <Grid>
+                <CollectionView Grid.Row="1"
+                                Margin="40,5,40,10"
+                                HorizontalOptions="FillAndExpand"
+                                VerticalOptions="FillAndExpand"
+                                ItemsSource="{Binding TestProducts}">
+                    <CollectionView.ItemsLayout>
+                        <LinearItemsLayout Orientation="Vertical" 
+                                           ItemSpacing="20"/>
+                    </CollectionView.ItemsLayout>
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <pv:PancakeView BackgroundGradientStartPoint="0,0" 
+                                            BackgroundGradientEndPoint="1,0"
+                                            CornerRadius="25,25,25,25"
+                                            VerticalOptions="StartAndExpand"
+                                            HorizontalOptions="FillAndExpand">
+                                <pv:PancakeView.BackgroundGradientStops>
+                                    <pv:GradientStopCollection>
+                                        <pv:GradientStop Color="#fda44c" 
+                                                         Offset="0"/>
+                                        <pv:GradientStop Color="#fed18e" 
+                                                         Offset="0.85"/>
+                                    </pv:GradientStopCollection>
+                                </pv:PancakeView.BackgroundGradientStops>
+                                <Grid HeightRequest="50">
                                     <Grid.RowDefinitions>
-                                        <RowDefinition Height="50"/>
-                                        <RowDefinition Height="50"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
                                     </Grid.RowDefinitions>
                                     <Grid.ColumnDefinitions>
                                         <ColumnDefinition Width="100"/>
@@ -109,28 +128,14 @@
                                            TextColor="Black"
                                            VerticalTextAlignment="End"
                                            HorizontalTextAlignment="Start"
-                                           Margin="20,5,5,0"/>
-                                    <Label Grid.Row="0"
-                                           Grid.Column="2"                                                                                   
-                                           FontSize="Small"
-                                           TextColor="Black"
-                                           VerticalTextAlignment="End"
-                                           HorizontalTextAlignment="End"
-                                           Margin="5,5,20,0">
-                                        <Label.FormattedText>
-                                            <FormattedString>
-                                                <Span Text="{Binding ProductWeight}"/>
-                                                <Span Text="g"/>
-                                            </FormattedString>
-                                        </Label.FormattedText>
-                                    </Label>
+                                           Margin="30,5,5,0"/>                                    
                                     <Label Grid.Row="1"
                                            Grid.Column="0"                                                                                   
                                            FontSize="Small"
                                            TextColor="Black"
                                            VerticalTextAlignment="Start"
                                            HorizontalTextAlignment="Start"
-                                           Margin="20,0,5,5">
+                                           Margin="30,0,5,5">
                                         <Label.FormattedText>
                                             <FormattedString>
                                                 <Span Text="{Binding ProductProt}"/>
@@ -147,7 +152,7 @@
                                            TextColor="Black"
                                            VerticalTextAlignment="Start"
                                            HorizontalTextAlignment="End"
-                                           Margin="5,0,20,5">
+                                           Margin="5,0,30,5">
                                         <Label.FormattedText>
                                             <FormattedString>
                                                 <Span Text="{Binding ProductCallories}"/>
@@ -156,12 +161,41 @@
                                         </Label.FormattedText>
                                     </Label>
                                 </Grid>
-                            </DataTemplate>
-                        </ListView.ItemTemplate>
-                    </ListView>
+                            </pv:PancakeView>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
                 
                 <!--Добавление продуктов и рецептов-->
+                
+                <ImageButton x:Name="AddMealImageButton"
+                             Grid.Row="2"
+                             Source="AddMeal.png"
+                             BackgroundColor="Transparent"
+                             VerticalOptions="Center"
+                             HorizontalOptions="Center"                                                                                
+                             Clicked="CreateNewProduct"
+                             WidthRequest="70"
+                             HeightRequest="70"
+                             Margin="0,0,0,10">
+                    <VisualStateManager.VisualStateGroups>
+                        <VisualStateGroup x:Name="CommonStates">
+                            <VisualState x:Name="Normal">
+                                <VisualState.Setters>
+                                    <Setter Property="Scale"
+                                            Value="1" />
+                                </VisualState.Setters>
+                            </VisualState>
 
+                            <VisualState x:Name="Pressed">
+                                <VisualState.Setters>
+                                    <Setter Property="Scale"
+                                            Value="0.9" />
+                                </VisualState.Setters>
+                            </VisualState>
+                        </VisualStateGroup>
+                    </VisualStateManager.VisualStateGroups>
+                </ImageButton>
             </Grid>            
         </Grid>
     </RelativeLayout>
