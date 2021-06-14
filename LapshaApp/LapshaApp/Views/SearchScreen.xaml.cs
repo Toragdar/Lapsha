@@ -30,7 +30,7 @@ namespace LapshaApp
         }
         private async void CreateNewProduct(object sender, EventArgs e)
         {
-
+            await Navigation.PushModalAsync(new AddProductScreen());
         }
 
 

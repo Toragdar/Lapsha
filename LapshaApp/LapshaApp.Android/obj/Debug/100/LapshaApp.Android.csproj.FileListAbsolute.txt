@@ -1406,6 +1406,7 @@ C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp.Android\obj\Debug\100\res\dr
 C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp.Android\obj\Debug\100\res\drawable\mealback.png
 C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp.Android\obj\Debug\100\res\drawable\addmeal.png
 C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp.Android\obj\Debug\100\res\drawable\searchscreenbackground.png
+<<<<<<< HEAD
 C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp.Android\obj\Debug\100\androidx\jl\83130641-d5bd-4f2e-9c0b-4d98e4c561ba.jar
 C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp.Android\obj\Debug\100\androidx\proguard\073d0e07-88cc-4e19-a8f2-b140f429c076.txt
 C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp.Android\obj\Debug\100\androidx\proguard\096471b9-a521-4cc0-b10a-7ceb089b1991.txt
@@ -1416,3 +1417,15 @@ C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp.Android\obj\Debug\100\androi
 C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp.Android\obj\Debug\100\androidx\proguard\bfb61e19-6892-4042-8c98-83c1a14647b9.txt
 C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp.Android\obj\Debug\100\androidx\proguard\c3be7798-299e-4c95-840b-3901b4dcaee9.txt
 C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp.Android\obj\Debug\100\androidx\proguard\c944b39f-3987-4816-8374-e48d547bd49a.cfg
+=======
+C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp.Android\obj\Debug\100\androidx\jl\be55b397-751c-40ba-82e8-9c3934a735c1.jar
+C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp.Android\obj\Debug\100\androidx\proguard\0c0dc45c-afdb-4980-aa2b-40634f147970.txt
+C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp.Android\obj\Debug\100\androidx\proguard\2540bf1d-e4a3-449a-81e4-34a78d58e705.txt
+C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp.Android\obj\Debug\100\androidx\proguard\2aacfea5-5010-4239-a0ad-b4091440bb92.txt
+C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp.Android\obj\Debug\100\androidx\proguard\77a34cbc-1fdb-4cf4-854d-24a5f92bc6d7.txt
+C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp.Android\obj\Debug\100\androidx\proguard\941d7b52-a8d9-43a0-b534-a602ba7c53d9.txt
+C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp.Android\obj\Debug\100\androidx\proguard\9cdab2c7-8d90-4c93-87c5-da59f4462473.txt
+C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp.Android\obj\Debug\100\androidx\proguard\a739cd0d-1e65-46ee-9e9a-1d5ea4a5ef63.cfg
+C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp.Android\obj\Debug\100\androidx\proguard\ca219787-a91d-40b2-867b-600b7670b831.txt
+C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp.Android\obj\Debug\100\androidx\proguard\d7dfc95d-88b3-4fd9-b044-dec9f50c5436.txt
+>>>>>>> aff948a08975ea8d9ef57c861dec3012eac8f6ba
