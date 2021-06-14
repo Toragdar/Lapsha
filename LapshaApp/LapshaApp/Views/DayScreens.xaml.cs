@@ -23,18 +23,17 @@ namespace LapshaApp
             base.OnAppearing();
         }
         public ObservableCollection<TestDay> TestDays { get => GetTestDays(); }
-
-        private async void OnImageButtonClicked(object sender, EventArgs e)
-        {
-            
-        }
         private async void DeleteProduct(object sender, EventArgs e)
+        {
+
+        }
+        private async void DeleteMeal(object sender, EventArgs e)
         {
 
         }
         private async void AddProduct(object sender, EventArgs e)
         {
-
+            await Navigation.PushModalAsync(new SearchScreen());
         }
         private async void AddMeal(object sender, EventArgs e)
         {
@@ -177,7 +176,7 @@ namespace LapshaApp
                             }
                         }
                     }
-                },
+                }
             };
             foreach (TestDay day in days)
             {
