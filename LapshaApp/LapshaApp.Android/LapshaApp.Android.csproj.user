@@ -3,5 +3,8 @@
   <PropertyGroup>
     <SelectedDevice>pixel_2_q_10_0_-_api_29</SelectedDevice>
     <DefaultDevice>pixel_2_q_10_0_-_api_29</DefaultDevice>
+    <ActiveDebugProfile>pixel_2_q_10_0_-_api_29</ActiveDebugProfile>
+    <AndroidDesignerPreferredTheme>AppCompatDialogStyle</AndroidDesignerPreferredTheme>
+    <AndroidDesignerPreferredDevice>pixel_3a_xl</AndroidDesignerPreferredDevice>
   </PropertyGroup>
 </Project>
