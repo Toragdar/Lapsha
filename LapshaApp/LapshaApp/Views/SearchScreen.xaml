@@ -68,8 +68,7 @@
 
                                 <Entry Grid.Column="0"
                                        Margin="20,2,0,2"
-                                       TextColor="Black"
-                                       />
+                                       TextColor="Black"/>
 
                                 <ImageButton x:Name="ClearEntryFieldImageButton"
                                              Grid.Column="1"
@@ -186,7 +185,6 @@
                                             Value="1" />
                                 </VisualState.Setters>
                             </VisualState>
-
                             <VisualState x:Name="Pressed">
                                 <VisualState.Setters>
                                     <Setter Property="Scale"

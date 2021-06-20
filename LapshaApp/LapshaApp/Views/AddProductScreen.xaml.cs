@@ -16,5 +16,14 @@ namespace LapshaApp
         {
             InitializeComponent();
         }
+        private async void ClearEntryField(object sender, EventArgs e)
+        {
+
+        }
+        private async void SaveNewProduct(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
+
