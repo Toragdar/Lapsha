@@ -22,7 +22,13 @@ namespace LapshaApp
         }
         private async void SaveNewProduct(object sender, EventArgs e)
         {
+            popupConfirmAddition.IsVisible = true;
             
+        }
+        private async void AddNewProductToCurrentDay(object sender, EventArgs e)
+        {
+            popupConfirmAddition.IsVisible = false;
+            popupAddProductToDay.IsVisible = true;
         }
     }
 }
