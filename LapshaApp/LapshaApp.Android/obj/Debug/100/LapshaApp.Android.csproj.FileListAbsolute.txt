@@ -1416,3 +1416,4 @@ C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp.Android\obj\Debug\100\androi
 C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp.Android\obj\Debug\100\androidx\proguard\d6affda3-7d00-4356-8afc-51afdc5d9f97.cfg
 C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp.Android\obj\Debug\100\androidx\proguard\df52f70c-6e2c-4b39-bc60-294a7a1ed3e4.txt
 C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp.Android\obj\Debug\100\androidx\proguard\e2239f53-1c94-45fc-8228-e7e69e04b2d7.txt
+C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp.Android\obj\Debug\100\res\drawable\accept.png

@@ -16,10 +16,19 @@ namespace LapshaApp
         {
             InitializeComponent();
         }
-        private void SaveNewProduct(object sender, EventArgs e)
+        private async void SaveNewProduct(object sender, EventArgs e)
         {
-            popupLoginView.IsVisible = true;
+            popupConfirmAddition.IsVisible = true;
+        }
+        private async void DontSaveNewProduct(object sender, EventArgs e)
+        {
 
+
+        }
+        private async void AddNewProductToCurrentDay(object sender, EventArgs e)
+        {
+            popupConfirmAddition.IsVisible = false;
+            popupAddProductToDay.IsVisible = true;
         }
     }
 }
