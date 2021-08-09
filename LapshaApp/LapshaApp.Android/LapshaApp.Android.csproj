@@ -155,7 +155,7 @@
     <AndroidResource Include="Resources\drawable\MealBack.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\AddMeal.png" />
+    <AndroidResource Include="Resources\drawable\AddOrangeButton.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\SearchScreenBackground.png" />

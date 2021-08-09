@@ -17762,7 +17762,7 @@ namespace LapshaApp.Droid
 			public const int Add = 2131165277;
 			
 			// aapt resource value: 0x7F07005E
-			public const int AddMeal = 2131165278;
+			public const int addmeal = 2131165278;
 			
 			// aapt resource value: 0x7F07005F
 			public const int ArrowRight = 2131165279;

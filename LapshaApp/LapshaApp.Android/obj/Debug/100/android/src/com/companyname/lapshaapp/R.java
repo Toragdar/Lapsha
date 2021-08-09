@@ -6475,7 +6475,7 @@ public final class R {
     public static final int abc_vector_test=0x7f07005b;
     public static final int accept=0x7f07005c;
     public static final int add=0x7f07005d;
-    public static final int addmeal=0x7f07005e;
+    public static final int addorangebutton=0x7f07005e;
     public static final int arrowright=0x7f07005f;
     public static final int avd_hide_password=0x7f070060;
     public static final int avd_show_password=0x7f070061;

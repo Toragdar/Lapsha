@@ -32,7 +32,21 @@ namespace LapshaApp
         {
             await Navigation.PushModalAsync(new AddProductScreen());
         }
+        private async void AddNewProductToCurrentDay(object sender, EventArgs e)
+        {
+            popupAddProductToDay.IsVisible = true;
+        }
+        private async void SaveNewProductToCurrentDay(object sender, EventArgs e)
+        {
+            Products.SelectedItem = null;
+            popupAddProductToDay.IsVisible = false;
+        }
 
+        private async void DontSaveNewProductToCurrentDay(object sender, EventArgs e)
+        {
+            Products.SelectedItem = null;
+            popupAddProductToDay.IsVisible = false;
+        }
 
         #region MockData
 

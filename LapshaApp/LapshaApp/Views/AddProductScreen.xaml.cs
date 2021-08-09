@@ -28,7 +28,7 @@ namespace LapshaApp
         private async void DontSaveNewProduct(object sender, EventArgs e)
         {
 
-
+            //Возврат на страницу поиска
         }
         private async void AddNewProductToCurrentDay(object sender, EventArgs e)
         {
