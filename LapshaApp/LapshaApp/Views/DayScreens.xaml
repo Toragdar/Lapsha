@@ -10,14 +10,8 @@
         <DataTemplate>
             <ContentPage>
                 <RelativeLayout BackgroundColor="White">
-                    <Image Source="DayScreenBackground1.png" 
-                           Aspect="AspectFill"
-                           VerticalOptions="Center"
-                           HorizontalOptions="Center"
-                           Margin="30,150,30,0"/>
-                    <Grid RowSpacing="0"
-                          HorizontalOptions="FillAndExpand" 
-                          VerticalOptions="FillAndExpand">
+                    <Image Source="DayScreenBackground1.png" Aspect="AspectFill" VerticalOptions="Center" HorizontalOptions="Center" Margin="30,150,30,0"/>
+                    <Grid RowSpacing="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
                         <Grid.RowDefinitions>
                             <RowDefinition Height="100"/>
                             <RowDefinition Height="70"/>
@@ -26,22 +20,15 @@
                         </Grid.RowDefinitions>
                         
                         <!--TopLabel-->
-                        <Grid HorizontalOptions="FillAndExpand" 
-                              VerticalOptions="FillAndExpand">
-                            <Image Source="UpBack.png" 
-                                   Aspect="AspectFill"/>
-                            <AbsoluteLayout HorizontalOptions="Center" 
-                                            VerticalOptions="Center">
-                                <Label Text="{Binding DayName}" 
-                                       TextColor="White" 
-                                       FontSize="40"/>
+                        <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                            <Image Source="UpBack.png" Aspect="AspectFill"/>
+                            <AbsoluteLayout HorizontalOptions="Center" VerticalOptions="Center">
+                                <Label Text="{Binding DayName}" TextColor="White" FontSize="40"/>
                             </AbsoluteLayout>
                         </Grid>
                         
                         <!--DayInfo-->
-                        <Grid Grid.Row="1" 
-                              Margin="30, 10, 30, 10"
-                              RowSpacing="2">
+                        <Grid Grid.Row="1" Margin="30, 10, 30, 10" RowSpacing="2">
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="*"/>
                                 <RowDefinition Height="*"/>
@@ -50,19 +37,8 @@
                                 <ColumnDefinition Width="*"/>
                                 <ColumnDefinition Width="100"/>
                             </Grid.ColumnDefinitions>
-                            <Label Grid.Row="0" 
-                                   Grid.Column="0"
-                                   Text="Total for a day:"
-                                   FontSize="Medium" 
-                                   TextColor="Black" 
-                                   HorizontalOptions="Start" 
-                                   VerticalOptions="Center"/>
-                            <Label Grid.Row="1" 
-                                   Grid.Column="0" 
-                                   FontSize="Medium" 
-                                   TextColor="Black" 
-                                   HorizontalOptions="Start" 
-                                   VerticalOptions="Center">
+                            <Label Grid.Row="0" Grid.Column="0" Text="Total for a day:" FontSize="Medium" TextColor="Black" HorizontalOptions="Start" VerticalOptions="Center"/>
+                            <Label Grid.Row="1" Grid.Column="0" FontSize="Medium" TextColor="Black" HorizontalOptions="Start" VerticalOptions="Center">
                                 <Label.FormattedText>
                                     <FormattedString>
                                         <Span Text="P - "/>
@@ -76,12 +52,7 @@
                                     </FormattedString>
                                 </Label.FormattedText>
                             </Label>
-                            <Label Grid.Row="1" 
-                                   Grid.Column="1" 
-                                   FontSize="Medium" 
-                                   TextColor="Black" 
-                                   HorizontalOptions="End" 
-                                   VerticalOptions="Center">
+                            <Label Grid.Row="1" Grid.Column="1" FontSize="Medium" TextColor="Black" HorizontalOptions="End" VerticalOptions="Center">
                                 <Label.FormattedText>
                                     <FormattedString>
                                         <Span Text="{Binding DayCallories}"/>
@@ -92,35 +63,23 @@
                         </Grid>
                         
                         <!--MealInfo-->
-                        <CollectionView Grid.Row="2" 
-                                        Margin="20" 
-                                        HorizontalOptions="FillAndExpand" 
-                                        VerticalOptions="FillAndExpand" 
-                                        SelectionMode="None" 
-                                        ItemsSource="{Binding TestMeals}">
+                        <CollectionView Grid.Row="2" Margin="20" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" SelectionMode="None" ItemsSource="{Binding TestMeals}">
                             <CollectionView.ItemsLayout>
-                                <LinearItemsLayout Orientation="Vertical" 
-                                                   ItemSpacing="20"/>
+                                <LinearItemsLayout Orientation="Vertical" ItemSpacing="20"/>
                             </CollectionView.ItemsLayout>
                             <CollectionView.ItemTemplate>
                                 <DataTemplate>
-                                    <pv:PancakeView BackgroundGradientStartPoint="0,0" 
-                                                    BackgroundGradientEndPoint="1,0"
-                                                    CornerRadius="25,25,25,25"
-                                                    VerticalOptions="StartAndExpand"
+                                    <pv:PancakeView BackgroundGradientStartPoint="0,0" BackgroundGradientEndPoint="1,0" CornerRadius="25,25,25,25" VerticalOptions="StartAndExpand"
                                                     HorizontalOptions="FillAndExpand">
                                         <pv:PancakeView.BackgroundGradientStops>
                                             <pv:GradientStopCollection>
-                                                <pv:GradientStop Color="#fda44c" 
-                                                                 Offset="0"/>
-                                                <pv:GradientStop Color="#fed18e" 
-                                                                 Offset="0.85"/>
+                                                <pv:GradientStop Color="#fda44c" Offset="0"/>
+                                                <pv:GradientStop Color="#fed18e" Offset="0.85"/>
                                             </pv:GradientStopCollection>
                                         </pv:PancakeView.BackgroundGradientStops>
                                         
                                         <!--Top of Meal-->
-                                        <Grid VerticalOptions="StartAndExpand" 
-                                              HorizontalOptions="FillAndExpand">
+                                        <Grid VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand">
                                             <behaviors:Expander>
                                                 <behaviors:Expander.Header>
                                                     <Grid HeightRequest="50">
@@ -129,23 +88,14 @@
                                                             <ColumnDefinition Width="*"/>
                                                             <ColumnDefinition Width="50"/>
                                                         </Grid.ColumnDefinitions>                                                        
-                                                        <Label Grid.Column="0"
-                                                               Text="{Binding MealNum}" 
-                                                               TextColor="White" 
-                                                               FontSize="30" 
-                                                               VerticalTextAlignment="Center" 
-                                                               Margin="20,5,5,5" 
-                                                               FontAttributes="Bold"/>
+                                                        <Label Grid.Column="0" Text="{Binding MealNum}" TextColor="White" FontSize="30" VerticalTextAlignment="Center" 
+                                                               Margin="20,5,5,5" FontAttributes="Bold"/>
                                                         <Grid Grid.Column="1">
                                                             <Grid.ColumnDefinitions>
                                                                 <ColumnDefinition Width="*"/>
                                                                 <ColumnDefinition Width="*"/>
                                                             </Grid.ColumnDefinitions>
-                                                            <Label Grid.Column="0"
-                                                               FontSize="16" 
-                                                               TextColor="Black"
-                                                               HorizontalOptions="Start" 
-                                                               VerticalOptions="Center">
+                                                            <Label Grid.Column="0" FontSize="16" TextColor="Black" HorizontalOptions="Start" VerticalOptions="Center">
                                                                 <Label.FormattedText>
                                                                     <FormattedString>
                                                                         <Span Text="{Binding MealProt}"/>
@@ -156,11 +106,7 @@
                                                                     </FormattedString>
                                                                 </Label.FormattedText>
                                                             </Label>
-                                                            <Label Grid.Column="1" 
-                                                                   FontSize="16" 
-                                                                   TextColor="Black"
-                                                                   HorizontalOptions="End" 
-                                                                   VerticalOptions="Center">
+                                                            <Label Grid.Column="1" FontSize="16" TextColor="Black" HorizontalOptions="End" VerticalOptions="Center">
                                                                 <Label.FormattedText>
                                                                     <FormattedString>
                                                                         <Span Text="{Binding MealCallories}"/>
@@ -169,27 +115,19 @@
                                                                 </Label.FormattedText>
                                                             </Label>
                                                         </Grid>
-                                                        <ImageButton x:Name="DeleteMealImageButton"
-                                                                     Grid.Column="2"
-                                                                     Source="Cancel1.png" 
-                                                                     HorizontalOptions="EndAndExpand" 
-                                                                     VerticalOptions="CenterAndExpand" 
-                                                                     Margin="5"
-                                                                     BackgroundColor="Transparent"
-                                                                     Clicked="DeleteMeal">
+                                                        <ImageButton x:Name="DeleteMealImageButton" Grid.Column="2" Source="Cancel1.png" HorizontalOptions="EndAndExpand" 
+                                                                     VerticalOptions="CenterAndExpand" Margin="5" BackgroundColor="Transparent" Clicked="DeleteMeal">
                                                             <VisualStateManager.VisualStateGroups>
                                                                 <VisualStateGroup x:Name="CommonStates">
                                                                     <VisualState x:Name="Normal">
                                                                         <VisualState.Setters>
-                                                                            <Setter Property="Scale"
-                                                                        Value="1" />
+                                                                            <Setter Property="Scale" Value="1" />
                                                                         </VisualState.Setters>
                                                                     </VisualState>
 
                                                                     <VisualState x:Name="Pressed">
                                                                         <VisualState.Setters>
-                                                                            <Setter Property="Scale"
-                                                                        Value="0.9" />
+                                                                            <Setter Property="Scale" Value="0.9" />
                                                                         </VisualState.Setters>
                                                                     </VisualState>
 
@@ -205,14 +143,9 @@
                                                         <RowDefinition Height="*"/>
                                                         <RowDefinition Height="55"/>
                                                     </Grid.RowDefinitions>
-                                                    <CollectionView Grid.Row="0"
-                                                                    Margin="10"
-                                                                    SelectionMode="None" 
-                                                                    ItemsSource="{Binding TestProducts}"  
-                                                                    HeightRequest="{Binding MealUIHeight}">
+                                                    <CollectionView Grid.Row="0" Margin="10" SelectionMode="None" ItemsSource="{Binding TestProducts}" HeightRequest="{Binding MealUIHeight}">
                                                         <CollectionView.ItemsLayout>
-                                                            <LinearItemsLayout Orientation="Vertical" 
-                                                                               ItemSpacing="10"/>
+                                                            <LinearItemsLayout Orientation="Vertical" ItemSpacing="10"/>
                                                         </CollectionView.ItemsLayout>
                                                         <CollectionView.ItemTemplate>
                                                             <DataTemplate>
@@ -227,27 +160,19 @@
                                                                         </Grid.RowDefinitions>
 
                                                                         <!--удалить продукт-->
-                                                                        <ImageButton x:Name="DeleteProductImageButton"
-                                                                                     Grid.Column="0"
-                                                                                     Source="Minus3.png"
-                                                                                     BackgroundColor="Transparent"
-                                                                                     VerticalOptions="Start"
-                                                                                     HorizontalOptions="Center"
-                                                                                     Margin="10,10,0,0"                                                                                 
-                                                                                     Clicked="DeleteProduct">
+                                                                        <ImageButton x:Name="DeleteProductImageButton" Grid.Column="0" Source="Minus3.png" BackgroundColor="Transparent" 
+                                                                                     VerticalOptions="Start" HorizontalOptions="Center" Margin="10,10,0,0" Clicked="DeleteProduct">
                                                                             <VisualStateManager.VisualStateGroups>
                                                                                 <VisualStateGroup x:Name="CommonStates">
                                                                                     <VisualState x:Name="Normal">
                                                                                         <VisualState.Setters>
-                                                                                            <Setter Property="Scale"
-                                                                                                    Value="1" />
+                                                                                            <Setter Property="Scale" Value="1" />
                                                                                         </VisualState.Setters>
                                                                                     </VisualState>
 
                                                                                     <VisualState x:Name="Pressed">
                                                                                         <VisualState.Setters>
-                                                                                            <Setter Property="Scale"
-                                                                                                    Value="0.9" />
+                                                                                            <Setter Property="Scale" Value="0.9" />
                                                                                         </VisualState.Setters>
                                                                                     </VisualState>
 
@@ -255,17 +180,12 @@
                                                                             </VisualStateManager.VisualStateGroups>
                                                                         </ImageButton>
 
-                                                                        <StackLayout Grid.Column="1"
-                                                                                     Margin="10">
-                                                                            <pv:PancakeView CornerRadius="20"
-                                                                                            BackgroundGradientStartPoint="0,0" 
-                                                                                            BackgroundGradientEndPoint="1,0">
+                                                                        <StackLayout Grid.Column="1" Margin="10">
+                                                                            <pv:PancakeView CornerRadius="20" BackgroundGradientStartPoint="0,0" BackgroundGradientEndPoint="1,0">
                                                                                 <pv:PancakeView.BackgroundGradientStops>
                                                                                     <pv:GradientStopCollection>
-                                                                                        <pv:GradientStop Color="#fda44c" 
-                                                                                                                 Offset="0"/>
-                                                                                        <pv:GradientStop Color="#fed18e" 
-                                                                                                                 Offset="0.85"/>
+                                                                                        <pv:GradientStop Color="#fda44c" Offset="0"/>
+                                                                                        <pv:GradientStop Color="#fed18e" Offset="0.85"/>
                                                                                     </pv:GradientStopCollection>
                                                                                 </pv:PancakeView.BackgroundGradientStops>
                                                                                 <Grid>
@@ -278,21 +198,10 @@
                                                                                         <ColumnDefinition Width="*"/>
                                                                                         <ColumnDefinition Width="100"/>
                                                                                     </Grid.ColumnDefinitions>
-                                                                                    <Label Grid.Row="0"
-                                                                                           Grid.Column="0"
-                                                                                           Text="{Binding ProductName}"
-                                                                                           FontSize="Small"
-                                                                                           TextColor="Black"
-                                                                                           VerticalTextAlignment="End"
-                                                                                           HorizontalTextAlignment="Start"
-                                                                                           Margin="20,5,5,0"/>
-                                                                                    <Label Grid.Row="0"
-                                                                                           Grid.Column="2"                                                                                   
-                                                                                           FontSize="Small"
-                                                                                           TextColor="Black"
-                                                                                           VerticalTextAlignment="End"
-                                                                                           HorizontalTextAlignment="End"
-                                                                                           Margin="5,5,20,0">
+                                                                                    <Label Grid.Row="0" Grid.Column="0" Text="{Binding ProductName}" FontSize="Small"
+                                                                                           TextColor="Black" VerticalTextAlignment="End" HorizontalTextAlignment="Start" Margin="20,5,5,0"/>
+                                                                                    <Label Grid.Row="0" Grid.Column="2" FontSize="Small" TextColor="Black" VerticalTextAlignment="End"
+                                                                                           HorizontalTextAlignment="End" Margin="5,5,20,0">
                                                                                         <Label.FormattedText>
                                                                                             <FormattedString>
                                                                                                 <Span Text="{Binding ProductWeight}"/>
@@ -300,13 +209,8 @@
                                                                                             </FormattedString>
                                                                                         </Label.FormattedText>
                                                                                     </Label>
-                                                                                    <Label Grid.Row="1"
-                                                                                           Grid.Column="0"                                                                                   
-                                                                                           FontSize="Small"
-                                                                                           TextColor="Black"
-                                                                                           VerticalTextAlignment="Start"
-                                                                                           HorizontalTextAlignment="Start"
-                                                                                           Margin="20,0,5,5">
+                                                                                    <Label Grid.Row="1" Grid.Column="0" FontSize="Small" TextColor="Black" VerticalTextAlignment="Start"
+                                                                                           HorizontalTextAlignment="Start" Margin="20,0,5,5">
                                                                                         <Label.FormattedText>
                                                                                             <FormattedString>
                                                                                                 <Span Text="{Binding ProductProt}"/>
@@ -317,13 +221,8 @@
                                                                                             </FormattedString>
                                                                                         </Label.FormattedText>
                                                                                     </Label>
-                                                                                    <Label Grid.Row="1"
-                                                                                           Grid.Column="2"                                                                                   
-                                                                                           FontSize="Small"
-                                                                                           TextColor="Black"
-                                                                                           VerticalTextAlignment="Start"
-                                                                                           HorizontalTextAlignment="End"
-                                                                                           Margin="5,0,20,5">
+                                                                                    <Label Grid.Row="1" Grid.Column="2" FontSize="Small" TextColor="Black" VerticalTextAlignment="Start"
+                                                                                           HorizontalTextAlignment="End" Margin="5,0,20,5">
                                                                                         <Label.FormattedText>
                                                                                             <FormattedString>
                                                                                                 <Span Text="{Binding ProductCallories}"/>
@@ -339,29 +238,19 @@
                                                             </DataTemplate>
                                                         </CollectionView.ItemTemplate>
                                                     </CollectionView>
-                                                    <ImageButton x:Name="AddProductImageButton"
-                                                                 Grid.Row="1"
-                                                                 Source="Add.png"
-                                                                 BackgroundColor="Transparent"
-                                                                 VerticalOptions="Start"
-                                                                 HorizontalOptions="Center"                                                                                
-                                                                 Clicked="AddProduct"
-                                                                 WidthRequest="50"
-                                                                 HeightRequest="50"
-                                                                 Margin="0,-12,0,0">
+                                                    <ImageButton x:Name="AddProductImageButton" Grid.Row="1" Source="Add.png" BackgroundColor="Transparent" VerticalOptions="Start"
+                                                                 HorizontalOptions="Center" Clicked="AddProduct" WidthRequest="50" HeightRequest="50" Margin="0,-12,0,0">
                                                         <VisualStateManager.VisualStateGroups>
                                                             <VisualStateGroup x:Name="CommonStates">
                                                                 <VisualState x:Name="Normal">
                                                                     <VisualState.Setters>
-                                                                        <Setter Property="Scale"
-                                                                                Value="1" />
+                                                                        <Setter Property="Scale" Value="1" />
                                                                     </VisualState.Setters>
                                                                 </VisualState>
 
                                                                 <VisualState x:Name="Pressed">
                                                                     <VisualState.Setters>
-                                                                        <Setter Property="Scale"
-                                                                                Value="0.9" />
+                                                                        <Setter Property="Scale" Value="0.9" />
                                                                     </VisualState.Setters>
                                                                 </VisualState>
                                                             </VisualStateGroup>
@@ -374,29 +263,19 @@
                                 </DataTemplate>
                             </CollectionView.ItemTemplate>
                         </CollectionView>
-                        <ImageButton x:Name="AddMealImageButton"
-                                     Grid.Row="3"
-                                     Source="AddMeal.png"
-                                     BackgroundColor="Transparent"
-                                     VerticalOptions="Center"
-                                     HorizontalOptions="Center"                                                                                
-                                     Clicked="AddMeal"
-                                     WidthRequest="70"
-                                     HeightRequest="70"
-                                     Margin="0,0,0,10">
+                        <ImageButton x:Name="AddMealImageButton" Grid.Row="3" Source="AddMeal.png" BackgroundColor="Transparent" VerticalOptions="Center" HorizontalOptions="Center"                                                                                
+                                     Clicked="AddMeal" WidthRequest="70" HeightRequest="70" Margin="0,0,0,10">
                             <VisualStateManager.VisualStateGroups>
                                 <VisualStateGroup x:Name="CommonStates">
                                     <VisualState x:Name="Normal">
                                         <VisualState.Setters>
-                                            <Setter Property="Scale"
-                                                    Value="1" />
+                                            <Setter Property="Scale" Value="1" />
                                         </VisualState.Setters>
                                     </VisualState>
 
                                     <VisualState x:Name="Pressed">
                                         <VisualState.Setters>
-                                            <Setter Property="Scale"
-                                                    Value="0.9" />
+                                            <Setter Property="Scale" Value="0.9" />
                                         </VisualState.Setters>
                                     </VisualState>
 

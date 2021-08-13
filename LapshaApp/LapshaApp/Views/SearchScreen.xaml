@@ -8,7 +8,7 @@
              xmlns:pv="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
              NavigationPage.HasNavigationBar="False"
              mc:Ignorable="d">
-    
+<!--#region Resourses--> 
     <ContentPage.Resources>
         <Style TargetType="pv:PancakeView">
             <Setter Property="VisualStateManager.VisualStateGroups">
@@ -30,14 +30,18 @@
             </Setter>
         </Style>
     </ContentPage.Resources>
-
+<!--#endregion-->
+    
     <ContentPage.Content>
         <RelativeLayout BackgroundColor="White">
-            
+
+            <!--#region BackGround-->
             <Image Source="SearchScreenBackground.png" Aspect="AspectFill" VerticalOptions="Center" HorizontalOptions="Center" Margin="30,200,30,150"
                    RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width}"
                    RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height}"/>
+            <!--#endregion-->
             
+            <!--#region MainGrid-->
             <Grid RowSpacing="0"
                   RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width}"
                   RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height}">
@@ -47,15 +51,15 @@
                     <RowDefinition Height="auto"/>
                     <RowDefinition Height="auto"/>
                     <RowDefinition Height="auto"/>
-                </Grid.RowDefinitions>
+                </Grid.RowDefinitions>            
                 
-                <!--Шапка-->
+                <!--#region Header-->
                 <Image Grid.Row="0" Source="UpBack.png" Aspect="AspectFill"/>
 
                 <Label Grid.Row="0" Text="ПОИСК" TextColor="White" FontSize="30" HorizontalOptions="Center" VerticalOptions="Center" FontAttributes="Bold" Margin="10"/>
-                
+                <!--#endregion-->
 
-                <!--Строка поиска-->
+                <!--#region SearchLine-->
                 <StackLayout Grid.Row="1" Padding="20, 20, 20, 10">
                     <pv:PancakeView BackgroundGradientStartPoint="0,0" BackgroundGradientEndPoint="1,0" CornerRadius="40" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand">
                         <pv:PancakeView.BackgroundGradientStops>
@@ -97,8 +101,9 @@
                         </StackLayout>
                     </pv:PancakeView>
                 </StackLayout>
+                <!--#endregion-->
 
-                <!--Разделительная линия-->
+                <!--Region DividingLine-->
                 <StackLayout Grid.Row="2">
                     <pv:PancakeView BackgroundGradientStartPoint="0,0" BackgroundGradientEndPoint="1,0" CornerRadius="5" VerticalOptions="StartAndExpand"
                                 HorizontalOptions="FillAndExpand" Margin="20, 5, 20, 5">
@@ -111,8 +116,9 @@
                         <Label HeightRequest="5"/>
                     </pv:PancakeView>
                 </StackLayout>
+                <!--#endregion-->
 
-                <!--Список продуктов-->
+                <!--Region Products-->
                 <StackLayout Grid.Row="3" Padding="20, 10, 20, 10">
                     <CollectionView x:Name="Products" Grid.Row="1" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" ItemsSource="{Binding TestProducts}"
                                     SelectionMode="Single" SelectionChanged="AddNewProductToCurrentDay">
@@ -170,8 +176,9 @@
                         </CollectionView.ItemTemplate>
                     </CollectionView>
                 </StackLayout>
+                <!--#endregion-->
                 
-                <!--Добавление продуктов и рецептов-->
+                <!--Region AddNewProductButton-->
                 <StackLayout Grid.Row="4" Padding="20, 5, 20, 20">
                     <ImageButton x:Name="CreateNewProductButton" Source="AddOrangeButton.png" BackgroundColor="Transparent" VerticalOptions="Center" HorizontalOptions="Center"                                                                                
                              Clicked="CreateNewProduct" WidthRequest="50" HeightRequest="50">
@@ -192,10 +199,12 @@
                     </ImageButton>
                 </StackLayout>
             </Grid>
+            <!--#endregion-->
+            <!--#endregion-->
             
-            <!--PopUp Area-->
+            <!--Region PopUp Area-->
 
-            <!--Add product to current day-->
+            <!--#Region Add product to current day-->
             <ContentView x:Name="popupAddProductToDay" BackgroundColor="#C0D3D3D3" Padding="10, 0" IsVisible="false"
                              RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width}"
                              RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height}">
@@ -219,7 +228,7 @@
                                         <RowDefinition Height="auto"/>
                                     </Grid.RowDefinitions>
 
-                                    <!--Вес-->
+                                    <!--#Region Вес-->
                                     <Grid Grid.Row="0">
                                         <Grid.ColumnDefinitions>
                                             <ColumnDefinition Width="150"/>
@@ -228,8 +237,9 @@
                                         <Label Grid.Column="0" Text="Введите вес:" Margin="10,0,0,0" TextColor="Black" FontSize="Medium" VerticalTextAlignment="Center"/>
                                         <Entry x:Name="productWeight" Grid.Column="1" Margin="0,0,10,0" TextColor="Black" FontSize="Medium" VerticalTextAlignment="Center"/>
                                     </Grid>
+                                    <!--#endregion-->
 
-                                    <!--Разделительная линия-->
+                                    <!--#Region Разделительная линия-->
                                     <StackLayout Grid.Row="1">
                                         <pv:PancakeView BackgroundGradientStartPoint="0,0" BackgroundGradientEndPoint="1,0" CornerRadius="5" VerticalOptions="StartAndExpand"
                                                             HorizontalOptions="FillAndExpand">
@@ -242,8 +252,9 @@
                                             <Label HeightRequest="5"/>
                                         </pv:PancakeView>
                                     </StackLayout>
+                                    <!--#endregion-->
 
-                                    <!--КБЖУ-->
+                                    <!--#Region КБЖУ-->
                                     <Grid Grid.Row="2">
                                         <Grid.ColumnDefinitions>
                                             <ColumnDefinition Width="150"/>
@@ -272,7 +283,9 @@
                                             </Label.FormattedText>
                                         </Label>
                                     </Grid>
-
+                                    <!--#endregion-->
+                                    
+                                    <!--#region Кнопки подтверждения и отмены-->
                                     <Grid Grid.Row="3" Margin="0,10,0,0">
                                         <Grid.ColumnDefinitions>
                                             <ColumnDefinition Width="*"/>
@@ -314,6 +327,8 @@
                                             </VisualStateManager.VisualStateGroups>
                                         </ImageButton>
                                     </Grid>
+                                    <!--#endregion-->
+                                    
                                 </Grid>
 
                             </StackLayout>
@@ -322,6 +337,9 @@
                     </pv:PancakeView>
                 </StackLayout>
             </ContentView>
+            <!--#endregion-->
+            
+            <!--#endregion-->
 
         </RelativeLayout>
     </ContentPage.Content>

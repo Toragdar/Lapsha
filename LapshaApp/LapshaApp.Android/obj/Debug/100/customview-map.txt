@@ -25,9 +25,6 @@ com.google.android.material.tabs.TabLayout;C:\Users\Z\Desktop\Progr\Lapsha\Lapsh
 com.google.android.material.tabs.TabLayout;C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp.Android\obj\Debug\100\lp\48\jl\res\layout\rootlayout.xml
 com.google.android.material.tabs.TabLayout;C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp.Android\obj\Debug\100\lp\48\jl\res\layout\tabbar.xml
 com.google.android.material.tabs.TabLayout;obj\Debug\100\res\layout\tabbar.xml
-crc642e1c7a98bdb5c44a.AutoFitTextureView;C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp.Android\obj\Debug\100\lp\45\jl\res\layout\camerafragment.xml
-crc643f46942d9dd1fff9.ShellFlyoutLayout;C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp.Android\obj\Debug\100\lp\48\jl\res\layout\flyoutcontent.xml
-crc64720bb2db43a66fe9.FormsViewPager;C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp.Android\obj\Debug\100\lp\48\jl\res\layout\rootlayout.xml
 declare-styleable;C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp.Android\obj\Debug\100\lp\48\jl\res\values\attrs.xml
 external-cache-path;C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp.Android\obj\Debug\100\lp\46\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 external-path;C:\Users\Z\Desktop\Progr\Lapsha\LapshaApp\LapshaApp.Android\obj\Debug\100\lp\46\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
