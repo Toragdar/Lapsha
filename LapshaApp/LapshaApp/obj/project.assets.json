@@ -2109,25 +2109,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Z\\.nuget\\packages\\": {},
+    "C:\\Users\\Valer\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Z\\Desktop\\Progr\\Lapsha\\LapshaApp\\LapshaApp\\LapshaApp.csproj",
+      "projectUniqueName": "C:\\Users\\Valer\\Desktop\\Progr\\Lapsha\\LapshaApp\\LapshaApp\\LapshaApp.csproj",
       "projectName": "LapshaApp",
-      "projectPath": "C:\\Users\\Z\\Desktop\\Progr\\Lapsha\\LapshaApp\\LapshaApp\\LapshaApp.csproj",
-      "packagesPath": "C:\\Users\\Z\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Z\\Desktop\\Progr\\Lapsha\\LapshaApp\\LapshaApp\\obj\\",
+      "projectPath": "C:\\Users\\Valer\\Desktop\\Progr\\Lapsha\\LapshaApp\\LapshaApp\\LapshaApp.csproj",
+      "packagesPath": "C:\\Users\\Valer\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Valer\\Desktop\\Progr\\Lapsha\\LapshaApp\\LapshaApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Z\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Valer\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -2201,7 +2201,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }
