@@ -14,9 +14,9 @@
         <RelativeLayout BackgroundColor="White">
             
             <!--#region BackGround-->
-            <!--<Image Source="MainScreenBackground.png" Aspect="AspectFill" VerticalOptions="Center" HorizontalOptions="Center"
+            <Image Source="MainScreenBackground.png" Aspect="AspectFill" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"
                    RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width}"
-                   RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height}"/>-->
+                   RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height}"/>
             <!--#endregion-->
             
             <!--#region MainGrid-->

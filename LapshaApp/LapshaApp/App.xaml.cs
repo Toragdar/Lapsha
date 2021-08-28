@@ -30,8 +30,8 @@ namespace LapshaApp
 
             }
 
-            MainPage = new NavigationPage(new MainScreen());
-            //MainPage = new NavigationPage(new DayScreens());
+            //MainPage = new NavigationPage(new MainScreen());
+            MainPage = new NavigationPage(new DayScreens());
             //MainPage = new NavigationPage(new SearchScreen());
             //MainPage = new NavigationPage(new AddProductScreen());
             //MainPage = new NavigationPage(new TestPage());
